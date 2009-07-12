@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 1.11 $ -->
-<!-- EN-Revision: 1.19 Maintainer: hirokawa Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283839 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <appendix xml:id="stream.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
