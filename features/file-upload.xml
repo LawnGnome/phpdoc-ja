@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 1.40 $ -->
-<!-- EN-Revision: 1.98 Maintainer: hirokawa Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283795 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
  <chapter xml:id="features.file-upload" xmlns="http://docbook.org/ns/docbook">
   <title>ファイルアップロードの処理</title>

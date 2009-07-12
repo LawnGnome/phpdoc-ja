@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 1.8 $ -->
-<!-- EN-Revision: 1.9 Maintainer: haruki Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283796 Maintainer: haruki Status: ready -->
 <!-- Credits: hirokawa, haruki -->
    <sect1 xml:id="install.unix.sun" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Sun, iPlanet, Netscape サーバ（Sun Solaris 用）</title>

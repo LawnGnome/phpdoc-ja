@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 1.4 $ -->
-<!-- EN-Revision: 1.4 Maintainer: hirokawa Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283796 Maintainer: hirokawa Status: ready -->
 <!-- Credits: hirokawa, haruki,takagi -->
   <sect1 xml:id="install.unix.fhttpd" xmlns="http://docbook.org/ns/docbook">
    <title><productname>fhttpd</productname> サーバ</title>
