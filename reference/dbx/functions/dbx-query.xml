@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283805 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 286556 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.dbx-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>dbx_query</refname>
@@ -35,6 +35,11 @@
      <listitem>
       <para>
        SQL 文。
+      </para>
+      <para>
+       クエリ内のデータは <link
+       linkend="function.dbx-escape-string">適切にエスケープ</link>
+       しておかなければなりません。
       </para>
      </listitem>
     </varlistentry>

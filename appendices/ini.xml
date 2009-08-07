@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283790 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 286399 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi,shimooka -->
 
  <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -5018,7 +5018,7 @@ include_path=".;c:\php\includes"
    </para>
   </section>
 
-  <section xml:id="ini.sql-general">
+  <section xml:id="ini.sect.sql-general">
    <title>SQL全般</title>
     <para>
      <table>

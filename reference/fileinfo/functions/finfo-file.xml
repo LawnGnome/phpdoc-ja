@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283809 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 286383 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.finfo-file" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>finfo_file</refname>
@@ -87,7 +87,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$finfo = finfo_open(FILEINFO_MIME); // return mime type ala mimetype extension
+$finfo = finfo_open(FILEINFO_MIME_TYPE); // mimetype 拡張モジュール風に mime タイプを返します
 foreach (glob("*") as $filename) {
     echo finfo_file($finfo, $filename) . "\n";
 }
