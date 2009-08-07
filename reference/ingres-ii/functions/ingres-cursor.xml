@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 284694 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ingres-cursor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ingres_cursor</refname>
-  <refpurpose>指定したリンクリソースのカーソル名を取得する</refpurpose>
+  <refpurpose>指定した結果リソースのカーソル名を取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">

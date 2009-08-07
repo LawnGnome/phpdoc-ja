@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283818 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 286761 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-distortimage">
  <refnamediv>
   <refname>Imagick::distortImage</refname>
@@ -26,7 +26,7 @@
    多くの場合、元画像の仮想オフセットも考慮したマッピングが行われます。
   </para>
   <para>
-   この機能は、Imagick を ImageMagick 6.3.6 以降でコンパイルした場合にのみ存在します。
+   &imagick.method.available.0x636;
   </para>
  </refsect1>
 

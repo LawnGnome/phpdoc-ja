@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283818 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 286672 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setimageinterpolatemethod">
  <refnamediv>
   <refname>Imagick::setImageInterpolateMethod</refname>
@@ -27,6 +27,7 @@
      <term><parameter>method</parameter></term>
      <listitem>
       <para>
+       <constant>Imagick::INTERPOLATE_*</constant> 定数のいずれか。
       </para>
      </listitem>
     </varlistentry>

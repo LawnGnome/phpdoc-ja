@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283818 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 286672 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setfont">
  <refnamediv>
   <refname>Imagick::setFont</refname>
-  <refpurpose>画像を畳み込むすべてのメソッドについての画像バイアスを設定する</refpurpose>
+  <refpurpose>フォントを設定する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -13,8 +13,6 @@
    <type>bool</type><methodname>Imagick::setFont</methodname>
    <methodparam><type>string</type><parameter>font</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
-  &warn.experimental.func;
   <para>
    オブジェクトのフォントプロパティを設定します。
    このメソッドは、たとえば caption: pseudo-format

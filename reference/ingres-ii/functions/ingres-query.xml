@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 286556 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ingres-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -66,6 +66,11 @@
        有効な SQL クエリ
        (Ingres ドキュメントにある Ingres <literal>SQL
        リファレンスガイド</literal> を参照ください)。
+      </para>
+      <para>
+       クエリ内のデータは <link
+       linkend="function.ingres-escape-string">適切にエスケープ</link>
+       しておかなければなりません。
       </para>
       <para>
        次の型の SQL クエリは、この関数で送信できません。
