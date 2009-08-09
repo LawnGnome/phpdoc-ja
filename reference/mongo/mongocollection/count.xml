@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283824 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 286413 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.count" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -74,9 +74,9 @@ var_dump($collection->count(array(), array('z'=>1)));
    &example.outputs.similar;
    <screen>
 <![CDATA[
-float(3)
-float(1)
-float(0)
+int(3)
+int(1)
+int(0)
 ]]>
    </screen>
   </example>
