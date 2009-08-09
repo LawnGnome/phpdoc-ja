@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283837 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 284666 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <book xml:id="book.spl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -30,9 +30,9 @@
 
  &reference.spl.arrayobject;
  &reference.spl.splfileinfo;
+ &reference.spl.splfileobject;
 
 <!-- TODO: Not documented
- &reference.spl.splfileobject;
  &reference.spl.splfixedarray;
  &reference.spl.splobjectstorage;
  &reference.spl.spltempfileobject;
