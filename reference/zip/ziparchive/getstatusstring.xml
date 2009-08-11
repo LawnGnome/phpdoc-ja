@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 283843 $ -->
-<!-- EN-Revision: 283843 Maintainer: mumumu Status: ready -->
+<!-- $Revision: 287044 $ -->
+<!-- EN-Revision: 287044 Maintainer: mumumu Status: ready -->
 <refentry xml:id="function.ziparchive-getstatusstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::GetStatusString</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>ZipArchive::getStatus</methodname>
+   <type>string</type><methodname>ZipArchive::getStatusString</methodname>
    <void/>
   </methodsynopsis>
   <para>
