@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283834 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 287182 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ereg-replace">
  <refnamediv>
   <refname>ereg_replace</refname>
@@ -21,6 +21,7 @@
    マッチしたテキストを <parameter>replacement</parameter>
    で置換します。
   </simpara>
+  &warn.deprecated.function-5-3-0.removed-6-0-0;
  </refsect1>
 
  <refsect1 role="parameters">

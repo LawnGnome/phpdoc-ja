@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283818 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 287243 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagedepth">
  <refnamediv>
   <refname>Imagick::getImageDepth</refname>
@@ -22,8 +22,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   What the function returns, first on success, then on failure. See
-   also the &amp;return.success; entity
+   画像の深度を返します。
   </para>
  </refsect1>
 

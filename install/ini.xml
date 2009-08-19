@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 286357 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 287342 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 
  <chapter xml:id="configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -106,7 +106,7 @@
     本マニュアル中で解説されている訳ではありません。
     使っているバージョンの PHP で指定可能なすべてのディレクティブについては、
     &php.ini; ファイル内に詳細なコメントが記されていますので、参照してください。
-    もしくは、CVS から入手可能な <link xlink:href="&url.php.cvs.phpini;">
+    もしくは、SVN から入手可能な <link xlink:href="&url.php.svn.phpini;">
     最新の &php.ini;</link> も有用でしょう。
    </para>
    <para>
