@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: takagi Status: ready -->
-<refentry xml:id='function.simplexml-element-addAttribute' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 287736 Maintainer: takagi Status: ready -->
+<refentry xml:id='simplexmlelement.addChild' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SimpleXMLElement::addAttribute</refname>
+  <refname>SimpleXMLElement::addChild</refname>
   <refpurpose>
-   SimpleXML 要素に属性を追加する
+   XML ノードに子要素を追加する
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
@@ -13,14 +13,14 @@
   <classsynopsis>
    <ooclass><classname>SimpleXMLElement</classname></ooclass>
    <methodsynopsis>
-    <type>void</type><methodname>addAttribute</methodname>
+    <type>SimpleXMLElement</type><methodname>addChild</methodname>
     <methodparam><type>string</type><parameter>name</parameter></methodparam>
-    <methodparam><type>string</type><parameter>value</parameter></methodparam>
+    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
     <methodparam choice="opt"><type>string</type><parameter>namespace</parameter></methodparam>
    </methodsynopsis>
   </classsynopsis>
   <para>
-   SimpleXML 要素に属性を追加します。
+   ノードに子要素を追加し、子要素の SimpleXMLElement を返します。
   </para>
  </refsect1>
 
@@ -32,7 +32,7 @@
      <term><parameter>name</parameter></term>
      <listitem>
       <para>
-       追加する属性の名前。
+       追加する子要素の名前。
       </para>
      </listitem>
     </varlistentry>
@@ -40,7 +40,7 @@
      <term><parameter>value</parameter></term>
      <listitem>
       <para>
-       属性の値。
+       指定されている場合は、子要素の値。
       </para>
      </listitem>
     </varlistentry>
@@ -48,7 +48,7 @@
      <term><parameter>namespace</parameter></term>
      <listitem>
       <para>
-       指定されている場合は、その属性が所属する名前空間。
+       指定されている場合は、その子要素が所属する名前空間。
       </para>
      </listitem>
     </varlistentry>
@@ -59,7 +59,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   <literal>addChild</literal> メソッドは、
+   XML ノードに追加した子要素を表す
+   <type>SimpleXMLElement</type> オブジェクトを返します。
   </para>
  </refsect1>
 
@@ -102,7 +104,7 @@ echo $sxe->asXML();
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>SimpleXMLElement::addChild</methodname></member>
+    <member><methodname>SimpleXMLElement::addAttribute</methodname></member>
    </simplelist>
   </para>
  </refsect1>

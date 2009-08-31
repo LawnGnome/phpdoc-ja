@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 287736 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Purpose: xml -->
 <!-- Membership: bundled, external -->
@@ -24,6 +24,7 @@
  &reference.simplexml.setup;
  &reference.simplexml.constants;
  &reference.simplexml.examples;
+ &reference.simplexml.simplexmlelement;
  &reference.simplexml.reference;
 
 </book>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: shimooka -->
-<refentry xml:id='function.simplexml-element-xpath' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 287736 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa,shimooka -->
+<refentry xml:id='simplexmlelement.xpath' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::xpath</refname>
   <refpurpose>XML データに Xpath クエリを実行する</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 286382 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 287734 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
  <appendix xml:id="wrappers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>サポートするプロトコル/ラッパー</title>
@@ -737,7 +737,7 @@ echo stream_get_contents($fp);
    </table>
   </para>
   <para>
-   <link linkend="ref.zip">ZIP 拡張モジュール</link> は <filename>zip:</filename> ラッパーを登録します。
+   <link linkend="book.zip">ZIP 拡張モジュール</link> は <filename>zip:</filename> ラッパーを登録します。
   </para>
  </section>
 
