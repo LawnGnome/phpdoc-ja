@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 276794 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 287860 Maintainer: takagi Status: ready -->
 
 <!--
   Entities for the categorized extension list, so it does not need
@@ -50,7 +50,7 @@
 
 <!ENTITY extcat.purpose.compression '<title>圧縮およびアーカイブに関連する拡張</title>'>
 
-<!ENTITY extcat.purpose.calendar '<title>カレンダーやイベントに関連する拡張</title>'>
+<!ENTITY extcat.purpose.calendar '<title>日付や時刻に関連する拡張</title>'>
 
 <!ENTITY extcat.purpose.utilspec '<title>ユーティリティ拡張</title>'>
 <!ENTITY extcat.purpose.utilspec.nontext '<title>非 Text の MIME 出力</title>'>

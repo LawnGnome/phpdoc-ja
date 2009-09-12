@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283798 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 288219 Maintainer: hirokawa Status: ready -->
 
 <sect1 xml:id="language.oop5.paamayim-nekudotayim" xmlns="http://docbook.org/ns/docbook">
  <title>スコープ定義演算子 (::)</title>
@@ -10,7 +10,7 @@
   平たく言うと「ダブルコロン」は、トークンのひとつです。
   <link linkend="language.oop5.static">static</link>,
   <link linkend="language.oop5.constants">定数</link>
-  およびオーバーライドされたクラスのメンバやメソッドにアクセスすることができます。
+  およびオーバーライドされたクラスのプロパティやメソッドにアクセスすることができます。
  </para>
  
  <para>
@@ -53,7 +53,7 @@ echo MyClass::CONST_VALUE;
  
  <para>
   二つの特別なキーワード<varname>self</varname>と<varname>parent</varname>
-  がクラス定義の内部からメンバまたはメソッドにアクセスする際に使用されます。
+  がクラス定義の内部からプロパティまたはメソッドにアクセスする際に使用されます。
  </para>
  
  <example>
