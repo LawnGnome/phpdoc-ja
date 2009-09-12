@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283826 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 288055 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.ssl-set" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::ssl_set</refname>
@@ -35,6 +35,14 @@
    より前にコールする必要があります。この関数は、
    OpenSSL サポートが有効になっていない場合は何もしません。
   </para>
+
+  <para>
+    MySQL ネイティブドライバは SSL をサポートしていないことに注意しましょう。
+    MySQL ネイティブドライバを使っているときにこの関数をコールすると、エラーとなります。
+    MySQL ネイティブドライバは、Microsoft Windows 版の PHP バージョン 5.3
+    以降はデフォルトで有効となっています。
+  </para>
+
  </refsect1>
 
  <refsect1 role="parameters">

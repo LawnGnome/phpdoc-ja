@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283833 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 288270 Maintainer: takagi Status: ready -->
 <!-- Purpose: remote.auth -->
 <!-- Membership: pecl, external -->
  
@@ -24,7 +24,7 @@
   </para>
   <note>
    <para>
-    libradius に関する正確な説明は<link xlink:href="&url.libradius;">ここ</link>
+    libradius に関する正確な説明は<link xlink:href="&url.libradius.conf;">ここ</link>
     にあります。設定ファイルについての詳細な説明は
     <link xlink:href="url.libradius.conf">ここ</link>です。
    </para>
