@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283835 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 288299 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.sdo-das-relational-executepreparedquery" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SDO_DAS_Relational::executePreparedQuery</refname>
