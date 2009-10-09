@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283822 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 288350 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-detect-encoding" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -64,6 +64,7 @@
   &reftitle.returnvalues;
   <para>
    検出した文字エンコーディングを返します。
+   指定した文字列からエンコーディングを検出できなかった場合は &false; を返します。
   </para>
  </refsect1>
 

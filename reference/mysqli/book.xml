@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 289245 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -52,7 +52,6 @@
 <!-- }}} -->
  
  &reference.mysqli.overview;
- &reference.mysqli.mysqlnd;
  &reference.mysqli.setup;
  &reference.mysqli.persistconns;
  &reference.mysqli.constants;
