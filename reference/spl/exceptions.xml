@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 289303 Maintainer: takagi Status: ready -->
 
 <part xml:id="spl.exceptions" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
- <title>例外</title>
-
- <partintro>
-  <para>
-   SPL では標準の例外群を提供しています。
-  </para>
-  <para>
-   <xref linkend="reserved.exceptions" /> も参照ください。
-  </para>
-
- </partintro>
+ &spl.exceptions.intro.title;
+ &spl.exceptions.intro;
 
  &reference.spl.badfunctioncallexception;
  &reference.spl.badmethodcallexception;

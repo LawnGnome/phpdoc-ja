@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 289195 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.iterator-to-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>iterator_to_array</refname>
@@ -47,6 +47,30 @@
   &reftitle.returnvalues;
   <para>
    <parameter>iterator</parameter> の要素を含む配列を返します。
+  </para>
+ </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>5.2.1</entry>
+       <entry>
+        <parameter>use_keys</parameter> パラメータが追加されました。
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
 

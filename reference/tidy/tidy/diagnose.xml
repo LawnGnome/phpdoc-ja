@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 289276 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.tidy-diagnose" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -67,7 +67,7 @@ $html = <<< HTML
 HTML;
 
 $tidy = tidy_parse_string($html);
-$tidy->CleanRepair();
+$tidy->cleanRepair();
 
 // 2 つの出力の違いに注意
 echo $tidy->errorBuffer . "\n";
