@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 283839 $ -->
-<!-- EN-Revision: 288721 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 289454 Maintainer: mumumu Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.idn-to-unicode">
  <refnamediv>
   <refname>idn_to_unicode</refname>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 289003 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="dateperiod.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -82,7 +82,7 @@
      <term><parameter>options</parameter></term>
      <listitem>
       <para>
-       <constant>DateTime::EXCLUDE_START_DATE</constant> を設定することができます。
+       <constant>DatePeriod::EXCLUDE_START_DATE</constant> を設定することができます。
       </para>
      </listitem>
     </varlistentry>
