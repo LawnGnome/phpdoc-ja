@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 289103 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagettfbbox" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -69,8 +69,15 @@
   <para>
    <function>imagettfbbox</function> は、テキストの bounding box を
    作成するための 4 点を表現する 8 個の要素からなる配列を返します。
+   エラー時には &false; を返します。
    <informaltable>
     <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>キー</entry>
+       <entry>内容</entry>
+      </row>
+     </thead>
      <tbody>
       <row>
        <entry>0</entry>
