@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 289986 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
 
 <sect1 xml:id="language.oop5.interfaces" xmlns="http://docbook.org/ns/docbook">
@@ -36,7 +36,8 @@
    </note>
    <note>
     <para>
-     クラスと同様、インターフェイスも <literal>extend</literal>
+     クラスと同様、インターフェイスも
+     <link linkend="language.oop5.inheritance">extends</link>
      演算子で継承することができます。
     </para>
    </note>
