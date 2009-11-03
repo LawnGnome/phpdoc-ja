@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290102 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-scaleimage">
  <refnamediv>
   <refname>Imagick::scaleImage</refname>
@@ -13,13 +13,14 @@
    <type>bool</type><methodname>Imagick::scaleImage</methodname>
    <methodparam><type>int</type><parameter>cols</parameter></methodparam>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>fit</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>bestfit</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
   <para>
    画像のサイズを指定した大きさに変更します。
    パラメータに 0 を指定すると、そのパラメータを自動的に計算します。
   </para>
+  &imagick.bestfit.note;
  </refsect1>
 
  <refsect1 role="parameters">

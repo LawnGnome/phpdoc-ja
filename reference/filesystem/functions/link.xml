@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 289674 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.link">
  <refnamediv>
@@ -12,8 +12,8 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>link</methodname>
-   <methodparam><type>string</type><parameter>to_path</parameter></methodparam>
    <methodparam><type>string</type><parameter>from_path</parameter></methodparam>
+   <methodparam><type>string</type><parameter>to_path</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>link</function> はハードリンクを作成します。
@@ -25,18 +25,18 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>to_path</parameter></term>
-     <listitem>
-      <para>
-       リンクの対象。
-      </para>
-     </listitem>
-    </varlistentry>
-    <varlistentry>
      <term><parameter>from_path</parameter></term>
      <listitem>
       <para>
        リンクの名前。
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>to_path</parameter></term>
+     <listitem>
+      <para>
+       リンクの対象。
       </para>
      </listitem>
     </varlistentry>

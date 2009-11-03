@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 290078 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-readable">
  <refnamediv>
   <refname>is_readable</refname>
-  <refpurpose>ファイルが読み込み可能かどうかを知る</refpurpose>
+  <refpurpose>ファイルが存在し、読み込み可能であるかどうかを知る</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
   <para>
-   ファイルが読み込み可能かどうかを調べます。
+   ファイルが存在し、読み込み可能であるかどうかを調べます。
   </para>
  </refsect1>
 

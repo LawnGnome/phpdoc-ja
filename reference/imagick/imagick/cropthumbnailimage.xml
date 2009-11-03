@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290102 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-cropthumbnailimage">
  <refnamediv>
   <refname>Imagick::cropThumbnailImage</refname>
@@ -17,7 +17,7 @@
   &warn.undocumented.func;
   <para>
   固定サイズのサムネイルを作成します。
-  まず画像のサイズを縮小し、指定した範囲を中心から切り取ります。
+  まず画像のサイズを拡大あるいは縮小し、指定した範囲を中心から切り取ります。
   </para>
  </refsect1>
 
