@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290027 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="pdo.query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -92,6 +92,7 @@
   &reftitle.returnvalues;
   <para>
     <function>PDO::query</function> は、PDOStatement オブジェクトを返します。
+    失敗した場合は &false; を返します。
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 290051 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki -->
 <refentry xml:id="function.preg-match" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -66,7 +66,8 @@
          <listitem>
           <simpara>
            このフラグを設定した場合、各マッチに対応する文字列のオフセットも返されます。
-           これにより、返り値は配列となり、配列の要素 <literal>0</literal> はマッチした文字列、
+           これにより <parameter>matches</parameter> の値は配列となり、
+           配列の要素 <literal>0</literal> はマッチした文字列、
            要素 <literal>1</literal>は対象文字列中におけるマッチした文字列のオフセット値
            となることに注意してください。 
           </simpara>
