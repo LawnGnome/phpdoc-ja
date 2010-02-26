@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.oci-lob-erase" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob->erase</refname>
@@ -54,8 +54,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   消去された実際の文字数あるいはバイト数、エラーの場合は &false;
-   を返します。
+   消去された実際の文字数あるいはバイト数、&return.falseforfailure;
   </para>
  </refsect1>
 
