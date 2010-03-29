@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
  <sect2 xml:id="internals2.ze1.zendapi.using" xmlns="http://docbook.org/ns/docbook"> 
   <title>拡張モジュールの使用</title> 
   <para>

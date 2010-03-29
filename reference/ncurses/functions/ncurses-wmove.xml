@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ncurses-wmove" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ncurses_wmove</refname>
