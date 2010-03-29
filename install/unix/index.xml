@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haruki Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: haruki Status: ready -->
 <!-- Credits: fujimoto, hirokawa, yuw, haruki, shimooka -->
   <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
    <title>Unix システムへのインストール</title>

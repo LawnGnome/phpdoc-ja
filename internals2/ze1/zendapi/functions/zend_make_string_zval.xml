@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="internals2.ze1.zendapi.functions.zend-make-string-zval" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>zend_make_string_zval</refname>

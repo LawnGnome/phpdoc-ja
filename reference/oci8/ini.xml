@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290652 Maintainer: satoruyoshida Status: working -->
+<!-- EN-Revision: 297028 Maintainer: satoruyoshida Status: working -->
 <!-- CREDITS: shimooka -->
    <section xml:id="oci8.configuration" xmlns="http://docbook.org/ns/docbook">
     &reftitle.runtime;

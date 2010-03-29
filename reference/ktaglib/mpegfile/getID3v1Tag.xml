@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mpegfile.getID3v1Tag" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_File::getID3v1Tag</refname>

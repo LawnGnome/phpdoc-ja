@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haruki Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: haruki Status: ready -->
 <!-- Credits: hirokawa, haruki -->
 <sect1 xml:id="install.unix.openbsd" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>OpenBSD へのインストール</title>

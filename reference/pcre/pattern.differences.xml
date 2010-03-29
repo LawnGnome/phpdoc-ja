@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,haruki -->
 <article xml:id="reference.pcre.pattern.differences" xmlns="http://docbook.org/ns/docbook">
  <title>Perl との違い</title>
