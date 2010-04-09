@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 
 <chapter xml:id='sdo.limitations'>
@@ -15,7 +15,6 @@
     マルチバイト文字セットはサポートしていません。
     コミュニティの要望があれば、Unicode 対応版の PHP
     で対応するかもしれません。
-    <link linkend="ref.unicode">Unicode 関数</link> を参照ください。
    </para>
   </step>
  </procedure>
