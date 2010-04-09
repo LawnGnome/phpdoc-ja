@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297201 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>予約語の一覧</title>
@@ -322,6 +322,7 @@
       <term><classname>stdClass</classname></term>
       <listitem>
        <simpara>
+        <link linkend="language.types.object.casting">オブジェクトへの型変換</link> で作られる。
        </simpara>
       </listitem>
      </varlistentry>
@@ -391,6 +392,15 @@
       <term><classname>self</classname></term>
       <listitem>
        <simpara>
+        <link linkend="language.oop5.paamayim-nekudotayim">現在のクラス</link>。
+       </simpara>
+      </listitem>
+     </varlistentry>
+     <varlistentry>
+      <term><classname>static</classname></term>
+      <listitem>
+       <simpara>
+        <link linkend="language.oop5.late-static-bindings">実行時における現在のクラス</link>。
        </simpara>
       </listitem>
      </varlistentry>
@@ -398,6 +408,7 @@
       <term><classname>parent</classname></term>
       <listitem>
        <simpara>
+        <link linkend="language.oop5.paamayim-nekudotayim">親クラス</link>。
        </simpara>
        </listitem>
       </varlistentry>
