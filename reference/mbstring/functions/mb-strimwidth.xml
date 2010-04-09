@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 291069 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mb-strimwidth" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mb_strimwidth</refname>
@@ -86,7 +86,8 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$str = mb_strimwidth($str, 0, 40, "..>");
+echo mb_strimwidth("Hello World", 0, 10, "...");
+// Hello W... と出力します
 ?>
 ]]>
     </programlisting>
