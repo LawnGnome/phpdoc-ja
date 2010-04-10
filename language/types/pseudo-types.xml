@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 293478 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.pseudo-types">
  <title>本ドキュメントにおける疑似的な型および変数</title>
@@ -165,6 +165,8 @@ print implode(' ', $new_numbers);
     を参照ください。
    </simpara>
   </note>
+
+  &note.func-callback-exceptions;
 
  </sect2>
  

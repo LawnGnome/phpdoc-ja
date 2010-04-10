@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.type-juggling">
  <title>型の相互変換</title>
@@ -138,9 +138,11 @@ $bar = (boolean) $foo;   // $bar はbooleanです
    <listitem>
     <simpara>(string) - 文字列へのキャスト</simpara>
    </listitem>
+   <!-- FIXME PHP_6
    <listitem>
     <simpara>(binary) - バイナリ文字列へのキャスト (PHP 6)</simpara>
    </listitem>
+   -->
    <listitem>
     <simpara>(array) - 配列へのキャスト</simpara>
    </listitem>

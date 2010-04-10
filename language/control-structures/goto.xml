@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="control-structures.goto" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>goto</literal></title>
@@ -97,6 +97,7 @@ script on line 2
  </note>
  <para>
   <mediaobject>
+   <alt>What's the worse thing that could happen if you use goto?</alt>
    <imageobject>
     <imagedata fileref="en/language/figures/xkcd-goto.png" format="PNG"/>
    </imageobject>
