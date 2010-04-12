@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290987 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-cache-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_cache_info</refname>
@@ -24,7 +24,7 @@
   &reftitle.returnvalues;
   <para>
    キャッシュされたデータ（およびメタデータ）の配列を返します。
-   失敗した場合には &false; を返します。
+   &return.falseforfailure;
   </para>
   <note>
    <simpara>
