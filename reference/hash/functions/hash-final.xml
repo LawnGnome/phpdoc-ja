@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.hash-final" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>hash_final</refname>
@@ -32,7 +32,7 @@
      <listitem>
       <para>
        &true; を設定すると、生のバイナリデータを出力します。
-       デフォルト (&false;) の場合は小文字の 16 進数値となります。
+       &false; の場合は小文字の 16 進数値となります。
       </para>
      </listitem>
     </varlistentry>

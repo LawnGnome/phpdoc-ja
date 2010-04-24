@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298379 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298441 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.createfromformat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -65,7 +65,8 @@
     <term><parameter>timezone</parameter></term>
     <listitem>
      <para>
-      タイムゾーン。
+      指定したいタイムゾーンを表す
+      <classname>DateTimeZone</classname> オブジェクト。
      </para>
     </listitem>
    </varlistentry>

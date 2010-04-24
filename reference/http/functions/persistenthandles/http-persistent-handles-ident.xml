@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.http-persistent-handles-ident" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>http_persistent_handles_ident</refname>
@@ -35,7 +35,7 @@
   &reftitle.returnvalues;
   <para>
    成功した場合に以前の ident、
-   失敗した場合に &false; を返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httpinflatestream-update" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpInflateStream::update</refname>
@@ -35,7 +35,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   成功した場合は展開したデータ、失敗した場合は &false; を返します。
+   成功した場合は展開したデータ、
+   &return.falseforfailure;。
   </para>
  </refsect1>
 

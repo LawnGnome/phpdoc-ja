@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.harufont-measuretext" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruFont::measureText</refname>
@@ -73,7 +73,7 @@
       <para>
        このパラメータを &true; にすると、この関数はワードラップを
        "エミュレート" し、現在の単語の途中で範囲の最後に達してしまう場合は
-       その単語を含めません。デフォルトは &false; です。
+       その単語を含めません。
       </para>
      </listitem>
     </varlistentry>
