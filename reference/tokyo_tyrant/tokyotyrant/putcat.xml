@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 294414 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="tokyotyrant.putcat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
-    ある値を既存のキーに追記します。<parameter>keys</parameter>
-    が配列の場合は複数の値となります。<parameter>keys</parameter>
-    が文字列の場合は二番目のパラメータは必須です。レコードが存在しない場合は新しいレコードを作成します。
+   ある値を既存のキーに追記します。<parameter>keys</parameter>
+   が配列の場合は複数の値となります。<parameter>keys</parameter>
+   が文字列の場合は二番目のパラメータは必須です。レコードが存在しない場合は新しいレコードを作成します。
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 294414 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="tokyotyrant.putkeep" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -69,13 +69,13 @@ $tt = new TokyoTyrant("localhost");
 $tt->put("key", "value");
 
 try {
-	$tt->putKeep("key", "new value");
+    $tt->putKeep("key", "new value");
 } catch (TokyoTyrantException $e) {
-	if ($e->getCode() === TokyoTyrant::TTE_KEEP) {
-		echo "Existing record! Not modified\n";
-	} else {
-		echo "Error: " , $e->getMessage() , "\n"; 
-	}
+    if ($e->getCode() === TokyoTyrant::TTE_KEEP) {
+        echo "Existing record! Not modified\n";
+    } else {
+        echo "Error: " , $e->getMessage() , "\n"; 
+    }
 }
 echo $tt->get("key");
 ?>
