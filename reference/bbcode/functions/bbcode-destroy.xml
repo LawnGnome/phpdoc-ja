@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.bbcode-destroy" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>bbcode_destroy</refname>
@@ -23,7 +23,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>bbcode</parameter></term>
+     <term><parameter>bbcode_container</parameter></term>
      <listitem>
       <para>
        <function>bbcode_create</function> が返す BBCode_Container。

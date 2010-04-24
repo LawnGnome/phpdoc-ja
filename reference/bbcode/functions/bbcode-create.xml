@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297720 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.bbcode-create" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>bbcode_create</refname>
@@ -92,7 +92,7 @@
          <listitem>
           <simpara>
            <varname remap="structfield">parent</varname> (任意) -
-           このタグの子として使用できるタグのリスト。
+           このタグの親として使用できるタグのリスト。
            カンマ区切りの文字列で指定します。
           </simpara>
          </listitem>

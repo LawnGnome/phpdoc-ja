@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.date-sunset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>date_sunset</refname>
@@ -146,7 +146,7 @@
   &reftitle.returnvalues;
   <para>
    日の入り時刻を、指定した <parameter>format</parameter> で返します。
-   失敗した場合には &false; を返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
  

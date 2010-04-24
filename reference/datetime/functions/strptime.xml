@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290160 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290987 Maintainer: takagi Status: ready -->
   <refentry xml:id="function.strptime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <refnamediv>
     <refname>strptime</refname>
@@ -58,7 +58,7 @@
   <refsect1 role="returnvalues">
    &reftitle.returnvalues;
    <para>
-    成功した場合は配列、失敗した場合は &false; を返します。
+    成功した場合は配列、&return.falseforfailure;。
    </para>
 
     <para>

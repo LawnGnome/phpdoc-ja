@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291247 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.getoffset" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>DateTimeZone::getOffset</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>DateTimeZone::getOffset</methodname>
    <methodparam><type>DateTime</type><parameter>datetime</parameter></methodparam>
   </methodsynopsis>
   <methodsynopsis>
@@ -45,7 +45,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   成功した場合にタイムゾーンのオフセット秒数、失敗した場合に &false; を返します。
+   成功した場合にタイムゾーンのオフセット秒数、&return.falseforfailure;。
   </para>
  </refsect1>
 

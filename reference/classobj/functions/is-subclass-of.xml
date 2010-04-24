@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.is-subclass-of" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -132,6 +132,12 @@ yes, WidgetFactory_Child is a subclass of WidgetFactory
    </example>
   </para>
  </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &note.uses-autoload;
+ </refsect1>
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
