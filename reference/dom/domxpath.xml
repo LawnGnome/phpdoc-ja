@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 292734 Maintainer: takagi Status: ready -->
 <!--
 Remove me once you perform substitutions
     domxpath
@@ -38,7 +38,7 @@ Remove me once you perform substitutions
     </classsynopsisinfo>
 <!-- }}} -->
  
-    <classsynopsisinfo role="comment">プロパティ</classsynopsisinfo>
+    <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
 <!-- If the property is documented below (xml:id=domxpath.props) use this -->
     <fieldsynopsis>
      <modifier>public</modifier>
@@ -46,7 +46,7 @@ Remove me once you perform substitutions
      <varname linkend="domxpath.props.document">document</varname>
     </fieldsynopsis>
  
-    <classsynopsisinfo role="comment">メソッド</classsynopsisinfo>
+    <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.domxpath')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
  
    </classsynopsis>

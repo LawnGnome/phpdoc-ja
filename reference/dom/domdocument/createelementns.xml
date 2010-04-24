@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297518 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.createelementns" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::createElementNS</refname>
@@ -94,7 +94,7 @@
 <![CDATA[
 <?php
 
-$dom = new DOMDocument('1.0', 'iso-8859-1');
+$dom = new DOMDocument('1.0', 'utf-8');
 
 $element = $dom->createElementNS('http://www.example.com/XFoo', 'xfoo:test', 'This is the root element!');
 

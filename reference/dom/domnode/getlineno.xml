@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 283806 $ -->
-<!-- EN-Revision: 288721 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: mumumu Status: ready -->
 
 <refentry xml:id="domnode.getlineno" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -41,9 +41,9 @@
 <?php
 // 以下の例で使うXMLのダンプ
 $xml = <<<XML
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<node />
+    <node />
 </root>
 XML;
 
