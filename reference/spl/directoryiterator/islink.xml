@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="directoryiterator.islink" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -51,7 +51,7 @@
 function removeDir($path) {
     $dir = new DirectoryIterator($path);
     foreach ($dir as $fileinfo) {
-        if ($fileinfo->isFile() || $fileinfo->isSymlink()) {
+        if ($fileinfo->isFile() || $fileinfo->isLink()) {
             unlink($fileinfo->getPathName());
         } elseif (!$fileinfo->isDot() && $fileinfo->isDir()) {
             removeDir($fileinfo->getPathName());

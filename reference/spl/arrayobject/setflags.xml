@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.setflags" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::setFlags</refname>
@@ -87,12 +87,11 @@ $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 $fruitsArrayObject = new ArrayObject($fruits);
 
 // 配列のキーをプロパティとして使用してみます
-print_r($fruitsArrayObject->lemons);
+var_dump($fruitsArrayObject->lemons);
 // フラグを設定して、配列のキーを ArrayObject のプロパティとして使えるようにします
 $fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
 // 改めて挑戦します
-print_r($fruitsArrayObject->lemons);
-
+var_dump($fruitsArrayObject->lemons);
 ?>
 ]]>
     </programlisting>

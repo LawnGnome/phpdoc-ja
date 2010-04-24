@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297477 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
   <refentry xml:id="function.is-int" xmlns="http://docbook.org/ns/docbook">
    <refnamediv>
@@ -56,9 +56,9 @@
 <![CDATA[
 <?php
 if (is_int(23)) {
- echo "integer です\n";
+    echo "integer です\n";
 } else {
- echo "integer ではありません\n";
+    echo "integer ではありません\n";
 }
 var_dump(is_int(23));
 var_dump(is_int("23"));

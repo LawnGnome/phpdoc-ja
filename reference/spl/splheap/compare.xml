@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289088 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="splheap.compare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplHeap::compare</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier><type>int</type><methodname>SplHeap::compare</methodname>
+   <modifier>abstract</modifier> <type>int</type><methodname>SplHeap::compare</methodname>
    <methodparam><type>mixed</type><parameter>value1</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value2</parameter></methodparam>
   </methodsynopsis>
