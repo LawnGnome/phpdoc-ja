@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.dba-handlers" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,6 @@
      <listitem>
       <para>
        結果の全ての情報を表示するかどうかを切り替えます。
-       デフォルトは &false; です。
       </para>
      </listitem>
     </varlistentry>

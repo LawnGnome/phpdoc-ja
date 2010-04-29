@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 298514 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.call-user-method-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -22,6 +22,43 @@
    </para>
   </warning>
  </refsect1>
+ <refsect1 role="parameters"><!-- {{{ -->
+  &reftitle.parameters;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term><parameter>method_name</parameter></term>
+     <listitem>
+      <para>
+       コールするメソッド名。
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term>
+      <parameter>obj</parameter>
+     </term>
+     <listitem>
+      <para>
+       コールする <parameter>method_name</parameter>
+       があるオブジェクト。
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term>
+      <parameter>params</parameter>
+     </term>
+     <listitem>
+      <para>
+       パラメータの配列。
+      </para>
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1><!-- }}} -->
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>

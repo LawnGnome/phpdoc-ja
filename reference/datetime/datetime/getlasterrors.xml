@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298364 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298705 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.getlasterrors" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -10,8 +10,14 @@
 
  <refsect1 role="description">
   &reftitle.description;
+  <para>&style.oop;</para>
   <methodsynopsis>
    <modifier>public</modifier> <modifier>static</modifier> <type>array</type><methodname>DateTime::getLastErrors</methodname>
+   <void />
+  </methodsynopsis>
+  <para>&style.procedural;</para>
+  <methodsynopsis>
+   <type>array</type><methodname>date_get_last_errors</methodname>
    <void />
   </methodsynopsis>
   <para>
@@ -35,6 +41,23 @@
   &reftitle.examples;
   <example>
    <title><function>DateTime::getLastErrors</function> の例</title>
+   <para>&style.oop;</para>
+   <programlisting role="php">
+<![CDATA[
+<?php
+try {
+    $date = new DateTime('asdfasdf');
+} catch (Exception $e) {
+    // 使用例を出したかっただけ...
+    print_r(DateTime::getLastErrors());
+
+    // オブジェクト指向流にやるなら、本来は
+    // echo $e->getMessage();
+}
+?>
+]]>
+   </programlisting>
+   <para>&style.procedural;</para>
    <programlisting role="php">
 <![CDATA[
 <?php
