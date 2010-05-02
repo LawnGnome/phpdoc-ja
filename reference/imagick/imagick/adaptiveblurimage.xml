@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-adaptiveblurimage">
  <refnamediv>
   <refname>Imagick::adaptiveBlurImage</refname>
@@ -94,6 +94,7 @@ echo $image;
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : Imagick::adaptiveBlurImage() の使用法</alt>
      <imageobject>
       <imagedata fileref="en/reference/imagick/figures/adaptiveBlurImage.gif"/>
      </imageobject>

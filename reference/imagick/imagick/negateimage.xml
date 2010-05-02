@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-negateimage">
  <refnamediv>
   <refname>Imagick::negateImage</refname>
@@ -40,7 +40,6 @@
        チャネルモードに対応したチャネル定数を指定します。
        複数のチャネルに適用するには、
        ビット演算子でチャネル型定数を組み合わせます。
-       デフォルトは <constant>Imagick::CHANNEL_ALL</constant> です。
        <link linkend="imagick.constants.channel">チャネル定数</link>
        の一覧を参照ください。
       </para>

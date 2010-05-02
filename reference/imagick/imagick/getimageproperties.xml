@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageproperties">
  <refnamediv>
   <refname>Imagick::getImageProperties</refname>
@@ -30,7 +30,7 @@
      <term><parameter>pattern</parameter></term>
      <listitem>
       <para>
-      プロパティ名のパターン。デフォルトは "*"。
+      プロパティ名のパターン。
       </para>
      </listitem>
     </varlistentry>

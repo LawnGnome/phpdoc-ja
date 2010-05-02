@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-randomthresholdimage">
  <refnamediv>
   <refname>Imagick::randomThresholdImage</refname>
@@ -49,7 +49,6 @@
       <para>
        そのモードに対応した任意のチャネル定数を指定します。
        複数のチャネルを適用するには、チャネル定数をビット演算子で連結します。
-       デフォルトは <constant>Imagick::CHANNEL_ALL</constant> です。
        この <link linkend="imagick.constants.channel">チャネル定数</link>
        の一覧を参照ください。
       </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-annotateimage">
  <refnamediv>
   <refname>Imagick::annotateImage</refname>
@@ -17,7 +17,6 @@
    <methodparam><type>float</type><parameter>angle</parameter></methodparam>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    テキストによる注記を画像に加えます。
   </para>
@@ -98,7 +97,7 @@ $pixel = new ImagickPixel( 'gray' );
 $image->newImage(800, 75, $pixel);
 
 /* 黒いテキスト */
-$pixel->setColor('black');
+$draw->setFillColor('black');
 
 /* フォントのプロパティ */
 $draw->setFont('Bookman-DemiItalic');
