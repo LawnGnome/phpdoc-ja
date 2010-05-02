@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 295518 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongo.connectutil" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,37 +12,13 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>protected</modifier> <type>boolean</type><methodname>Mongo::connectUtil</methodname>
-   <methodparam><type>string</type><parameter>username</parameter></methodparam>
-   <methodparam><type>string</type><parameter>password</parameter></methodparam>
+   <void/>
   </methodsynopsis>
  </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
-  <para>
-   <variablelist>
-    <varlistentry>
-     <term>
-      <parameter>username</parameter>
-     </term>
-     <listitem>
-      <para>
-       接続を識別するためのユーザ名。
-      </para>
-     </listitem>
-    </varlistentry>
-    <varlistentry>
-     <term>
-      <parameter>password</parameter>
-     </term>
-     <listitem>
-      <para>
-       接続を識別するためのパスワード。
-      </para>
-     </listitem>
-    </varlistentry>
-   </variablelist>
-  </para>
+  &no.function.parameters;
  </refsect1>
 
  <refsect1 role="returnvalues">
@@ -55,7 +31,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   データベースとの接続に失敗した場合に MongoConnectionException をスローします。
+   データベースとの接続に失敗した場合に <classname>MongoConnectionException</classname> をスローします。
   </para>
  </refsect1>
 

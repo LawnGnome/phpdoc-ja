@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 292172 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.createdbref" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -49,8 +49,8 @@
 <![CDATA[
 <?php
 
-$songs = $db->selectCollection('songs');
-$playlists = $db->selectCollection('playlists');
+$songs = $db->songs;
+$playlists = $db->playlists;
 
 // 曲への参照を作成します
 $manamana = $songs->findOne(array('title' => 'Ma na ma na'));
