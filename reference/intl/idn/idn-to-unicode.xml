@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 283839 $ -->
-<!-- EN-Revision: 289454 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: mumumu Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.idn-to-unicode">
  <refnamediv>
   <refname>idn_to_unicode</refname>
-  <refpurpose>&Alias; <function>idn_to_utf8</function></refpurpose>
+  <refpurpose><function>idn_to_utf8</function> &Alias;</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

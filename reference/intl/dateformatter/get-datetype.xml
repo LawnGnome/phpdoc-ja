@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 294396 Maintainer: takagi Status: ready -->
 <refentry xml:id="intldateformatter.getdatetype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::getDateType</refname>
@@ -10,14 +10,14 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-    オブジェクト指向型
+   オブジェクト指向型
   </para>
    <methodsynopsis>
    <type>int</type><methodname>IntlDateFormatter::getDateType</methodname>
       <void />
    </methodsynopsis>
   <para>
-    手続き型
+   手続き型
   </para>
   <methodsynopsis>
    <type>int</type><methodname>datefmt_get_datetype</methodname>
@@ -36,7 +36,7 @@
      <term><parameter>fmt</parameter></term>
      <listitem>
       <para>
-        Formatter リソース。
+       Formatter リソース。
       </para>
      </listitem>
     </varlistentry>

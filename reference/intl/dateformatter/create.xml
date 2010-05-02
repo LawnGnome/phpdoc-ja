@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 290812 Maintainer: takagi Status: ready -->
 <refentry xml:id="intldateformatter.create" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::create</refname>
@@ -112,6 +112,9 @@
      <listitem>
       <para>
        フォーマットやパースの際に使用するオプションのパターン。
+       使えるパターンについては <link
+       xlink:href="&url.icu.datepattern;">&url.icu.datepattern;</link>
+       を参照ください。
       </para>
      </listitem>
     </varlistentry>
