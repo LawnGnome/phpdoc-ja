@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="mime-magic.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
+ <warning>
+  <para>
+   Mimetype 拡張モジュールは PHP 5.3.0 で削除されました。後継は <link
+   linkend="book.fileinfo">Fileinfo</link> です。
+  </para>
+ </warning>
  <para>
   mime-type 関数をサポートするためには、configure スイッチ
   <option role="configure">--with-mime-magic</option> を付けて

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="memcached.cas" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::cas</methodname>
-   <methodparam><type>double</type><parameter>cas_token</parameter></methodparam>
+   <methodparam><type>float</type><parameter>cas_token</parameter></methodparam>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>expiration</parameter></methodparam>

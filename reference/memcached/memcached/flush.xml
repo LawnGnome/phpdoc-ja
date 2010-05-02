@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="memcached.flush" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::flush</methodname>
-   <methodparam choice="opt"><type>int</type><parameter>delay</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>delay</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>Memcached::flush</function> は、既存のキャッシュ内のすべてのアイテムを即時

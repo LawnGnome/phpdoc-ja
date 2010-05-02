@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.memcache-getextendedstats" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getExtendedStats</refname>
@@ -13,7 +13,7 @@
    <type>array</type><methodname>Memcache::getExtendedStats</methodname>
    <methodparam choice="opt"><type>string</type><parameter>type</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>slabid</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>limit</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>limit</parameter><initializer>100</initializer></methodparam>
   </methodsynopsis>
 
   <para>
@@ -64,7 +64,6 @@
       <para>
        <parameter>type</parameter> を cachedump
        と設定した場合に使用し、ダンプするエントリの数を制限します。
-       デフォルト値は 100 です。
       </para>
      </listitem>
     </varlistentry>

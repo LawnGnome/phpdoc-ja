@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="audioproperties.getLength" xmlns="http://docbook.org/ns/docbook">
-  <refnamediv>
-    <refname>KTaglib_MPEG_AudioProperties::getLength</refname>
-    <refpurpose>MPEG ファイルの長さを返す</refpurpose>
-  </refnamediv>
-  <refsect1 role="description">
-    &reftitle.description;
-    <methodsynopsis>
-    <modifier>public</modifier>
-      <type>int</type>
-      <methodname>KTaglib_MPEG_AudioProperties::getLength</methodname>
-      <void />
-    </methodsynopsis>
-    <para>
-	MPEG ファイルの長さを返します。
-    </para>
-  </refsect1>
+ <refnamediv>
+  <refname>KTaglib_MPEG_AudioProperties::getLength</refname>
+  <refpurpose>MPEG ファイルの長さを返す</refpurpose>
+ </refnamediv>
+ <refsect1 role="description">
+  &reftitle.description;
+  <methodsynopsis>
+   <modifier>public</modifier>
+   <type>int</type>
+   <methodname>KTaglib_MPEG_AudioProperties::getLength</methodname>
+   <void />
+  </methodsynopsis>
+  <para>
+   MPEG ファイルの長さを返します。
+  </para>
+ </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-	長さを整数値で返します。
+   長さを整数値で返します。
   </para>
  </refsect1>
 
