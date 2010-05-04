@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Purpose: basic.session -->
 <!-- Membership: core -->
@@ -60,11 +60,6 @@
     を含みます。
    </para>
   </warning>
-  <note>
-   <para>
-    セッション処理機能は、PHP 4.0.0 でサポートされました。
-   </para>
-  </note>
   <note>
    <para>
     セッションを処理している時、

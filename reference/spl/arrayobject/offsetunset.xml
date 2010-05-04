@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298615 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="arrayobject.offsetunset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,12 +45,12 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><methodname>ArrayObject::offsetunset</methodname> の例</title>
+    <title><methodname>ArrayObject::offsetUnset</methodname> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
 $arrayobj = new ArrayObject(array(0=>'zero',2=>'two'));
-$arrayobj->offsetunset(2);
+$arrayobj->offsetUnset(2);
 var_dump($arrayobj);
 ?>
 ]]>

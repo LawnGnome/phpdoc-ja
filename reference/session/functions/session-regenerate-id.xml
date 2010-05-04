@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-regenerate-id">
  <refnamediv>
@@ -31,7 +31,6 @@
       <listitem>
        <para>
         関連付けられた古いセッションを削除するかどうか。
-        デフォルトは &false; です。
        </para>
       </listitem>
      </varlistentry>

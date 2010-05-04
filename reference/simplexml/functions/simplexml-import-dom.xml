@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.simplexml-import-dom' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -51,7 +51,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   <type>SimpleXMLElement</type>、あるいは失敗した場合に &false; を返します。
+   <type>SimpleXMLElement</type> を返します。&return.falseforfailure;。
   </para>
  </refsect1>
 

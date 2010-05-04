@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298918 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splobjectstorage.attach" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>SplObjectStorage::attach</methodname>
    <methodparam><type>object</type><parameter>object</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>data</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>data</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    オブジェクトをストレージに追加し、

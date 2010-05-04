@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa, shimooka -->
 <refentry xml:id='simplexmlelement.attributes' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -63,7 +63,7 @@
 <![CDATA[
 <?php
 $string = <<<XML
-<a xmlns:b>
+<a>
  <foo name="one" game="lonely">1</foo>
 </a>
 XML;
