@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <section xml:id="pdo-mysql.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &pdo.driver-constants;
@@ -67,6 +67,8 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
     <para>
      <filename>my.cnf</filename> ではなく、
      指定した名前のファイルからオプションを読み込みます。
+     このオプションは、mysqlnd を使っている場合は利用できません。
+     mysqlnd は mysql の設定ファイルを読んでいないからです。
     </para>
    </listitem>
   </varlistentry>
@@ -80,6 +82,8 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
      <filename>my.cnf</filename> あるいは
      別のファイル (<constant>MYSQL_READ_DEFAULT_FILE</constant>
      で指定したもの) の中の、指定した名前のグループからオプションを読み込みます。
+     このオプションは、mysqlnd を使っている場合は利用できません。
+     mysqlnd は mysql の設定ファイルを読んでいないからです。
     </para>
    </listitem>
   </varlistentry>

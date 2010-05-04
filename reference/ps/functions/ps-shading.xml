@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ps-shading" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ps_shading</refname>
@@ -97,7 +97,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-    成功した場合にパターンの ID を、失敗した場合に &false; を返します。
+    成功した場合にパターンの ID を、&return.falseforfailure;。
   </para>
  </refsect1>
 

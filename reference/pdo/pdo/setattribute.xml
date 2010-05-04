@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.setattribute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -71,6 +71,13 @@
      永続的な PDO インスタンスは使用できない。
      <literal>array(string classname, array(mixed constructor_args))</literal>
      を必要とする。
+    </para></listitem>
+    <listitem><para><literal>PDO::ATTR_TIMEOUT</literal>:
+     タイムアウト秒数を指定する。すべてのドライバがこのオプションに対応しているわけではなく、
+     またドライバによってこのオプションの扱いは異なる。たとえば sqlite
+     は書き込み可能なロックを確保するのをこの秒数まで待ち続けるが、
+     他のドライバではこの秒数を接続時のタイムアウトや読み込みのタイムアウトとして扱うこともある。
+     <type>int</type> を渡す。
     </para></listitem>
     <listitem><para><literal>PDO::ATTR_AUTOCOMMIT</literal>
      (OCI, Firebird そして MySQL で利用可能):
