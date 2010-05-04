@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.debug" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::debug</refname>
@@ -70,7 +70,7 @@
 
 /* ローカル（クライアント）マシンの '/tmp/client.trace' に
    トレースファイルを作成します */
-mysqli_debug("d:t:0,/tmp/client.trace");
+mysqli_debug("d:t:o,/tmp/client.trace");
 
 ?>
 ]]>

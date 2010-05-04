@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.dns-get-record" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>dns_get_record</refname>
@@ -62,7 +62,6 @@
        <constant>DNS_AAAA</constant>, <constant>DNS_SRV</constant>,
        <constant>DNS_NAPTR</constant>, <constant>DNS_A6</constant>,
        <constant>DNS_ALL</constant> or <constant>DNS_ANY</constant>。
-       デフォルトは <emphasis>DNS_ANY</emphasis> です。
       </para>
       <note>
        <para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mqseries-connx" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mqseries_connx</refname>
@@ -102,7 +102,7 @@
     );
 
     mqseries_connx('MQNX9420', $mqcno, $conn, $comp_code,$reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {		
+    if ($comp_code !== MQSERIES_MQCC_OK) {
         printf("Connx CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
         exit;
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.connect-error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli->connect_error</refname>
@@ -28,7 +28,7 @@
   &reftitle.returnvalues;
   <para>
    エラーの内容を表す文字列を返します。エラーが発生しなかった場合は
-   空文字列を返します。
+   &null; を返します。
   </para>
  </refsect1>
 

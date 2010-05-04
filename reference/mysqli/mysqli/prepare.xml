@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.prepare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::prepare</refname>
@@ -22,7 +22,6 @@
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
   <para>
-   null で終わる文字列から
    SQL クエリを準備し、後でそのステートメントを操作するために使用する
    ステートメントハンドルを返します。
    クエリは、単一の SQL 文である必要があります。

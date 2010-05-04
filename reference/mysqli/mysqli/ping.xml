@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.ping" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::ping</refname>
@@ -22,8 +22,9 @@
   </methodsynopsis>
   <para>
    サーバとの接続が動作中かどうかを確かめます。もし切断されており、
-   グローバルオプション <literal>mysqli.reconnect</literal> が有効な場合は
-   再接続が試みられます。
+   グローバルオプション
+   <link linkend="ini.mysqli.reconnect">mysqli.reconnect</link>
+   が有効な場合は再接続を試みます。
   </para>
   <para>
    この関数は、長期間アイドル状態にあるクライアントが、

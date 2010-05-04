@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.options" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::options</refname>
@@ -59,7 +59,7 @@
          <tbody>
           <row>
            <entry><constant>MYSQLI_OPT_CONNECT_TIMEOUT</constant></entry>
-           <entry>接続のタイムアウト秒数。</entry>
+           <entry>接続のタイムアウト秒数 (PHP 5.3.1 以降、Windows 上での TCP/IP 接続をサポートします)。</entry>
           </row>
           <row>
            <entry><constant>MYSQLI_OPT_LOCAL_INFILE</constant></entry>

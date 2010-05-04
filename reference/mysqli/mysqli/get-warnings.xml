@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.get-warnings" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::get_warnings</refname>
@@ -11,12 +11,12 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>mysqli::get_warnings</methodname>
+   <type>mysqli_warnings</type><methodname>mysqli::get_warnings</methodname>
    <void />
   </methodsynopsis>
 
   <methodsynopsis>
-   <type>object</type><methodname>mysqli_get_warnings</methodname>
+   <type>mysqli_warnings</type><methodname>mysqli_get_warnings</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
   </methodsynopsis>
 

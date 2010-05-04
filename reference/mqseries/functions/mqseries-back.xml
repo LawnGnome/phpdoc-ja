@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mqseries-back" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mqseries_back</refname>
@@ -78,7 +78,7 @@
     </title>
     <programlisting role="php">
 <![CDATA[
-<?php					
+<?php
     mqseries_back($conn, $comp_code, $reason);
 
     if ($comp_code !== MQSERIES_MQCC_OK) {

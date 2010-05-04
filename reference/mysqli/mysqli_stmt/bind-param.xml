@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-stmt.bind-param" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_stmt::bind_param</refname>
@@ -37,6 +37,15 @@
     指定して <function>mysqli_stmt_send_long_data</function> を使用し、
     データをパケットに分割して送信する必要があります。
    </para>
+  </note>
+  <note>
+    <para>
+      <function>mysqli_stmt_bind_param</function> と
+      <function>call_user_func_array</function> を組み合わせて使う場合は注意が必要です。
+      <function>mysqli_stmt_bind_param</function> へのパラメータは参照渡しでなければなりませんが、
+      <function>call_user_func_array</function> には変数のリストをパラメータとして渡すことができます。
+      この変数は参照であっても値であってもかまいません。
+    </para>
   </note>
  </refsect1>
 
