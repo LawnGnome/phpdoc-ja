@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298828 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298938 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -45,7 +45,7 @@
   &reftitle.returnvalues;
   <para>
    成功した場合に <classname>DateTimeZone</classname> を返します。
-   &style.procedural; &return.falseforfailure;。
+   &return.falseforfailure.style.procedural;
   </para>
  </refsect1>
  

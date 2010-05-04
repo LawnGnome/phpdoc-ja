@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298918 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.exif-read-data" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>exif_read_data</refname>
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>array</type><methodname>exif_read_data</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>sections</parameter><initializer>NULL</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>sections</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>arrays</parameter><initializer>false</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>thumbnail</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
