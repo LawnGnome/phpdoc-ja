@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ziparchive-getarchivecomment" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::getArchiveComment</refname>
@@ -25,7 +25,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Zip アーカイブのコメント、あるいは失敗した場合に &false; を返します。
+   Zip アーカイブのコメントを返します。&return.falseforfailure;。
   </para>
  </refsect1>
  <refsect1 role="examples">

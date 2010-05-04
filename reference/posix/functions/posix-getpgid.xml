@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.posix-getpgid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>posix_getpgid</refname>
@@ -15,7 +15,7 @@
   </methodsynopsis>
   <para>
    プロセス <parameter>pid</parameter> のプロセスグループ ID
-   を返します。
+   を返します。&return.falseforfailure;。
   </para>
  </refsect1>
 

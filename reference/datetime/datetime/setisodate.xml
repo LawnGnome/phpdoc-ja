@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298939 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298971 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.setisodate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -20,7 +20,7 @@
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>DateTime</type><methodname>date_isodate_set</methodname>
-   <methodparam><type>DateTime</type><parameter>object</parameter></methodparam>
+   <methodparam><type>DateTime</type><parameter role="reference">object</parameter></methodparam>
    <methodparam><type>int</type><parameter>year</parameter></methodparam>
    <methodparam><type>int</type><parameter>week</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>day</parameter><initializer>1</initializer></methodparam>

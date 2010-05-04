@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.stream-socket-server" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_socket_server</refname>
@@ -88,8 +88,6 @@
      <listitem>
       <para>
        ソケット作成フラグの任意の組み合わせを指定できるビットフィールドです。
-       デフォルトの値は、<constant>STREAM_SERVER_BIND</constant> |
-       <constant>STREAM_SERVER_LISTEN</constant> です。
       </para>
       <note>
        <para>

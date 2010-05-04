@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.svn-log" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>svn_log</refname>
@@ -81,8 +81,7 @@
       <para>
        <constant>SVN_OMIT_MESSAGES</constant>、
        <constant>SVN_DISCOVER_CHANGED_PATHS</constant> および
-       <constant>SVN_STOP_ON_COPY</constant> の任意の組み合わせ。デフォルトは
-       <userinput>SVN_DISCOVER_CHANGED_PATHS | SVN_STOP_ON_COPY</userinput>。
+       <constant>SVN_STOP_ON_COPY</constant> の任意の組み合わせ。
       </para>
      </listitem>
     </varlistentry>

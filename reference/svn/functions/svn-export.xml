@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291314 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.svn-export" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -46,7 +46,6 @@
      <listitem>
       <para>
        &true; の場合は、コミットしていないファイルを作業コピーからエクスポートします。
-       デフォルト値は &true; です。
       </para>
      </listitem>
     </varlistentry>

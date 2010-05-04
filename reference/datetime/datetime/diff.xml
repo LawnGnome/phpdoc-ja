@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298710 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 298982 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.diff" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -53,7 +53,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ふたつの日付の差をあらわす DateInterval オブジェクトを返します。
+   ふたつの日付の差をあらわす <classname>DateInterval</classname> オブジェクトを返します。
+   &return.falseforfailure;
   </para>
  </refsect1>
 
