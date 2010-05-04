@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauth.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>consumer_key</parameter></methodparam>
    <methodparam><type>string</type><parameter>consumer_secret</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>signature_method</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>auth_type</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>auth_type</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    新しい OAuth オブジェクトを作成します。

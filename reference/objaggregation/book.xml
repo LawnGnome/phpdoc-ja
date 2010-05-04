@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Purpose: basic.vartype -->
 <!-- Membership: bundled -->
 <!-- State: experimental -->
 
 <book xml:id="book.objaggregation" xmlns="http://docbook.org/ns/docbook">
- <title>オブジェクトの集約/合成</title>
+ <title>オブジェクトの集約/合成 [PHP 4]</title>
  <titleabbrev>Object Aggregation</titleabbrev>
 
  <preface xml:id="intro.objaggregation">

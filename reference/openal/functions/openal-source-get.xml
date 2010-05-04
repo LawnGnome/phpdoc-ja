@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.openal-source-get" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>openal_source_get</refname>
@@ -56,8 +56,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   取得したプロパティに関連付けられた型、あるいは失敗した場合に
-   &false; を返します。
+   取得したプロパティに関連付けられた型を返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
  <refsect1 role="seealso">

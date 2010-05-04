@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.px-get-parameter" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>px_get_parameter</refname>
@@ -80,7 +80,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   パラメータの値、あるいは失敗した場合に &false; を返します。
+   パラメータの値、&return.falseforfailure;。
   </para>
  </refsect1>
 

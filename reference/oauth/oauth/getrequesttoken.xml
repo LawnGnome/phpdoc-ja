@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauth.getrequesttoken" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>array</type><methodname>OAuth::getRequestToken</methodname>
    <methodparam><type>string</type><parameter>request_token_url</parameter></methodparam>
-   <methodparam><type>string</type><parameter>callback_url</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>callback_url</parameter></methodparam>
   </methodsynopsis>
   <para>
    リクエストトークン、secret そして追加のレスポンスパラメータをサービスプロバイダから取得します。

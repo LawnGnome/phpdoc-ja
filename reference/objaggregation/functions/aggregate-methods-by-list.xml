@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.aggregate-methods-by-list" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>aggregate_methods_by_list</refname>
@@ -16,7 +16,7 @@
    <methodparam><type>object</type><parameter>object</parameter></methodparam>
    <methodparam><type>string</type><parameter>class_name</parameter></methodparam>
    <methodparam><type>array</type><parameter>methods_list</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>exclude</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>exclude</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
   <para>
    メソッド名のリストを使用して、クラスのメソッドを既存のオブジェクトに集約します。
@@ -58,7 +58,7 @@
       <para>
        オプションのパラメータ <parameter>exclude</parameter>
        で、リストに含まれているメソッドを集約する
-       (<parameter>exclude</parameter> が &false; の場合。これがデフォルトです)
+       (<parameter>exclude</parameter> が &false;)
        のか含まれていないメソッドを集約する
        (<parameter>exclude</parameter> が &true;) のかを指定します。
       </para>
