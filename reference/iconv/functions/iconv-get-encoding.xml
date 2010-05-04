@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.iconv-get-encoding" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>iconv_get_encoding</refname>
@@ -43,7 +43,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   成功時に内部設定変数の現在の設定、失敗時に &false; を返します。
+   成功時に内部設定変数の現在の設定、&return.falseforfailure;。
   </para>
   <para>
    <parameter>type</parameter> が省略されるか、"all"が指定された場合、

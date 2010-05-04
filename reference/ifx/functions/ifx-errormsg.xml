@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.ifx-errormsg" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ifx_errormsg</refname>
@@ -48,7 +48,7 @@
     <title><function>ifx_errormsg</function> の例</title>
     <programlisting role="php">
 <![CDATA[
-printf("%s\n&lt;br>", ifx_errormsg(-201));
+printf("%s\n<br>", ifx_errormsg(-201));
 ]]>
     </programlisting>
    </example>
