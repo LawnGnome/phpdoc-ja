@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.imagefill" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefill</refname>
@@ -84,6 +84,7 @@ imagedestroy($im);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : imagefill()</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagefill.png"/>
      </imageobject>

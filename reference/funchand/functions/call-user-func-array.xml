@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.call-user-func-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -153,6 +153,7 @@ int(8)
     関数のシグネチャには依存しないということです。
    </para>
   </note>
+  &note.func-callback-exceptions;
  </refsect1>
 
  <refsect1 role="seealso">

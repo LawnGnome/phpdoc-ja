@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecreatefromstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -71,6 +71,7 @@ else {
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : imagecreatefromstring()</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagecreatefromstring.png"/>
      </imageobject>

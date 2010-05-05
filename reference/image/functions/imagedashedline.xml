@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagedashedline" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -101,6 +101,7 @@ imagedestroy($im);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : imagedashedline()</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagedashedline.png"/>
      </imageobject>

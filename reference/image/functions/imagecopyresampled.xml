@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecopyresampled" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -173,6 +173,7 @@ imagejpeg($image_p, null, 100);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : 単純な例</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagecopyresampled.jpg"/>
      </imageobject>
@@ -221,6 +222,7 @@ imagejpeg($image_p, null, 100);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : イメージを均等に再サンプルする</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagecopyresampled_2.jpg"/>
      </imageobject>

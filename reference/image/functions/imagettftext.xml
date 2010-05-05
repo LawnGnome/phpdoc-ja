@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289104 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.imagettftext" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>imagettftext</refname>
@@ -227,6 +227,7 @@ imagedestroy($im);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : imagettftext()</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imagettftext.png"/>
      </imageobject>

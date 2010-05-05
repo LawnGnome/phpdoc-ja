@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
 <refentry xml:id="function.imageantialias" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -88,6 +88,7 @@ imagedestroy($normal);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>出力例 : 2 本の直線のうち一方にアンチエイリアスを有効にする</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imageantialias.png"/>
      </imageobject>

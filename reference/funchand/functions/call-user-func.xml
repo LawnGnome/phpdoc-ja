@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.call-user-func" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -196,6 +196,11 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test'); /* PHP 5.3.0 ä»¥é™
     </screen>   
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &note.func-callback-exceptions;
  </refsect1>
 
  <refsect1 role="seealso">
