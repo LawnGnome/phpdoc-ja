@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id='function.expm1' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -15,7 +15,6 @@
    <type>float</type><methodname>expm1</methodname>
    <methodparam><type>float</type><parameter>arg</parameter></methodparam>
   </methodsynopsis>
-  &warn.experimental.func;
   <para>
    <function>expm1</function> は、
    'exp(<parameter>number</parameter>) -  1' の値を返します。
