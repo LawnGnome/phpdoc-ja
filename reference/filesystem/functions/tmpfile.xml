@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.tmpfile">
  <refnamediv>
   <refname>tmpfile</refname>
@@ -34,7 +34,7 @@
    ファイルのハンドルを返します。
    これは、 <function>fopen</function>
    により返されるハンドルと同じものです。
-   失敗した場合には &false; を返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
 

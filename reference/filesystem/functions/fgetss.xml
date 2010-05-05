@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fgetss">
  <refnamediv>
   <refname>fgetss</refname>
@@ -18,7 +18,7 @@
   <para>
    <function>fgets</function> と同じですが、
    <function>fgetss</function> は読み込んだテキストから
-   HTML および PHP のタグを取り除こうとすることが異なります。
+   NUL バイト や HTML および PHP のタグを取り除こうとすることが異なります。
   </para>
  </refsect1>
 
@@ -81,12 +81,6 @@
        <entry>5.0.0</entry>
        <entry>
         <parameter>length</parameter> パラメータがオプションとなりました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.0</entry>
-       <entry>
-        <parameter>allowable_tags</parameter> パラメータが追加されました。
        </entry>
       </row>
      </tbody>

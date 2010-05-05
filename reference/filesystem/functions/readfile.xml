@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.readfile">
  <refnamediv>
@@ -93,6 +93,7 @@ if (file_exists($file)) {
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>開く / 保存 ダイアログ</alt>
      <imageobject>
       <imagedata fileref="en/reference/filesystem/figures/readfile.png"/>
      </imageobject>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.debug-backtrace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,7 @@
      <term><parameter>provide_object</parameter></term>
      <listitem>
       <para>
-       "object" インデックスを埋めるかどうか。デフォルトは &true;。
+       "object" インデックスを埋めるかどうか。
       </para>
      </listitem>
     </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 290412 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.chown">
  <refnamediv>
   <refname>chown</refname>
@@ -63,7 +63,7 @@
 
 // 使用するファイル名とユーザ名
 $file_name= "foo.php";
-$path = "/home/sites/php.net/public_html/sandbox" . $file_name ;
+$path = "/home/sites/php.net/public_html/sandbox/" . $file_name ;
 $user_name = "root";
 
 // ユーザを設定します

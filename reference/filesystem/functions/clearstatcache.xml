@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289616 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297556 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.clearstatcache" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -73,7 +73,7 @@
      <term><parameter>clear_realpath_cache</parameter></term>
      <listitem>
       <para>
-       realpath キャッシュをクリアするか否か (デフォルトは &false;)。
+       realpath キャッシュをクリアするか否か。
       </para>
      </listitem>
     </varlistentry>
