@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-publickey-init">
  <refnamediv>
   <refname>ssh2_publickey_init</refname>
@@ -48,7 +48,7 @@
   <para>
    他のすべての ssh2_publickey_*() メソッドで使用する、
    <literal>SSH2 公開鍵サブシステム</literal>リソースを返します。
-   失敗した場合は &false; を返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
 

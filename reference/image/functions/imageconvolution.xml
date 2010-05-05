@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imageconvolution" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imageconvolution</refname>
@@ -78,6 +78,7 @@ imagepng($image, null, 9);
     </programlisting>
     &example.outputs;
     <mediaobject>
+     <alt>出力例 : PHP.net ロゴのエンボス加工</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imageconvolution_emboss.png"/>
      </imageobject>
@@ -105,6 +106,7 @@ imagepng($image, null, 9);
     </programlisting>
     &example.outputs;
     <mediaobject>
+     <alt>出力例 : ガウス分布のぼかし</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/imageconvolution_gaussian.png"/>
      </imageobject>
