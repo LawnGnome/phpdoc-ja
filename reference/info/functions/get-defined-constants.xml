@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.get-defined-constants" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -46,7 +46,7 @@ print_r(get_defined_constants(true));
 <![CDATA[
 Array
 (
-    [internal] => Array
+    [Core] => Array
         (
             [E_ERROR] => 1
             [E_WARNING] => 2
@@ -109,6 +109,21 @@ Array
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.3.1</entry>
+       <entry>
+        Windows のみ : コア定数のカテゴリが <literal>Core</literal> になりました。
+        それまでは <literal>mhash</literal> でした。
+       </entry>
+      </row>
+      <row>
+       <entry>5.3.0</entry>
+       <entry>
+        コア定数のカテゴリが <literal>Core</literal> になりました。
+        それまでは <literal>internal</literal> でした。Windows では、
+        コア定数のカテゴリは <literal>mhash</literal> となります。
+       </entry>
+      </row>
       <row>
        <entry>5.0.0</entry>
        <entry>

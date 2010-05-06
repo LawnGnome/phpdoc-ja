@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.set-include-path" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -41,7 +41,7 @@
   &reftitle.returnvalues;
   <para>
    成功した場合に元の <link linkend="ini.include-path">include_path</link>
-   の値、失敗した場合に &false; を返します。
+   の値、&return.falseforfailure;。
   </para>
  </refsect1>
 

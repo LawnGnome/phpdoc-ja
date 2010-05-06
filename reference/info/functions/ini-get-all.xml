@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ini-get-all" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -64,7 +64,7 @@
    配列の値はそのオプションの現在の値となります。
   </para>
   <para>
-   アクセスレベルの意味についてはマニュアルを参照ください。
+   アクセスレベルの意味については<link linkend="configuration.changes.modes">マニュアル</link>を参照ください。
   </para>
   <note>
    <para>

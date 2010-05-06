@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297890 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.phpcredits" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -29,8 +29,7 @@
      <listitem>
       <para>
        独自のクレジットページを出力したい場合に <parameter>flag</parameter>
-       を利用するとよいでしょう。<parameter>flag</parameter>
-       はオプションで、デフォルトは <constant>CREDITS_ALL</constant> です。
+       を利用するとよいでしょう。
       </para>
       <para>
        <table>
@@ -68,7 +67,7 @@
           <row>
            <entry>CREDITS_GENERAL</entry>
            <entry>
-            一般的なクレジット: 言語の設計およびコンセプト、PHP 4.0
+            一般的なクレジット: 言語の設計およびコンセプト、PHP
             作者、SAPIモジュール
            </entry>
           </row>
@@ -121,7 +120,7 @@ phpcredits(CREDITS_GENERAL);
     <programlisting role="php">
 <![CDATA[
 <?php
-phpcredits(CREDITS_GROUP + CREDITS_DOCS + CREDITS_FULLPAGE);
+phpcredits(CREDITS_GROUP | CREDITS_DOCS | CREDITS_FULLPAGE);
 ?>
 ]]>
     </programlisting>
