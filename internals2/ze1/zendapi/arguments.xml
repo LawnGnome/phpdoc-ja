@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
  <sect2 xml:id="internals2.ze1.zendapi.arguments" xmlns="http://docbook.org/ns/docbook"> 
   <title>引数の扱い</title> 
   <para>
@@ -943,6 +943,7 @@ ZVAL_LONG(parameter, 10);
 ]]>
     </programlisting>
     <mediaobject>
+     <alt>パラメータが参照で渡されたかどうかを調べる</alt>
      <imageobject>
       <imagedata fileref="en/internals2/ze1/zendapi/figures/zend.05-reference-test.png"/>
      </imageobject>

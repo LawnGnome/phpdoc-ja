@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
  <sect1 xml:id="internals2.buildsys.configwin" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Windows 用のビルドシステム: config.w32</title>
   <para>
@@ -66,8 +66,8 @@ if (PHP_EXAMPLE != "no") {
 <![CDATA[
 ARG_ENABLE("counter", "for counter support", "no");
 if (PHP_COUNTER != "no") {
-	EXTENSION("counter", "counter.c");
-	ADD_SOURCE("counter-util.c");
+    EXTENSION("counter", "counter.c");
+    ADD_SOURCE("counter-util.c");
 }
 ]]>
     </programlisting>

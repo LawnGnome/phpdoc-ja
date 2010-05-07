@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
  <sect2 xml:id="internals2.ze1.zendapi.printing" xmlns="http://docbook.org/ns/docbook"> 
   <title>情報の表示</title> 
   <para>
@@ -150,6 +150,7 @@ php_info_print_table_end();
 ]]>
     </programlisting>
     <mediaobject>
+     <alt>phpinfo() の出力</alt>
      <imageobject>
       <imagedata fileref="en/internals2/ze1/zendapi/figures/zend.08-phpinfo-output.png"/>
      </imageobject>
@@ -193,6 +194,7 @@ zend_printf("The current line being executed is %i&lt;br&gt;", zend_get_executed
 ]]>
     </programlisting>
     <mediaobject>
+     <alt>実行時の情報の表示</alt>
      <imageobject>
       <imagedata fileref="en/internals2/ze1/zendapi/figures/zend.09-execution-info.png"/>
      </imageobject>

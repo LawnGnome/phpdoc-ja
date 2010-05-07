@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
 <refentry xml:id="internals2.ze1.zendapi.macros.zend-me-mapping" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZEND_ME_MAPPING</refname>
@@ -15,6 +15,7 @@
     <methodparam><type>???</type><parameter>name</parameter></methodparam>
     <methodparam><type>???</type><parameter>func_name</parameter></methodparam>
     <methodparam><type>???</type><parameter>arg_types</parameter></methodparam>
+    <methodparam><type>???</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
   <para>
    ...
