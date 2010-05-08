@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -34,7 +34,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   成功した場合に結果セットの行の数、失敗した場合に &false; を返します。
+   成功した場合に結果セットの行の数、&return.falseforfailure;。
   </para>
  </refsect1>
 
