@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-private-encrypt">
  <refnamediv>
@@ -58,8 +58,8 @@
      <term><parameter>padding</parameter></term>
      <listitem>
       <para>
-       <parameter>padding</parameter> のデフォルトは
-       <constant>OPENSSL_PKCS1_PADDING</constant> ですが、これ以外に
+       <parameter>padding</parameter> には
+       <constant>OPENSSL_PKCS1_PADDING</constant> あるいは
        <constant>OPENSSL_NO_PADDING</constant> が指定可能です。
       </para>
      </listitem>

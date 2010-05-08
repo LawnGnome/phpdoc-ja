@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-implicit-flush">
  <refnamediv>
   <refname>ob_implicit_flush</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>void</type><methodname>ob_implicit_flush</methodname>
-   <methodparam choice="opt"><type>int</type><parameter>flag</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>flag</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>ob_implicit_flush</function> は、
@@ -31,7 +31,6 @@
      <listitem>
       <para>
        &true; で自動フラッシュをオンに、&false; でオフにします。
-       デフォルトは &true; です。
       </para>
      </listitem>
     </varlistentry>

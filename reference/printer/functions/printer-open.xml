@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.printer-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,7 +45,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   成功時にハンドル、失敗時に &false; を返します。
+   成功時にハンドルを返します。&return.falseforfailure;。
   </para>
  </refsect1>
 
