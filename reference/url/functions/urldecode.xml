@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.urldecode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>urldecode</refname>
@@ -16,6 +16,7 @@
   <para>
    与えられた文字列中のあらゆるエンコード文字
    <literal>%<replaceable>##</replaceable></literal> をデコードします。
+   プラス記号 ('<literal>+</literal>') は、スペース文字にデコードします。
   </para>
  </refsect1>
 

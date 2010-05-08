@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.odbc-tableprivileges" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -65,7 +65,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ODBC 結果 ID または、失敗した場合に &false; を返します。
+   ODBC 結果 ID を返します。&return.falseforfailure;。
   </para>
   <para>
    結果セットのカラムは次のようになります。
