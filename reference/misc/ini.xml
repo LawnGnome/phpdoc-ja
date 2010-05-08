@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="misc.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -46,7 +46,7 @@
       <entry>highlight.bg</entry>
       <entry>"#FFFFFF"</entry>
       <entry>PHP_INI_ALL</entry>
-      <entry>PHP 6.0.0 で削除。</entry>
+      <entry>&removed.php.future;</entry>
      </row>
      <row>
       <entry>highlight.default</entry>

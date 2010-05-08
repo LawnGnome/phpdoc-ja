@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ingres-field-type" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -70,7 +70,7 @@
   &reftitle.returnvalues;
   <para>
    <function>ingres_field_type</function> はクエリ結果のフィールド型、
-   失敗した場合は、&false; を返します。返される型は、例えば、
+   &return.falseforfailure;。返される型は、例えば、
    <literal>IIAPI_BYTE_TYPE</literal>, <literal>IIAPI_CHA_TYPE</literal>, <literal>IIAPI_DTE_TYPE</literal>,
    <literal>IIAPI_FLT_TYPE</literal>, <literal>IIAPI_INT_TYPE</literal>, <literal>IIAPI_VCH_TYPE</literal> になります。
    これらの型のいくつかは、フィールド長に応じて複数の SQL 型を
@@ -88,6 +88,7 @@
    <simplelist>
     <member><function>ingres_query</function></member>
     <member><function>ingres_fetch_array</function></member>
+    <member><function>ingres_fetch_assoc</function></member>
     <member><function>ingres_fetch_object</function></member>
     <member><function>ingres_fetch_row</function></member>
    </simplelist>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xml:id='function.mssql-guid-string' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mssql_guid_string</refname>
   <refpurpose>16 バイトバイナリ GUID を文字列に変換する</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -35,7 +35,7 @@
      <term><parameter>short_format</parameter></term>
      <listitem>
       <para>
-       短い形式を使うかどうか。デフォルトは &false;。
+       短い形式を使うかどうか。
       </para>
      </listitem>
     </varlistentry>
