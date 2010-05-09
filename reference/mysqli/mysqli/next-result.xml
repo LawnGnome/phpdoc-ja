@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299158 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.next-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::next_result</refname>
@@ -10,10 +10,12 @@
 
  <refsect1 role="description">
   &reftitle.description;
+  <para>&style.oop;</para>
   <methodsynopsis>
    <type>bool</type><methodname>mysqli::next_result</methodname>
    <void />
   </methodsynopsis>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>bool</type><methodname>mysqli_next_result</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
