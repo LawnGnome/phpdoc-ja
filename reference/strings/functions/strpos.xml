@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strpos">
  <refnamediv>
   <refname>strpos</refname>
@@ -75,7 +75,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>=== の使用</title>
+    <title><literal>===</literal> の使用</title>
     <programlisting role="php">
 <![CDATA[
 <?php

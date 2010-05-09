@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stristr">
  <refnamediv>
@@ -47,7 +47,7 @@
      <term><parameter>before_needle</parameter></term>
      <listitem>
       <para>
-       &true; にすると (デフォルトは &false; です)、<function>stristr</function>
+       &true; にすると、<function>stristr</function>
        の返り値は、<parameter>haystack</parameter> の中で最初に
        <parameter>needle</parameter> があらわれる箇所より前の部分となります。
       </para>

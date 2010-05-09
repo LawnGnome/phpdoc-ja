@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.wordwrap">
  <refnamediv>
@@ -38,7 +38,7 @@
      <term><parameter>width</parameter></term>
      <listitem>
       <para>
-       カラムの幅。デフォルトは 75。
+       カラムの幅。
       </para>
      </listitem>
     </varlistentry>
@@ -48,7 +48,6 @@
       <para>
        オプションのパラメータ
        <parameter>break</parameter> を用いて行を分割します。
-       デフォルトは '<literal>\n</literal>' です。
       </para>
      </listitem>
     </varlistentry>

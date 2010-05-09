@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.sha1-file" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -29,7 +29,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       ファイル名。
+       ハッシュしたいファイルのファイル名。
       </para>
      </listitem>
     </varlistentry>
@@ -38,7 +38,7 @@
      <listitem>
       <para>
        &true; を指定すると、長さ 20 のバイナリフォーマットで
-       ダイジェストを返します。デフォルトは &false; です。
+       ダイジェストを返します。
       </para>
      </listitem>
     </varlistentry>
@@ -63,12 +63,12 @@
 <?php
 foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 {
-	if(is_dir($ent))
-	{
-		continue;
-	}
+    if(is_dir($ent))
+    {
+        continue;
+    }
 
-	echo $ent . ' (SHA1: ' . sha1_file($ent) . ')', PHP_EOL;
+    echo $ent . ' (SHA1: ' . sha1_file($ent) . ')', PHP_EOL;
 }
 ?>
 ]]>

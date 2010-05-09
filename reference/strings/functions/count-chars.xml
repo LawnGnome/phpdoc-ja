@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.count-chars">
  <refnamediv>
@@ -37,7 +37,7 @@
      <term><parameter>mode</parameter></term>
      <listitem>
       <para>
-       オプションのパラメータ <parameter>mode</parameter> のデフォルトは 0 です。
+       返り値を参照ください。
       </para>
      </listitem>
     </varlistentry>
