@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299169 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-thread-safe">
  <refnamediv>
   <refname>maxdb_thread_safe</refname>
@@ -9,7 +9,6 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>手続き型</para>
   <methodsynopsis>
    <type>bool</type><methodname>maxdb_thread_safe</methodname>
    <void />

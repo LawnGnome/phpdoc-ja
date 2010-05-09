@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299169 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-stmt-error">
  <refnamediv>
   <refname>maxdb_stmt_error</refname>
@@ -10,14 +10,14 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>手続き型</para>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>string</type><methodname>maxdb_stmt_error</methodname>
    <methodparam><type>resource</type><parameter>stmt</parameter></methodparam>
   </methodsynopsis>
-  <para>オブジェクト指向型 (プロパティ)</para>
+  <para>&style.oop;</para>
   <classsynopsis>
-   <ooclass><classname>stmt</classname></ooclass>
+   <ooclass><classname>maxdb_stmt</classname></ooclass>
    <fieldsynopsis><type>string</type><varname>error</varname></fieldsynopsis>
   </classsynopsis>
   <para>
