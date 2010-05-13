@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299313 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongo.selectcollection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>MongoCollection</type><methodname>Mongo::selectCollection</methodname>
-   <methodparam><type>string|MongoDB</type><parameter>db</parameter></methodparam>
+   <methodparam><type>string</type><parameter>db</parameter></methodparam>
    <methodparam><type>string</type><parameter>collection</parameter></methodparam>
   </methodsynopsis>
  </refsect1>
