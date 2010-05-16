@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296162 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299403 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Purpose: calendar -->
 <!-- Membership: core -->
@@ -45,6 +45,7 @@
  &reference.datetime.setup;
  &reference.datetime.constants;
  &reference.datetime.timezones;
+ &reference.datetime.formats;
  
  &reference.datetime.datetime;
  &reference.datetime.datetimezone;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299350 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.getname" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -10,8 +10,14 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <para>&style.oop;</para>
+  <methodsynopsis role="oop">
    <modifier>public</modifier> <type>string</type><methodname>DateTimeZone::getName</methodname>
+   <void />
+  </methodsynopsis>
+  <para>&style.procedural;</para>
+  <methodsynopsis role="procedural">
+   <type>string</type><methodname>timezone_name_get</methodname>
    <void />
   </methodsynopsis>
   <para>

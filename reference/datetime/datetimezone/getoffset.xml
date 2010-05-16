@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291247 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299350 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.getoffset" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -9,11 +9,13 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <para>&style.oop;</para>
+  <methodsynopsis role="oop">
    <modifier>public</modifier> <type>int</type><methodname>DateTimeZone::getOffset</methodname>
    <methodparam><type>DateTime</type><parameter>datetime</parameter></methodparam>
   </methodsynopsis>
-  <methodsynopsis>
+  <para>&style.procedural;</para>
+  <methodsynopsis role="procedural">
    <type>int</type><methodname>timezone_offset_get</methodname>
    <methodparam><type>DateTimeZone</type><parameter>object</parameter></methodparam>
    <methodparam><type>DateTime</type><parameter>datetime</parameter></methodparam>

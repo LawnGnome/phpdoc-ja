@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298364 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299350 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.set-state" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -10,7 +10,7 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <modifier>public</modifier> <modifier>static</modifier> <type>DateTime</type><methodname>DateTime::__set_state</methodname>
    <methodparam><type>array</type><parameter>array</parameter></methodparam>
   </methodsynopsis>

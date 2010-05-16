@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 299403 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.strtotime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -43,6 +43,7 @@
        より前のバージョンではマイクロ秒を含めることはできませんでした。
        PHP 5.0.0 以降ではマイクロ秒を含めることが可能ですが、その値は無視されます。
       </para>
+      <para>&date.formats;</para>
      </listitem>
     </varlistentry>
     <varlistentry>
