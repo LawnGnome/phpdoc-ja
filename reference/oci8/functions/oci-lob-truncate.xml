@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 298108 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.oci-lob-truncate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob->truncate</refname>
@@ -13,7 +13,7 @@
    <ooclass><classname>OCI-Lob</classname></ooclass>
    <methodsynopsis>
     <type>bool</type><methodname>truncate</methodname>
-    <methodparam choice="opt"><type>int</type><parameter>length</parameter></methodparam>
+    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer>0</initializer></methodparam>
    </methodsynopsis>
   </classsynopsis>
   <para>

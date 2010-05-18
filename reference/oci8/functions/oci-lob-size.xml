@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.oci-lob-size" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob->size</refname>
@@ -25,7 +25,7 @@
   &reftitle.returnvalues;
   <para>
    ラージオブジェクトのサイズを返します。
-   &return.falseforfailure;
+   &return.falseforfailure;。
    空のオブジェクトは長さ 0 となります。
   </para>
  </refsect1>
