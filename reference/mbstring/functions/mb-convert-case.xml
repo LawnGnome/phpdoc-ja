@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 299482 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-convert-case" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -94,6 +94,23 @@ $str = mb_convert_case($str, MB_CASE_UPPER, "UTF-8");
 echo $str; // Prints MARY HAD A LITTLE LAMB AND SHE LOVED IT SO
 $str = mb_convert_case($str, MB_CASE_TITLE, "UTF-8");
 echo $str; // Prints Mary Had A Little Lamb And She Loved It So
+?>
+]]>
+    </programlisting>
+   </example>
+  </para>
+
+  <para>
+   <example>
+    <title>非ラテン UTF-8 テキストでの <function>mb_convert_case</function> の例</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+$str = "Τάχιστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός";
+$str = mb_convert_case($str, MB_CASE_UPPER, "UTF-8");
+echo $str; // 結果は ΤΆΧΙΣΤΗ ΑΛΏΠΗΞ ΒΑΦΉΣ ΨΗΜΈΝΗ ΓΗ, ΔΡΑΣΚΕΛΊΖΕΙ ΥΠΈΡ ΝΩΘΡΟΎ ΚΥΝΌΣ
+$str = mb_convert_case($str, MB_CASE_TITLE, "UTF-8");
+echo $str; // 結果は Τάχιστη Αλώπηξ Βαφήσ Ψημένη Γη, Δρασκελίζει Υπέρ Νωθρού Κυνόσ
 ?>
 ]]>
     </programlisting>

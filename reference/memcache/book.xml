@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299490 Maintainer: takagi Status: ready -->
 <!-- Purpose: remote.other -->
 <!-- Membership: pecl, external -->
  
@@ -31,6 +31,7 @@
  &reference.memcache.setup;
  &reference.memcache.constants;
  &reference.memcache.examples;
+ &reference.memcache.memcache;
  &reference.memcache.reference;
 
 </book>

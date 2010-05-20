@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292172 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299506 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.createdbref" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -44,7 +44,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title><function>MongoCollection::createDBRef</function> の例</title>
+   <title><methodname>MongoCollection::createDBRef</methodname> の例</title>
    <programlisting role="php">
 <![CDATA[
 <?php
