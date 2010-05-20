@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297209 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.memcache-increment" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 299490 Maintainer: takagi Status: ready -->
+<refentry xml:id="memcache.increment" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::increment</refname>
   <refpurpose>項目の値を増やす</refpurpose>

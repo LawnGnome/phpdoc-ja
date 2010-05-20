@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.memcache-decrement" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 299490 Maintainer: takagi Status: ready -->
+<refentry xml:id="memcache.decrement" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::decrement</refname>
   <refpurpose>項目の値を減らす</refpurpose>
