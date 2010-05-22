@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299465 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 299628 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecolorset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -67,7 +67,10 @@
      <term><parameter>alpha</parameter></term>
      <listitem>
       <para>
-       アルファコンポーネントの値。このパラメータは SVN 版 (trunk) にのみ存在します。
+       アルファコンポーネントの値。
+      </para>
+      <para>
+       &version.trunk.after.53;
       </para>
      </listitem>
     </varlistentry>
@@ -80,6 +83,29 @@
    &return.void;
   </para>
  </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <informaltable>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>&Version;</entry>
+      <entry>&Description;</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>&version.trunk.changelog;</entry>
+      <entry>
+       <parameter>alpha</parameter> パラメータが追加されました。
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </informaltable>
+ </refsect1>
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
