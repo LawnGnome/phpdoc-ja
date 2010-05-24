@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 299642 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -498,11 +498,26 @@
      </link></entry>
     </row>
     <row>
+     <entry><constant>T_NAMESPACE</constant></entry>
+     <entry>namespace</entry>
+     <entry>
+      <link linkend="language.namespaces">名前空間</link>
+      (PHP 5.3.0 以降で使用可能)
+     </entry>
+    </row>
+    <row>
      <entry><constant>T_NS_C</constant></entry>
      <entry>__NAMESPACE__</entry>
      <entry>
-      <link linkend="language.namespaces">名前空間</link>。
-      <constant>T_NAMESPACE</constant> としても定義されています
+      <link linkend="language.namespaces">名前空間</link>
+      (PHP 5.3.0 以降で使用可能)
+     </entry>
+    </row>
+    <row>
+     <entry><constant>T_NS_SEPARATOR</constant></entry>
+     <entry>\</entry>
+     <entry>
+      <link linkend="language.namespaces">名前空間</link>
       (PHP 5.3.0 以降で使用可能)
      </entry>
     </row>
