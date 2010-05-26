@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299688 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.xinclude" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DOMDocument::xinclude</refname>
@@ -46,6 +46,8 @@
   &reftitle.returnvalues;
   <para>
    ドキュメント内の XIncludes の数を返します。
+   何かの処理に失敗した場合は -1、
+   置換が発生しなかった場合は &false; を返します。
   </para>
  </refsect1>
  <refsect1 role="examples">
