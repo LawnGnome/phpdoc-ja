@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 299859 Maintainer: takagi Status: ready -->
 <!-- Purpose: webservice -->
 <!-- Membership: pecl, external -->
 
@@ -10,7 +10,7 @@
  <preface xml:id="intro.oauth">
   &reftitle.intro;
   <para>
-   この拡張モジュールは、OAuth コンシューマの機能を提供します。
+   この拡張モジュールは、OAuth コンシューマおよびプロバイダの機能を提供します。
    OAuth は HTTP 上に構築された認証プロトコルで、
    アプリケーションからデータへのアクセスが安全にできるようになります。
    アプリケーション側でユーザ名やパスワードを保存する必要はありません。
@@ -22,6 +22,7 @@
  &reference.oauth.examples;
  &reference.oauth.reference;
  &reference.oauth.oauth; 
+ &reference.oauth.oauthprovider;
  &reference.oauth.oauthexception; 
 
 </book>
