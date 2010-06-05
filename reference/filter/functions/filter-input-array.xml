@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300153 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.filter-input-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>filter_input_array</refname>
@@ -27,9 +27,8 @@
      <listitem>
       <para>
        <constant>INPUT_GET</constant>、<constant>INPUT_POST</constant>、
-       <constant>INPUT_COOKIE</constant>、<constant>INPUT_SERVER</constant>、
-       <constant>INPUT_ENV</constant>、<constant>INPUT_SESSION</constant> (まだ実装されていません)
-       あるいは <constant>INPUT_REQUEST</constant> (まだ実装されていません) のいずれか。
+       <constant>INPUT_COOKIE</constant>、<constant>INPUT_SERVER</constant> あるいは
+       <constant>INPUT_ENV</constant> のいずれか。
       </para>
      </listitem>
     </varlistentry>

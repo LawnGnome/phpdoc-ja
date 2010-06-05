@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 293475 $ -->
-<!-- EN-Revision: 293475 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 300101 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.oci-set-client-identifier" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_set_client_identifier</refname>

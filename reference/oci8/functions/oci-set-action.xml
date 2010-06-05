@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 290998 $ -->
-<!-- EN-Revision: 290998 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 300101 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.oci-set-action" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_set_action</refname>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: working -->
+<!-- EN-Revision: 300101 Maintainer: shimooka Status: working -->
 <refentry xml:id="function.oci-fetch-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_fetch_array</refname>
@@ -391,7 +391,7 @@ var_dump($row);
 //      string(9) "Australia"
 //    }
 
-// To query a repeated column name, use a SQL column alias like "AS ctnm":
+// To query a repeated column name, use an SQL column alias like "AS ctnm":
 $sql = 'SELECT mycity.name AS ctnm, mycountry.name 
         FROM mycity, mycountry 
         WHERE mycity.id = mycountry.id';
