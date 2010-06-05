@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299860 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300025 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauthprovider.removerequiredparameter" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -34,6 +34,13 @@
     </listitem>
    </varlistentry>
   </variablelist>
+ </refsect1>
+
+ <refsect1 role="returnvalues">
+  &reftitle.returnvalues;
+  <para>
+   &return.success;
+  </para>
  </refsect1>
 
  <refsect1 role="seealso">

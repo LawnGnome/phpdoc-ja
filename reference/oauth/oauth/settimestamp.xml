@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300025 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300031 Maintainer: takagi Status: ready -->
 
-<refentry xml:id="oauthprovider.reportproblem" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="oauth.settimestamp" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>OAuthProvider::reportProblem</refname>
-  <refpurpose>問題を報告する</refpurpose>
+  <refname>OAuth::setTimestamp</refname>
+  <refpurpose>タイムスタンプを設定する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>void</type><methodname>OAuthProvider::reportProblem</methodname>
-   <methodparam><type>string</type><parameter>oauthexception</parameter></methodparam>
+   <modifier>public</modifier> <type>mixed</type><methodname>OAuth::setTimestamp</methodname>
+   <methodparam><type>string</type><parameter>timestamp</parameter></methodparam>
   </methodsynopsis>
   <para>
-   問題を、<classname>OAuthException</classname> 形式で渡します。設定できる問題については
-   <link linkend="oauth.constants">OAuth 定数</link> のセクションを参照ください。
+   それ以降のリクエスト用の OAuth タイムスタンプを設定します。
   </para>
-  
+
   &warn.undocumented.func;
 
  </refsect1>
@@ -27,10 +26,10 @@
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>oauthexception</parameter></term>
+    <term><parameter>timestamp</parameter></term>
     <listitem>
      <para>
-      <classname>OAuthException</classname>。
+      タイムスタンプ。
      </para>
     </listitem>
    </varlistentry>
@@ -40,15 +39,15 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   &true; を返します。
+   <parameter>timestamp</parameter> が無効な形式の場合は &null; を返します。
   </para>
  </refsect1>
 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>OAuthProvider::checkOAuthRequest</methodname></member>
-   <member><methodname>OAuthProvider::isRequestTokenEndpoint</methodname></member>
+   <member><methodname>setNonce</methodname></member>
   </simplelist>
  </refsect1>
 
