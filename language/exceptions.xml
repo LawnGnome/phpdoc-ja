@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300375 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <chapter xml:id="language.exceptions" xmlns="http://docbook.org/ns/docbook">
@@ -178,7 +178,7 @@ class Exception
     <para>
      例外を複製することはできません。Exception を <link
      linkend="language.oop5.cloning">clone</link> しようとすると
-     <literal>E_FATAL</literal> エラーが発生します。
+     致命的な <literal>E_ERROR</literal> エラーが発生します。
     </para>
    </note>
   <example>
