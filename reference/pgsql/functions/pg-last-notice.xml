@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- splitted from ./ja/functions/pgsql.xml, last change in rev 1.29 -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300428 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.pg-last-notice" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -108,7 +108,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>pg_last_error</function> の例</title>
+    <title><function>pg_last_notice</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php

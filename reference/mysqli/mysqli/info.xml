@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300509 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli->info</refname>
@@ -61,7 +61,7 @@
   </para>
   <note>
    <para>
-    上のどれにも当てはまらない形式のクエリはサポートされません。
+    これらのどれにも当てはまらない形式のクエリはサポートされません。
     そのような場合、<function>mysqli_info</function> は空文字列を返します。
    </para>
   </note>
