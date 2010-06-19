@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300589 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.get-class" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -38,6 +38,13 @@
    オブジェクト <parameter>object</parameter> がインスタンス
    であるクラスの名前を返します。<parameter>object</parameter>
    がオブジェクトでない場合には&false;が返されます。
+  </para>
+ </refsect1>
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   オブジェクト以外に対して get_class() をコールすると、
+   <constant>E_WARNING</constant> レベルのエラーが発生します。
   </para>
  </refsect1>
  <refsect1 role="changelog">
