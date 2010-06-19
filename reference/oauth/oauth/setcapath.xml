@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300031 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300432 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauth.setcapath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -50,7 +50,31 @@
   &reftitle.returnvalues;
   <para>
    成功した場合に &true; を返します。<parameter>ca_path</parameter>
-   あるいは <parameter>ca_info</parameter> が無効な形式の場合は &null; を返します。
+   あるいは <parameter>ca_info</parameter> が無効な形式の場合は &false; を返します。
+  </para>
+ </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>1.0.0</entry>
+       <entry>
+        &oauth.changelog.error.null;
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
 

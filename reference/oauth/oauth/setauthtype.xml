@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299997 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300432 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauth.setauthtype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -73,8 +73,32 @@
   &reftitle.returnvalues;
   <para>
    パラメータを正しく設定した場合に &true; を返します。
-   無効な <parameter>auth_type</parameter> を渡した場合は &null;、
-   それ以外の場合は &false; を返します。
+   それ以外の場合 (無効な <parameter>auth_type</parameter> を渡した場合など)
+   は &false; を返します。
+  </para>
+ </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>1.0.0</entry>
+       <entry>
+        &oauth.changelog.error.null;
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
 
