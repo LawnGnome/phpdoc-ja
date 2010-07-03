@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300659 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="inclued.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
@@ -17,11 +17,11 @@
 <![CDATA[
 <?php
 // inclued の情報を保存するファイル
-$fp = fopen('/tmp/wp.json', 'w');
+$fp = fopen('/tmp/wp.ser', 'w');
 if ($fp) {
     $clue = inclued_get_data();
     if ($clue) {
-        fwrite($fp, json_encode($clue));
+        fwrite($fp, serialize($clue));
     }
     fclose($fp);
 }
@@ -48,7 +48,7 @@ if ($fp) {
     <programlisting role="shell">
 <![CDATA[
 # まず dot ファイルを作成します
-$ php graphviz.php -i /tmp/wp.json -o wp.dot
+$ php graphviz.php -i /tmp/wp.ser -o wp.dot
 
 # そして画像を作成します
 $ dot -Tpng -o inclued.png wp.dot
