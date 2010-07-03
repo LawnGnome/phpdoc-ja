@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297722 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300632 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.unlink">
  <refnamediv>
   <refname>unlink</refname>
@@ -89,10 +89,7 @@ $fh = fopen('test.html', 'a');
 fwrite($fh, '<h1>Hello world!</h1>');
 fclose($fh);
 
-mkdir('testdir', 0777);
-
 unlink('test.html');
-unlink('testdir');
 ?>
 ]]>
     </programlisting>

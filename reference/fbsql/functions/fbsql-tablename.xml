@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300797 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.fbsql-tablename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbsql_tablename</refname>
   <refpurpose><function>fbsql_table_name</function> &Alias;</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <para>
