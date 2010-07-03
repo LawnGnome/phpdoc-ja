@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
 <chapter xml:id="xslt.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -9,11 +9,16 @@
  <!-- {{{ Requirements -->
  <section xml:id="xslt.requirements">
   &reftitle.required;
+  &libxml.required;
   <para>
    このエクステンションは、<productname>Sabloton</productname>および
    <productname>expat</productname> を使用します。これらは、共に
    <link xlink:href="&url.sablotron;">&url.sablotron;</link>から得ること
    が可能です。 実行バイナリがソースコードと同様に配布されています。
+  </para>
+  <para>
+   PHP 4 では、<option role="configure">--with-xslt</option>
+   オプションを指定すると使えるようになります。
   </para>
  </section>
  <!-- }}} -->

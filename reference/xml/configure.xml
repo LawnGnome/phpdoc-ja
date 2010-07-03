@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: hirokawa Status: ready -->
 <section xml:id="xml.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
+ <para>
+  &installation.enabled.disable;
+  <option role="configure">--disable-xml</option>
+ </para>
+ <!-- TODO the following needs researched and updated -->
  <para>
   付属しているexpatライブラリを用いて以下の関数はデフォルトで有効となっ
   ています。

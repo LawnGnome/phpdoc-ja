@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="xmlwriter.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -8,7 +8,7 @@
  <!-- {{{ Requirements -->
  <section xml:id="xmlwriter.requirements">
   &reftitle.required;
-  &no.requirement;
+  &libxml.required;
  </section>
  <!-- }}} -->
 
@@ -16,7 +16,8 @@
  <section xml:id="xmlwriter.installation">
   &reftitle.install;
   <para>
-   この拡張モジュールは、PHP 5.1.2 以降はデフォルトで有効となります。
+   &installation.enabled.disable;
+   <option role="configure">--disable-xmlwriter</option>
   </para>
  </section>
  <!-- }}} -->

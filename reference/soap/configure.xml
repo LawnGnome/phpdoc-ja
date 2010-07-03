@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: takagi Status: ready -->
 
 <section xml:id="soap.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
- <!-- There are various PECL related entities in language-snippets.ent -->
  <para>
-  SOAP サポートを有効にするには、--enable-soap を指定して PHP の configure を行います。
+  SOAP サポートを有効にするには、<option role="configure">--enable-soap</option>
+  を指定して PHP の configure を行います。
  </para>
 </section>
 

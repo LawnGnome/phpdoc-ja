@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="xml.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -8,6 +8,7 @@
  <!-- {{{ Requirements -->
  <section xml:id="xml.requirements">
   &reftitle.required;
+  &libxml.required;
   <para>
    このエクステンションは、<productname>expat</productname> を使用します。
    これは、<link xlink:href="&url.expat;">&url.expat;</link>にあります。

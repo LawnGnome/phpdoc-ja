@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="wddx.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
-  expat をインストールした後、
-  <option role="configure">--enable-wddx</option> を指定して PHP を
-  コンパイルする必要があります。
+  必須ライブラリ expat をインストールした後、PHP のコンパイル時に
+  <option role="configure">--enable-wddx</option> を指定します。また
+  <option role="configure">--with-libexpat-dir</option> で expat を指定します。
  </para>
  &windows.builtin;
 </section>
