@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301048 Maintainer: takagi Status: ready -->
 <refentry xml:id='simplexmlelement.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::__construct</refname>
@@ -117,6 +117,12 @@ echo $sxe->movie[0]->title;
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+PHP: Behind the Parser
+]]>
+    </screen>
    </example>
   </para>
   <para>

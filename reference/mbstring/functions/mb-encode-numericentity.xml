@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-encode-numericentity" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -64,7 +64,7 @@
   <para>
    <example>
     <title><parameter>convmap</parameter> の例</title>
-    <programlisting role="php">
+    <programlisting>
 <![CDATA[
 $convmap = array (
  int start_code1, int end_code1, int offset1, int mask1,

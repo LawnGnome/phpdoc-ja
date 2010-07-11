@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.xslt-set-scheme-handler" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -40,7 +40,7 @@
        スキーマハンドラは、フォーマットの配列とする必要があります
        (全ての要素はオプションです)。
        <informalexample>
-        <programlisting role="php">
+        <programlisting>
 <![CDATA[
 array(
 [get_all] => get all handler,

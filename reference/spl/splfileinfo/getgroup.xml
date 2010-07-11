@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301115 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splfileinfo.getgroup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -48,6 +48,7 @@
 <?php
 $info = new SplFileInfo(__FILE__);
 print_r(posix_getgrgid($info->getGroup()));
+?>
 ]]>
     </programlisting>
     &example.outputs.similar;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301048 Maintainer: takagi Status: ready -->
 <refentry xml:id='simplexmlelement.getName' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::getName</refname>
@@ -37,7 +37,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
- 
+include 'example.php';
 $sxe = new SimpleXMLElement($xmlstr);
 
 echo $sxe->getName() . "\n";
@@ -50,6 +50,13 @@ foreach ($sxe->children() as $child)
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+movies
+movie
+]]>
+    </screen>
    </example>
   </para>
  </refsect1>

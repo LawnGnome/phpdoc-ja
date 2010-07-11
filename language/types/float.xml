@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.float">
  <title>浮動小数点数</title>
@@ -26,7 +26,7 @@ $c = 7E-10;
  </para>
 
  <informalexample>
-  <programlisting role="php">
+  <programlisting>
 <![CDATA[
 LNUM          [0-9]+
 DNUM          ([0-9]*[\.]{LNUM}) | ({LNUM}[\.][0-9]*)

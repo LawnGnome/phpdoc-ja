@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301015 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.bbcode-parse" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>bbcode_parse</refname>
@@ -47,7 +47,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   パースした文字列を返します。&return.falseforfailure;.
   </para>
  </refsect1>
 

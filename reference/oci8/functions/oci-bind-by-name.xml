@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: working -->
+<!-- EN-Revision: 301112 Maintainer: shimooka Status: working -->
 <refentry xml:id="function.oci-bind-by-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_bind_by_name</refname>
@@ -795,9 +795,11 @@ print '</table>';
    <informalexample>
      <programlisting role="php">
 <![CDATA[
+<?php
 foreach ($myarray as $key => $value)  {
     oci_bind_by_name($stid, $key, $value);
 }
+?>
 ]]>
      </programlisting>
    </informalexample>
@@ -809,9 +811,11 @@ foreach ($myarray as $key => $value)  {
    <informalexample>
      <programlisting role="php">
 <![CDATA[
+<?php
 foreach ($myarray as $key => $value) {
     oci_bind_by_name($stid, $key, $myarray[$key]);
 }
+?>
 ]]>
      </programlisting>
    </informalexample>

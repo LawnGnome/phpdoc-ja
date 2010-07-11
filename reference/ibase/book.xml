@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -44,7 +44,7 @@
     この動作は Sybase データベースに似ており、以下のディレクティブを
     &php.ini; に追加してください。
     <informalexample>
-     <programlisting role="php">
+     <programlisting role="php.ini">
 <![CDATA[
 magic_quotes_sybase = On
 ]]>

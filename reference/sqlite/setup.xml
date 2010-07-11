@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <chapter xml:id="sqlite.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -91,7 +91,9 @@ SetEnv TMP c:/temp
     <informalexample>
      <programlisting role="php">
 <![CDATA[
+<?php
 putenv('TMP=C:/temp');
+?>
 ]]>
      </programlisting>
     </informalexample>

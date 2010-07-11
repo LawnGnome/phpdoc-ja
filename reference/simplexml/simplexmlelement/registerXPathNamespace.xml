@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301048 Maintainer: takagi Status: ready -->
 <refentry xml:id='simplexmlelement.registerXPathNamespace' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::registerXPathNamespace</refname>
@@ -103,6 +103,13 @@ foreach ($result as $title) {
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+Chapter 1
+Chapter 2
+]]>
+    </screen>
     <para>
      上の例の XML ドキュメントでは、プレフィックス <literal>chap</literal>
      で名前空間を指定していることを確認しておきましょう。仮に、このドキュメント

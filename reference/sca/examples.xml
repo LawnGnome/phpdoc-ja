@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="sca.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
@@ -212,7 +212,7 @@ class ConvertedStockQuote {
     
     <programlisting role="php">
 <![CDATA[
- <?php 
+<?php 
    /**
      * 使用する為替レートサービス
      *
@@ -756,8 +756,10 @@ location="http://localhost/ConvertedStockQuote/ConvertedStockQuote.php"/>
    <para>
     <programlisting role="php">
 <![CDATA[
+<?php
   $quote = $remote_service->getQuote('IBM','USD');
- ]]>
+?>
+]]>
     </programlisting>
    </para>
    
@@ -766,13 +768,13 @@ location="http://localhost/ConvertedStockQuote/ConvertedStockQuote.php"/>
    </para>
    
    <para>
-    <programlisting role="php">
+    <programlisting role="xml">
 <![CDATA[
 <getQuote>
   <ticker>IBM</ticker>
   <currency>USD</currency>
 </getQuote>
- ]]>
+]]>
     </programlisting>
    </para>
    
