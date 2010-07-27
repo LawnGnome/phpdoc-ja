@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301561 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="pdo.commit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -61,6 +61,7 @@ $dbh->commit();
    <simplelist>
     <member><function>PDO::beginTransaction</function></member>
     <member><function>PDO::rollBack</function></member>
+    <member><link linkend="pdo.transactions">トランザクションおよび自動コミット</link></member>
    </simplelist>
   </para>
  </refsect1>
