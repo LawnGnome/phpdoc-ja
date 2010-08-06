@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 301718 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.odbc-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -46,7 +46,7 @@
      <listitem>
       <para>
        接続に使用するデータベースソース名。
-       あるいは、DNSではない接続文字列を使用することもできます。
+       あるいは、DSNではない接続文字列を使用することもできます。
       </para>
      </listitem>
     </varlistentry>
@@ -113,7 +113,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>DNS なしの接続</title>
+    <title>DSN なしの接続</title>
     <programlisting role="php">
 <![CDATA[
 <?php

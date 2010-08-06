@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301718 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.odbc-data-source" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>odbc_data_source</refname>
@@ -14,7 +14,7 @@
    <methodparam><type>int</type><parameter>fetch_type</parameter></methodparam>
   </methodsynopsis>
   <para>
-   この関数は、有効な DNS（複数回のコールの後）のリストを返します。
+   この関数は、有効な DSN（複数回のコールの後）のリストを返します。
   </para>
  </refsect1>
  <refsect1 role="parameters">

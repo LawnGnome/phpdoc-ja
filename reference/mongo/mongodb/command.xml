@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296627 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301861 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.command" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -164,6 +164,11 @@ User 4af467e4fd543cce7b0ea8e2 had 1 sale(s).
   &reftitle.seealso;
   <para>
    MongoDB コアドキュメントの <link xlink:href="&url.mongodb.dochub.commands;">database commands</link>
+   そして各コマンドのドキュメント
+   <link xlink:href="&url.mongodb.dochub.findandmodify;">findAndModify</link>、
+   <link xlink:href="&url.mongodb.dochub.getlasterror;">getLastError</link> および
+   <link xlink:href="&url.mongodb.dochub.repair;">repair</link>
+   (他にもたくさんあります。これは単なる例です)
    を参照ください。
   </para>
  </refsect1>

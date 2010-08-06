@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301580 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301861 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongo.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -297,6 +297,11 @@ $m2 = new Mongo("mongodb://ny1.example.com", array("replicaSet" => true));
    </para>
    <para>
     二つの別のレプリカセットからのシードを指定した場合の挙動は未定義です。
+   </para>
+   <para>
+    レプリカセットに関する詳細な情報は
+    <link xlink:href="&url.mongodb.dochub.rs;">コアドキュメント</link>
+    を参照ください。
    </para>
   </example>
   <example>
