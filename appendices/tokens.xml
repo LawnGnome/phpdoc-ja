@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299642 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 301848 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -658,7 +658,7 @@
     </row>
     <row>
      <entry><constant>T_STRING</constant></entry>
-     <entry>"$a[a]"</entry>
+     <entry>"$a['a']"</entry>
      <entry><link linkend="language.types.string.parsing">
      文字列内の配列の文字添字</link></entry>
     </row>
