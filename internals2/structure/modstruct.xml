@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 301952 Maintainer: takagi Status: ready -->
  <sect1 xml:id="internals2.structure.modstruct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>zend_module 構造体</title>
   <para>
@@ -271,6 +271,8 @@ struct _zend_module_entry {
       <entry>PHP_RINIT(mymodule)</entry>
       <entry>
        コールバック関数です。Zend は、各リクエストの開始時にこれをコールします。
+       これは、可能な限り短くするか <literal>NULL</literal> にしておかなければなりません。
+       リクエストのたびにこれをコールするコストがかかるからです。
       </entry>
      </row>
 
@@ -281,6 +283,8 @@ struct _zend_module_entry {
       <entry>PHP_RSHUTDOWN(mymodule)</entry>
       <entry>
        コールバック関数です。Zend は、各リクエストの終了時にこれをコールします。
+       これは、可能な限り短くするか <literal>NULL</literal> にしておかなければなりません。
+       リクエストのたびにこれをコールするコストがかかるからです。
       </entry>
      </row>
 
