@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301915 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 302035 Maintainer: takagi Status: ready -->
 
 <section xml:id="mongo.connecting" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>接続</title>
@@ -170,8 +170,7 @@ for ($i=0; $i<1000; $i++) {
    MongoDB をローカルで動かしていてバージョン 1.0.9
    以降のドライバを使っている場合は、ファイル経由でデータベースに接続することができます。
    MongoDB は、起動時に自動的にソケットファイル
-   /tmp/mongodb-&lt;port&gt;.sock
-   (Windows の場合は C:\tmp\mongodb-&lt;27017&gt;.sock) をオープンします。
+   /tmp/mongodb-&lt;port&gt;.sock をオープンします。
   </para>
 
   <para>
