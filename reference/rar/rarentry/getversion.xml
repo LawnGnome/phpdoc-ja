@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.rar-getversion" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 300966 Maintainer: takagi Status: ready -->
+
+<refentry xml:id="rarentry.getversion" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Rar::getVersion</refname>
-  <refpurpose>エントリを追加するのに用いたアーカイバのバージョンを取得する</refpurpose>
+  <refname>RarEntry::getVersion</refname>
+  <refpurpose>このエントリを展開するのに必要な RAR プログラムの最低バージョンを取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>Rar</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>getVersion</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <modifier>public</modifier> <type>int</type><methodname>RarEntry::getVersion</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
-   アーカイブエントリを追加するのに用いたアーカイバのバージョンを取得します。
+   このエントリを展開するのに必要な RAR プログラム (WinRAR など) の最低バージョンを取得します。
+   10 * メジャーバージョン + マイナーバージョン 形式になります。
   </para>
+ </refsect1>
+ 
+ <refsect1 role="parameters">
+  &reftitle.parameters;
+  &no.function.parameters;
  </refsect1>
 
  <refsect1 role="returnvalues">
@@ -32,7 +36,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>Rar::getVersion</function> の例</title>
+    <title><methodname>RarEntry::getVersion</methodname> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -41,7 +45,7 @@ $rar_file = rar_open('example.rar') or die("Rar アーカイブのオープン�
 
 $entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("そのようなエントリは見つかりませんでした");
 
-echo "使用した Rar (WinRAR) のバージョン: " . $entry->getVersion();
+echo "展開に必要な Rar のバージョン: " . $entry->getVersion();
 
 ?>
 ]]>

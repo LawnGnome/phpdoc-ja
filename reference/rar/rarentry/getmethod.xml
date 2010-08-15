@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.rar-getpackedsize" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 300966 Maintainer: takagi Status: ready -->
+
+<refentry xml:id="rarentry.getmethod" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Rar::getPackedSize</refname>
-  <refpurpose>圧縮後のエントリのサイズを取得する</refpurpose>
+  <refname>RarEntry::getMethod</refname>
+  <refpurpose>エントリの圧縮方法を取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>Rar</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>getPackedSize</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <modifier>public</modifier> <type>int</type><methodname>RarEntry::getMethod</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
-   圧縮後のアーカイブエントリのサイズを取得します。
+   <methodname>RarEntry::getMethod</methodname> は、現在のアーカイブエントリを
+   追加する際に使用したメソッドの番号を返します。
   </para>
+ </refsect1>
+ 
+ <refsect1 role="parameters">
+  &reftitle.parameters;
+  &no.function.parameters;
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   圧縮後のサイズ、あるいはエラー時に &false; を返します。
+   メソッド番号、あるいはエラー時に &false; を返します。
   </para>
  </refsect1>
 
@@ -32,7 +36,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>Rar::getPackedSize</function> の例</title>
+    <title><methodname>RarEntry::getMethod</methodname> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -41,7 +45,7 @@ $rar_file = rar_open('example.rar') or die("Rar アーカイブのオープン�
 
 $entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("そのようなエントリは見つかりません");
 
-echo "圧縮後の " . $entry->getName() . " のサイズ = " . $entry->getPackedSize() . " バイト";
+echo "メソッド番号: " . $entry->getMethod();
 
 ?>
 ]]>

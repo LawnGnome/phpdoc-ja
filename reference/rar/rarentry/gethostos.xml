@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.rar-gethostos" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 300966 Maintainer: takagi Status: ready -->
+
+<refentry xml:id="rarentry.gethostos" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Rar::getHostOs</refname>
+  <refname>RarEntry::getHostOs</refname>
   <refpurpose>エントリのホスト OS を取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>Rar</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>getHostOs</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <modifier>public</modifier> <type>int</type><methodname>RarEntry::getHostOs</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
-   <function>Rar::getHostOs</function> は、アーカイブエントリの
-   ホスト OS のコードを返します。
+   アーカイブエントリのホスト OS のコードを返します。
   </para>
+ </refsect1>
+ 
+ <refsect1 role="parameters">
+  &reftitle.parameters;
+  &no.function.parameters;
  </refsect1>
 
  <refsect1 role="returnvalues">
@@ -33,7 +35,43 @@
   &reftitle.examples;
    <para>
    <example>
-    <title><function>Rar::getHostOs</function> の例</title>
+    <title><methodname>RarEntry::getHostOs</methodname> の例 (バージョン &gt;= 2.0.0)</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+
+$rar_file = rar_open('example.rar') or die("Rar アーカイブのオープンに失敗しました");
+
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("そのようなエントリは見つかりません");
+
+switch ($entry->getHostOs()) {
+    case RarEntry::HOST_MSDOS:
+        echo "MS-DOS\n";
+        break;
+    case RarEntry::HOST_OS2:
+        echo "OS2\n";
+        break;
+    case RarEntry::HOST_WIN32:
+        echo "Win32\n";
+        break;
+    case RarEntry::HOST_MACOS:
+        echo "MacOS\n";
+        break;
+    case RarEntry::HOST_UNIX:
+        echo "Unix/Linux\n";
+        break;
+    case RarEntry::HOST_BEOS:
+        echo "BeOS\n";
+        break;
+}
+
+?>
+]]>
+    </programlisting>
+   </example>
+   
+   <example>
+    <title><methodname>RarEntry::getHostOs</methodname> の例 (バージョン &lt;= 1.0.0)</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -67,6 +105,15 @@ switch ($entry->getHostOs()) {
 ]]>
     </programlisting>
    </example>
+  </para>
+ </refsect1>
+ 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><methodname>RarEntry::extract</methodname></member>
+   </simplelist>
   </para>
  </refsect1>
 
