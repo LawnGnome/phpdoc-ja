@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299628 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 302383 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_decode</refname>
@@ -31,6 +31,9 @@
      <listitem>
       <para>
        デコード対象となる <parameter>json</parameter> 文字列。
+      </para>
+      <para>
+       この関数は UTF-8 でエンコードされたデータでのみ動作します。
       </para>
      </listitem>
     </varlistentry>
