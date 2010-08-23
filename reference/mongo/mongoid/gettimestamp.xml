@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292155 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 302618 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoid.gettimestamp" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <void/>
   </methodsynopsis>
   <para>
-   これは、id が作られたときに <function>time()</function>
+   これは、id が作られたときに <function>time</function>
    を実行した結果と同じものを返します。
   </para>
  </refsect1>
