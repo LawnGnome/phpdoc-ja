@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.locale-get-default" xmlns="http://docbook.org/ns/docbook">
+<!-- $Revision: 297028 $ -->
+<!-- EN-Revision: 302791 Maintainer: satoruyoshida Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath_cache_size">
  <refnamediv>
-  <refname>locale_get_default</refname>
-  <refpurpose>デフォルトのロケールを取得する</refpurpose>
+  <refname>realpath_cache_size</refname>
+  <refpurpose>realpath キャッシュサイズを取得</refpurpose>
  </refnamediv>
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>locale_get_default</methodname>
+   <type>int</type><methodname>realpath_cache_size</methodname>
    <void/>
   </methodsynopsis>
   <para>
-   この関数は、デフォルトのロケールを返します。これは、
-   PHP が何らかの機能をローカライズする際に使用します。
-   このロケールは、<function>setlocale</function>
-   やシステム設定の影響を受けないことに注意しましょう。
+   realpath キャッシュで使用されるメモリー量を取得します。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   現在のロケールを表す文字列を返します。
+   realpath キャッシュが使用中のメモリ量を返します。
   </para>
  </refsect1>
 
@@ -31,28 +29,18 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>locale_get_default</function> の例</title>
+    <title><function>realpath_cache_size</function> 例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
-
-// デフォルトのロケールを取得します
-echo locale_get_default();
-
-// 新しいロケールを設定し……
-locale_set_default('pt_PT');
-
-// ……それを表示します。
-echo locale_get_default();
-
+var_dump(realpath_cache_size());
 ?>
 ]]>
     </programlisting>
-    &example.outputs;
+    &example.outputs.similar;
     <screen>
 <![CDATA[
-en_US_POSIX
-pt_PT
+int(412)
 ]]>
     </screen>
    </example>
@@ -63,10 +51,11 @@ pt_PT
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>locale_set_default</function></member>
+    <member><function>realpath_cache_get</function></member>
    </simplelist>
   </para>
  </refsect1>
+
 </refentry>
 
 <!-- Keep this comment at the end of the file
