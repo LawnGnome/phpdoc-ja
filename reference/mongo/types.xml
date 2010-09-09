@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303011 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 303139 Maintainer: takagi Status: ready -->
 
 <part xml:id="mongo.types" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -324,6 +324,8 @@ Fatal error: Nesting level too deep - recursive dependency?
  &reference.mongo.mongodate;
  &reference.mongo.mongoregex;
  &reference.mongo.mongobindata;
+ &reference.mongo.mongoint32;
+ &reference.mongo.mongoint64;
  &reference.mongo.mongodbref;
  &reference.mongo.mongominkey;
  &reference.mongo.mongomaxkey;
