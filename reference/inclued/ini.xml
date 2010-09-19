@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300658 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 303409 Maintainer: takagi Status: ready -->
 
 <section xml:id="inclued.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
@@ -65,6 +65,9 @@
      <para>
       inclued ファイルを保存するディレクトリの場所 (パス)。
       これを設定すると、PHP リクエスト単位でファイルを作成します。
+      このファイルは、<function>inclued_get_data</function>
+      が生成する内容をシリアライズしたものなので、
+      <function>unserialize</function> を使えば復元することができます。
      </para>
      <caution>
       <para>

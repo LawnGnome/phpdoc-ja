@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298804 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 303390 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -25,8 +25,8 @@
    値は追記されるため、このようなことは起きません。
   </para>
   <para>
-   すべての配列の添字が数値のみだった場合は、
-   結果の配列のキーはゼロから始まる連続した数値となります。
+   入力配列の中にある数値添字要素の添字の数値は、
+   結果の配列ではゼロから始まる連続した数値に置き換えられます。
   </para>
  </refsect1>
  <refsect1 role="parameters">
