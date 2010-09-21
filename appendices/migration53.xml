@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300022 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 303646 Maintainer: mumumu Status: ready -->
 <appendix xml:id="migration53" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP 5.2.x から PHP 5.3.x への移行</title>
  <simpara>
@@ -679,12 +679,6 @@
    <listitem>
     <simpara>
      呼び出し時の参照渡し
-    </simpara>
-   </listitem>
-   <listitem>
-    <simpara>
-     <literal>{}</literal> を使用した文字列オフセットへのアクセス。
-     かわりに <literal>[]</literal> を使用します。
     </simpara>
    </listitem>
   </itemizedlist>

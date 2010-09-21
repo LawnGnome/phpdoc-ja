@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 303615 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.token-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>token_name</refname>
@@ -36,7 +36,6 @@
   &reftitle.returnvalues;
   <para>
    <parameter>token</parameter> に対応するシンボル名を返します。
-   返される名前は、検索用に指定したトークン定数の名前に一致します。
   </para>
  </refsect1>
  <refsect1 role="examples">
