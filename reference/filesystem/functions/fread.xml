@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 303774 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
  <refnamediv>
   <refname>fread</refname>
@@ -32,7 +32,9 @@
     </listitem>
     <listitem>
      <simpara>
-      パケットが利用可能になった (ネットワークストリームの場合)
+      パケットが利用可能になるか、あるいは
+      <link linkend="function.socket-set-timeout">ソケットのタイムアウト</link>
+      が発生した (ネットワークストリームの場合)
      </simpara>
     </listitem>
     <listitem>
