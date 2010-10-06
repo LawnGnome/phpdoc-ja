@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304111 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="mysqli-result.fetch-object" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -28,6 +28,10 @@
    <function>mysqli_fetch_object</function> は、結果セットの現在の行を
    オブジェクトで返します。このオブジェクトは、結果セットのフィールド名を
    属性として持ちます。
+  </para>
+  <para>
+    <function>mysqli_fetch_object</function> がオブジェクトのプロパティを設定するのは、
+    オブジェクトのコンストラクタをコールする前であることに注意しましょう。
   </para>
  </refsect1>
 
