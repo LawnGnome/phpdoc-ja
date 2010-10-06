@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303325 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304136 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <section xml:id="pdo.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
@@ -46,9 +46,11 @@ extension=php_pdo.dll
 ]]>
     </screen>
    </para>
-   <para>
-    PHP 5.3 ではこのステップは不要です。PDO の DLL は必須ではなくなったからです。
-   </para>
+   <note>
+    <para>
+     PHP 5.3 以降ではこのステップは不要です。PDO の DLL は必須ではなくなったからです。
+    </para>
+   </note>
   </step>
   <step>
    <para>
