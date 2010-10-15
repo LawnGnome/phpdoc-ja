@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304297 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 304388 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlentities">
  <refnamediv>
@@ -78,6 +78,8 @@
             無効なコードシーケンスが含まれる文字列を渡した場合に、
             空の文字列を返すのではなく無効な部分を切り捨てます。
             PHP 5.3.0 で追加されました。
+            これは、過去との互換性を確保するために用意されているものです。
+            セキュリティの問題があるので、使わないようにしましょう。
            </entry>
           </row>
          </tbody>

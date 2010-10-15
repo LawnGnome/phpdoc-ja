@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304297 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 304388 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlspecialchars" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -96,6 +96,7 @@
        <constant>ENT_IGNORE</constant> と組み合わせると、
        無効なコードシーケンスが含まれる文字列を渡した場合に
        空の文字列を返すのではなく無効な部分を切り捨てるようになります。
+       脆弱性の元となることがあるので、これは使わないようにしましょう。
       </para>
      </listitem>
     </varlistentry>
