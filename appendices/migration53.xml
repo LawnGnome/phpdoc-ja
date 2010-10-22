@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303646 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 304624 Maintainer: mumumu Status: ready -->
 <appendix xml:id="migration53" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP 5.2.x から PHP 5.3.x への移行</title>
  <simpara>
@@ -147,6 +147,15 @@
      <function>func_num_args</function> は、関数内で
      <function>include</function> や <function>require</function>
      を使って読み込んだファイルのいちばん外側のスコープからは呼び出せないようになりました。
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     MHASH 拡張モジュール用の抽象化レイヤーができ、Hash
+     拡張モジュールをラップできるようになりました。
+     しかし、すべてのアルゴリズムをサポートしているわけではありません。
+     主なところでは s2k ハッシュアルゴリズムには非対応です。
+     つまり、s2k ハッシュは PHP 5.3.0 以降では使えないということです。
     </simpara>
    </listitem>
   </itemizedlist>

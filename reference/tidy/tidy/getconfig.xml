@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290702 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304614 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="tidy.getconfig" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -169,8 +169,8 @@ Array
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>tidy::resetConfig</function></member>
-   <member><function>tidy::saveConfig</function></member>
+   <member><function>tidy_reset_config</function></member>
+   <member><function>tidy_save_config</function></member>
   </simplelist>
  </refsect1>
 
