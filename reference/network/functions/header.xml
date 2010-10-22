@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303648 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304526 Maintainer: takagi Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.header">
  <refnamediv>
   <refname>header</refname>
@@ -140,7 +140,8 @@ header('WWW-Authenticate: NTLM', false);
      <term><parameter>http_response_code</parameter></term>
      <listitem>
       <para>
-       HTTP レスポンスコードを強制的に指定の値にします。
+       HTTP レスポンスコードを強制的に指定の値にします。このパラメータが意味をなすのは
+       <parameter>string</parameter> が空文字列でないときだけであることに注意しましょう。
       </para>
      </listitem>
     </varlistentry>

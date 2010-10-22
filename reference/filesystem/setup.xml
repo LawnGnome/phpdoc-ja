@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304502 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <chapter xml:id="filesystem.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,7 +27,11 @@
  <!-- {{{ Resources -->
  <section xml:id="filesystem.resources">
   &reftitle.resources;
-  &no.resource;
+  <para>
+   ファイルシステム関数では、ストリームリソースを用います。
+   ストリームに関するドキュメントは、ひとつの章として独立しています。
+   <link linkend="book.stream">ストリーム</link> を参照ください。
+  </para>
  </section>
  <!-- }}} -->
 
