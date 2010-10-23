@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297230 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304638 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ziparchive-addfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addFile</refname>
@@ -71,6 +71,16 @@ if ($zip->open('test.zip') === TRUE) {
      </programlisting>
     </example>
    </refsect1>
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    アーカイブにファイルを追加するよう設定すると、PHP
+    はそのファイルのロックを試み、ZIP の操作が完了するまで解放しません。
+    つまり、アーカイブを閉じてからでないと、追加したファイルの削除はできないということです。
+   </para>
+  </note>
+ </refsect1>
 </refentry>
 
 <!-- Keep this comment at the end of the file
