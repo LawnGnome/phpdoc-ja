@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 304878 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.disk-total-space">
  <refnamediv>
   <refname>disk_total_space</refname>
@@ -51,12 +51,12 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// $df は、「/」で利用可能な全体バイト数
-$df = disk_total_space("/");
+// $ds は、「/」で利用可能な全体バイト数
+$ds = disk_total_space("/");
 
 // Windows の場合:
-disk_total_space("C:");
-disk_total_space("D:");
+$ds = disk_total_space("C:");
+$ds = disk_total_space("D:");
 ?>
 ]]>
     </programlisting>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision: 287044 $ -->
-<!-- EN-Revision: 299188 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 304949 Maintainer: mumumu Status: ready -->
 <refentry xml:id="function.ziparchive-getstatusstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>ZipArchive::GetStatusString</refname>
+  <refname>ZipArchive::getStatusString</refname>
   <refpurpose>システムエラー、または ZIP メッセージに関するエラー情報を返す</refpurpose>
  </refnamediv>
  <refsect1 role="description">
