@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304987 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.iconv-strlen" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>iconv_strlen</refname>
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>int</type><methodname>iconv_strlen</methodname>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>charset</parameter><initializer>ini_set("iconv.internal_encoding")</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>charset</parameter><initializer>ini_get("iconv.internal_encoding")</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>strlen</function> とは違い、<function>iconv_strlen</function>

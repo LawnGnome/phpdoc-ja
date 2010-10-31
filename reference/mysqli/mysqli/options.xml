@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299158 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304709 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.options" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::options</refname>
@@ -114,6 +114,11 @@
   <para>
    <function>mysqli_real_connect</function> を参照ください。
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &mysqli.charset.note;
  </refsect1>
 
  <refsect1 role="seealso">

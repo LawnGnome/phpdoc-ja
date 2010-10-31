@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300509 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 304709 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="mysqli.connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -227,6 +227,7 @@ Success... MySQL host info: localhost via TCP/IP
 
  <refsect1 role="notes">
   &reftitle.notes;
+  &mysqli.charset.note;
   <note>
    <para>
     オブジェクト指向の構文に関する注意:
