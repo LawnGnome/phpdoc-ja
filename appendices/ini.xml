@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302027 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 304887 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi,shimooka -->
 
  <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -5262,6 +5262,12 @@ include_path=".;c:\php\includes"
         あります。指定されない場合、PHPはシステムのデフォルト設定を
         使用します。
         </para>
+       <para>
+        ここで指定したディレクトリに書き込むことができない場合、
+        PHP はかわりにシステムのデフォルトテンポラリディレクトリを使用します。
+        <link linkend="ini.open-basedir">open_basedir</link> が on
+        の場合は、システムのデフォルトテンポラリディレクトリへのアップロードを許可しておかなければなりません。
+       </para>
        </listitem>
       </varlistentry>
 
