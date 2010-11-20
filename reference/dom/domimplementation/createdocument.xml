@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298918 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305261 Maintainer: takagi Status: ready -->
 <refentry xml:id='domimplementation.createdocument' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMImplementation::createDocument</refname>
@@ -86,6 +86,7 @@
     </varlistentry>
    </variablelist>
   </para>
+  &dom.allowstatic;
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

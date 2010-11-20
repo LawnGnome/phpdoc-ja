@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305261 Maintainer: takagi Status: ready -->
 <refentry xml:id='domimplementation.hasfeature' xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DOMImplementation::hasFeature</refname>
@@ -54,6 +54,10 @@
   <para>
    &return.success;
   </para>
+ </refsect1>
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &dom.allowstatic;
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
