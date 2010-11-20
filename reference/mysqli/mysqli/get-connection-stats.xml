@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299158 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305374 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.get-connection-stats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::get_connection_stats</refname>
@@ -20,7 +20,6 @@
    <type>array</type><methodname>mysqli_get_connection_stats</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    クライアント接続に関する統計情報を返します。
    &mysqli.available.mysqlnd;
