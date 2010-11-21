@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301048 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305120 Maintainer: takagi Status: ready -->
 <refentry xml:id='simplexmlelement.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::__construct</refname>
@@ -103,6 +103,13 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
+   <note>
+    <para>
+     この例では <literal>example.php</literal> をインクルードしていますが、これは
+     <link linkend="simplexml.examples-basic">基本的な使用法</link>
+     の最初のサンプルにある XML 文字列を参照しています。
+    </para>
+   </note>
    <example>
     <title>SimpleXMLElement オブジェクトの作成</title>
     <programlisting role="php">

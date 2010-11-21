@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305569 Maintainer: takagi Status: ready -->
 <refentry xml:id="splstack.setiteratormode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplStack::setIteratorMode</refname>
