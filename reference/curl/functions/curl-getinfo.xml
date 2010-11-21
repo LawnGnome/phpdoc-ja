@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305305 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -134,7 +134,7 @@
         </listitem>
         <listitem>
          <simpara>
-          <constant>CURLINFO_CONTENT_TYPE</constant> - ダウンロードされたオブジェクトの
+          <constant>CURLINFO_CONTENT_TYPE</constant> - 要求されたドキュメントの
           <literal>Content-Type:</literal>。
           NULL は、サーバが適切な <literal>Content-Type:</literal> ヘッダを返さなかったことを示す
          </simpara>
