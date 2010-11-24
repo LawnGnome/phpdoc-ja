@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305269 Maintainer: hirokawa Status: ready -->
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -164,6 +164,18 @@
    <listitem>
     <simpara>
      冗長な名前空間宣言を削除する
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry>
+   <term>
+    <constant>LIBXML_PARSEHUGE</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     パーサでハードコーディングされたすべての制限を緩和するための
+     XML_PARSE_HUGE フラグを設定する
     </simpara>
    </listitem>
   </varlistentry>

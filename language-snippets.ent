@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305261 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305705 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki,shimooka,takagi -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>
@@ -272,6 +272,8 @@ PHP 4.3.7 以降では、<literal>https://</literal> ラッパーでストリー
 <!ENTITY info.deprecated.alias '下位互換のために、次の非推奨別名を使用してもいいでしょう。'>
 
 <!ENTITY info.function.alias 'この関数は次の関数のエイリアスです。'>
+
+<!ENTITY info.method.alias 'このメソッドは次のメソッドのエイリアスです。'>
 
 <!ENTITY info.function.alias.deprecated
 '<simpara xmlns="http://docbook.org/ns/docbook">この関数エイリアスは非推奨であり、下位互換性維持のために残されています。

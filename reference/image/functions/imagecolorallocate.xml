@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305144 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.imagecolorallocate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -69,6 +69,7 @@
   <para>
    色の ID、あるいは作成に失敗したい場合に &false; を返します。
   </para>
+  &return.falseproblem;
  </refsect1>
  <refsect1 role="changelog">
   &reftitle.changelog;
