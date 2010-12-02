@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 305901 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splfileinfo.getbasename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -52,13 +52,13 @@
 <![CDATA[
 <?php
 $info = new SplFileInfo('file.txt');
-var_dump($info->getbaseName());
+var_dump($info->getBasename());
 
 $info = new SplFileInfo('/path/to/file.txt');
-var_dump($info->getbaseName());
+var_dump($info->getBasename());
 
 $info = new SplFileInfo('/path/to/file.txt');
-var_dump($info->getbaseName('.txt'));
+var_dump($info->getBasename('.txt'));
 ?>
 ]]>
     </programlisting>
