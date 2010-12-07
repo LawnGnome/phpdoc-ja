@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302053 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305993 Maintainer: hirokawa Status: ready -->
 <section xml:id="mcrypt.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -46,7 +46,7 @@
     <listitem>
      <para>
       アルゴリズムが格納されているディレクトリ。
-      デフォルトは libcrypt をコンパイルするときに指定した場所で、通常は
+      デフォルトは libmcrypt をコンパイルするときに指定した場所で、通常は
       <emphasis>/usr/local/lib/libmcrypt</emphasis> です。
       詳細は <function>mcrypt_list_algorithms</function> を参照ください。
      </para>
@@ -60,7 +60,7 @@
     <listitem>
      <para>
       モードが格納されているディレクトリ。
-      デフォルトは libcrypt をコンパイルするときに指定した場所で、通常は
+      デフォルトは libmcrypt をコンパイルするときに指定した場所で、通常は
       <emphasis>/usr/local/lib/libmcrypt</emphasis> です。
       詳細は <function>mcrypt_list_modes</function> を参照ください。
      </para>

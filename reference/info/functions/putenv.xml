@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 305999 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.putenv" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -82,7 +82,8 @@ putenv("UNIQID=$uniqid");
   &reftitle.notes;
   <warning>
    <para>
-    これらのディレクティブは、
+    <literal>safe_mode_allowed_env_vars</literal> ディレクティブおよび
+    <literal>safe_mode_protected_env_vars</literal> ディレクティブは、
     <link linkend="features.safe-mode">セーフモード</link>
     が有効な場合にのみ効果があります!
    </para>

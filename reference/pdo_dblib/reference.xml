@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303665 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 306029 Maintainer: takagi Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
@@ -26,8 +26,6 @@
      Windows では、Microsoft が <link
      xlink:href="&url.sqlsrv;">&url.sqlsrv;</link> で公開しているもうひとつの
      MS SQL 用ドライバである SqlSrv を使わなければなりません。
-     ドキュメントは <link xlink:href="&url.sqlsrv.doc;">&url.sqlsrv.doc;</link>
-     にあります。
     </para>
     <para>
      SqlSrv を使うことができない場合は、
