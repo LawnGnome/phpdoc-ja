@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304365 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 306338 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-file">
  <refnamediv>
@@ -69,9 +69,7 @@ bool(false)
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   失敗した場合は <constant>E_WARNING</constant> が発生します。
-  </para>
+  &fs.emits.warning.on.failure;
  </refsect1>
 
  <refsect1 role="notes">

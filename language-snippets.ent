@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305705 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 306338 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki,shimooka,takagi -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>
@@ -550,6 +550,10 @@ object</parameter></term><listitem><para>手続き型のみ: <function>timezone_
 <emphasis>できはしますが</emphasis>、<constant>E_STRICT</constant> エラーが発生します。</para>'>
 
 <!-- FileSystem entities -->
+<!ENTITY fs.emits.warning.on.failure '<para xmlns="http://docbook.org/ns/docbook">
+失敗したときは <constant>E_WARNING</constant> が発生します。
+</para>'>
+
 <!ENTITY fs.validfp.all '<para xmlns="http://docbook.org/ns/docbook">ファイルポインタは、有効なファイルポインタである必要があり、
 <function>fopen</function> または <function>fsockopen</function> で正常にオープンされた
 （そしてまだ <function>fclose</function> でクローズされていない）
