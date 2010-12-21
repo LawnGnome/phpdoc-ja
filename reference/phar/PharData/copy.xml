@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 306484 Maintainer: takagi Status: ready -->
 <refentry xml:id="phardata.copy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>PharData::copy</refname>
@@ -83,7 +83,7 @@ try {
     $phar = new PharData('myphar.tar');
     $phar['a'] = 'hi';
     $phar->copy('a', 'b');
-    echo $phar['b']; // 出力は "hi"
+    echo $phar['b']; // 出力は "phar://myphar.tar/b"
 } catch (Exception $e) {
     // エラー処理
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 306334 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi,shimooka -->
 
  <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -5294,6 +5294,8 @@ include_path=".;c:\php\includes"
       <listitem>
        <para>
         同時にアップロードできるファイルの最大数。
+        PHP 5.3.4 以降、何もファイルを指定せずに送信されたアップロードフィールドは
+        ファイル数に数えられなくなりました。
        </para>
       </listitem>
      </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300373 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 306437 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpexchange.declare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -81,6 +81,7 @@
 
 /* 新しい接続を作成します */
 $cnn = new AMQPConnection();
+$cnn->connect();
 
 $ex = new AMQPExchange($cnn);
 $ex->declare('new_topic_exchange', AMQP_DURABLE | AMQP_AUTODELETE);

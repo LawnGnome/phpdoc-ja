@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 306351 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.xml-set-object" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>xml_set_object</refname>
@@ -31,6 +31,7 @@
      <term><parameter>parser</parameter></term>
      <listitem>
       <para>
+       オブジェクト内部で使う XML パーサへの参照。
       </para>
      </listitem>
     </varlistentry>
@@ -38,6 +39,7 @@
      <term><parameter>object</parameter></term>
      <listitem>
       <para>
+       XML パーサを使うオブジェクト。
       </para>
      </listitem>
     </varlistentry>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304519 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 306284 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hnw -->
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>日付と時刻の書式</title>
+ <title>サポートする日付と時刻の書式</title>
 
  <para>
-  この章では
+  この節では
   <function>strtotime</function>, <classname>DateTime</classname>
   および <function>date_create</function> が解釈可能な全ての書式について説明します。
   これらの書式はセクションごとにグループ分けされています。
