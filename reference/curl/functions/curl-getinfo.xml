@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305305 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 306587 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -106,7 +106,7 @@
          <simpara>
           <constant>CURLINFO_HEADER_OUT</constant> - 送信したリクエスト文字列。
           これを動作させるには、<function>curl_setopt</function> をコールする際に
-          <constant>CURLINFO_HEADER_OUT</constant> を使うようにしておく必要があります。
+          <constant>CURLINFO_HEADER_OUT</constant> オプションを使うようにしておく必要があります。
          </simpara>
         </listitem>
         <listitem>
