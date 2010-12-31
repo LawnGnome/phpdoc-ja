@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299643 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: takagi -->
+<!-- EN-Revision: 306787 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa -->
  <chapter xml:id="faq.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>インストール</title>
   <titleabbrev>インストール</titleabbrev>
@@ -180,7 +180,6 @@
       <programlisting role="apache-conf">
 <![CDATA[
 # Extra Modules
-AddModule mod_php.c
 AddModule mod_php.c
 AddModule mod_perl.c
 
