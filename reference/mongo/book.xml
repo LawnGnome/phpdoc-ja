@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296581 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307180 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Mongo</title>
+ <title>MongoDB ネイティブドライバ</title>
  <titleabbrev>Mongo</titleabbrev>
-
- <preface xml:id="intro.mongo">
-  &reftitle.intro;
-  <para>
-   この拡張モジュールを使うと、MongoDB に PHP で接続することができます。
-  </para>
- </preface>
 
  &reference.mongo.manual;
  &reference.mongo.core;

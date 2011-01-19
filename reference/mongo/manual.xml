@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305460 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307180 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>マニュアル</title>
  
  &reference.mongo.configure;
- &reference.mongo.ini;
  &reference.mongo.tutorial;
  &reference.mongo.connecting;
  &reference.mongo.writes;
  &reference.mongo.queries;
  &reference.mongo.updates;
+ &reference.mongo.ini;
  &reference.mongo.security;
  &reference.mongo.testing;
  &reference.mongo.trouble;

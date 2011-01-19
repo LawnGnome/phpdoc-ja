@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299538 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307334 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.integer">
  <title>整数</title>
  
  <simpara>
-  <type>integer</type> は、Z = {..., -2, -1, 0, 1, 2, ...}という集合です。
+  <type>integer</type> は、ℤ = {..., -2, -1, 0, 1, 2, ...}という集合です。
  </simpara>
   
  <para>

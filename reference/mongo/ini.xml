@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304899 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307096 Maintainer: takagi Status: ready -->
 <section xml:id="mongo.configuration" xmlns="http://docbook.org/ns/docbook">
  <title>php.ini オプション</title>
  &extension.runtime;
@@ -84,7 +84,7 @@
     <listitem>
      <para>
       <emphasis>
-       この項目のデフォルトは 1.1.0 からは &true; に変わりました。
+       この項目のデフォルトは 2.0.0 からは &true; に変わりました。
        設定したい値 (おそらく &true; でしょう) をきちんと設定しておくようにしましょう。
        そうすれば、ドライバをアップグレードしたときにいきなり挙動が変わることがなくなります。
       </emphasis>
