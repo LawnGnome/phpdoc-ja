@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304494 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 307324 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -706,7 +706,7 @@
      <entry><constant>T_USE</constant></entry>
      <entry>use</entry>
      <entry><link linkend="language.namespaces">名前空間</link>
-     (PHP 5.3.0 以降で使用可能)</entry>
+     (PHP 5.3.0 以降で使用可能、PHP 4.0.0 以降で予約済み)</entry>
     </row>
     <row>
      <entry><constant>T_VAR</constant></entry>

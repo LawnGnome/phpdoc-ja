@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305839 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 307402 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
 <chapter xml:id="features.commandline" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP をコマンドラインから使用する</title>
@@ -1489,7 +1489,7 @@ php > $foo[TAB]ThisIsAReallyLongVariableName
   </para>
 
   <para>
-   また、[whatever becoems the next version] 以降では、対話シェルの中で
+   また、[whatever becomes the next version] 以降では、対話シェルの中で
    &php.ini; 項目を設定する際に短縮記法が使えるようにもなりました。
   </para>
 
