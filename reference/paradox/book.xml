@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307734 Maintainer: takagi Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: pecl, external -->
 <!-- State: experimental -->
@@ -24,7 +24,7 @@
   <note>
    <para>
     このモジュールは開発途中であり、今後変更される可能性があります。
-    とはいえ、API に大きな変更を加えるつもりはありません。
+    とはいえ、API に大きな変更はないでしょう。
    </para>
   </note>
   &warn.experimental;

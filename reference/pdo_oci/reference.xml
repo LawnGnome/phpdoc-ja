@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: shimooka Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
@@ -20,6 +20,9 @@
      Objects (PDO) インターフェース</link> を実装したドライバです。
     </para>
    </section>
+   
+   &reference.pdo-oci.configure;
+
   </partintro>
 
   <refentry xml:id="ref.pdo-oci.connection">

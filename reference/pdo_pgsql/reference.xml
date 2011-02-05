@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297816 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: shimooka Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 
@@ -26,6 +26,8 @@
      <function>PDO::pgsqlLOBOpen</function> が返すものです。
     </para>
    </section>
+
+   &reference.pdo-pgsql.configure;
 
   </partintro>
 

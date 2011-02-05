@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304574 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: takagi Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- CREDITS: shimooka -->
@@ -35,6 +35,7 @@
      </para>
     </warning>
    </section>
+   &reference.pdo-mysql.configure;
    &reference.pdo-mysql.constants;
    &reference.pdo-mysql.ini;
   </partintro>

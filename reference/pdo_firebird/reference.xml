@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: takagi Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
@@ -19,6 +19,7 @@
      PHP Data Objects (PDO) インターフェース を実装したドライバです。
     </para>
    </section>
+   &reference.pdo-firebird.configure;
    &reference.pdo-firebird.constants;
   </partintro>
 
