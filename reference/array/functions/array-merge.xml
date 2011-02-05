@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303390 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 307837 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,7 +45,7 @@
      <term><parameter>...</parameter></term>
      <listitem>
       <para>
-       再帰的にマージしていく任意の数の配列のリスト。
+       マージしていく任意の数の配列のリスト。
       </para>
      </listitem>
     </varlistentry>

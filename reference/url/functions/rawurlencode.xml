@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305134 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 307773 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.rawurlencode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rawurlencode</refname>
@@ -68,6 +68,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.3.4</entry>
+       <entry>
+        <function>rawurlencode</function> を EBCDIC 文字列で使った場合に、
+        チルダ文字をエンコードしなくなりました。
+       </entry>
+      </row>
       <row>
        <entry>5.3.0</entry>
        <entry>
