@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308159 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.array">
  <title>配列</title>
@@ -752,7 +752,7 @@ Do you like yellow?
   </para>
 
   <example xml:id="language.types.array.examples.changeloop">
-   <title>コレクション</title>
+   <title>ループ内での要素の変更</title>
    <programlisting role="php">
 <![CDATA[
 <?php
