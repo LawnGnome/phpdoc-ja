@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306812 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308219 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.apc-cas" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>apc_cas</methodname>
+   <type>bool</type><methodname>apc_cas</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>int</type><parameter>old</parameter></methodparam>
    <methodparam><type>int</type><parameter>new</parameter></methodparam>

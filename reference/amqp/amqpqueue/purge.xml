@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300373 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308218 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpqueue.purge" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>AMQPQueue::purge</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>AMQPQueue::purge</methodname>
    <methodparam><type>string</type><parameter>queue_name</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -41,7 +41,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-
+   &return.success;
   </para>
  </refsect1>
 

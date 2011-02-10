@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307973 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308218 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpexchange.delete" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,9 +11,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>AMQPExchange::delete</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>AMQPExchange::delete</methodname>
    <methodparam choice="opt"><type>string</type><parameter>exchange_name</parameter><initializer>NULL</initializer></methodparam>
-   <methodparam choice="opt"><type>long</type><parameter>params</parameter><initializer>0</initializer></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>params</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
     exchange をブローカから削除します。

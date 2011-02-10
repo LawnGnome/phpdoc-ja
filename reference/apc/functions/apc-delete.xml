@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308219 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-delete" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_delete</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>apc_delete</methodname>
+   <type>mixed</type><methodname>apc_delete</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
   <para>
