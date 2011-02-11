@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308226 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagematte">
  <refnamediv>
   <refname>Imagick::getImageMatte</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>Imagick::getImageMatte</methodname>
+   <type>bool</type><methodname>Imagick::getImageMatte</methodname>
    <void/>
   </methodsynopsis>
 

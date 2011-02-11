@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301420 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308226 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageartifact">
  <refnamediv>
   <refname>Imagick::getImageArtifact</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>Imagick::getImageArtifact</methodname>
+   <type>string</type><methodname>Imagick::getImageArtifact</methodname>
    <methodparam><type>string</type><parameter>artifact</parameter></methodparam>
   </methodsynopsis>
   <para>

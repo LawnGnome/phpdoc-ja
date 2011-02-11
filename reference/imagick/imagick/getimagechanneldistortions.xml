@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308226 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagechanneldistortions">
  <refnamediv>
   <refname>Imagick::getImageChannelDistortions</refname>
@@ -10,10 +10,10 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>double</type><methodname>Imagick::getImageChannelDistortions</methodname>
+   <type>float</type><methodname>Imagick::getImageChannelDistortions</methodname>
    <methodparam><type>Imagick</type><parameter>reference</parameter></methodparam>
    <methodparam><type>int</type><parameter>metric</parameter></methodparam>
-   <methodparam><type>int</type><parameter>channel</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
   <para>

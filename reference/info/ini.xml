@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297557 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308191 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="info.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -230,8 +230,9 @@
     </term>
     <listitem>
      <para>
-      スクリプトが POST、GET そしてファイルアップロードなどの入力を
+      スクリプトが POST、GET などの入力を
       パースする最大の時間を、秒単位で指定します。
+      これは、サーバがすべてのデータを受け取ってからスクリプトの実行を開始するまでの時間です。
      </para>
     </listitem>
    </varlistentry>

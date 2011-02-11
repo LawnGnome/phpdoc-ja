@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308196 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ftp-fput" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -63,7 +63,7 @@
     <varlistentry>
      <term><parameter>startpos</parameter></term>
      <listitem>
-      <para></para>
+      <para>リモートファイル内での、アップロード開始位置。</para>
      </listitem>
     </varlistentry>
    </variablelist>

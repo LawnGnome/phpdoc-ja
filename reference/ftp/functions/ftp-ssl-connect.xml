@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308203 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ftp-ssl-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>
    <function>ftp_ssl_connect</function> は、指定した
-   <parameter>host</parameter> への SSL-FTP 接続をオープンします。
+   <parameter>host</parameter> への明示的な SSL-FTP 接続をオープンします。
   </para>
   <note>
    <title>この関数が存在しないことがあるのはなぜですか？</title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307896 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308210 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.filter-input-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>filter_input_array</refname>
@@ -147,6 +147,17 @@ array(6) {
     </screen>
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    <constant>INPUT_SERVER</constant> 配列には、
+    キー <literal>REQUEST_TIME</literal> が存在しません。
+    あとで <varname>$_SERVER</varname> に追加されるからです。
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">
