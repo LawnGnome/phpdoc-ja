@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300432 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308250 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauth.setcapath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,8 +12,8 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>mixed</type><methodname>OAuth::setCAPath</methodname>
-   <methodparam><type>string</type><parameter>ca_path</parameter></methodparam>
-   <methodparam><type>string</type><parameter>ca_info</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>ca_path</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>ca_info</parameter></methodparam>
   </methodsynopsis>
   <para>
    認証局 (<acronym>CA</acronym>) のパスと情報を設定します。
