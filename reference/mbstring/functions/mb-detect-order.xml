@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308187 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-detect-order" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -29,8 +29,8 @@
      <listitem>
       <para>
        <parameter>encoding_list</parameter> は、
-       配列またはカンマ区切りの文字エンコーディングのリストです（"auto" は、
-       "ASCII, JIS, UTF-8, EUC-JP, SJIS"に展開されます）。
+       配列またはカンマ区切りの文字エンコーディングのリストです。<link
+       linkend="mbstring.supported-encodings">サポートされる文字エンコーディング</link>を参照ください。
       </para>
       <para>
        <parameter>encoding_list</parameter> が省略された場合は、
