@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308237 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.swfmovie.save" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SWFMovie->save</refname>
@@ -13,7 +13,7 @@
    <methodsynopsis>
     <type>int</type><methodname>save</methodname>
     <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-    <methodparam choice="opt"><type>int</type><parameter>compression</parameter></methodparam>
+    <methodparam choice="opt"><type>int</type><parameter>compression</parameter><initializer>-1</initializer></methodparam>
    </methodsynopsis>
   </classsynopsis>
   &warn.experimental.func;

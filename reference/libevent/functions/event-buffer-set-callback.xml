@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300696 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308237 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.event-buffer-set-callback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>event_buffer_set_callback</refname>
-  <refpurpose>Set or reset callbacks for a buffered event</refpurpose>
+  <refpurpose>バッファつきイベントのコールバックを設定あるいはリセットする</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>resource</type><methodname>event_buffer_set_callback</methodname>
+   <type>bool</type><methodname>event_buffer_set_callback</methodname>
    <methodparam><type>resource</type><parameter>event</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>readcb</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>writecb</parameter></methodparam>
