@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308253 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflection.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <modifier>static</modifier> <type>void</type><methodname>Reflection::export</methodname>
    <methodparam><type>Reflector</type><parameter>reflector</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>return</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
   <para>
    リフレクションをエクスポートします。
