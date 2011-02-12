@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291045 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308234 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodbref.isref" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <modifier>static</modifier> <type>boolean</type><methodname>MongoDBRef::isRef</methodname>
+   <modifier>public</modifier> <modifier>static</modifier> <type>bool</type><methodname>MongoDBRef::isRef</methodname>
    <methodparam><type>mixed</type><parameter>ref</parameter></methodparam>
   </methodsynopsis>
   <para>

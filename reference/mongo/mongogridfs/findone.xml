@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299512 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308234 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongogridfs.findone" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,6 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>MongoGridFSFile</type><methodname>MongoGridFS::findOne</methodname>
    <methodparam choice="opt"><type>mixed</type><parameter>query</parameter><initializer>array()</initializer></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>fields</parameter><initializer>array()</initializer></methodparam>
   </methodsynopsis>
  </refsect1>
 

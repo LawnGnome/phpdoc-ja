@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301720 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308258 Maintainer: takagi Status: ready -->
 
 <section xml:id="mongo.security" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>セキュリティ</title>
@@ -24,7 +24,7 @@
 
   <para>
    ここで、誰かが
-   <emphasis>http://www.example.com?password[$ne]=foo</emphasis>
+   <emphasis>http://www.example.com?username[$ne]=foo</emphasis>
    のようなリクエストを送ったとします。PHP はこれを自動的に連想配列に変換するので、クエリは
    <literal>$collection->find(array("username" => array('$ne' => "foo")))</literal>
    のようになります。これは、名前が "foo" ではないユーザすべて (おそらく全員でしょうね)

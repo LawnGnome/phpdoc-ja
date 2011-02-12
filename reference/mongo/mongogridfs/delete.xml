@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 299359 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308234 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongogridfs.delete" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoGridFS::delete</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>boolean</type><methodname>MongoGridFS::delete</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>MongoGridFS::delete</methodname>
    <methodparam><type>mixed</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
  </refsect1>
