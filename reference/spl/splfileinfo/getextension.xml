@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308265 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308289 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splfileinfo.getextension" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -47,6 +47,9 @@ var_dump($info->getExtension());
 $info = new SplFileInfo('photo.jpg');
 var_dump($info->getExtension());
 
+$info = new SplFileInfo('something.tar.gz');
+var_dump($info->getExtension());
+
 ?>
 ]]>
    </programlisting>
@@ -55,6 +58,7 @@ var_dump($info->getExtension());
 <![CDATA[
 string(3) "txt"
 string(3) "jpg"
+string(2) "gz"
 ]]>
    </screen>
   </example>
