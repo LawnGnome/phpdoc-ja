@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: masakielastic Status: ready -->
+<!-- EN-Revision: 308253 Maintainer: masakielastic Status: ready -->
 
 <refentry xml:id="spltempfileobject.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <methodname>SplTempFileObject::__construct</methodname>
-   <methodparam choice="opt"><type>integer</type><parameter>max_memory</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>max_memory</parameter></methodparam>
   </methodsynopsis>
   <para>
    新しい一時ファイルオブジェクトを作成します。

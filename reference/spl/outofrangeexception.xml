@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308184 Maintainer: takagi Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.outofrangeexception"
  xmlns:phpdoc="http://php.net/ns/phpdoc"
@@ -16,7 +16,8 @@
   <section xml:id="outofrangeexception.intro">
    &reftitle.intro;
    <para>
-    値が範囲内におさまらなかった場合にスローされる例外です。
+    無効なインデックスを要求した場合にスローされる例外です。
+    これは、コンパイル時に検出しなければなりません。
    </para>
   </section>
 <!-- }}} -->
