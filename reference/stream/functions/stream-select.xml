@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308182 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.stream-select" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_select</refname>
@@ -213,6 +213,12 @@ if (false === stream_select($r, $w, $e, 0)) {
     必ずしもあなたの希望しただけデータが読まれたり書かれたりはしないことに
     注意してください。たった 1 バイトしか読み出せない場合も、書き込めない
     場合もあるのです。
+   </para>
+  </note>
+  <note>
+   <para>
+    ストリームの中には、(<literal>zlib</literal> などのように)
+    この関数で select できないものもあります。
    </para>
   </note>
   <note>
