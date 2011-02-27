@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 308580 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.spl-autoload" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>spl_autoload</refname>
@@ -29,7 +29,7 @@
      <term><parameter>class_name</parameter></term>
      <listitem>
       <para>
-       
+       インスタンスを作成する小文字のクラス名 (および名前空間名)。
       </para>
      </listitem>
     </varlistentry>
