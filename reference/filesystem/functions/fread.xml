@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303774 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 308472 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
  <refnamediv>
   <refname>fread</refname>
@@ -39,7 +39,9 @@
     </listitem>
     <listitem>
      <simpara>
-      8192 バイトぶん読み込んだ (ユーザ定義ストリームをオープンした後)
+      バッファつきで読み込まれた、プレーンなファイルでないストリームの場合に、
+      一回の読み込みバイト数がチャンクサイズ (通常は 8192) に達した。
+      それまでにバッファされていたデータの内容によって、返されるデータのサイズはチャンクサイズより大きくなることがあります。
      </simpara>
     </listitem>
    </itemizedlist>
