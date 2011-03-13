@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298918 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 309163 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.exif-read-data" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>exif_read_data</refname>
@@ -65,8 +65,6 @@
   <note>
    <para>
     Windows ME/XP は、カメラと接続した際に Exif ヘッダを書き換えることが可能です。
-    詳細な情報は <link xlink:href="&url.winexif;">&url.winexif;</link>
-    を参照ください。
    </para>
   </note>
  </refsect1>
