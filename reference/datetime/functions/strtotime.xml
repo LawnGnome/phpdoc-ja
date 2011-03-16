@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305221 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 309064 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.strtotime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -223,6 +223,7 @@ if (($timestamp = strtotime($str)) === false) {
   <para>
    <simplelist>
     <member><methodname>DateTime::createFromFormat</methodname></member>
+    <member><function>checkdate</function></member>
     <member><function>strptime</function></member>
    </simplelist>
   </para>
