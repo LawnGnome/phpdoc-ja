@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 309268 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ftp-alloc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ftp_alloc</refname>
@@ -51,7 +51,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>return</parameter></term>
+     <term><parameter>result</parameter></term>
      <listitem>
       <para>
        もし変数が指定されていた場合、サーバからの応答テキストの内容の
