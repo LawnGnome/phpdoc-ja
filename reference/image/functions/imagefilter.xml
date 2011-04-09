@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 309972 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imagefilter" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefilter</refname>
@@ -133,7 +133,7 @@
         </listitem>
         <listitem>
          <simpara>
-          <constant>IMG_FILTER_COLORIZE</constant>: 赤コンポーネントの値。
+          <constant>IMG_FILTER_COLORIZE</constant>: &gd.value.red;
          </simpara>
         </listitem>
         <listitem>
@@ -157,7 +157,7 @@
        <itemizedlist>
         <listitem>
          <simpara>
-          <constant>IMG_FILTER_COLORIZE</constant>: 緑コンポーネントの値。
+          <constant>IMG_FILTER_COLORIZE</constant>: &gd.value.green;
          </simpara>
         </listitem>
         <listitem>
@@ -177,7 +177,7 @@
        <itemizedlist>
         <listitem>
          <simpara>
-          <constant>IMG_FILTER_COLORIZE</constant>: 青コンポーネントの値。
+          <constant>IMG_FILTER_COLORIZE</constant>: &gd.value.blue;
          </simpara>
         </listitem>
        </itemizedlist>
