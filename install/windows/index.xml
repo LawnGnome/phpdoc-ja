@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: haruki Status: ready -->
+<!-- EN-Revision: 309893 Maintainer: haruki Status: ready -->
 <!-- CREDITS: fujimoto, hirokawa, yuw, haruki -->
   <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Windows システムへのインストール</title>
@@ -12,7 +12,7 @@
    </para>
    <note>
     <para>
-     Windows 98/ME/NT4 は、PHP 5.3.0 以降サポートされなくなりました。
+     Windows 98/Me/NT4 は、PHP 5.3.0 以降サポートされなくなりました。
     </para>
    </note>
    <note>
@@ -41,7 +41,7 @@
      しかし、いずれも PHP.net により公認されたものではありません。
      システムを最適化し、また、安全を保つためには、
      <link xlink:href="&url.php.downloads;">&url.php.downloads;</link>
-     にある公式 windows パッケージのいずれかを使用することが
+     にある公式 Windows パッケージのいずれかを使用することが
      もっとも良い選択ではないかと我々は考えています。
     </para>
    </warning>
