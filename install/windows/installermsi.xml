@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310272 Maintainer: takagi Status: ready -->
    <sect1 xml:id="install.windows.installer.msi" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Windows インストーラ (PHP 5.2 以降)</title>
     <para>
@@ -101,7 +101,7 @@ ScriptExecutable - php-win.exe 実行ファイル
 ext_php_* - 各種拡張モジュール (例: MySQL の場合は ext_php_mysql)
 apache13 - Apache 1.3 モジュール
 apache20 - Apache 2.0 モジュール
-apache22 - Apache 2,2 モジュール
+apache22 - Apache 2.2 モジュール
 apacheCGI - Apache CGI 実行ファイル
 iis4ISAPI - IIS ISAPI モジュール
 iis4CGI - IIS CGI 実行ファイル
