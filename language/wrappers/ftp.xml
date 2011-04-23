@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306260 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310285 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <refentry xml:id="wrappers.ftp" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
-  <refname>FTP と FTPS</refname>
+  <refname>ftp://</refname>
+  <refname>ftps://</refname>
   <refpurpose>FTP(s) URL へのアクセス</refpurpose>
  </refnamediv>
 

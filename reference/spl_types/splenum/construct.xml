@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307534 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310362 Maintainer: takagi Status: ready -->
 <refentry xml:id="splenum.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplEnum::__construct</refname>
@@ -14,7 +14,7 @@
    <void />
   </constructorsynopsis>
   <para>
-   このコンストラクタで、"列挙型 (Enum)" オブジェクトの値と厳格度を設定します。
+   このコンストラクタで、列挙型オブジェクトの値と厳格度を設定します。
   </para>
  </refsect1>
 

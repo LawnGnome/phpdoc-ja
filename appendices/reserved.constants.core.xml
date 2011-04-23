@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 310307 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
  <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
    <title>コアの定義済みの定数</title>
@@ -227,6 +227,18 @@
      <listitem>
       <simpara>
 
+      </simpara>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term>
+      <constant>PHP_MANDIR</constant> 
+      (<type>string</type>)
+     </term>
+     <listitem>
+      <simpara>
+       man ページのインストール先。
+       PHP 5.3.7 以降で利用可能。
       </simpara>
      </listitem>
     </varlistentry>
