@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310657 Maintainer: takagi Status: ready -->
 <refentry xml:id="phardata.buildfromiterator" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>PharData::buildFromIterator</refname>
@@ -88,7 +88,7 @@ $phar->buildFromIterator(
     new RecursiveIteratorIterator(
      new Phar('/path/to/anotherphar.phar')),
     'phar:///path/to/anotherphar.phar/path/to/project');
-$phar->setStub($phar->createDefaultWebStub('cli/index.php', 'www/index.php'));
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
     ]]>
    </programlisting>
