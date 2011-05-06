@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: shimooka Status: ready -->
 <appendix xml:id="oci8.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -203,7 +203,6 @@
        <row>
          <entry>OCI_B_BIN</entry>
          <entry>
-           &nbsp;
          </entry>
        </row>
        <row>
@@ -281,7 +280,6 @@
        <row>
          <entry>SQLT_BDOUBLE</entry>
          <entry>
-           &nbsp;
          </entry>
        </row>
        <row>
@@ -293,7 +291,6 @@
        <row>
          <entry>SQLT_BFLOAT</entry>
          <entry>
-           &nbsp;
          </entry>
        </row>
        <row>
@@ -404,7 +401,6 @@
        <row>
          <entry>SQLT_UIN</entry>
          <entry>
-           &nbsp;
          </entry>
        </row>
        <row>
