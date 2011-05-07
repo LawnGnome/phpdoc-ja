@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ingres-set-environment" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ingres_set_environment</refname>
@@ -114,7 +114,7 @@
            <entry>money_sign</entry>
            <entry><type>string</type></entry>
            <entry>MONEY 型で使う通貨記号</entry>
-           <entry>&euro;</entry>
+           <entry>€</entry>
           </row>
           <row valign="top">
            <entry>money_precision</entry>

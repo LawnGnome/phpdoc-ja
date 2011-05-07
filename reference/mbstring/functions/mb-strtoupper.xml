@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299482 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-strtoupper" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -60,7 +60,7 @@
    <function>strtoupper</function>と違い、アルファベットであるかどうかは
    Unicode 文字属性をもとに決定されます。したがって、この関数の挙動は
    ロケールの設定に影響されず、すべてのアルファベット、
-   例えば A ウムラウト (&Auml;) を変換することができます。
+   例えば A ウムラウト (ä) を変換することができます。
   </para>
 </refsect1>
 

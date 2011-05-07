@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309893 Maintainer: haruki Status: ready -->
+<!-- EN-Revision: 310698 Maintainer: haruki Status: ready -->
 <!-- CREDITS: fujimoto, hirokawa, yuw, haruki -->
   <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Windows システムへのインストール</title>
@@ -8,7 +8,6 @@
     本章は、Windows 98/Me および Windows NT/2000/XP に適用されます。
     PHP は、Windows 3.1 などの 16 ビットのプラットフォームでは動作しません。
     PHP がサポートする Windows プラットフォーム を Win32 と呼ぶことがあります。
-    Windows95 は PHP4.3.0 以降サポートされなくなりました。
    </para>
    <note>
     <para>
@@ -27,7 +26,7 @@
     の 2 種類があります。
    </para>
    <para>
-    Microsoft Visual Studio を持っていれば、オリジナルのソースコードから
+    Microsoft Visual Studio などの開発環境を持っていれば、オリジナルのソースコードから
     PHP を <link linkend="install.windows.building">ビルドする</link> ことも可能です。
    </para>
    <para>

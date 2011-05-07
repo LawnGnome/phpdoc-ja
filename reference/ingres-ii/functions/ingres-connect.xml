@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ingres-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -227,7 +227,7 @@
            <entry>money_sign</entry>
            <entry><type>string</type></entry>
            <entry>MONEY データ型で使用する通貨記号。</entry>
-           <entry>&euro;</entry>
+           <entry>€</entry>
           </row>
           <row valign="top">
            <entry>money_precision</entry>

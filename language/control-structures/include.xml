@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303412 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="function.include" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><function>include</function></title>
@@ -23,12 +23,12 @@
   を発行する点が異なります。
  </simpara>
  <simpara>
-  パスを指定した場合 &mdash;
+  パスを指定した場合 —
   絶対パス (Windows ならドライブレターあるいは
   <literal>\</literal> で始まるパス、Unix/Linux 系なら <literal>/</literal>
   で始まるパス) あるいはカレントディレクトリからの相対パス
   (<literal>.</literal> あるいは <literal>..</literal> で始まるパス) のどちらでも
-  &mdash; は
+  — は
   <link linkend="ini.include-path">include_path</link> は無視されます。たとえば
   <literal>../</literal> ではじまるファイル名を指定した場合は、
   親ディレクトリからそのファイルを探します。
