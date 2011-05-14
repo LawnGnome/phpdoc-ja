@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <chapter xml:id="ingres.examples" xmlns="http://docbook.org/ns/docbook">
  &reftitle.examples;
  <section xml:id="ingres.examples-basic">
+  <title>基本的な使用法</title>
   <para>
    この例では、Ingres データベースに対する接続、クエリの実行、
    結果の表示および接続解除の方法を説明します。

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <chapter xml:id="ovrimos.examples" xmlns="http://docbook.org/ns/docbook">
  &reftitle.examples;
  <section xml:id="ovrimos.examples-basic">
+  <title>基本的な使用法</title>
   <para>
    <example>
     <title>
