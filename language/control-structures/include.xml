@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310796 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 310855 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="function.include" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><function>include</function></title>
@@ -285,9 +285,7 @@ function get_include_contents($filename) {
     if (is_file($filename)) {
         ob_start();
         include $filename;
-        $contents = ob_get_contents();
-        ob_end_clean();
-        return $contents;
+        return ob_get_clean();
     }
     return false;
 }
