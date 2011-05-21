@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299241 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311086 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-x509-export">
  <refnamediv>
@@ -14,7 +14,7 @@
    <type>bool</type><methodname>openssl_x509_export</methodname>
    <methodparam><type>mixed</type><parameter>x509</parameter></methodparam>
    <methodparam><type>string</type><parameter role="reference">output</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>notext</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>notext</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>openssl_x509_export</function> は、
