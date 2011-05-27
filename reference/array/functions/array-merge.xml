@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307837 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311162 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,6 @@
   <methodsynopsis>
    <type>array</type><methodname>array_merge</methodname>
    <methodparam><type>array</type><parameter>array1</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter>array2</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>...</parameter></methodparam>
   </methodsynopsis>
   <para>

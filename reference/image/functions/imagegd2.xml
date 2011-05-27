@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311153 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.imagegd2' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,7 +14,7 @@
    <methodparam><type>resource</type><parameter>image</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>chunk_size</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>type</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>type</parameter><initializer>IMG_GD2_RAW</initializer></methodparam>
   </methodsynopsis>
   <para>
    GD2 イメージを、指定した <parameter>filename</parameter>
