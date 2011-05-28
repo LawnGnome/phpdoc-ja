@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 311253 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.domxml-open-file" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>DomDocument</type><methodname>domxml_open_file</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>mode</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>DOMXML_LOAD_PARSING</initializer></methodparam>
    <methodparam choice="opt"><type>array</type><parameter role="reference">error</parameter></methodparam>
   </methodsynopsis>
   <para>
