@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308125 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311166 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.microtime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>mixed</type><methodname>microtime</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>get_as_float</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>get_as_float</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>microtime</function> は、現在の
