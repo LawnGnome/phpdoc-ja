@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311568 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-db-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_db_query</refname>
-  <refpurpose>MySQL クエリーを送信する</refpurpose>
+  <refpurpose>データベースを選択し、そこでクエリーを実行する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
