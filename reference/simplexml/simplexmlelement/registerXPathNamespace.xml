@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305704 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 311775 Maintainer: takagi Status: ready -->
 <refentry xml:id="simplexmlelement.registerxpathnamespace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::registerXPathNamespace</refname>
@@ -125,6 +125,7 @@ Chapter 2
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><methodname>SimpleXMLElement::xpath</methodname></member>
     <member><methodname>SimpleXMLElement::getDocNamespaces</methodname></member>
     <member><methodname>SimpleXMLElement::getNamespaces</methodname></member>
    </simplelist>

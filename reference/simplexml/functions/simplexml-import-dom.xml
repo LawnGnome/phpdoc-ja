@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301048 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 311775 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.simplexml-import-dom' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -91,6 +91,7 @@ blah
   <para>
    <simplelist>
     <member><function>dom_import_simplexml</function></member>
+    <member><xref linkend="simplexml.examples-basic"/></member>
    </simplelist>
   </para>
  </refsect1>

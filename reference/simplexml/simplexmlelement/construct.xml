@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305704 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 311775 Maintainer: takagi Status: ready -->
 <refentry xml:id="simplexmlelement.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::__construct</refname>
@@ -150,6 +150,7 @@ echo $sxe->asXML();
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><xref linkend="simplexml.examples-basic"/></member>
     <member><function>simplexml_load_string</function></member>
     <member><function>simplexml_load_file</function></member>
     <member><xref linkend="simplexml.examples-errors" /></member>
