@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304367 Maintainer: shimooka Status: ready -->
-<!-- CREDITS: takagi -->
+<!-- EN-Revision: 312018 Maintainer: satoruyoshida Status: ready -->
+<!-- CREDITS: takagi, shimooka -->
 <refentry xml:id="function.oci-bind-array-by-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_bind_array_by_name</refname>
@@ -213,15 +213,6 @@ var_dump($array);
      </example>
     </para>
    </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    この関数は、OCI8 リリース 1.2 から利用可能です。
-   </para>
-  </note>
- </refsect1>
 
 </refentry>
 
