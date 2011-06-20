@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312155 Maintainer: takagi Status: ready -->
 
 <section xml:id="sphinx.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
@@ -9,7 +9,8 @@
   <link xlink:href="&url.pecl.package;sphinx"/>
  </para>
  <para>
-  <filename>./configure</filename> で
+  <literal>phpize</literal> で生成された
+  <filename>./configure</filename> スクリプトで
   libsphinxclient のファイルをうまく見つけられない場合
   (標準の場所以外にインストールした場合など) は、
   <userinput>./configure

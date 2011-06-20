@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303318 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 311922 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-stmt.prepare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_stmt::prepare</refname>
@@ -217,12 +217,14 @@ Amersfoort is in district Utrecht
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
-   <function>mysqli_stmt_init</function>,
-   <function>mysqli_stmt_execute</function>,
-   <function>mysqli_stmt_fetch</function>,
-   <function>mysqli_stmt_bind_param</function>,
-   <function>mysqli_stmt_bind_result</function>
-   <function>mysqli_stmt_close</function>.
+   <simplelist>
+    <member><function>mysqli_stmt_init</function></member>
+    <member><function>mysqli_stmt_execute</function></member>
+    <member><function>mysqli_stmt_fetch</function></member>
+    <member><function>mysqli_stmt_bind_param</function></member>
+    <member><function>mysqli_stmt_bind_result</function></member>
+    <member><function>mysqli_stmt_close</function></member>
+   </simplelist>
   </para>
  </refsect1>
 
