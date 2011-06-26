@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.finfo-close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>finfo_close</refname>
+  <refname>finfo::__destruct</refname>
   <refpurpose>fileinfo リソースを閉じる</refpurpose>
  </refnamediv>
  <refsect1 role="description">

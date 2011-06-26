@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304142 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 312438 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.get-defined-constants" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -112,7 +112,7 @@ Array
       <row>
        <entry>5.3.1</entry>
        <entry>
-        Windows のみ : コア定数のカテゴリが <literal>Core</literal> になりました。
+        Windows のみ: コア定数のカテゴリが <literal>Core</literal> になりました。
         それまでは <literal>mhash</literal> でした。
        </entry>
       </row>
