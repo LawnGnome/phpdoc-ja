@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300803 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.settimezone" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::setTimezone</refname>
+  <refname>date_timezone_set</refname>
   <refpurpose>DateTime オブジェクトのタイムゾーンを設定する</refpurpose>
  </refnamediv>
 

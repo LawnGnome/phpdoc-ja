@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295469 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312828 Maintainer: takagi Status: ready -->
 <!-- State: new --> 
 
 <book xml:id="book.spl-types" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -21,6 +21,7 @@
  <!-- }}} -->
  
  &reference.spl-types.setup;
+ &reference.spl-types.spltype;
  &reference.spl-types.splint;
  &reference.spl-types.splfloat;
  &reference.spl-types.splenum;

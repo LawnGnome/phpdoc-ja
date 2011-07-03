@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299461 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.sub" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::sub</refname>
+  <refname>date_sub</refname>
   <refpurpose>
    年月日時分秒の値を DateTime オブジェクトから引く
   </refpurpose>

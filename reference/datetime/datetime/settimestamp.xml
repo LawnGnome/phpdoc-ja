@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301411 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.settimestamp" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::setTimestamp</refname>
+  <refname>date_timestamp_set</refname>
   <refpurpose>Unix タイムスタンプを用いて日付と時刻を設定する</refpurpose>
  </refnamediv>
 

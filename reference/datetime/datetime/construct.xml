@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309064 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::__construct</refname>
+  <refname>date_create</refname>
   <refpurpose>新しい DateTime オブジェクトを返す</refpurpose>
  </refnamediv>
 
