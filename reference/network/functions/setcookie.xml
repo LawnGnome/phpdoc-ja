@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304220 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312787 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.setcookie" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>setcookie</refname>
@@ -145,8 +145,9 @@
       <para>
        &true; を設定すると、HTTP を通してのみクッキーにアクセスできるようになります。
        つまり、JavaScript のようなスクリプト言語からはアクセスできなくなるということです。
-       この設定を使用すると、XSS 攻撃によって ID を盗まれる危険性を減らせます
-       (が、すべてのブラウザがこの設定をサポートしているというわけではありません)。
+       この設定を使用すると、XSS 攻撃によって ID を盗まれる危険性を減らせる
+       (が、すべてのブラウザがこの設定をサポートしているというわけではありません)
+       と言われていますが、これはしばしば議論の対象となります。
        PHP 5.2.0 で追加されました。
        &true; あるいは &false; で指定します。
       </para>

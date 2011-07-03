@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312439 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionclass.getconstant" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -30,7 +30,7 @@
      <term><parameter>name</parameter></term>
      <listitem>
       <para>
-       
+       定数の名前。
       </para>
      </listitem>
     </varlistentry>
@@ -41,7 +41,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+   定数の値を返します。
   </para>
  </refsect1>
 

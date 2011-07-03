@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312638 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.uasort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::uasort</refname>
@@ -102,6 +102,19 @@ Array
 ]]>
     </screen>
    </example>
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><methodname>ArrayObject::asort</methodname></member>
+    <member><methodname>ArrayObject::ksort</methodname></member>
+    <member><methodname>ArrayObject::natsort</methodname></member>
+    <member><methodname>ArrayObject::natcasesort</methodname></member>
+    <member><methodname>ArrayObject::uksort</methodname></member>
+   </simplelist>
   </para>
  </refsect1>
 

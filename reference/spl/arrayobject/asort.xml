@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312638 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.asort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::asort</refname>
@@ -62,6 +62,19 @@ a = orange
      各エントリに対応するキーもそれにあわせて並べ替えられます。
     </para>
    </example>
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><methodname>ArrayObject::ksort</methodname></member>
+    <member><methodname>ArrayObject::natsort</methodname></member>
+    <member><methodname>ArrayObject::natcasesort</methodname></member>
+    <member><methodname>ArrayObject::uasort</methodname></member>
+    <member><methodname>ArrayObject::uksort</methodname></member>
+   </simplelist>
   </para>
  </refsect1>
 

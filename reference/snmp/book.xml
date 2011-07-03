@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308877 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312512 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Purpose: remote.other -->
 <!-- Membership: bundled, external -->
@@ -21,7 +21,12 @@
    の設定ファイルや環境変数によって PHP の関数の挙動も変わります。
   </para>
   <para>
-   Net-SNMP についての詳細な情報は http://www.net-snmp.org/ にあります。
+   PHP 5.4 以降では、オブジェクト指向型の API も使えます。
+  </para>
+  <para>
+   Net-SNMP についての詳細な情報は
+   <link xlink:href="http://www.net-snmp.org/">http://www.net-snmp.org/</link>
+   にあります。
   </para>
  </preface>
  <!-- }}} -->
@@ -29,7 +34,8 @@
  &reference.snmp.setup;
  &reference.snmp.constants;
  &reference.snmp.reference;
- 
+
+ &reference.snmp.snmp; 
 </book>
 
 <!-- Keep this comment at the end of the file
