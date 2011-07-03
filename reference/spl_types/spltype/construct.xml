@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312828 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312848 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="spltype.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -43,6 +43,14 @@
     </listitem>
    </varlistentry>
   </variablelist>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   互換生のない型を渡すと
+   <classname>UnexpectedValueException</classname> をスローします。
+  </para>
  </refsect1>
 
 </refentry>
