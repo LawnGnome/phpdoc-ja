@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299860 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312151 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="apciterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -68,7 +68,7 @@
     <listitem>
      <para>
       一覧にする形式。<constant>APC_LIST_ACTIVE</constant>
-      あるいは <constant>APC_LIST_INACTIVE</constant> を渡します。
+      あるいは <constant>APC_LIST_DELETED</constant> を渡します。
      </para>
     </listitem>
    </varlistentry>
