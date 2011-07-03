@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="multipleiterator.key" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -40,7 +40,7 @@
   <para>
    モード <constant>MIT_NEED_ALL</constant> が設定されているときは、
    アタッチされているイテレータの中にひとつでも無効なものがあれば
-   LogicException が発生します。
+   <classname>LogicException</classname> が発生します。
   </para>
  </refsect1>
 

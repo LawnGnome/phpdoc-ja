@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="multipleiterator.attachiterator" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -59,7 +59,7 @@
   <para>
    <parameter>iterator</parameter> が無効な場合、
    あるいは <parameter>infos</parameter> がすでに関連づけられた情報である場合に
-   IllegalValueException をスローします。
+   <classname>IllegalValueException</classname> をスローします。
   </para>
  </refsect1>
 

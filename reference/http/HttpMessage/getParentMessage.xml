@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httpmessage-getparentmessage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpMessage::getParentMessage</refname>
@@ -29,7 +29,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   HttpRuntimeException をスローします。
+   <classname>HttpRuntimeException</classname> をスローします。
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httpresponse-setcachecontrol" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpResponse::setCacheControl</refname>
@@ -67,7 +67,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   HttpInvalidParamException をスローします。
+   <classname>HttpInvalidParamException</classname> をスローします。
   </para>
  </refsect1>
 -->

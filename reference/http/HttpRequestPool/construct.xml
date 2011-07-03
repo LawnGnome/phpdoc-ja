@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311175 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httprequestpool-construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpRequestPool::__construct</refname>
@@ -50,7 +50,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   HttpRequestPoolException (HttpRequestException、HttpInvalidParamException)
+   <classname>HttpRequestPoolException</classname> (<classname>HttpRequestException</classname>、<classname>HttpInvalidParamException</classname>)
    をスローします。
   </para>
  </refsect1>

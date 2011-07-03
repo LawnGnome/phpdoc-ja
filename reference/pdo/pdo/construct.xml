@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="pdo.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -117,7 +117,7 @@
   <para>
    <function>PDO::__construct</function> は、
    指定されたデータベースへの接続に失敗した場合、
-   PDOException を投げます。
+   <classname>PDOException</classname> を投げます。
   </para>
  </refsect1>
 

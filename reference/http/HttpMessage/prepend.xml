@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httpmessage-prepend" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpMessage::prepend</refname>
@@ -48,7 +48,7 @@
   &reftitle.errors;
   <para>
    message が同一のメッセージチェイン内にある場合に、
-   HttpInvalidParamException をスローします。
+   <classname>HttpInvalidParamException</classname> をスローします。
   </para>
  </refsect1>
 

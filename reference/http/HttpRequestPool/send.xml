@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.httprequestpool-send" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpRequestPool::send</refname>
@@ -33,8 +33,8 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   HttpRequestPoolException 
-   (HttpSocketException、HttpRequestException、HttpMalformedHeaderException)
+   <classname>HttpRequestPoolException</classname>
+   (<classname>HttpSocketException</classname>、<classname>HttpRequestException</classname>、<classname>HttpMalformedHeaderException</classname>)
    をスローします。
   </para>
  </refsect1>
