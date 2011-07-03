@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312696 Maintainer: takagi Status: ready -->
 <!-- Purpose: basic.other -->
 <!-- Membership: pecl, bundled -->
 
@@ -20,6 +20,7 @@
 
  &reference.json.setup;
  &reference.json.constants;
+ &reference.json.jsonserializable;
  &reference.json.reference;
 
 </book>

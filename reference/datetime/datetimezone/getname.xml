@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305693 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.getname" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTimeZone::getName</refname>
+  <refname>timezone_name_get</refname>
   <refpurpose>タイムゾーンの名前を返す</refpurpose>
  </refnamediv>
 

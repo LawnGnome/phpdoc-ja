@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307774 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312728 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.intl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>国際化関数</title>
@@ -93,6 +93,7 @@
  &reference.intl.messageformatter;
  &reference.intl.dateformatter; 
  &reference.intl.resourcebundle;
+ &reference.intl.spoofchecker;
  &reference.intl.transliterator;
 
  &reference.intl.grapheme;

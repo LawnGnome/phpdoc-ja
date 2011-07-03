@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299350 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.gettransitions" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTimeZone::getTransitions</refname>
+  <refname>timezone_transitions_get</refname>
   <refpurpose>タイムゾーンの変遷を返す</refpurpose>
  </refnamediv>
  <refsect1 role="description">
