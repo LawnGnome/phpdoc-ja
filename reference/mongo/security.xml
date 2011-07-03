@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311361 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312738 Maintainer: takagi Status: ready -->
 
 <section xml:id="mongo.security" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>セキュリティ</title>
@@ -110,7 +110,7 @@ $db->execute("print('Hello, $username!');");
 <?php
 
 $scope = array("user" => $username);
-$db->execute(new MongoCode("print('Hello, user!');", $scope));
+$db->execute(new MongoCode("print('Hello, '+user+'!');", $scope));
 
 ?>
 ]]>

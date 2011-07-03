@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312537 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="memcached.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -54,7 +54,7 @@
 <![CDATA[
 <?php
 /* 通常のインスタンスを作成します */
-$m1 = new Memcached();
+$m = new Memcached();
 echo get_class($m);
 
 /* 持続するインスタンスを作成します */
