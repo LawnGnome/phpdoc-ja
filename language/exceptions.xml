@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301447 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 313048 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <chapter xml:id="language.exceptions" xmlns="http://docbook.org/ns/docbook">
@@ -50,7 +50,7 @@
   <tip>
    <para>
     <link linkend="intro.spl">Standard PHP Library (SPL)</link>
-    には組み込みの例外が数多く用意されています。
+    には<link linkend="spl.exceptions">組み込みの例外</link>が数多く用意されています。
    </para>
   </tip>
  <example>
