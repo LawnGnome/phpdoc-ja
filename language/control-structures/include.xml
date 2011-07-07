@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310855 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="function.include" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><function>include</function></title>
+ <?phpdoc print-version-for="include"?>
  <simpara>
   <function>include</function>文は指定されたファイルを読み込み、評価します。
  </simpara>

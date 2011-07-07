@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291258 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="control-structures.alternative-syntax"  xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>制御構造に関する別の構文</title>
+ <?phpdoc print-version-for="control-structures.alternative-syntax"?>
  <para>
   PHPは、いくつかの制御構造、つまり、<literal>if</literal>、
   <literal>while</literal>、<literal>for</literal>、

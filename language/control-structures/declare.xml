@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304658 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="control-structures.declare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>declare</literal></title>
+ <?phpdoc print-version-for="declare"?>
  <para>
   <literal>declare</literal> 命令は、あるコードブロックの中に
   実効命令をセットするために使用されます。<literal>declare</literal>
