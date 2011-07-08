@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 312697 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagettfbbox" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -28,7 +28,14 @@
     <varlistentry>
      <term><parameter>size</parameter></term>
      <listitem>
-      <para>&gd.image.colors;</para>
+      <para>
+       フォントサイズ。
+       <note>
+        <simpara>
+         GD 1 ではピクセル数、GD 2 ではポイント数で指定します。
+        </simpara>
+       </note>
+      </para>
      </listitem>
     </varlistentry>
     <varlistentry>
