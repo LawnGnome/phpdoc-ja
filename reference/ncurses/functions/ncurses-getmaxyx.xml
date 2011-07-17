@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313252 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ncurses-getmaxyx" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ncurses_getmaxyx</refname>
@@ -37,18 +37,18 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>x</parameter></term>
-     <listitem>
-      <para>
-       ウィンドウの幅が設定されます。
-      </para>
-     </listitem>
-    </varlistentry>
-    <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
       <para>
        ウィンドウの高さが設定されます。
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>x</parameter></term>
+     <listitem>
+      <para>
+       ウィンドウの幅が設定されます。
       </para>
      </listitem>
     </varlistentry>

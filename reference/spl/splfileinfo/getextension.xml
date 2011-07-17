@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308289 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313234 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splfileinfo.getextension" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -63,6 +63,26 @@ string(2) "gz"
    </screen>
   </example>
  </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    このメソッドが使えるのは PHP 5.3.6 以降です。
+    拡張子を取得する別の方法には、
+    <function>pathinfo</function> 関数があります。
+   </para>
+   <example>
+    <programlisting role="php">
+<![CDATA[
+<?php
+$extension = pathinfo($info->getFilename(), PATHINFO_EXTENSION);
+?>
+]]>
+    </programlisting>
+   </example>
+  </note>
+ </refsect1> 
 
  <refsect1 role="seealso">
   &reftitle.seealso;
