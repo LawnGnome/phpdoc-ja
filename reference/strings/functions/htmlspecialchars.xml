@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309322 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 313119 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlspecialchars" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -48,7 +48,7 @@
     <listitem>
      <simpara>
       <constant>ENT_QUOTES</constant> が設定されている場合のみ、
-      '&#039;' (シングルクオート) は '&amp;#039;'になります。
+      &quot;&#039;&quot; (シングルクオート) は '&amp;#039;' になります。
      </simpara>
     </listitem>
     <listitem>

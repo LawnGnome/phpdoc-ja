@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312832 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 313306 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki,shimooka,takagi -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>
@@ -122,6 +122,16 @@ PHP コミュニティは、ユーザがこのディレクティブの設定に�
     それに対応した SAPI を使っている場合のみです。
    </para>
   </note>
+'>
+
+<!ENTITY note.passwordhashing '<note xmlns="http://docbook.org/ns/docbook">
+ <title>安全なパスワードハッシュ</title>
+ <para>
+  パスワードを守るためにこの関数を使うことはおすすめしません。
+  ハッシュアルゴリズムの高速性がその理由です。
+  詳細は<link linkend="faq.passwords.fasthash">ここ</link>を参照ください。
+ </para>
+</note>
 '>
 
 <!-- Tips -->
