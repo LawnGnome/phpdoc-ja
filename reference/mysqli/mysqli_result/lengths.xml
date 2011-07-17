@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-result.lengths" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_result->lengths</refname>
+  <refname>mysqli_result::lengths</refname>
   <refname>mysqli_fetch_lengths</refname>
   <refpurpose>結果セットにおける現在の行のカラムの長さを返す</refpurpose>
  </refnamediv>

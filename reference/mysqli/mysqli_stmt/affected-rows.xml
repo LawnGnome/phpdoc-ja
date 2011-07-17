@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301933 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-stmt.affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_stmt->affected_rows</refname>
+  <refname>mysqli_stmt::affected_rows</refname>
   <refname>mysqli_stmt_affected_rows</refname>
   <refpurpose>直近に実行されたステートメントで変更・削除・あるいは追加された行の総数を返す</refpurpose>
  </refnamediv>

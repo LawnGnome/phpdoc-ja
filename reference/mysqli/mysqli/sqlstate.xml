@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.sqlstate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>mysqli->sqlstate</refname>
+  <refname>mysqli::sqlstate</refname>
   <refname>mysqli_sqlstate</refname>
   <refpurpose>直前の MySQL の操作での SQLSTATE エラーを返す</refpurpose>
  </refnamediv>

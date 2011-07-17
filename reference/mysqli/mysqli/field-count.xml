@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.field-count" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli->field_count</refname>
+  <refname>mysqli::field_count</refname>
   <refname>mysqli_field_count</refname>
   <refpurpose>直近のクエリのカラムの数を返す</refpurpose>
  </refnamediv>

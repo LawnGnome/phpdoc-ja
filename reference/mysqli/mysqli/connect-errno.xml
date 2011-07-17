@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.connect-errno" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli->connect_errno</refname>
+  <refname>mysqli::connect_errno</refname>
   <refname>mysqli_connect_errno</refname>
   <refpurpose>直近の接続コールに関するエラーコードを返す</refpurpose>
  </refnamediv>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.get-server-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli->server_info</refname>
+  <refname>mysqli::server_info</refname>
   <refname>mysqli_get_server_info</refname>
   <refpurpose>MySQL サーバのバージョンを返す</refpurpose>
  </refnamediv>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-result.num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_result->num_rows</refname>
+  <refname>mysqli_result::num_rows</refname>
   <refname>mysqli_num_rows</refname>
   <refpurpose>結果の行数を取得する</refpurpose>
  </refnamediv>
