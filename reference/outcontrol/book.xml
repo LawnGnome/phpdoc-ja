@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307540 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
-<!-- Purpose: basic.php -->
 <!-- Membership: core -->
 
 <book xml:id="book.outcontrol" xmlns="http://docbook.org/ns/docbook">

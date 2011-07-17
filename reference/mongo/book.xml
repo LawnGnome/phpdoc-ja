@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307180 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313268 Maintainer: takagi Status: ready -->
+<!-- Membership: pecl -->
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>MongoDB ネイティブドライバ</title>

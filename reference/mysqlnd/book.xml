@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
-<!-- EN-Revision: 304187 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 313269 Maintainer: satoruyoshida Status: ready -->
 <book xml:id="book.mysqlnd" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
  <title>MySQL ネイティブ・ドライバ</title>
