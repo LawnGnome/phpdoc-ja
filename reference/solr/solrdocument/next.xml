@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313232 Maintainer: satoruyoshida Status: ready -->
-<refentry xml:id="solrquery.destruct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- EN-Revision: 294374 Maintainer: satoruyoshida Status: ready -->
+<refentry xml:id="solrdocument.next" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>SolrQuery::__destruct</refname>
-  <refpurpose>デストラクタ</refpurpose>
+  <refname>SolrDocument::next</refname>
+  <refpurpose>内部ポインタを次のフィールドに移動</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>SolrQuery::__destruct</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>SolrDocument::next</methodname>
    <void />
   </methodsynopsis>
   <para>
-   デストラクタ
+   内部ポインタを次のフィールドに移動します。
   </para>
+
+ 
 
  </refsect1>
 
@@ -27,7 +29,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ありません
+  この関数に返り値はありません。
   </para>
  </refsect1>
 
