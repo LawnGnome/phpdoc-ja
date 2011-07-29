@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298830 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 313584 Maintainer: takagi Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.exception"
  xmlns="http://docbook.org/ns/docbook"
@@ -87,13 +87,13 @@
     <varlistentry xml:id="exception.props.file">
      <term><varname>file</varname></term>
      <listitem>
-      <para>例外がスローされたファイル名</para>
+      <para>例外が作られたファイル名</para>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="exception.props.line">
      <term><varname>line</varname></term>
      <listitem>
-      <para>例外がスローされた行</para>
+      <para>例外が作られた行</para>
      </listitem>
     </varlistentry>
    </variablelist>
