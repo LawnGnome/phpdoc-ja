@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313798 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 314219 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.json-encode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_encode</refname>
@@ -77,7 +77,15 @@
       <row>
        <entry>5.4.0</entry>
        <entry>
-        <parameter>option</parameter> に <constant>JSON_PRETTY_PRINT</constant> が追加されました。
+        <parameter>option</parameter> に
+        <constant>JSON_BIGINT_AS_STRING</constant>、<constant>JSON_PRETTY_PRINT</constant> および <constant>JSON_UNESCAPED_SLASHES</constant>
+        が追加されました。
+       </entry>
+      </row>
+      <row>
+       <entry>5.3.3</entry>
+       <entry>
+        <parameter>option</parameter> に <constant>JSON_NUMERIC_CHECK</constant> が追加されました。
        </entry>
       </row>
       <row>

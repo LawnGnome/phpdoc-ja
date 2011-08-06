@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 314088 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="soapserver.setobject" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>SoapServer::setObject</methodname>
-   <methodparam><type>string</type><parameter>object</parameter></methodparam>
+   <methodparam><type>object</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
   <para>
    SOAP リクエストを処理するハンドラとして、<methodname>SoapServer::setClass</methodname>
