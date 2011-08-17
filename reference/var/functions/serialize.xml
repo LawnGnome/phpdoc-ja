@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 314997 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.serialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -42,11 +42,11 @@
        循環参照も保存されます。その他の参照は失われます。
       </para>
       <para>
-       PHP は、シリアル化の前にまずメンバ関数 <link linkend="language.oop5.magic">__sleep</link>
+       PHP は、シリアル化の前にまずメンバ関数 <link linkend="language.oop5.magic.sleep">__sleep</link>
        のコールを試みます。ここで、シリアル化の前のオブジェクトの後始末処理
        などを行います。同様に、<function>unserialize</function> で
        オブジェクトを復元した際にはメンバ関数
-       <link linkend="language.oop5.magic">__wakeup</link> がコールされます。
+       <link linkend="language.oop5.magic.sleep">__wakeup</link> がコールされます。
       </para>
       <note>
        <para>
@@ -129,7 +129,8 @@ if (!odbc_execute($stmt, $sqldata)) {
    <para>
     PHP の組み込みオブジェクトの多くはシリアル化できないことに注意しましょう。しかし、
     <interfacename>Serializable</interfacename> インターフェイスを実装しているか、あるいはマジックメソッド
-    <literal>__sleep</literal> および <literal>__wakeup</literal>
+    <link linkend="language.oop5.magic.sleep">__sleep</link> および
+    <link linkend="language.oop5.magic.sleep">__wakeup</link>
     を実装していればシリアル化することができます。
     内部クラスがこれらの要件を満たしていない場合は、確実にシリアル化することはできません。
    </para>
@@ -148,6 +149,8 @@ if (!odbc_execute($stmt, $sqldata)) {
    <simplelist>
     <member><function>unserialize</function></member>
     <member><link linkend="language.oop5.serialization">オブジェクトのシリアル化</link></member>
+    <member><link linkend="language.oop5.magic.sleep">__sleep</link></member>
+    <member><link linkend="language.oop5.magic.sleep">__wakeup</link></member>
    </simplelist>
   </para>
  </refsect1>

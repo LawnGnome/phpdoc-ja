@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 314909 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -32,7 +32,7 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-    &mysql.linkid.description;
+    &mysql.linkid-noreopen.description;
    </variablelist>
   </para>
  </refsect1>
