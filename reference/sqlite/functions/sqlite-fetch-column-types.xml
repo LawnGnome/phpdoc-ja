@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311168 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.sqlite-fetch-column-types" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_fetch_column_types</refname>
