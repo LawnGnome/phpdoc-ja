@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301421 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 315183 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.strval" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -61,7 +61,7 @@
   <para>
    <example>
     <title>
-     PHP5 のマジックメソッド <link linkend="language.oop5.magic.tostring">__toString</link>
+     PHP 5 のマジックメソッド <link linkend="language.oop5.magic.tostring">__toString</link>
      を使う <function>strval</function> の例
     </title>
     <programlisting role="php">
