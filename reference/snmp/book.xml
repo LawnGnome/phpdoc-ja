@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315253 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Membership: bundled, external -->
 
@@ -24,7 +24,7 @@
   </para>
   <para>
    Net-SNMP についての詳細な情報は
-   <link xlink:href="http://www.net-snmp.org/">http://www.net-snmp.org/</link>
+   <link xlink:href="&url.net-snmp;">&url.net-snmp;</link>
    にあります。
   </para>
  </preface>
