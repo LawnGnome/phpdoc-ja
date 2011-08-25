@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312675 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 315512 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -334,9 +334,6 @@
             別の証明書を <constant>CURLOPT_CAINFO</constant> オプションで
             指定するか、<constant>CURLOPT_CAPATH</constant> オプションで
             証明ディレクトリを指定します。
-            <constant>CURLOPT_SSL_VERIFYPEER</constant> を無効にする場合、
-            <constant>CURLOPT_SSL_VERIFYHOST</constant> もまた
-            &true; あるいは &false; にする必要があります（デフォルトは 2 です）。
            </entry>
            <entry valign="top">
             cURL 7.10 以降、デフォルト値は &true; です。また、
@@ -658,6 +655,8 @@
            <entry valign="top">
             1 は SSL ピア証明書に一般名が存在するかどうかを調べます。
             2 はそれに加え、その名前がホスト名と一致することを検証します。
+            本番環境では、このオプションの値は常に
+            2 (デフォルト値) にしておかなければなりません。
            </entry>
            <entry valign="top">
            </entry>
