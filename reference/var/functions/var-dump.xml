@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- splitted from ./ja/functions/var.xml, last change in rev 1.34 -->
-<!-- EN-Revision: 311886 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 315550 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.var-dump" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -38,7 +38,7 @@
      <term><parameter>expression</parameter></term>
      <listitem>
       <para>
-       展開したい変数。
+       ダンプしたい変数。
       </para>
      </listitem>
     </varlistentry>

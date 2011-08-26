@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308218 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315571 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpexchange.publish" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -50,12 +50,12 @@
      <listitem>
       <para>
        <constant>AMQP_MANDATORY</constant> および
-       <constant>AMQP_MANDATORY</constant> のひとつ以上。
+       <constant>AMQP_IMMEDIATE</constant> のひとつ以上。
       </para>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter></parameter></term>
+     <term><parameter>attributes</parameter></term>
      <listitem>
       <para>
        <table>
