@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308218 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315621 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpconnection.isconnected" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -36,7 +36,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>AMQPConnection::isConnected</function> の例</title>
+    <title><methodname>AMQPConnection::isConnected</methodname> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php

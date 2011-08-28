@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307958 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315621 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpconnection.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -87,7 +87,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>AMQPConnection::__construct</function> の例</title>
+    <title><methodname>AMQPConnection::__construct</methodname> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
