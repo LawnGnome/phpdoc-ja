@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315772 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="streamwrapper.stream-tell" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <void />
   </methodsynopsis>
   <para>
-   このメソッドは、<function>ftell</function> に対応してコールされます。
+   このメソッドは、<function>fseek</function> に対応してコールされ、現在の位置を決定します。
   </para>
  </refsect1>
 
@@ -59,7 +59,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>ftell</function></member>
+    <member><methodname>streamWrapper::stream_tell</methodname></member>
    </simplelist>
   </para>
  </refsect1>

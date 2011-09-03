@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312694 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 315718 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="json.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -184,6 +184,18 @@
    <listitem>
     <simpara>
      <literal>/</literal> をエスケープしません。
+     PHP 5.4.0 以降で使用可能です。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry>
+   <term>
+    <constant>JSON_UNESCAPED_UNICODE</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     マルチバイト Unicode 文字をそのままの形式で扱います (デフォルトでは \uXXXX にエスケープします)。
      PHP 5.4.0 以降で使用可能です。
     </simpara>
    </listitem>
