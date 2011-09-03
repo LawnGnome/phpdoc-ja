@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 315994 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strpos">
  <refnamediv>
   <refname>strpos</refname>
@@ -18,9 +18,6 @@
   <para>
    文字列 <parameter>haystack</parameter> の中で、
    <parameter>needle</parameter> が最初に現れた位置を数字で返します。
-   PHP 5 以前の <function>strrpos</function> とは異なり、この関数は
-   <parameter>needle</parameter> パラメータとして文字列全体をとり、
-   その文字列全体が検索対象となります。
   </para>
  </refsect1>
 
