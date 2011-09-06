@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 314479 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 315945 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="lua.eval" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Lua::eval</refname>
@@ -42,6 +42,29 @@
   </para>
  </refsect1>
 
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <example>
+   <title><function>Lua::eval</function>の例</title>
+   <programlisting role="php">
+<![CDATA[
+<?php
+    $lua = new Lua();
+    $lua->eval(<<<CODE
+     print(2);
+CODE
+);
+?>
+]]>
+   </programlisting>
+   &example.outputs.similar;
+   <screen>
+<![CDATA[
+2
+]]>
+   </screen>
+  </example>
+ </refsect1>
 
 </refentry>
 
