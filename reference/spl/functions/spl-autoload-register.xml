@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 316314 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.spl-autoload-register" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -54,7 +54,8 @@
       <para>
        このパラメータは、
        <function>spl_autoload_register</function>
-       がエラー時に例外をスローするかどうかを指定します。
+       が <parameter>autoload_function</parameter>
+       を登録できなかったときに例外をスローするかどうかを指定します。
       </para>
      </listitem>
     </varlistentry>
