@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315512 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 316499 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -909,9 +909,9 @@
              <literal>multipart/form-data</literal> を設定します。
             </simpara>
             <simpara>
-             PHP 5.2.0 以降、このオプションに
-             <literal>@</literal> プレフィックスつきで渡されたファイルは
-             配列形式でないと動作しないようになりました。
+             5.2.0 以降、このオプションに
+             <literal>@</literal> プレフィックスつきでファイルを渡したときは
+             <parameter>value</parameter> が配列でなければならなくなりました。
             </simpara>
            </entry>
            <entry valign="top">

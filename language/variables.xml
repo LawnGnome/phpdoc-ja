@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308207 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 316678 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
  <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>変数</title>
@@ -751,7 +751,7 @@ echo "$a $hello";
 
    <para>
     <example>
-     <title>Variable function example</title>
+     <title>可変プロパティの例</title>
       <programlisting role="php">
 <![CDATA[
 <?php
