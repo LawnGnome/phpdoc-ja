@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304554 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 316905 Maintainer: takagi Status: ready -->
 <sect1 xml:id="language.oop5.changelog" xmlns="http://docbook.org/ns/docbook">
  <title>変更履歴</title>
  <para>
@@ -17,6 +17,13 @@
      </row>
     </thead>
     <tbody>
+     <row>
+      <entry>5.4.0</entry>
+      <entry>
+       変更: 抽象クラスでコンストラクタのシグネチャを定義している場合は、
+       そのシグネチャに従うことが必須となりました。
+      </entry>
+     </row>
      <row>
       <entry>5.3.3</entry>
       <entry>
