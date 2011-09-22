@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301474 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 316991 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 
 <sect1 xml:id="language.oop5.decon" xmlns="http://docbook.org/ns/docbook">
@@ -97,8 +97,8 @@ class Bar {
   </methodsynopsis>
   <para>
    PHP 5 では、C++ のような他のオブジェクト指向言語に似た概念のデストラクタが
-   導入されました。デストラクタメソッドは、特定のオブジェクトへの全てのリファレンスが
-   削除された直後やオブジェクトが明示的に破棄された直後にコールされます。
+   導入されました。デストラクタメソッドは、
+   特定のオブジェクトを参照するリファレンスがひとつもなくなったときにコールされます。
    あるいは、スクリプトの終了時にも順不同でコールされます。
   </para>
   <example>
