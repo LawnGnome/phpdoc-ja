@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306338 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 317254 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fileperms">
  <refnamediv>
   <refname>fileperms</refname>
@@ -37,7 +37,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ファイルのパーミッションを返します。&return.falseforfailure;。
+   ファイルのパーミッションを、
+   <function>chmod</function> に渡すのと同じ形式の数値モードで返します。
+   &return.falseforfailure;。
   </para>
  </refsect1>
 
