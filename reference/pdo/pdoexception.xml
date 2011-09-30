@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 317502 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa,takagi -->
 
 <phpdoc:exceptionref xml:id="class.pdoexception" xmlns="http://docbook.org/ns/docbook"

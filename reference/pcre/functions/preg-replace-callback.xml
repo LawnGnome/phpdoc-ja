@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307739 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 317502 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki -->
 <refentry xml:id="function.preg-replace-callback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>

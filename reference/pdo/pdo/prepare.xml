@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.prepare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
