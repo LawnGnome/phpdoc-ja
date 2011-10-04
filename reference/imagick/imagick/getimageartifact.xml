@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308226 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageartifact">
  <refnamediv>
   <refname>Imagick::getImageArtifact</refname>
