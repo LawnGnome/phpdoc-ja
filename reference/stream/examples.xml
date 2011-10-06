@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 317827 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <chapter xml:id="stream.examples">
  &reftitle.examples;
@@ -187,15 +187,15 @@ class VariableStream {
 
     function stream_metadata($path, $option, $var) 
     {
-		if($option == STREAM_META_TOUCH) {
-			$url = parse_url($path);
-	        $varname = $url["host"];
-			if(!isset($GLOBALS[$varname])) {
-	        	$GLOBALS[$varname] = '';
-			}
-			return true;
-		}
-		return false;
+        if($option == STREAM_META_TOUCH) {
+            $url = parse_url($path);
+            $varname = $url["host"];
+            if(!isset($GLOBALS[$varname])) {
+                $GLOBALS[$varname] = '';
+            }
+            return true;
+        }
+        return false;
     }
 }
 

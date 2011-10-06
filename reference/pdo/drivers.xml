@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 317827 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa,takagi -->
 <!-- Purpose: database.abstract -->
 <!-- Membership: pecl, bundled -->
@@ -20,7 +20,7 @@
       </row>
      </thead>
      <tbody>
-	 <row>
+      <row>
        <entry><link linkend="ref.pdo-cubrid">PDO_CUBRID</link></entry>
        <entry>Cubrid</entry>
       </row>
@@ -60,7 +60,7 @@
        <entry><link linkend="ref.pdo-sqlite">PDO_SQLITE</link></entry>
        <entry>SQLite 3 と SQLite 2</entry>
       </row>
-	  <row>
+      <row>
        <entry><link linkend="ref.pdo-sqlsrv">PDO_SQLSRV</link></entry>
        <entry>Microsoft SQL Server / SQL Azure</entry>
       </row>
