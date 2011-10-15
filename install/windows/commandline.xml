@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 318049 Maintainer: mumumu Status: ready -->
    <sect1 xml:id="install.windows.commandline" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Microsoft Windows のコマンドラインでの PHP</title>
     <para>
@@ -112,7 +112,7 @@ Windows Registry Editor Version 5.00
 "AlwaysShowExt"=""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\DefaultIcon]
-@="C:\\PHP5\\php-win.exe0"
+@="C:\\PHP5\\php-win.exe,0"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell]
 @="Open"
