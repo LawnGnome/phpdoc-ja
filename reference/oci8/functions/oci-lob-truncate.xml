@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298108 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 318216 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.oci-lob-truncate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob->truncate</refname>

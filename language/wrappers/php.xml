@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 318227 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <refentry xml:id="wrappers.php" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -94,6 +94,8 @@
     <filename>php://memory</filename> が常にデータをメモリに格納するのに対して
     <filename>php://temp</filename> は定義済みの上限 (デフォルトは 2 MB)
     に達するとテンポラリファイルを使うという点です。
+    このテンポラリファイルの場所は、
+    <function>sys_get_temp_dir</function> 関数と同じ方法で決めます。
    </simpara>
    <simpara>
     <filename>php://temp</filename> のメモリ制限を制御するには
