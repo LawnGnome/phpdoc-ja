@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 318396 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.oci-fetch-all" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_fetch_all</refname>
@@ -201,7 +201,7 @@ echo "<table border='1'>\n";
 foreach ($res as $col) {
     echo "<tr>\n";
     foreach ($col as $item) {
-        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;")."</td>\n";
+        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
     }
     echo "</tr>\n";
 }
