@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 318573 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <appendix xml:id="exec.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
- &no.constants;
+ &extension.constants.core;
+ <para><function>escapeshellcmd</function> のフラグ:
+ <variablelist>
+  <varlistentry>
+   <term>
+    <constant>ESCAPE_CMD_PAIR</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+      <constant>ESCAPE_CMD_PAIR</constant> (デフォルト) を指定すると、
+      クォーテーションをエスケープするのはペアになっていないときだけになります
+      (非 Win32 環境でのみ有効です)。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry>
+   <term>
+    <constant>ESCAPE_CMD_END</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     <constant>ESCAPE_CMD_END</constant> を指定すると、
+     文字列の先頭あるいは最後にあるときはクォーテーションをエスケープしなくなります
+     (非 Win32 環境でのみ有効です)。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry>
+   <term>
+    <constant>ESCAPE_CMD_ALL</constant> 
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     <constant>ESCAPE_CMD_ALL</constant> を指定すると、
+     クォーテーションを常にエスケープします
+     (非 Win32 環境でのみ有効です)。
+    </simpara>
+   </listitem>
+  </varlistentry>
+ </variablelist>
+ </para>
 </appendix>
 
 <!-- Keep this comment at the end of the file
