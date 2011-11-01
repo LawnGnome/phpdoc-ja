@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317246 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 318620 Maintainer: takagi Status: ready -->
   <refentry xml:id="function.strptime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <refnamediv>
     <refname>strptime</refname>
@@ -196,6 +196,7 @@ Array
      <simplelist>
       <member><function>checkdate</function></member>
       <member><function>strftime</function></member>
+      <member><function>date_parse_from_format</function></member>
       <member><function>DateTime::createFromFormat</function></member>
      </simplelist>
     </para>
