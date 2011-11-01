@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300785 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 318662 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ctype-lower" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -73,6 +73,11 @@ The string QASsdks does not consist of all lowercase letters.
     </screen>
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &note.ctype.parameter.integer;
  </refsect1>
 
  <refsect1 role="seealso">
