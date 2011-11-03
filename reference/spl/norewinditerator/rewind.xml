@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
-<refentry xml:id="norewinditerator.haschildren" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 318709 Maintainer: takagi Status: ready -->
+<refentry xml:id="norewinditerator.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>NoRewindIterator::rewind</refname>
   <refpurpose>内部イテレータの巻き戻し操作を阻止する</refpurpose>
