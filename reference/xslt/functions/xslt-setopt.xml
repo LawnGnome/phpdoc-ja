@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 319325 Maintainer: takagi Status: ready -->
+<!-- CREDITS: shimooka -->
 <refentry xml:id="function.xslt-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>xslt_setopt</refname>
-  <refpurpose>与えられた xsl プロセッサにオプションを設定する</refpurpose>
+  <refpurpose>指定した XSLT プロセッサにオプションを設定する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
