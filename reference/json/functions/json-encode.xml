@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315718 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 320312 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.json-encode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_encode</refname>
@@ -93,12 +93,6 @@
        <entry>5.3.0</entry>
        <entry>
         <parameter>options</parameter> パラメータが追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>5.2.1</entry>
-       <entry>
-        JSON エンコードの基本型のサポートを追加しました。
        </entry>
       </row>
      </tbody>
