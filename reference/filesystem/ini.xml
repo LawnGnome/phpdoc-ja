@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317773 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: shimooka -->
+<!-- EN-Revision: 320702 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa,shimooka -->
 <section xml:id="filesystem.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -83,11 +83,6 @@
       linkend="ref.zlib">zlib</link>のようないくつかの拡張モジュールが
       ラッパーを追加することがあります。
      </para>
-     <note>
-      <para>
-       この設定はセキュリティ上の理由で php.ini 中でのみ設定可能です。
-      </para>
-     </note>
      <note>
       <para>
        このオプションは、バージョン4.0.3のリリース直後に追加されました。

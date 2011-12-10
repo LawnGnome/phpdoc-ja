@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305317 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: shimooka -->
+<!-- EN-Revision: 320623 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa,shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fseek">
  <refnamediv>
   <refname>fseek</refname>
