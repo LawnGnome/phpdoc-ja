@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319987 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 320551 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id='function.simplexml-load-string' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -63,6 +63,7 @@
      <term><parameter>ns</parameter></term>
      <listitem>
       <para>
+       名前空間プレフィックスあるいは URI。
       </para>
      </listitem>
     </varlistentry>
@@ -70,6 +71,8 @@
      <term><parameter>is_prefix</parameter></term>
      <listitem>
       <para>
+       <parameter>ns</parameter> がプレフィックスである場合に &true;、
+       URI である場合に &false;。デフォルトは &false; です。
       </para>
      </listitem>
     </varlistentry>
