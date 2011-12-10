@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageartifact">
  <refnamediv>
   <refname>Imagick::getImageArtifact</refname>
@@ -40,7 +40,13 @@
   &reftitle.returnvalues;
   <para>
    成功した場合にアーチファクトの値を返します。
-   &imagick.imagickexception.throw;
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   &imagick.imagick.throws;
   </para>
  </refsect1>
 

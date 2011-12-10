@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308226 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageblueprimary">
  <refnamediv>
   <refname>Imagick::getImageBluePrimary</refname>
@@ -13,7 +13,6 @@
    <type>array</type><methodname>Imagick::getImageBluePrimary</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    青が一番強い点を返します。
   </para>
