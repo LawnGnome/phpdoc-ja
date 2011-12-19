@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313268 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321133 Maintainer: takagi Status: ready -->
 <!-- Membership: core -->
 
 <book xml:id="book.reflection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -30,6 +30,7 @@
  &reference.reflection.extending;
  &reference.reflection.reflection;
  &reference.reflection.reflectionclass;
+ &reference.reflection.reflectionzendextension;
  &reference.reflection.reflectionextension;
  &reference.reflection.reflectionfunction;
  &reference.reflection.reflectionfunctionabstract;

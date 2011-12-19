@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315770 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321129 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Membership: core -->
 
@@ -88,6 +88,7 @@
  &reference.session.upload-progress;
  &reference.session.security;
  &reference.session.reference;
+ &reference.session.sessionhandler;
 
 </book>
 

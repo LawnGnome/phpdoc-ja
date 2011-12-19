@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320280 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321134 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -182,7 +182,7 @@
     </simpara>
     <note>
      <para>
-      Libxml &gt;= 2.7.0 でのみ有効
+      Libxml &gt;= 2.7.0 (PHP &gt;= 5.3.2 あるいは PHP &gt;= 5.2.12) でのみ有効
      </para>
     </note>    
    </listitem>

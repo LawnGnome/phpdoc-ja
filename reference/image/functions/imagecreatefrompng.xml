@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311535 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: shimooka -->
+<!-- EN-Revision: 321138 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.imagecreatefrompng" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecreatefrompng</refname>
@@ -78,6 +78,7 @@ imagedestroy($img);
    </programlisting>
    &example.outputs.similar;
    <mediaobject>
+    <alt>imagecreatefrompng() の例</alt>
     <imageobject>
      <imagedata fileref="en/reference/image/figures/imagecreatefrompng.png"/>
     </imageobject>

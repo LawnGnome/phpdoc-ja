@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308184 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321147 Maintainer: takagi Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.underflowexception"
  xmlns:phpdoc="http://php.net/ns/phpdoc"
@@ -16,7 +16,7 @@
   <section xml:id="underflowexception.intro">
    &reftitle.intro;
    <para>
-    空のコンテナから要素を削除しようとした際にスローされる例外です。
+    空のコンテナ上で無効な操作 (要素の削除など) を試みたときにスローされる例外です。
    </para>
   </section>
 <!-- }}} -->
