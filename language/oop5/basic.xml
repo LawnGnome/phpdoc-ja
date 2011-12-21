@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306693 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321294 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -59,7 +59,7 @@ class SimpleClass
     への参照です。
    </para>
    <para>
-    <example>
+    <example xml:id="language.oop5.basic.class.this">
      <title><varname>$this</varname> 疑似変数の例</title>
     <programlisting role="php">
 <![CDATA[
