@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321418 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysqli-report" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_report</refname>
@@ -111,7 +111,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <para>&style.oop;</para>
+    <title>&style.oop;</title>
     <programlisting role="php">
 <![CDATA[
 <?php
