@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321495 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-stmt.store-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_stmt::store_result</refname>
@@ -57,7 +57,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <para>&style.oop;</para>
+   <title>&style.oop;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -93,7 +93,9 @@ $mysqli->close();
 ?>
 ]]>
    </programlisting>
-   <para>&style.procedural;</para>
+  </example>
+  <example>
+   <title>&style.procedural;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
