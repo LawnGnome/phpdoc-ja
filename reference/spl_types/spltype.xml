@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312828 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321707 Maintainer: takagi Status: ready -->
 
 <phpdoc:classref xml:id="class.spltype" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -50,19 +50,16 @@
 <!-- {{{ SplType constants -->
   <section xml:id="spltype.constants">
    &reftitle.constants;
-   <section xml:id="spltype.constants.types">
-    <title>SplType ノード型</title>
-    <variablelist>
+   <variablelist>
 
-     <varlistentry xml:id="spltype.constants.default">
-      <term><constant>SplType::__default</constant></term>
-      <listitem>
-       <para></para>
-      </listitem>
-     </varlistentry>
+    <varlistentry xml:id="spltype.constants.default">
+     <term><constant>SplType::__default</constant></term>
+     <listitem>
+      <para></para>
+     </listitem>
+    </varlistentry>
 
-    </variablelist>
-   </section>
+   </variablelist>
   </section>
 <!-- }}} -->
 
