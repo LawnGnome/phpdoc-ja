@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321705 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionfunctionabstract.isdeprecated" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -18,8 +18,6 @@
    この関数が非推奨であるかどうかを調べます。
   </para>
 
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,6 +29,31 @@
   &reftitle.returnvalues;
   <para>
    非推奨である場合に &true;、それ以外の場合に &false; を返します。 
+  </para>
+ </refsect1>
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+   <example>
+    <title>
+     <methodname>ReflectionFunctionAbstract::isDeprecated</methodname> の例
+    </title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+$rf = new ReflectionFunction('ereg');
+var_dump($rf->isDeprecated());
+?>
+]]>
+    </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+bool(true)
+]]>
+    </screen>
+   </example>
   </para>
  </refsect1>
 
