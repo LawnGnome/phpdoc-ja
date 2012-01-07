@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321092 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321825 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
   <title>関数</title>
@@ -365,7 +365,7 @@ Making a bowl of acidophilus raspberry.
     <title>可変長引数リスト</title>
     
     <simpara>
-     PHP 4 以降は、可変長引数をユーザー定義関数でサポートしています。
+     PHP は、可変長引数をユーザー定義関数でサポートしています。
      可変長引数の使用法は非常に簡単で、
      <function>func_num_args</function>,
      <function>func_get_arg</function>, 
@@ -493,7 +493,7 @@ function bar($arg = '')
     echo "In bar(); argument was '$arg'.<br />\n";
 }
 
-// This is a wrapper function around echo
+// これは、echo のラッパー関数です。
 function echoit($string)
 {
     echo $string;
