@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316915 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 321823 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.get-headers" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>get_headers</refname>
@@ -150,6 +150,15 @@ $headers = get_headers('http://example.com');
 ]]>
     </programlisting>
    </example>
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><function>apache_request_headers</function></member>
+   </simplelist>
   </para>
  </refsect1>
 

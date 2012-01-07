@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321825 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Membership: pecl, external -->
  
@@ -16,9 +16,6 @@
    Shockwave Flash ファイルを作成する機能を提供します。
   </para>
   <note>
-   <para>
-    SWF サポートは、PHP 4 RC2 で追加されました。
-   </para>
    <para>
     libswf は、Windows でサポートされていません。
     このライブラリの開発は中止されており、
