@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312151 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321901 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="apciterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>APCIterator::__construct</methodname>
+   <modifier>public</modifier> <methodname>APCIterator::__construct</methodname>
    <methodparam><type>string</type><parameter>cache</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>search</parameter><initializer>null</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>format</parameter></methodparam>

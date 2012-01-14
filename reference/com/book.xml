@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322198 Maintainer: takagi Status: ready -->
 <!-- Membership: bundled -->
 <!-- CREDITS: hirokawa -->
  
@@ -63,6 +63,9 @@
  &reference.com.constants;
  &reference.com.error-handling;
  &reference.com.examples;
+ &reference.com.com;
+ &reference.com.dotnet;
+ &reference.com.variant;
  &reference.com.reference;
 
 </book>
