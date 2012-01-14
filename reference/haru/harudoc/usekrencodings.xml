@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.harudoc-usekrencodings" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="harudoc.usekrencodings" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruDoc::useKREncodings</refname>
   <refpurpose>韓国/朝鮮語エンコーディングを有効にする</refpurpose>

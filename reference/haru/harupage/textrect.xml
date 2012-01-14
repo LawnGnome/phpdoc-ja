@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.harupage-textrect" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="harupage.textrect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::textRect</refname>
   <refpurpose>指定した領域内にテキストを表示する</refpurpose>

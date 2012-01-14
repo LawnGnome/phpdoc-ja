@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.harupage-concat" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="harupage.concat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::concat</refname>
   <refpurpose>現在のページの変換行列と指定した行列を連結する</refpurpose>

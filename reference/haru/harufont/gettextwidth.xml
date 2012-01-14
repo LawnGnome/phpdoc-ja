@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.harufont-gettextwidth" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="harufont.gettextwidth" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruFont::getTextWidth</refname>
   <refpurpose>テキスト全体の幅、文字数、単語数および空白の数を取得する</refpurpose>

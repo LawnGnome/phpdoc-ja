@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.haruimage-getbitspercomponent" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="haruimage.getbitspercomponent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruImage::getBitsPerComponent</refname>
   <refpurpose>画像の各色コンポーネントで使用するビット数を取得する</refpurpose>

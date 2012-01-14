@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.harupage-closepath" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="harupage.closepath" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::closePath</refname>
   <refpurpose>現在の位置からパスの開始位置に直線を追加する</refpurpose>
