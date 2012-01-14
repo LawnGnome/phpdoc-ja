@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <chapter xml:id="faq.obtaining" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP を手に入れるには</title>
@@ -188,7 +188,7 @@
      </para>
     </answer>
    </qandaentry>
-   <qandaentry xml:id="faq.obtaining.compileNT">
+   <qandaentry xml:id="faq.obtaining.compilent">
     <question>
      <para>
       SVNリポジトリから最新のPHPソースコードを手に入れました。Windows上でコン
