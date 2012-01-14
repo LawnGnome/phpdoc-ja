@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322056 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
  <section xml:id="ini.sections" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -25,9 +25,9 @@
     <tgroup cols="3">
      <thead>
       <row>
-       <entry>名前</entry>
-       <entry>変更の可否</entry>
-       <entry>変更履歴</entry>
+       <entry>&Name;</entry>
+       <entry>&Changeable;</entry>
+       <entry>&Changelog;</entry>
       </row>
      </thead>
      <tbody>
