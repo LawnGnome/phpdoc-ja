@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
 <refentry xml:id='domxpath.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMXPath::__construct</refname>
@@ -10,13 +10,10 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-  <ooclass><classname>DOMXPath</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <methodparam><type>DOMDocument</type><parameter>doc</parameter></methodparam>
-   </methodsynopsis> 
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>DOMXPath::__construct</methodname>
+   <methodparam><type>DOMDocument</type><parameter>doc</parameter></methodparam>
+  </methodsynopsis>
   <para>
    新しい <classname>DOMXPath</classname> オブジェクトを作成します。
   </para>

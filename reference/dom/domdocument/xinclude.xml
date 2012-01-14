@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299688 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.xinclude" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DOMDocument::xinclude</refname>
@@ -54,7 +54,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>DOMDocument->xinclude() の例</title>
+    <title>DOMDocument::xinclude() の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php

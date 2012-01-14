@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322062 Maintainer: takagi Status: ready -->
 <!--
 FIXME: huh?
 Remove me once you perform substitutions
@@ -21,7 +21,7 @@ Remove me once you perform substitutions
   <section xml:id="domnotation.intro">
    &reftitle.intro;
    <para>
-    Description of the class.
+    
    </para>
   </section>
 -->

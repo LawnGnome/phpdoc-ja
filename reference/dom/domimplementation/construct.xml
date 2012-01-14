@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
 <refentry xml:id='domimplementation.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMImplementation::__construct</refname>
@@ -10,13 +10,10 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>DOMImplementation</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <void/>
-   </methodsynopsis> 
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>DOMImplementation::__construct</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
    新しい <classname>DOMImplementation</classname> オブジェクトを作成します。
   </para>

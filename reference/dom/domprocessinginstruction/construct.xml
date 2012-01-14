@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
 <refentry xml:id='domprocessinginstruction.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMProcessingInstruction::__construct</refname>
@@ -10,14 +10,11 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>DOMProcessingInstruction</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <methodparam><type>string</type><parameter>name</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
-   </methodsynopsis> 
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>DOMProcessingInstruction::__construct</methodname>
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
+  </methodsynopsis>
   <para>
    新しい <classname>DOMProcessingInstruction</classname> オブジェクトを
    作成します。このオブジェクトは読み込み専用です。このオブジェクトを

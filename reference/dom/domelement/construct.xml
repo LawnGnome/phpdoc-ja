@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
 <refentry xml:id='domelement.construct' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMElement::__construct</refname>
@@ -10,15 +10,12 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>DOMElement</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <methodparam><type>string</type><parameter>name</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>namespaceURI</parameter></methodparam>
-   </methodsynopsis> 
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>DOMElement::__construct</methodname>
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>namespaceURI</parameter></methodparam>
+  </methodsynopsis> 
   <para>
    新しい <classname>DOMElement</classname> オブジェクトを作成します。
    このオブジェクトは読み込み専用です。このオブジェクトをドキュメントに

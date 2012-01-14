@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 
  <reference xml:id="ref.domxml" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -707,6 +707,13 @@ morerows='1'>b1</entry><entry>c1</entry></row>
    </section>
   </partintro>
 
+&reference.domxml.entities.DomAttribute;
+&reference.domxml.entities.DomDocument;
+&reference.domxml.entities.DomDocumentType;
+&reference.domxml.entities.DomElement;
+&reference.domxml.entities.DomNode;
+&reference.domxml.entities.DomProcessingInstruction;
+&reference.domxml.entities.DomXsltStylesheet;
 &reference.domxml.entities.functions;
 
  </reference>
