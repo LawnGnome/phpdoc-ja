@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306259 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321821 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="context.http" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -285,7 +285,7 @@ $opts = array('http' =>
     )
 );
 
-$context  = stream_context_create($opts);
+$context = stream_context_create($opts);
 
 $result = file_get_contents('http://example.com/submit.php', false, $context);
 
@@ -294,7 +294,7 @@ $result = file_get_contents('http://example.com/submit.php', false, $context);
     </programlisting>
    </example><!-- }}} -->
   </para>
-    <para>
+  <para>
    <example xml:id="context.http.example-fetch-ignore-redirect"><!-- {{{ -->
     <title>リダイレクトを無視し、ヘッダとコンテンツの取得</title>
     <programlisting role="php">
@@ -303,11 +303,13 @@ $result = file_get_contents('http://example.com/submit.php', false, $context);
 
 $url = "http://www.example.org/header.php";
 
-$opts = array(
-       'http' => array('method' => 'GET',
-                                       'max_redirects' => '0',
-                                       'ignore_errors' => '1')
-       );
+$opts = array('http' =>
+    array(
+        'method' => 'GET',
+        'max_redirects' => '0',
+        'ignore_errors' => '1'
+    )
+);
 
 $context = stream_context_create($opts);
 $stream = fopen($url, 'r', false, $context);
