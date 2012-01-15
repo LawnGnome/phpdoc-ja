@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305261 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322237 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.loadhtml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::loadHTML</refname>
@@ -55,6 +55,7 @@
    のエラー処理関数では処理できません。
   </para>
   &dom.allowstatic;
+  &dom.malformederror;
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
