@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322147 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.hwapi-object-new" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>hw_api_object</refname>
-  <refpurpose>hw_api_object クラスの新しいインスタンスを作成する</refpurpose>
+  <refname>hwapi_object_new</refname>
+  <refpurpose>hwapi_object_new クラスの新しいインスタンスを作成する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>hw_api_object</type><methodname>hw_api_object</methodname>
+   <type>hw_api_object</type><methodname>hwapi_object_new</methodname>
    <methodparam><type>array</type><parameter>parameter</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -44,7 +44,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.hwapi-lock" /></member>
+    <member><xref linkend="hwapi.lock" /></member>
    </simplelist>
   </para>
  </refsect1>
