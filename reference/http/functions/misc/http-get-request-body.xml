@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322045 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.http-get-request-body" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>http_get_request_body</refname>
@@ -31,7 +31,7 @@
   &reftitle.returnvalues;
   <para>
    成功した場合は生のリクエスト本文を文字列で返します。
-   失敗した場合は NULL を返します。
+   失敗した場合は &null; を返します。
   </para>
  </refsect1>
 

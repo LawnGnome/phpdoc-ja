@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.httpresponse-send" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="httpresponse.send" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpResponse::send</refname>
   <refpurpose>レスポンスを送信する</refpurpose>

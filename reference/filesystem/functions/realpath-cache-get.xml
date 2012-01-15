@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: satoruyoshida Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath_cache_get">
+<!-- EN-Revision: 322131 Maintainer: satoruyoshida Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath-cache-get">
  <refnamediv>
   <refname>realpath_cache_get</refname>
   <refpurpose>realpath キャッシュ・エントリーを取得</refpurpose>

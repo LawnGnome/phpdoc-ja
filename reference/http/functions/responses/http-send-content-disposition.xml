@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322045 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.http-send-content-disposition" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>http_send_content_disposition</refname>
@@ -27,7 +27,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       &quot;名前を付けて保存...&quot; ダイアログで表示するファイル名。
+       "名前を付けて保存..." ダイアログで表示するファイル名。
       </para>
      </listitem>
     </varlistentry>

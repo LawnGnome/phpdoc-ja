@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.httpresponse-getheader" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="httpresponse.getheader" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpResponse::getHeader</refname>
   <refpurpose>ヘッダを取得する</refpurpose>

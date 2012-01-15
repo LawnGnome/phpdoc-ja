@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315065 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 321766 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fopen">
  <refnamediv>
@@ -368,6 +368,7 @@ $handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
     <member><function>popen</function></member>
     <member><function>stream_context_create</function></member>
     <member><function>umask</function></member>
+    <member><classname>SplFileObject</classname></member>
    </simplelist>
   </para>
  </refsect1>

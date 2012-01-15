@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.httpdeflatestream-construct" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322138 Maintainer: takagi Status: ready -->
+<refentry xml:id="httpdeflatestream.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpDeflateStream::__construct</refname>
   <refpurpose>HttpDeflateStream クラスのコンストラクタ</refpurpose>
@@ -10,15 +10,15 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier>
-   <type>void</type><methodname>HttpDeflateStream::__construct</methodname>
+   <methodname>HttpDeflateStream::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
-   新しい HttpDeflateStream クラスのインスタンスを作成します。
+   新しい <classname>HttpDeflateStream</classname> オブジェクトのインスタンスを作成します。
   </para>
   <para>
    <parameter>flags</parameter> に指定する内容については
-   <link linkend="http.HttpDeflateStream.constants">圧縮ストリームの定数の表</link>
+   <link linkend="http.httpdeflatestream.constants">圧縮ストリームの定数の表</link>
    を参照ください。
   </para>
  </refsect1>

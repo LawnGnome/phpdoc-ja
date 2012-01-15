@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.httprequestpool-destruct" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="httprequestpool.destruct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpRequestPool::__destruct</refname>
   <refpurpose>HttpRequestPool のデストラクタ</refpurpose>
@@ -14,7 +14,7 @@
   </methodsynopsis>
 
   <para>
-   HttpRequestPool オブジェクトの後始末をします。
+   <classname>HttpRequestPool</classname> オブジェクトの後始末をします。
   </para>
 
  </refsect1>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312851 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.httpmessage-prepend" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="httpmessage.prepend" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpMessage::prepend</refname>
   <refpurpose>メッセージを先頭に追加する</refpurpose>
@@ -28,7 +28,7 @@
      <term><parameter>message</parameter></term>
      <listitem>
       <para>
-       先頭に追加する HttpMessage オブジェクト。
+       先頭に追加する <classname>HttpMessage</classname> オブジェクト。
       </para>
      </listitem>
     </varlistentry>
