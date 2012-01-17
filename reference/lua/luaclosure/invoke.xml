@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 322129 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="luaclosure.invoke" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaClosure::__invoke</refname>
@@ -58,21 +58,21 @@
    <programlisting role="php">
 <![CDATA[
 <?php
-    $lua = new Lua();
-    $closure = $lua->eval(<<<CODE
-     return (function ()
+$lua = new Lua();
+$closure = $lua->eval(<<<CODE
+    return (function ()
         print("hello world")
-     end)
+    end)
 CODE
 );
 
-    $lua->call($closure);
-    /* PHP 5.3 以降 */
-    $closure();
+$lua->call($closure);
+/* PHP 5.3 以降 */
+$closure();
 ?>
 ]]>
    </programlisting>
-   &example.outputs.similar;
+   &example.outputs;
    <screen>
 <![CDATA[
 hello worldhello world
