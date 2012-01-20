@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313115 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.mysqli-rpl-query-type" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<refentry xml:id="mysqli.rpl-query-type" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_rpl_query_type</refname>
   <refname>mysqli::rpl_query_type</refname>
+  <refname>mysqli_rpl_query_type</refname>
   <refpurpose>RPL クエリの型を返す</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <para>&style.oop;</para>
-  <classsynopsis>
-   <ooclass><classname>mysqli</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>rpl_query_type</methodname>
-    <methodparam><type>string</type><parameter>query</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis role="oop">
+   <type>int</type><methodname>mysqli::rpl_query_type</methodname>
+   <methodparam><type>string</type><parameter>query</parameter></methodparam>
+  </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_rpl_query_type</methodname>
