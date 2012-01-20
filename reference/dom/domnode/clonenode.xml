@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322382 Maintainer: takagi Status: ready -->
 <refentry xml:id='domnode.clonenode' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMNode::cloneNode</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMNode</type><methodname>DOMNode::cloneNode</methodname>
+   <modifier>public</modifier> <type>DOMNode</type><methodname>DOMNode::cloneNode</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>deep</parameter></methodparam>
   </methodsynopsis>
   <para>

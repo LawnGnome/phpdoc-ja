@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313698 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322382 Maintainer: takagi Status: ready -->
 <refentry xml:id='domnode.hasattributes' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMNode::hasAttributes</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DOMNode::hasAttributes</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>DOMNode::hasAttributes</methodname>
    <void/>
   </methodsynopsis>
   <para>

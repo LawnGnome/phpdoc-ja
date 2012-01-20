@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322382 Maintainer: takagi Status: ready -->
 <refentry xml:id='domnode.lookupnamespaceuri' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMNode::lookupNamespaceURI</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>DOMNode::lookupNamespaceURI</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>DOMNode::lookupNamespaceURI</methodname>
    <methodparam><type>string</type><parameter>prefix</parameter></methodparam>
   </methodsynopsis>
   <para>
