@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-chopimage">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.chopimage">
  <refnamediv>
   <refname>Imagick::chopImage</refname>
   <refpurpose>画像の一部を取り除き、切り詰める</refpurpose>

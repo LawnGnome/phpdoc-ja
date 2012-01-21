@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setimagecolormapcolor">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagecolormapcolor">
  <refnamediv>
   <refname>Imagick::setImageColormapColor</refname>
   <refpurpose>指定した色マップインデックスの色を設定する</refpurpose>

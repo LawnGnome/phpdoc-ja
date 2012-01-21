@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getinterlacescheme">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getinterlacescheme">
  <refnamediv>
   <refname>Imagick::getInterlaceScheme</refname>
   <refpurpose>オブジェクトのインターレース方式を取得する</refpurpose>

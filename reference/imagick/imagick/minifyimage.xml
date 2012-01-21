@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-minifyimage">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.minifyimage">
  <refnamediv>
   <refname>Imagick::minifyImage</refname>
   <refpurpose>画像をその半分のサイズに比例縮小する</refpurpose>

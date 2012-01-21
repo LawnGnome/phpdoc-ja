@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagelength">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagelength">
  <refnamediv>
   <refname>Imagick::getImageLength</refname>
   <refpurpose>画像の長さをバイト数で取得する</refpurpose>

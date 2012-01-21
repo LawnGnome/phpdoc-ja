@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setimageinterpolatemethod">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageinterpolatemethod">
  <refnamediv>
   <refname>Imagick::setImageInterpolateMethod</refname>
   <refpurpose>画像のピクセル補間方式を設定する</refpurpose>

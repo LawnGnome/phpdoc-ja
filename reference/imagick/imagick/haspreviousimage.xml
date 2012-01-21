@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-haspreviousimage">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.haspreviousimage">
  <refnamediv>
   <refname>Imagick::hasPreviousImage</refname>
   <refpurpose>オブジェクトが前の画像を保持しているかどうかを調べる</refpurpose>

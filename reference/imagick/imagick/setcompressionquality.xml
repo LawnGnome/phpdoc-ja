@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setcompressionquality">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setcompressionquality">
  <refnamediv>
   <refname>Imagick::setCompressionQuality</refname>
   <refpurpose>オブジェクトのデフォルトの圧縮品質を設定する</refpurpose>
