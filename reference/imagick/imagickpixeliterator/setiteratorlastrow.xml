@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickpixeliterator-setiteratorlastrow">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.setiteratorlastrow">
  <refnamediv>
   <refname>ImagickPixelIterator::setIteratorLastRow</refname>
   <refpurpose>pixel iterator を最後の行に設定する</refpurpose>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickpixel-setcolorvalue">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.setcolorvalue">
  <refnamediv>
   <refname>ImagickPixel::setColorValue</refname>
   <refpurpose>指定したチャネルの正規化した値を設定する</refpurpose>
