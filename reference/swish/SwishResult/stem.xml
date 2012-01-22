@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swish-query" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishresult.stem" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;query</refname>
-  <refpurpose>クエリを実行し、結果オブジェクトを返す</refpurpose>
+  <refname>SwishResult::stem</refname>
+  <refpurpose>指定した単語の語幹を取得する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>Swish-&gt;query</methodname>
-   <methodparam><type>string</type><parameter>query</parameter></methodparam>
+   <type>array</type><methodname>SwishResult::stem</methodname>
+   <methodparam><type>string</type><parameter>word</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
   <para>
-   デフォルトのパラメータで検索を行うためのお手軽なメソッドです。
+   インデックス化の際に使用したファジーモードにもとづいて、
+   単語の語幹を取得します。各結果オブジェクトはインデックスにリンクされるので、
+   結果はこのインデックスに基づくものとなります。
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -22,10 +24,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>query</parameter></term>
+     <term><parameter>word</parameter></term>
      <listitem>
       <para>
-       クエリ文字列。
+       取り除く単語。
       </para>
      </listitem>
     </varlistentry>
@@ -35,7 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   <classname>SwishResults</classname> オブジェクトを返します。
+   単語の活用形を取り除いた配列を返します (通常はひとつだけです)。
   </para>
  </refsect1>
  <refsect1 role="errors">
@@ -48,20 +50,23 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>Swish-&gt;query</function> の例</title>
+    <title>基本的な <function>SwishResult::stem</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
 
 try {
 
-    $swish = new Swish("index.swish-e");
-    $results = $swish->query("test query");
+    $swish = new Swish("ext/swish/tests/index.swish-e");
+    $results = $swish->query("testing OR others");
 
-    echo "Found: ", $results->hits, " hits\n";
+    if ($result = $results->nextResult()) {
+        var_dump($result->stem("testing")); // この結果は、インデックスで使用している stemmer に依存します
+        var_dump($result->stem("others"));
+    }
 
 } catch (SwishException $e) {
-    echo $e->getMessage(), "\n";
+    echo "Error: ", $e->getMessage(), "\n";
 }
 
 ?>
@@ -70,7 +75,14 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-Found: 1 hits
+array(1) {
+  [0]=>
+  string(4) "test"
+}
+array(1) {
+  [0]=>
+  string(5) "other"
+}
 ]]>
     </screen>
    </example>

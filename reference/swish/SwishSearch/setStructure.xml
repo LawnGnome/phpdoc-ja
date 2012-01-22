@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swishsearch-setstructure" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishsearch.setstructure" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SwishSearch-&gt;setStructure</refname>
+  <refname>SwishSearch::setStructure</refname>
   <refpurpose>検索オブジェクトの構造フラグを設定する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>SwishSearch-&gt;setStructure</methodname>
+   <type>void</type><methodname>SwishSearch::setStructure</methodname>
    <methodparam><type>int</type><parameter>structure</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
@@ -86,7 +86,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>SwishSearch-&gt;setStructure</function> の例</title>
+    <title>基本的な <function>SwishSearch::setStructure</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php

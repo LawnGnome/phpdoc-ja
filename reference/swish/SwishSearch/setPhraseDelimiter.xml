@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swishsearch-setsort" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishsearch.setphrasedelimiter" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SwishSearch-&gt;setSort</refname>
-  <refpurpose>並び順を設定する</refpurpose>
+  <refname>SwishSearch::setPhraseDelimiter</refname>
+  <refpurpose>フレーズの区切り文字を設定する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>SwishSearch-&gt;setSort</methodname>
-   <methodparam><type>string</type><parameter>sort</parameter></methodparam>
+   <type>void</type><methodname>SwishSearch::setPhraseDelimiter</methodname>
+   <methodparam><type>string</type><parameter>delimiter</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
  </refsect1>
@@ -19,13 +19,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>sort</parameter></term>
+     <term><parameter>delimiter</parameter></term>
      <listitem>
       <para>
-       結果の並び順は、プロパティ名とソート方向 ("asc" あるいは "desc")
-       を組み合わせた文字列で指定します。
-       たとえば "swishrank desc"、"swishdocpath asc"、"swishtitle asc"、
-       "swishdocsize desc"、"swishlastmodified desc" などです。
+       フレーズの区切り文字。デフォルトの区切り文字はダブルクォートです。
       </para>
      </listitem>
     </varlistentry>
@@ -42,7 +39,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>SwishSearch-&gt;setSort</function> の例</title>
+    <title>基本的な <function>SwishSearch::setPhraseDelimiter</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -52,22 +49,19 @@ try {
     $swish = new Swish("index.swish-e");
     $search = $swish->prepare();
 
-    $results = $search->execute("time");
+    $results = $search->execute('"every time"'); // "every time" を検索します
     echo "First query found: ", $results->hits, " hits\n";
 
-    $i = 0;
-    while($result = $results->nextResult()) {
-        echo "Hit #", ++$i, " - ", $result->swishdocsize, " bytes\n";
-    }
-
-    $search->setSort("swishdocsize desc"); // ドキュメントのサイズで並べ替えます
-    $results = $search->execute("time");
+    $search->setPhraseDelimiter("'");
+    $results = $search->execute("'every time'"); // 同じクエリですが、別の区切り文字を使用します
     echo "Second query found: ", $results->hits, " hits\n";
 
-    $i = 0;
-    while($result = $results->nextResult()) {
-        echo "Hit #", ++$i, " - ", $result->swishdocsize, " bytes\n";
-    }
+    $search->setPhraseDelimiter('"');
+    $results = $search->execute("'every time'"); // "every" および "time" を検索します
+    echo "Third query found: ", $results->hits, " hits\n";
+
+    //let's look at parsed words
+    var_dump($results->getParsedWords("index.swish-e"));
 
 } catch (SwishException $e) {
     echo $e->getMessage(), "\n";
@@ -79,18 +73,15 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-First query found: 5 hits
-Hit #1 - 4261 bytes
-Hit #2 - 37937 bytes
-Hit #3 - 7126 bytes
-Hit #4 - 15427 bytes
-Hit #5 - 4768 bytes
-Second query found: 5 hits
-Hit #1 - 37937 bytes
-Hit #2 - 15427 bytes
-Hit #3 - 7126 bytes
-Hit #4 - 4768 bytes
-Hit #5 - 4261 bytes
+First query found: 1 hits
+Second query found: 1 hits
+Third query found: 2 hits
+array(2) {
+  [0]=>
+  string(5) "every"
+  [1]=>
+  string(4) "time"
+}
 ]]>
     </screen>
    </example>

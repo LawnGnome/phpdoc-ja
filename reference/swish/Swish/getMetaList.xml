@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swish-getpropertylist" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: takagi Status: ready -->
+<refentry xml:id="swish.getmetalist" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;getPropertyList</refname>
-  <refpurpose>このインデックスのプロパティ一覧を取得する</refpurpose>
+  <refname>Swish::getMetaList</refname>
+  <refpurpose>このインデックスのメタエントリ一覧を取得する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>Swish-&gt;getPropertyList</methodname>
+   <type>array</type><methodname>Swish::getMetaList</methodname>
    <methodparam><type>string</type><parameter>index_name</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
@@ -32,14 +32,14 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   指定したインデックスのプロパティ一覧を配列で返します。
+   指定したインデックスのメタエントリの配列を返します。
   </para>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>Swish-&gt;getPropertyList</function> の例</title>
+    <title>基本的な <function>Swish::getMetaList</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -47,10 +47,7 @@
 try {
 
     $swish = new Swish("index.swish-e");
-    $properties = $swish->getPropertyList("index.swish-e");
-    foreach ($properties as $prop) {
-        echo $prop["Name"],"\n";
-    }
+    var_dump($swish->getMetaList("index.swish-e"));
 
 } catch (SwishException $e) {
     echo $e->getMessage(), "\n";
@@ -62,14 +59,17 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-swishreccount
-swishrank
-swishfilenum
-swishdbfile
-swishdocpath
-swishtitle
-swishdocsize
-swishlastmodified
+array(1) {
+  [0]=>
+  array(3) {
+    ["Name"]=>
+    string(12) "swishdefault"
+    ["Type"]=>
+    int(0)
+    ["ID"]=>
+    int(1)
+  }
+}
 ]]>
     </screen>
    </example>

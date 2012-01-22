@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swishresult-getmetalist" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322162 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishresult.getmetalist" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SwishResult-&gt;getMetaList</refname>
+  <refname>SwishResult::getMetaList</refname>
   <refpurpose>メタエントリの一覧を取得する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>SwishResult-&gt;getMetaList</methodname>
+   <type>array</type><methodname>SwishResult::getMetaList</methodname>
    <void/>
   </methodsynopsis>
   &warn.experimental.func;
@@ -17,8 +17,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   <link
-    linkend="function.swish-getmetalist"><function>swish-&gt;getmetalist</function></link>
+   <function>swish::getmetalist</function>
    と同じ配列を返しますが、結果ハンドルからのインデックスファイルを使用します。
   </para>
  </refsect1>

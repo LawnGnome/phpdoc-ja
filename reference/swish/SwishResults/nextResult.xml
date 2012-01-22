@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swishresults-nextresult" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishresults.nextresult" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SwishResults-&gt;nextResult</refname>
+  <refname>SwishResults::nextResult</refname>
   <refpurpose>次の検索結果を取得する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>SwishResults-&gt;nextResult</methodname>
+   <type>object</type><methodname>SwishResults::nextResult</methodname>
    <void/>
   </methodsynopsis>
   &warn.experimental.func;
@@ -26,7 +26,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>SwishResults-&gt;nextResult</function> の例</title>
+    <title>基本的な <function>SwishResults::nextResult</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.swish-prepare" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322162 Maintainer: takagi Status: ready -->
+<refentry xml:id="swishsearch.execute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;prepare</refname>
-  <refpurpose>検索クエリを準備する</refpurpose>
+  <refname>SwishSearch::execute</refname>
+  <refpurpose>検索を実行し、結果を取得する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>Swish-&gt;prepare</methodname>
+   <type>object</type><methodname>SwishSearch::execute</methodname>
    <methodparam choice="opt"><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
   <para>
-   準備した検索オブジェクトを返します。
-   後でこれを使用して何度でもクエリを実行することができます。
+   検索オブジェクトに設定したパラメータにもとづいて、
+   インデックスファイルを検索します。
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -26,9 +26,11 @@
      <term><parameter>query</parameter></term>
      <listitem>
       <para>
-       オプションのクエリ文字列。クエリは、<link
-        linkend="function.swishsearch-execute"><function>SwishSearch-&gt;execute</function></link>
-       メソッドで設定することもできます。
+       クエリ文字列はオプションパラメータです。
+       <function>Swish::prepare</function>
+       メソッドで設定することもできます。クエリ文字列は
+       実行した後もそのまま残ります。
+       つまり、一度設定した内容で複数回検索を行うことができます。
       </para>
      </listitem>
     </varlistentry>
@@ -38,7 +40,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   <classname>SwishSearch</classname> オブジェクトを返します。
+   <classname>SwishResults</classname> オブジェクトを返します。
   </para>
  </refsect1>
  <refsect1 role="errors">
@@ -51,7 +53,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>基本的な <function>Swish-&gt;prepare</function> の例</title>
+    <title>基本的な <function>SwishSearch::execute</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -59,13 +61,14 @@
 try {
 
     $swish = new Swish("index.swish-e");
-    $search = $swish->prepare("search query");
-    $results = $search->execute();
-    echo "Found: ", $results->hits, " hits\n";
+    $search = $swish->prepare();
 
-    $results = $search->execute("new search");
+    $results = $search->execute("query");
+    echo "First query found: ", $results->hits, " hits\n";
 
-    echo "Found: ", $results->hits, " hits\n";
+    $results = $search->execute("new OR query");
+    echo "Second query found: ", $results->hits, " hits\n";
+
 } catch (SwishException $e) {
     echo $e->getMessage(), "\n";
 }
@@ -76,13 +79,14 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-Found: 2 hits
-Found: 5 hits
+First query found: 2 hits
+Second query found: 12 hits
 ]]>
     </screen>
    </example>
   </para>
  </refsect1>
+
 </refentry>
 
 <!-- Keep this comment at the end of the file
