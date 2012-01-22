@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="locale.getdisplayscript">
  <refnamediv>
   <refname>Locale::getDisplayScript</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   オブジェクト指向型
+   &style.oop;
   </para>
   <methodsynopsis>
    <modifier>static</modifier>
@@ -21,7 +21,7 @@
    <methodparam choice="opt"><type>string</type><parameter>in_locale</parameter></methodparam>
   </methodsynopsis>
   <para>
-   手続き型
+   &style.procedural;
   </para>
   <methodsynopsis>
    <type>string</type>

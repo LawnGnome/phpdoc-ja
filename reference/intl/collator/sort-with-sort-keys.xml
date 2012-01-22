@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
 <refentry xml:id="collator.sortwithsortkeys" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Collator::sortWithSortKeys</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   オブジェクト指向型
+   &style.oop;
   </para>
   <methodsynopsis>
    <type>bool</type>
@@ -19,7 +19,7 @@
    <methodparam><type>array</type><parameter role="reference">arr</parameter></methodparam>
   </methodsynopsis>
   <para>
-   手続き型
+   &style.procedural;
   </para>
   <methodsynopsis>
    <type>bool</type>

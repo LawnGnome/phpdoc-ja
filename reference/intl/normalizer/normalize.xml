@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291316 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook"
  xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="normalizer.normalize">
  <refnamediv>
@@ -12,7 +12,7 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <para>オブジェクト指向型</para>
+  <para>&style.oop;</para>
    <methodsynopsis>
     <modifier>static</modifier>
     <type>string</type>
@@ -20,7 +20,7 @@
     <methodparam><type>string</type><parameter>input</parameter></methodparam>
     <methodparam choice="opt"><type>string</type><parameter>form</parameter><initializer>Normalizer::FORM_C</initializer></methodparam>
    </methodsynopsis>
-  <para>手続き型</para>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>string</type>
    <methodname>normalizer_normalize</methodname>
