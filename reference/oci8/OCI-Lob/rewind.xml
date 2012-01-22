@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299721 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-lob-tell" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-lob.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->tell</refname>
-  <refpurpose>ラージオブジェクトの内部ポインタの現在位置を返す</refpurpose>
+  <refname>OCI-Lob::rewind</refname>
+  <refpurpose>内部ポインタをラージオブジェクトの先頭に移動する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>tell</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Lob::rewind</methodname>
+   <void />
+  </methodsynopsis>
   <para>
-   LOB の内部ポインタの現在位置を取得します。
+   内部ポインタをラージオブジェクトの先頭にセットします。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   LOB の内部ポインタの現在位置を返します。
-   エラーの場合、&false; を返します。
+   &return.success;
   </para>
  </refsect1>
 
@@ -33,9 +29,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-lob-rewind" /></member>
-    <member><xref linkend="function.oci-lob-size" /></member>
-    <member><xref linkend="function.oci-lob-eof" /></member>
+    <member><xref linkend="oci-lob.seek" /></member> 
+    <member><xref linkend="oci-lob.tell" /></member> 
    </simplelist>
   </para>
  </refsect1>

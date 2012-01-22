@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-lob-size" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-lob.free" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->size</refname>
-  <refpurpose>ラージオブジェクトのサイズを返す</refpurpose>
+  <refname>OCI-Lob::free</refname>
+  <refpurpose>LOB ディスクリプタに関連付けられたりソースを解放する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>size</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Lob::free</methodname>
+   <void />
+  </methodsynopsis>
   <para>
-   ラージオブジェクトのサイズを取得します。
+   事前に <function>oci_new_descriptor</function> を使用して割り当てられた
+   ディスクリプタに関連付けられたりソースを解放します。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ラージオブジェクトのサイズを返します。
-   &return.falseforfailure;。
-   空のオブジェクトは長さ 0 となります。
+   &return.success;
   </para>
  </refsect1>
 
@@ -52,4 +48,3 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
-

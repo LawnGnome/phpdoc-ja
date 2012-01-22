@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-collection-size" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-collection.max" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Collection->size</refname>
-  <refpurpose>コレクションのサイズを返す</refpurpose>
+  <refname>OCI-Collection::max</refname>
+  <refpurpose>コレクション内の要素の最大数を取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Collection</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>size</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>int</type><methodname>OCI-Collection::max</methodname>
+   <void />
+  </methodsynopsis>
   <para>
-   コレクションのサイズを返します。
+   コレクション内の要素の最大数を返します。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   コレクション内の要素の数、もしくはエラー時に &false; を返します。
+   コレクション内の要素の最大数、あるいはエラー時に
+   &false; を返します。
+  </para>
+  <para>
+   返り値が 0 の場合、要素の数に制限はありません。
   </para>
  </refsect1>
 
@@ -32,7 +33,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-collection-max" /></member>
+    <member><xref linkend="oci-collection.size" /></member>
    </simplelist>
   </para>
  </refsect1>

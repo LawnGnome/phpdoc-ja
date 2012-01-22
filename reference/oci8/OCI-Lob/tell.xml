@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-collection-max" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-lob.tell" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Collection->max</refname>
-  <refpurpose>コレクション内の要素の最大数を取得する</refpurpose>
+  <refname>OCI-Lob::tell</refname>
+  <refpurpose>ラージオブジェクトの内部ポインタの現在位置を返す</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Collection</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>max</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>int</type><methodname>OCI-Lob::tell</methodname>
+   <void />
+  </methodsynopsis>
   <para>
-   コレクション内の要素の最大数を返します。
+   LOB の内部ポインタの現在位置を取得します。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   コレクション内の要素の最大数、あるいはエラー時に
-   &false; を返します。
-  </para>
-  <para>
-   返り値が 0 の場合、要素の数に制限はありません。
+   LOB の内部ポインタの現在位置を返します。
+   エラーの場合、&false; を返します。
   </para>
  </refsect1>
 
@@ -36,7 +30,9 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-collection-size" /></member>
+    <member><xref linkend="oci-lob.rewind" /></member>
+    <member><xref linkend="oci-lob.size" /></member>
+    <member><xref linkend="oci-lob.eof" /></member>
    </simplelist>
   </para>
  </refsect1>

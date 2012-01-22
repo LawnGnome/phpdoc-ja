@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-lob-import" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-collection.append" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->import</refname>
-  <refpurpose>ファイルデータを LOB にインポートする</refpurpose>
+  <refname>OCI-Collection::append</refname>
+  <refpurpose>コレクションに要素を追加する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>import</methodname>
-    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Collection::append</methodname>
+   <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
+  </methodsynopsis>
   <para>
-   <parameter>filename</parameter>
-   からのデータをラージオブジェクトの現在の位置に書き込みます。
+   コレクションの最後に要素を追加します。
   </para>
  </refsect1>
 
@@ -27,10 +23,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>filename</parameter></term>
+     <term><parameter>value</parameter></term>
      <listitem>
       <para>
-       ファイルへのパス。
+       コレクションに追加する値を指定します。文字列か数値です。
       </para>
      </listitem>
     </varlistentry>
@@ -49,8 +45,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-lob-export" /></member> 
-    <member><xref linkend="function.oci-lob-write" /></member> 
+    <member><xref linkend="oci-collection.assign" /></member>
    </simplelist>
   </para>
  </refsect1>

@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318216 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-lob-truncate" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: satoruyoshida Status: ready -->
+<refentry xml:id="oci-lob.read" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->truncate</refname>
-  <refpurpose>ラージオブジェクトを切りつめる</refpurpose>
+  <refname>OCI-Lob::read</refname>
+  <refpurpose>ラージオブジェクトの一部を読み込む</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>truncate</methodname>
-    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer>0</initializer></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>string</type><methodname>OCI-Lob::read</methodname>
+   <methodparam><type>int</type><parameter>length</parameter></methodparam>
+  </methodsynopsis>
   <para>
-   LOB を切りつめます。
+   LOB の内部ポインタの現在位置から <parameter>length</parameter>
+   バイト読み込みます。
+  </para> 
+  <para> 
+   <parameter>length</parameter> バイトが読み込まれた、
+   あるいはラージオブジェクトの終わりに達したとき、読み込みを停止します。
+   ラージオブジェクトの内部ポインタは、
+   読み込まれたバイト数分だけシフトされます。
   </para>
  </refsect1>
 
@@ -29,9 +33,7 @@
      <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       指定した場合は、このメソッドはラージオブジェクトを
-       <parameter>length</parameter> バイトに切りつめます。
-       そうでない場合は、LOB を完全に消去します。
+       読み込むバイト数。
       </para>
      </listitem>
     </varlistentry>
@@ -42,7 +44,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   読み込んだ内容を表す文字列、&return.falseforfailure;
   </para>
  </refsect1>
 
@@ -50,7 +52,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-lob-erase" /></member>
+    <member><xref linkend="oci-lob.load" /></member> 
+    <member><xref linkend="oci-lob.write" /></member> 
    </simplelist>
   </para>
  </refsect1>
@@ -77,3 +80,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+

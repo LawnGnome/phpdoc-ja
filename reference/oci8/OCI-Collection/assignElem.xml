@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
-<refentry xml:id="function.oci-collection-element-get" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<refentry xml:id="oci-collection.assignelem" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Collection->getElem</refname>
-  <refpurpose>要素の値を返す</refpurpose>
+  <refname>OCI-Collection::assignElem</refname>
+  <refpurpose>コレクションの要素に値を割り当てる</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Collection</classname></ooclass>
-   <methodsynopsis>
-    <type>mixed</type><methodname>getElem</methodname>
-    <methodparam><type>int</type><parameter>index</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Collection::assignElem</methodname>
+   <methodparam><type>int</type><parameter>index</parameter></methodparam>
+   <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
+  </methodsynopsis>
   <para>
-   インデックス <parameter>index</parameter> (1 から始まる)
-   を持つ要素の値を返します。
+   インデックス <parameter>index</parameter> の要素に値を割り当てます。
   </para>
  </refsect1>
 
@@ -34,6 +31,14 @@
       </para>
      </listitem>
     </varlistentry>
+    <varlistentry>
+     <term><parameter>value</parameter></term>
+     <listitem>
+      <para>
+       文字列あるいは数値です。
+      </para>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </para>
  </refsect1>
@@ -41,9 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   もし要素が存在しない場合 &false; 、要素が &null; 文字列なら
-   &null; 、要素が文字データ型なら文字列、
-   要素が数値フィールドなら数値を返します。
+   &return.success;
   </para>
  </refsect1>
 
@@ -51,7 +54,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-collection-element-assign" /></member>
+    <member><xref linkend="oci-collection.getelem" /></member>
    </simplelist>
   </para>
  </refsect1>
@@ -78,4 +81,3 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
-
