@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-getfontsize">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getfontsize">
  <refnamediv>
   <refname>ImagickDraw::getFontSize</refname>
   <refpurpose>フォントのポイント数を返す</refpurpose>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-setstrokelinejoin">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokelinejoin">
  <refnamediv>
   <refname>ImagickDraw::setStrokeLineJoin</refname>
   <refpurpose>パスの角を描画する際に使用する形状を指定する</refpurpose>

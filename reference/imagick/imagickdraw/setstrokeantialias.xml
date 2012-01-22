@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-setstrokeantialias">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokeantialias">
  <refnamediv>
   <refname>ImagickDraw::setStrokeAntialias</refname>
   <refpurpose>縁取りの枠線をアンチエイリアス処理するかどうかを制御する</refpurpose>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-pathlinetohorizontalrelative">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathlinetohorizontalrelative">
  <refnamediv>
   <refname>ImagickDraw::pathLineToHorizontalRelative</refname>
   <refpurpose>水平直線パスを描画する</refpurpose>
