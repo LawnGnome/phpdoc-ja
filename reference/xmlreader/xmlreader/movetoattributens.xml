@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="xmlreader.movetoattributeno" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322196 Maintainer: takagi Status: ready -->
+<refentry xml:id="xmlreader.movetoattributens" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>XMLReader::moveToAttributeNo</refname>
-  <refpurpose>指定したインデックスの属性にカーソルを移動する</refpurpose>
+  <refname>XMLReader::moveToAttributeNs</refname>
+  <refpurpose>指定した名前の属性にカーソルを移動する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type>
-   <methodname>XMLReader::moveToAttributeNo</methodname>
-   <methodparam><type>int</type><parameter>index</parameter></methodparam>
+   <methodname>XMLReader::moveToAttributeNs</methodname>
+   <methodparam><type>string</type><parameter>localName</parameter></methodparam>
+   <methodparam><type>string</type><parameter>namespaceURI</parameter></methodparam>
   </methodsynopsis>
   <para>
-   指定した位置の属性にカーソルを移動します。
+   指定した名前空間内で、指定した名前の属性にカーソルを移動します。
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -22,10 +23,18 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>index</parameter></term>
+     <term><parameter>localName</parameter></term>
      <listitem>
       <para>
-       属性の位置。
+       ローカル名。
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>namespaceURI</parameter></term>
+     <listitem>
+      <para>
+       名前空間の URI。
       </para>
      </listitem>
     </varlistentry>
@@ -44,7 +53,7 @@
    <simplelist>
     <member><methodname>XMLReader::moveToElement</methodname></member>
     <member><methodname>XMLReader::moveToAttribute</methodname></member>
-    <member><methodname>XMLReader::moveToAttributeNs</methodname></member>
+    <member><methodname>XMLReader::moveToAttributeNo</methodname></member>
     <member><methodname>XMLReader::moveToFirstAttribute</methodname></member>
    </simplelist>
   </para>
