@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="audioproperties.getLength" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322138 Maintainer: takagi Status: ready -->
+<refentry xml:id="audioproperties.getlength" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_AudioProperties::getLength</refname>
   <refpurpose>MPEG ファイルの長さを返す</refpurpose>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="tag.getGenre" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322138 Maintainer: takagi Status: ready -->
+<refentry xml:id="tag.getgenre" xmlns="http://docbook.org/ns/docbook">
   <refnamediv>
     <refname>KTaglib_Tag::getGenre</refname>
     <refpurpose>ID3 タグからジャンルを返す</refpurpose>

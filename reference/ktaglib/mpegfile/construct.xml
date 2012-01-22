@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321885 Maintainer: takagi Status: ready -->
 <refentry xml:id="mpegfile.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_File::__construct</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-    <methodname>KTaglib_MPEG_File::__construct</methodname>
+    <modifier>public</modifier> <methodname>KTaglib_MPEG_File::__construct</methodname>
     <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </constructorsynopsis>
   <para>

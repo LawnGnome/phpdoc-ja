@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="mpegfile.getId3v2Tag" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322138 Maintainer: takagi Status: ready -->
+<refentry xml:id="mpegfile.getid3v2tag" xmlns="http://docbook.org/ns/docbook">
   <refnamediv>
     <refname>KTaglib_MPEG_File::getID3v2Tag</refname>
     <refpurpose>ID3v2 オブジェクトを返す</refpurpose>
