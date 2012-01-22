@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.samconnection-errno" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xml:id="samconnection.error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->errno</refname>
-  <refpurpose>最後に実行した SAM 操作のエラーコードを表す数値を含む</refpurpose>
+  <refname>SAMConnection::error</refname>
+  <refpurpose>最後に実行した SAM 操作のエラーの説明を含む</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
-  <title>説明</title>
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <fieldsynopsis><type>int</type><varname>errno</varname></fieldsynopsis>
-  </classsynopsis>
+  &reftitle.description;
+  <fieldsynopsis><type>string</type><varname>SAMConnection->error</varname></fieldsynopsis>
   <para>
-   <function>errno</function> には、この接続で最後に実行された SAM
-   操作のエラーコードを表す数値が含まれます。
-   直近の操作が正常に終了した場合は、このプロパティは 0 となります。
+   この接続で最後に実行された SAM
+   操作のテキストによる説明が含まれます。
+   直近の操作が正常に終了した場合は、このプロパティには空の文字列が含まれます。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   ゼロより大きい整数値は、この接続の直近のエラーの型を表します。
-   ゼロの場合は、この接続の直近の操作が正常に終了したことを表します。
+   この接続で発生した最後のエラーの内容を表すテキストを返します。
+   空の文字列は、この接続の直近の操作が正常に終了したことを表します。
   </para>
  </refsect1>
 
@@ -32,7 +29,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Using the error number and description properties</title>
+    <title>エラー番号および説明の取得法</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -40,7 +37,7 @@ $conn = new SAMConnection();
 $conn->connect(SAM_WMQ, array(SAM_HOST => 'localhost', SAM_PORT => 1506));
 $msg = new SAMMessage('This is a simple text item');
 if (!$conn->send('topic://test', $msg)) {
-    // The Send failed!
+    // 送信に失敗しました!
     echo "Send failed ($conn->errno) $conn->error";
 }
 ?>
@@ -54,7 +51,7 @@ if (!$conn->send('topic://test', $msg)) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.samconnection-error" /></member>
+    <member><xref linkend="samconnection.errno" /></member>
    </simplelist>
   </para>
  </refsect1>

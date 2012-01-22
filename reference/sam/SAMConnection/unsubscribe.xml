@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
-<refentry xml:id='function.samconnection-unsubscribe' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xml:id='samconnection.unsubscribe' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->unsubscribe</refname>
+  <refname>SAMConnection::unsubscribe</refname>
   <refpurpose>
    指定したトピックの購読を解除する
   </refpurpose>
@@ -11,14 +11,11 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>unsubscribe</methodname>
-    <methodparam><type>string</type><parameter>subscriptionId</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>targetTopic</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>SAMConnection::unsubscribe</methodname>
+   <methodparam><type>string</type><parameter>subscriptionId</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>targetTopic</parameter></methodparam>
+  </methodsynopsis>
   <para>
    "unsubscribe" メソッドを使用して、指定したトピックの購読を解除します。
   </para>
@@ -70,7 +67,7 @@ if (!$conn->unsubscribe($subid)) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.samconnection-subscribe" /></member>
+    <member><xref linkend="samconnection.subscribe" /></member>
    </simplelist>
   </para>
  </refsect1>

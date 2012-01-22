@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="sam.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -249,7 +249,7 @@ extension=php_sam_xms.dll
   </section>
   <!-- }}} -->
   <!-- {{{ VS2005 -->
-  <section xml:id="sam.installation.VS2005">
+  <section xml:id="sam.installation.vs2005">
    <title>Visual Studio 2005 用の追加手順</title>
    <para>
     SAM 拡張モジュールを Microsoft Visual Studio 2005 のコンパイラでビルドしたい場合は、

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
-<refentry xml:id='function.samconnection-receive' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xml:id='samconnection.receive' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->receive</refname>
+  <refname>SAMConnection::receive</refname>
   <refpurpose>
    メッセージをキューあるいは購読から取得する
   </refpurpose>
@@ -11,14 +11,11 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <methodsynopsis>
-    <type>SAMMessage</type><methodname>receive</methodname>
-    <methodparam><type>string</type><parameter>target</parameter></methodparam>
-    <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>SAMMessage</type><methodname>SAMConnection::receive</methodname>
+   <methodparam><type>string</type><parameter>target</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
+  </methodsynopsis>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -156,7 +153,7 @@ if (!$msg) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.samconnection-send" /></member>
+    <member><xref linkend="samconnection.send" /></member>
    </simplelist>
   </para>
  </refsect1>

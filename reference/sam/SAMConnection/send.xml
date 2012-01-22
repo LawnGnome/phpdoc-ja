@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
-<refentry xml:id='function.samconnection-send' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xml:id='samconnection.send' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->send</refname>
+  <refname>SAMConnection::send</refname>
   <refpurpose>
    メッセージをキューに送信、あるいは項目をトピックに投稿する
   </refpurpose>
@@ -11,15 +11,12 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <methodsynopsis>
-    <type>string</type><methodname>send</methodname>
-    <methodparam><type>string</type><parameter>target</parameter></methodparam>
-    <methodparam><type>SAMMessage</type><parameter>msg</parameter></methodparam>
-    <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>string</type><methodname>SAMConnection::send</methodname>
+   <methodparam><type>string</type><parameter>target</parameter></methodparam>
+   <methodparam><type>SAMMessage</type><parameter>msg</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
+  </methodsynopsis>
   <para>
    "send" メソッドを使用して、メッセージを指定したキューに送信したり
    指定したトピックに投稿したりします。このメソッドは、
@@ -196,7 +193,7 @@ if (!$correlid) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.samconnection-receive" /></member>
+    <member><xref linkend="samconnection.receive" /></member>
    </simplelist>
   </para>
  </refsect1>

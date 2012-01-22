@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
-<refentry xml:id='function.samconnection-commit' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xml:id='samconnection.rollback' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->commit</refname>
+  <refname>SAMConnection::rollback</refname>
   <refpurpose>
-   現在作業中の内容をコミット (正常に完了) する
+   現在作業中の内容をキャンセル (ロールバック) する
   </refpurpose>
  </refnamediv>
+
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>commit</methodname><void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>SAMConnection::rollback</methodname><void/>
+  </methodsynopsis>
   <para>
-  接続オブジェクトに対して "commit" メソッドをコールすると、
-  現在処理中のトランザクションのすべての内容をコミットします。
+   現在作業中の内容をロールバックします。
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   エラーが発生した場合に &false; を返します。
+   このメソッドは、エラーが発生した場合に &false; を返します。
   </para>
  </refsect1>
 
@@ -33,14 +30,14 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>現在処理中の内容のコミット</title>
+    <title>作業中の処理のキャンセル</title>
     <programlisting role="php">
 <![CDATA[
 <?php
-  if (!$conn->commit()) {
-    // コミットに失敗しました!
-    echo "Commit failed ($conn->errno) $conn->error";
-  }
+if (!$conn->rollback()) {
+  // ロールバックに失敗しました!
+  echo "Rollback failed ($conn->errno) $conn->error";
+}
 ?>
 ]]>
     </programlisting>
@@ -52,7 +49,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.samconnection-rollback" /></member>
+    <member><xref linkend="samconnection.commit" /></member>
    </simplelist>
   </para>
  </refsect1>
