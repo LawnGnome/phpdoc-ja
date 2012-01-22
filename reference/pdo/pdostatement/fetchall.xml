@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316472 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.fetchall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->fetchAll</refname>
+  <refname>PDOStatement::fetchAll</refname>
   <refpurpose>
    全ての結果行を含む配列を返す
   </refpurpose>

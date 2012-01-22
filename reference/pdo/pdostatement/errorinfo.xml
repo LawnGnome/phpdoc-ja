@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.errorinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->errorInfo</refname>
+  <refname>PDOStatement::errorInfo</refname>
   <refpurpose>
    文ハンドラにおける直近の操作に関連する拡張エラー情報を取得する
   </refpurpose>

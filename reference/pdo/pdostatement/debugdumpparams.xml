@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: takagi Status: ready -->
 <refentry xml:id="pdostatement.debugdumpparams" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->debugDumpParams</refname>
+  <refname>PDOStatement::debugDumpParams</refname>
   <refpurpose>
    SQL プリペアドコマンドを出力する
   </refpurpose>

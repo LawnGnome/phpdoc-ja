@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303741 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 322086 Maintainer: shimooka Status: ready -->
 <section xml:id="pdo.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -10,17 +10,17 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>名前</entry>
-      <entry>デフォルト</entry>
-      <entry>変更の可否</entry>
-      <entry>変更履歴</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
      <row>
-      <entry>pdo.dsn.*</entry>
+      <entry><link linkend="ini.pdo.dsn">pdo.dsn.*</link></entry>
       <entry></entry>
-      <entry>&php.ini; only</entry>
+      <entry>&php.ini; のみ</entry>
       <entry></entry>
      </row>
     </tbody>

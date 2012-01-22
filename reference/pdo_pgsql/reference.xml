@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: shimooka Status: ready -->
 <!-- Membership: bundled, external, pecl -->
 
  <reference xml:id="ref.pdo-pgsql" xmlns="http://docbook.org/ns/docbook">
@@ -120,7 +120,7 @@ pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass
    </refsect1>
   </refentry>
 
-  &reference.pdo-pgsql.entities.functions;
+  &reference.pdo-pgsql.entities.PDO;
 
  </reference>
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: takagi Status: ready -->
 <refentry xml:id="pdostatement.bindvalue" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->bindValue</refname>
+  <refname>PDOStatement::bindValue</refname>
   <refpurpose>
    値をパラメータにバインドする
   </refpurpose>
