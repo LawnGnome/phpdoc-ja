@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.hwapi-attribute" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322147 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.hwapi-attribute-new">
  <refnamediv>
-  <refname>hw_api_attribute</refname>
+  <refname>hwapi_attribute_new</refname>
   <refpurpose>hw_api_attribute クラスのインスタンスを作成する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>HW_API_Attribute</type><methodname>hw_api_attribute</methodname>
+   <type>HW_API_Attribute</type><methodname>hwapi_attribute_new</methodname>
    <methodparam choice="opt"><type>string</type><parameter>name</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>

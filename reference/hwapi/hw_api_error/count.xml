@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.hwapi-error-count" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="hwapi.error-count">
  <refnamediv>
-  <refname>hw_api_error->count</refname>
+  <refname>hw_api_error::count</refname>
   <refpurpose>原因の数を返す</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>hw_api_error</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>count</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>int</type><methodname>hw_api_error::count</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
    エラーの原因の数を返します。
   </para>
@@ -32,7 +29,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.hwapi-error-reason" /></member>
+    <member><xref linkend="hwapi.error-reason" /></member>
    </simplelist>
   </para>
  </refsect1>

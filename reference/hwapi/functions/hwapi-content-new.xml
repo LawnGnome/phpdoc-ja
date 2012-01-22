@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.hwapi-new-content" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322147 Maintainer: takagi Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.hwapi-content-new">
  <refnamediv>
-  <refname>hw_api_content</refname>
+  <refname>hwapi_content_new</refname>
   <refpurpose>hw_api_content クラスの新しいインスタンスを作成する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>HW_API_Content</type><methodname>hw_api_content</methodname>
+   <type>HW_API_Content</type><methodname>hwapi_content_new</methodname>
    <methodparam><type>string</type><parameter>content</parameter></methodparam>
    <methodparam><type>string</type><parameter>mimetype</parameter></methodparam>
   </methodsynopsis>
