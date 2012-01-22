@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321874 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 
-<chapter xml:id="sdo.das.rel.limitations" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<chapter xml:id="sdodasrel.limitations" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>制限事項</title>
  <para>
   現在のリレーショナル DAS のリリースには、以下の制限があります。
