@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.isbuffering">
  <refnamediv>
   <refname>Phar::isBuffering</refname>
@@ -15,7 +15,7 @@
 
   <para>
    このメソッドを使用すると、その Phar が変更を即時にディスクに書き込むのか
-   それとも <function>Phar-&gt;stopBuffering</function>
+   それとも <function>Phar::stopBuffering</function>
    をコールしないと変更が保存されないのかがわかります。
   </para>
   <para>
