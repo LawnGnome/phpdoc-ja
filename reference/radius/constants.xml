@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321880 Maintainer: takagi Status: ready -->
 <appendix xml:id="radius.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
@@ -170,11 +170,11 @@
    <varlistentry>
     <term>
      <constant>RADIUS_FRAMED_IP_ADDRESS</constant> 
-     (<type>string</type>)
+     (<type>int</type>)
     </term>
     <listitem>
      <simpara>
-      IP アドレス
+      IPv4 インターネットのネットワークアドレス
      </simpara>
     </listitem>
    </varlistentry>
