@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 321901 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="solrinputdocument.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SolrInputDocument::__construct</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>SolrInputDocument::__construct</methodname>
+   <modifier>public</modifier> <methodname>SolrInputDocument::__construct</methodname>
    <void />
   </methodsynopsis>
   <para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 321987 Maintainer: satoruyoshida Status: ready -->
 <chapter xml:id="varnish.examples" xmlns="http://docbook.org/ns/docbook">
  &reftitle.examples;
  <section xml:id="varnish.example.admin">
@@ -53,6 +53,7 @@ try {
 
 exit(0);
 
+?>
 ]]>
    </programlisting>
   </example>
@@ -78,6 +79,7 @@ try {
 }
 
 exit(0);
+?>
 ]]>
    </programlisting>
   </example>
@@ -101,6 +103,7 @@ while(1) {
 }
 
 exit(0);
+?>
 ]]>
    </programlisting>
   </example>
