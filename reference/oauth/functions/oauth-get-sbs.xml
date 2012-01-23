@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291194 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 322131 Maintainer: mumumu Status: ready -->
 
-<refentry xml:id="function.oauth_get_sbs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="function.oauth-get-sbs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>oauth_get_sbs</refname>
   <refpurpose>SBSを生成する</refpurpose>

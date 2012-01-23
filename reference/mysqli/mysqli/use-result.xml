@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.use-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::use_result</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>&style.oop;</para>
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <type>mysqli_result</type><methodname>mysqli::use_result</methodname>
    <void />
   </methodsynopsis>

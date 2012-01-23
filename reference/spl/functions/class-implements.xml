@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 322134 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.class-implements" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>class_implements</refname>
@@ -38,7 +38,7 @@
      <term><parameter>autoload</parameter></term>
      <listitem>
       <para>
-       <link linkend="language.oop5.autoload">__autoload</link>
+       <function>__autoload</function>
        マジックメソッドを通じて、
        この関数にクラスを自動的にロードさせるかどうかを指定します。
       </para>

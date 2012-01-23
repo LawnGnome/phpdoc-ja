@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321901 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="directoryiterator.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-   <methodname>DirectoryIterator::__construct</methodname>
+   <modifier>public</modifier> <methodname>DirectoryIterator::__construct</methodname>
    <methodparam><type>string</type><parameter>path</parameter></methodparam>
   </constructorsynopsis>
 

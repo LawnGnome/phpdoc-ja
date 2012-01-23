@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.getflags" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::getFlags</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>ArrayObject::getFlags</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>ArrayObject::getFlags</methodname>
    <void/>
   </methodsynopsis>
   <para>

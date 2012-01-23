@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307780 Maintainer: takagi Status: ready -->
-<refentry xml:id="function.ziparchive-getfromname" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<refentry xml:id="ziparchive.getfromname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::getFromName</refname>
   <refpurpose>名前を使用して、エントリの内容を返す</refpurpose>

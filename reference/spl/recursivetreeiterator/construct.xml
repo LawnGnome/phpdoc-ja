@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321901 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="recursivetreeiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>RecursiveTreeIterator::__construct</methodname>
+   <modifier>public</modifier> <methodname>RecursiveTreeIterator::__construct</methodname>
    <methodparam><type>RecursiveIterator|IteratorAggregate</type><parameter>it</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>RecursiveTreeIterator::BYPASS_KEY</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>cit_flags</parameter><initializer>CachingIterator::CATCH_GET_CHILD</initializer></methodparam>

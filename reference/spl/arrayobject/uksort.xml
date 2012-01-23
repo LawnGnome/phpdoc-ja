@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.uksort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::uksort</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>ArrayObject::uksort</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>ArrayObject::uksort</methodname>
    <methodparam><type>callback</type><parameter>cmp_function</parameter></methodparam>
   </methodsynopsis>
   <para>

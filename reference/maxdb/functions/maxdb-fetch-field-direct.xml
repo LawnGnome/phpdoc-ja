@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-fetch-field-direct">
  <refnamediv>
   <refname>maxdb_fetch_field_direct</refname>
@@ -72,7 +72,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>オブジェクト指向型</title>
+   <title>&style.oop;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -107,7 +107,7 @@ $maxdb->close();
    </programlisting>
   </example>
   <example>
-   <title>手続き型</title>
+   <title>&style.procedural;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
