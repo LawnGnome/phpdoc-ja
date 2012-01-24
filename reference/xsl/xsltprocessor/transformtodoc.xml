@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
 <refentry xml:id="xsltprocessor.transformtodoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XSLTProcessor::transformToDoc</refname>
@@ -8,14 +8,11 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>XSLTProcessor</classname></ooclass>
-   <methodsynopsis>
-    <type>DOMDocument</type>
-    <methodname>transformToDoc</methodname>
-    <methodparam><type>DOMNode</type><parameter>doc</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>DOMDocument</type>
+   <methodname>XSLTProcessor::transformToDoc</methodname>
+   <methodparam><type>DOMNode</type><parameter>doc</parameter></methodparam>
+  </methodsynopsis>
   <para>
    <function>XSLTProcessor::importStylesheet</function>
    メソッドで与えられたスタイルシートを適用し、

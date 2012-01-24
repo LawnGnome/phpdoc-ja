@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321130 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321915 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.session-register-shutdown" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>ReturnType</type><methodname>session_register_shutdown</methodname>
+   <type>void</type><methodname>session_register_shutdown</methodname>
    <void />
   </methodsynopsis>
   <para>

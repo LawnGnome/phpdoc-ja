@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311161 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 322136 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.unset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -224,16 +224,31 @@ unset($foo1, $foo2, $foo3);
     </programlisting>
    </example>
    <example>
-    <title>(unset) によるキャスト</title>
+    <title><literal>(unset)</literal> によるキャスト</title>
+    <para>
+     <literal>(unset)</literal> によるキャストは
+     <function>unset</function> 関数と混同されがちです。
+     <literal>(unset)</literal> によるキャストは、
+     単に <literal>NULL</literal> 型へのキャストを徹底するだけであり、
+     キャストした変数の値を書き換えるわけではありません。
+    </para>
     <programlisting role="php">
 <![CDATA[
 <?php
 $name = 'Felipe';
 
 var_dump((unset) $name);
+var_dump($name);
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+NULL
+string(6) "Felipe"
+]]>
+    </screen>
    </example>
   </para>
  </refsect1>
@@ -257,7 +272,7 @@ var_dump((unset) $name);
    <para>
     オブジェクトのアクセス不能なプロパティに対して <function>unset</function>
     を使用した場合は、もしオーバーロードメソッド
-    <link linkend="language.oop5.overloading.members">__unset</link>
+    <link linkend="object.unset">__unset()</link>
     が宣言されていればそれをコールします。
    </para>
   </note>
@@ -269,7 +284,7 @@ var_dump((unset) $name);
    <simplelist>
     <member><function>isset</function></member>
     <member><function>empty</function></member>
-    <member><link linkend="language.oop5.overloading.members">__unset</link></member>
+    <member><link linkend="object.unset">__unset()</link></member>
     <member><function>array_splice</function></member>
    </simplelist>
   </para>

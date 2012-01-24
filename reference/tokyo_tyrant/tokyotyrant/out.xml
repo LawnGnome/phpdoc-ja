@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321914 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="tokyotyrant.out" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,6 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>TokyoTyrant</type><methodname>TokyoTyrant::out</methodname>
    <methodparam><type>mixed</type><parameter>keys</parameter></methodparam>
+   <!-- <methodparam choice="opt"><type>string</type><parameter>value</parameter><initializer>NULL</initializer></methodparam> -->
   </methodsynopsis>
   <para>
    レコードを削除します。単一のキーの場合は文字列で、複数のレコードのキーの場合は配列で指定します。

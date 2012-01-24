@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/var.xml, last change in rev 1.6 -->
-<!-- EN-Revision: 311626 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 322136 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.var-export" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -80,7 +80,7 @@
        <entry>5.1.0</entry>
        <entry>
         マジックメソッド
-        <link linkend="language.oop5.magic.set-state">__set_state</link>
+        <link linkend="object.set-state">__set_state()</link>
         を使用することで、
         クラスを含む配列やクラスをエクスポートできるようになりました。
        </entry>
@@ -163,7 +163,7 @@ A::__set_state(array(
   </para>
   <para>
    <example>
-    <title><link linkend="language.oop5.magic.set-state">__set_state</link> の使用法 (PHP 5.1.0 以降)</title>
+    <title><link linkend="object.set-state">__set_state()</link> の使用法 (PHP 5.1.0 以降)</title>
     <programlisting role="php">
 <![CDATA[
 <?php

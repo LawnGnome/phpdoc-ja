@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321705 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321947 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionclass.getmodifiers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <void />
   </methodsynopsis>
   <para>
-   このメソッドのアクセス修飾子のビットフィールドを返します。
+   このクラスのアクセス修飾子のビットフィールドを返します。
   </para>
 
  </refsect1>

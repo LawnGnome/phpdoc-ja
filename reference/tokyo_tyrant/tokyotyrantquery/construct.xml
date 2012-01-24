@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322131 Maintainer: takagi Status: ready -->
 
-<refentry xml:id="tokyotyrantquery.__construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="tokyotyrantquery.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>TokyoTyrantQuery::__construct</refname>
   <refpurpose>新しいクエリを作成する</refpurpose>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>TokyoTyrantQuery::__construct</methodname>
+   <modifier>public</modifier> <methodname>TokyoTyrantQuery::__construct</methodname>
    <methodparam><type>TokyoTyrantTable</type><parameter>table</parameter></methodparam>
   </methodsynopsis>
   <para>

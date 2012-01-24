@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: takagi Status: ready -->
 <section xml:id="wincache.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -13,12 +13,12 @@
    <tgroup cols="6">
     <thead>
      <row>
-      <entry>名前</entry>
-      <entry>デフォルト</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
       <entry>最小</entry>
       <entry>最大</entry>
-      <entry>変更の可否</entry>
-      <entry>変更履歴</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 321919 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ps-show-boxed" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ps_show_boxed</refname>
@@ -28,7 +28,7 @@
   </para>
   <para>
    パラメータ <parameter>hyphenation</parameter> が
-   <literal>true</literal> に設定されており、またパラメータ
+   &true; に設定されており、またパラメータ
    <parameter>hyphendict</parameter>
    に有効なハイフネーションファイルが設定されている場合に、
    テキストのハイフネーションが行われます。

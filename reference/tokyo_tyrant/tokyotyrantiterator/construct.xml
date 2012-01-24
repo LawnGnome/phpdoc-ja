@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322131 Maintainer: takagi Status: ready -->
 
-<refentry xml:id="tokyotyrantiterator.__construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="tokyotyrantiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>TokyoTyrantIterator::__construct</refname>
   <refpurpose>イテレータを作成する</refpurpose>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>TokyoTyrantIterator</type><methodname>TokyoTyrantIterator::__construct</methodname>
+   <modifier>public</modifier> <methodname>TokyoTyrantIterator::__construct</methodname>
    <methodparam><type>mixed</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
   <para>
