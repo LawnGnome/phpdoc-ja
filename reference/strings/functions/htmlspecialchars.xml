@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322868 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 322874 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlspecialchars" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -166,7 +166,8 @@
      <listitem>
       <para>
        変換に使用される文字セットを指定します。
-       デフォルトの文字セットは、ISO-8859-1 です。
+       省略した場合のデフォルト値は、PHP 5.4.0 より前のバージョンでは
+       ISO-8859-1、そして PHP 5.4.0 以降では UTF-8 となります。
       </para>
       <para>
        この関数を使ううえでは
@@ -220,6 +221,14 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.4.0</entry>
+       <entry>
+        <parameter>charset</parameter> パラメータのデフォルトが
+        UTF-8 に変わりました。
+       </entry>
+      </row>
+      <row>
       <row>
        <entry>5.4.0</entry>
        <entry>
