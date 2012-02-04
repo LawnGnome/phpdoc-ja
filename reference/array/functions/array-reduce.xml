@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323048 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 323061 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.array-reduce" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -40,7 +40,7 @@
        コールバック関数。
       </para>
       <methodsynopsis>
-       <type>void</type><methodname>callback</methodname>
+       <type>void</type><methodname><replaceable>callback</replaceable></methodname>
        <methodparam><type>array</type><parameter role="reference">result</parameter></methodparam>
        <methodparam><type>mixed</type><parameter>item</parameter></methodparam>
       </methodsynopsis>
