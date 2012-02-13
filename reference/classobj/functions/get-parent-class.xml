@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322841 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323193 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.get-parent-class" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -40,7 +40,7 @@
   </para>
   <note>
    <para>
-    オブジェクトが親を持たない場合や存在しないクラスを指定した場合は &false; を返します。
+    オブジェクトが親を持たない場合や指定したクラスが存在しない場合は &false; を返します。
    </para>
   </note>
   <para>

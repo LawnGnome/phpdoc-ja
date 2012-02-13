@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320390 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323194 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.gmmktime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
