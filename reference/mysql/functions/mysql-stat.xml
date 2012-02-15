@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysql-stat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_stat</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>mysql_stat</methodname>
-   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter></methodparam>
+   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>mysql_stat</function> は現在のサーバの状態を返します。

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysql-ping" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_ping</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>mysql_ping</methodname>
-   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter></methodparam>
+   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    サーバとの接続が有効かどうかを調べます。
@@ -21,7 +21,7 @@
   </para>
   <note>
    <para>
-    MySQL 5.0.13 以降、自動再接続機能は使えなくなりました。
+    MySQL 5.0.3 以降、自動再接続機能は使えなくなりました。
    </para>
   </note>
  </refsect1>
