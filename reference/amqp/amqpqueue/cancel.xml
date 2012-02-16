@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323238 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpqueue.cancel" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -17,9 +17,6 @@
   <para>
     すでに echange およびルーティングキーにバインドされているキューをキャンセルします。
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,6 +33,16 @@
      </listitem>
     </varlistentry>
    </variablelist>
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   チャネルが開いていない場合に <classname>AMQPChannelException</classname> をスローします。
+  </para>
+  <para>
+   ブローカへの接続が途切れた場合に <classname>AMQPConnectionException</classname> をスローします。
   </para>
  </refsect1>
 
