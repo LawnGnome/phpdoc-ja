@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323264 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323401 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="sessionhandlerinterface.destroy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,10 +12,10 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>abstract</modifier> <modifier>public</modifier> <type>bool</type><methodname>SessionHandlerInterface::destroy</methodname>
-   <methodparam><type>string</type><parameter>sessionid</parameter></methodparam>
+   <methodparam><type>string</type><parameter>session_id</parameter></methodparam>
   </methodsynopsis>
   <para>
-   セッションを破棄します。<function>session_regenerate_id</function> や
+   セッションを破棄します。<function>session_regenerate_id</function> ($destroy = &true;) や
    <function>session_destroy</function> からコールされ、<function>session_decode</function>
    が失敗したときにもコールされます。
   </para>
@@ -26,7 +26,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>sessionid</parameter></term>
+     <term><parameter>session_id</parameter></term>
      <listitem>
       <para>
        破棄するセッション ID。
