@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: takagi Status: ready -->
 <section xml:id="pdo-firebird.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &pdo.driver-constants;
  <variablelist>
-  <varlistentry>
+  <varlistentry xml:id="pdo.constants.fb-attr-date-format">
    <term>
     <constant>PDO::FB_ATTR_DATE_FORMAT</constant>
      (<type>integer</type>)
@@ -19,7 +19,7 @@
     </para>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="pdo.constants.fb-attr-time-format">
    <term>
     <constant>PDO::FB_ATTR_TIME_FORMAT</constant>
      (<type>integer</type>)
@@ -33,7 +33,7 @@
     </para>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="pdo.constants.fb-attr-timestamp-format">
    <term>
     <constant>PDO::FB_ATTR_TIMESTAMP_FORMAT</constant>
      (<type>integer</type>)

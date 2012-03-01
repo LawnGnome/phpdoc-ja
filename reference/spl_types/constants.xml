@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: takagi Status: ready -->
 <section xml:id="spl-types.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
  <para>
   <variablelist>
-   <varlistentry>
+   <varlistentry xml:id="constant.--default">
     <term>
      <constant>__default</constant> 
      (すべての SPL_Types オブジェクト __default 定数を持っており、
