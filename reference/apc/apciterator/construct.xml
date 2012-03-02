@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321901 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323620 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="apciterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -83,6 +83,25 @@
   </para>
  </refsect1>
 
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+   <example>
+    <title><function>APCIterator::__construct</function> の例</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+foreach (new APCIterator('user', '/^counter\./') as $counter) {
+    echo "$counter[key]: $counter[value]\n";
+    apc_dec($counter['key'], $counter['value']);
+}
+?>
+]]>
+    </programlisting>
+   </example>
+  </para>
+ </refsect1>
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
@@ -113,3 +132,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+
