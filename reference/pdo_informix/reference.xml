@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323651 Maintainer: takagi Status: ready -->
 <!-- Membership: external, pecl -->
 
  <reference xml:id="ref.pdo-informix" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -59,7 +59,7 @@
        </listitem>
       </varlistentry>
       <varlistentry>
-       <term><constant>DSN</constant></term>
+       <term>DSN</term>
        <listitem>
         <para>
          DSN は、<filename>odbc.ini</filename>
