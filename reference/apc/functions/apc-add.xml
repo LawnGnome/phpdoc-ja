@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308219 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323617 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-add" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_add</refname>
   <refpurpose>
-   変数をデータ領域にキャッシュする
+   新規の変数をデータ領域にキャッシュする
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
