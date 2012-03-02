@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323616 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-clear-cache" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_clear_cache</refname>
@@ -16,13 +16,6 @@
   </methodsynopsis>
   <para>
    ユーザ/システム キャッシュをクリアします。
-  </para>
- </refsect1>
-
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   &return.success;
   </para>
  </refsect1>
 
@@ -42,6 +35,13 @@
      </listitem>
     </varlistentry>
    </variablelist>
+  </para>
+ </refsect1>
+
+ <refsect1 role="returnvalues">
+  &reftitle.returnvalues;
+  <para>
+   &return.success;
   </para>
  </refsect1>
 
