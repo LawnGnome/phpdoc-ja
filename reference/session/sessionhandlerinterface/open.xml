@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323401 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 323626 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="sessionhandlerinterface.open" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -47,6 +47,17 @@
   &reftitle.returnvalues;
   <para>
    &returns.session.storage.retval;
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member>
+     <link linkend="ini.session.auto-start">session.auto-start</link>
+    </member>
+   </simplelist>
   </para>
  </refsect1>
 
