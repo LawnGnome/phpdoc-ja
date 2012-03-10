@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323692 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324030 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-set-save-handler">
  <refnamediv>
@@ -252,7 +252,7 @@ class FileSessionHandler
 
     function write($id, $data)
     {
-        return file_put_contents("$savePath/sess_$id", $data) === false ? false : true;
+        return file_put_contents("$this->savePath/sess_$id", $data) === false ? false : true;
     }
 
     function destroy($id)
