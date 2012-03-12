@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320555 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.yaml-parse-url" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -60,7 +60,7 @@
      <listitem>
       <para>
        YAML ノードのコンテンツハンドラ。
-       YAML タグ =&gt; コールバック 形式の連想配列となります。
+       YAML タグ =&gt; <type>callable</type> 形式の連想配列となります。
       </para>
      </listitem>
     </varlistentry>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa -->
 <refentry xml:id="function.uasort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>uasort</refname>
@@ -12,7 +13,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>uasort</methodname>
    <methodparam><type>array</type><parameter role="reference">array</parameter></methodparam>
-   <methodparam><type>callback</type><parameter>cmp_function</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>cmp_function</parameter></methodparam>
   </methodsynopsis>
   <para>
    この関数は、配列インデックスが関連する配列要素との関係を保持するような配列をソートします。

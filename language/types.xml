@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308160 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi, shimooka -->
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
  <title>型</title>
@@ -65,7 +65,7 @@
   </itemizedlist>
 
   <para>
-   そして、最後に 2 種類の特別な型:
+   そして、最後に 3 種類の特別な型:
   </para>
 
   <itemizedlist>
@@ -79,6 +79,12 @@
    <listitem>
     <simpara>
      <type>ヌル (NULL)</type>
+    </simpara>
+   </listitem>
+
+   <listitem>
+    <simpara>
+     <type>callable</type>
     </simpara>
    </listitem>
 
@@ -192,6 +198,7 @@ if (is_string($a_bool)) {
  &language.types.object;
  &language.types.resource;
  &language.types.null;
+ &language.types.callable;
  &language.types.pseudo-types;
  &language.types.type-juggling;
  

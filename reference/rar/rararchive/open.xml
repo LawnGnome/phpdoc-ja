@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="rararchive.open" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -16,14 +16,14 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>RarArchive</type><methodname>RarArchive::open</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>password</parameter><initializer>NULL</initializer></methodparam>
-   <methodparam choice="opt"><type>callback</type><parameter>volume_callback</parameter><initializer>NULL</initializer></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>volume_callback</parameter><initializer>NULL</initializer></methodparam>
    </methodsynopsis>
   <para>&style.procedural;:</para>
   <methodsynopsis>
    <type>RarArchive</type><methodname>rar_open</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>password</parameter><initializer>NULL</initializer></methodparam>
-   <methodparam choice="opt"><type>callback</type><parameter>volume_callback</parameter><initializer>NULL</initializer></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>volume_callback</parameter><initializer>NULL</initializer></methodparam>
   </methodsynopsis>
   <para>
    指定した RAR アーカイブをオープンし、<type>RarArchive</type> インスタンスを返します。

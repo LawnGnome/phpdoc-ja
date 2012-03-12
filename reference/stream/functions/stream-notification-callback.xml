@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299363 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.stream-notification-callback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -20,7 +20,7 @@
    <methodparam><type>int</type><parameter>bytes_max</parameter></methodparam>
   </methodsynopsis>
   <para>
-   イベント発生時にコールされるコールバック関数です。
+   イベント発生時にコールされる <type>callable</type> 関数です。
    <link linkend="context.params.notification">notification context parameter</link>
    が使用します。
   </para>

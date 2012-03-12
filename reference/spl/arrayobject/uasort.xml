@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322381 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 <refentry xml:id="arrayobject.uasort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::uasort</refname>
@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>ArrayObject::uasort</methodname>
-   <methodparam><type>callback</type><parameter>cmp_function</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>cmp_function</parameter></methodparam>
   </methodsynopsis>
   <para>
    この関数はエントリをソートします。キーとそれに対応する値の関連は保持されたままとなります。

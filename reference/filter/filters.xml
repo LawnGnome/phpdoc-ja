@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323397 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 <chapter xml:id="filter.filters" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>フィルタの型</title>
 
@@ -329,7 +329,7 @@ filter.default_flags = 0
        <row>
         <entry><constant>FILTER_CALLBACK</constant></entry>
         <entry>"callback"</entry>
-        <entry><type>callback</type> 関数あるいはメソッド</entry>
+        <entry><type>callable</type> 関数あるいはメソッド</entry>
         <entry></entry>
         <entry>ユーザー定義の関数をコールしてデータをフィルタリングします。</entry>
        </row>

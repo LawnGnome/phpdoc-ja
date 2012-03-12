@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.newt-set-suspend-callback" xmlns="http://docbook.org/ns/docbook">
 
  <refnamediv>
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>void</type><methodname>newt_set_suspend_callback</methodname>
-   <methodparam><type>callback</type><parameter>function</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>function</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
   <para>
