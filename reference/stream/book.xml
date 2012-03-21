@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324430 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Membership: core -->
 
@@ -84,6 +84,7 @@
  &reference.stream.contexts;
  &reference.stream.errors;
  &reference.stream.examples;
+ &reference.stream.php-user-filter;
  &reference.stream.streamwrapper;
  &reference.stream.reference;
  
