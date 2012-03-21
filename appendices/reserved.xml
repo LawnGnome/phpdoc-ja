@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322547 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324425 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>予約語の一覧</title>
@@ -348,7 +348,7 @@
     
     <variablelist>
      <varlistentry>
-      <term><classname>exception</classname></term>
+      <term><classname>Exception</classname></term>
       <listitem>
        <simpara>
        </simpara>
