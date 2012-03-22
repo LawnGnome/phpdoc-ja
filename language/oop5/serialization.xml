@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324459 Maintainer: takagi Status: ready -->
  <sect1 xml:id="language.oop5.serialization" xmlns="http://docbook.org/ns/docbook">
   <title>オブジェクトのシリアライズ</title>
   <title>オブジェクトのシリアライズ - セッション内でのオブジェクト</title>

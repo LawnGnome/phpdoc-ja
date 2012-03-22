@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324459 Maintainer: takagi Status: ready -->
 <refentry xml:id="ziparchive.getnameindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::getNameIndex</refname>
@@ -56,7 +56,7 @@
 <![CDATA[
 <?php
 if ($zip->open('test.zip') == TRUE) {
- for ($i = 0; $i < $zip->numFiles; $i++;) {
+ for ($i = 0; $i < $zip->numFiles; $i++) {
      $filename = $zip->getNameIndex($i);
      // ...
  }

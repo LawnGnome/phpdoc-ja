@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324459 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecopyresampled" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>

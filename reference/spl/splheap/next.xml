@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324459 Maintainer: takagi Status: ready -->
 <refentry xml:id="splheap.next" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplHeap::next</refname>
@@ -14,7 +14,7 @@
    <void/>
   </methodsynopsis>
   <para>
-   ヒープから先頭のノードを取り出します。
+   次のノードに移動します。
   </para>
  </refsect1>
 
