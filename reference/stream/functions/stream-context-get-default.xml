@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318105 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324449 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.stream-context-get-default" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_context_get_default</refname>
