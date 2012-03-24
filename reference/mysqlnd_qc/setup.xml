@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321951 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 324475 Maintainer: satoruyoshida Status: ready -->
+<!-- CREDITS: takagi -->
 <chapter xml:id="mysqlnd-qc.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
 
@@ -8,7 +9,7 @@
   &reftitle.required;
   <para>
    <literal>PHP 5.3.3</literal> またはそれ以降の <literal>PHP 5.3</literal>。
-   <literal>PHP 5.4.0</literal> は対応準備中です。
+   <literal>PHP 5.4.0</literal> にはまだ対応していません。
   </para>
   <para>
    PECL/mysqlnd_qc は mysqlnd プラグインで、mysqlnd ライブラリに差し込まれます。
