@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.die" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>die</refname>
-  <refpurpose><function>exit</function> と同等</refpurpose>
+  <refpurpose><literal>exit</literal> と同等</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   この言語構造は、<function>exit</function> と同等です。
+   この言語構造は、<link linkend="function.exit"><literal>exit</literal></link> と同等です。
   </para>
  </refsect1>
 

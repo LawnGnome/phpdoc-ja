@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320300 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.function-exists" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,7 +45,7 @@
   <note>
    <para>
     この関数は、
-    <function>include_once</function> や <function>echo</function>
+    <link linkend="function.include-once"><literal>include_once</literal></link> や <link linkend="function.echo"><literal>echo</literal></link>
     のような言語構造については &false; を返します。
    </para>
   </note>

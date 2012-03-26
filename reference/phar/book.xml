@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322178 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <!-- Membership: pecl -->
 
@@ -32,7 +32,7 @@
   <para>
    Phar はこの機能を実装するために <link linkend="book.stream">ストリームラッパー</link>
    を使用しています。通常は、PHP スクリプトから外部のファイルを使用するには
-   <function>include</function> を用います。
+   <link linkend="function.include"><literal>include</literal></link> を用います。
   </para>
   <para>
    <example>

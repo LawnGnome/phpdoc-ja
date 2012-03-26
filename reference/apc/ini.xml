@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324346 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: takagi Status: ready -->
 <section xml:id="apc.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -611,7 +611,7 @@
     </term>
     <listitem>
      <para>
-      <function>include_once</function> および <function>require_once</function>
+      <link linkend="function.include-once"><literal>include_once</literal></link> および <link linkend="function.require-once"><literal>require_once</literal></link>
       を最適化し、コストの高いシステムコールの使用を避けるようにします。
      </para>
      <warning>

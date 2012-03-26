@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.nsapi-virtual" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>nsapi_virtual</refname>
@@ -27,8 +27,8 @@
   </para>
   <para>
    この関数を使って他の PHP スクリプトに再帰的なリクエストをすることはできません。
-   PHP スクリプトをインクルードしたい場合には、<function>include</function> または
-   <function>require</function> を使用してください。
+   PHP スクリプトをインクルードしたい場合には、<link linkend="function.include"><literal>include</literal></link> または
+   <link linkend="function.require"><literal>require</literal></link> を使用してください。
   </para>
   <note>
    <para>

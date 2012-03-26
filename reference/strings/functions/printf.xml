@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.printf">
  <refnamediv>
@@ -63,7 +63,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>print</function></member>
+    <member><link linkend="function.print"><literal>print</literal></link></member>
     <member><function>sprintf</function></member>
     <member><function>vprintf</function></member>
     <member><function>sscanf</function></member>
