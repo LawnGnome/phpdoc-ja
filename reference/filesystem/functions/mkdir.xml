@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297502 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324585 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: elf, shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
  <refnamediv>
@@ -60,7 +60,6 @@
      <listitem>
       <para>
        <parameter>pathname</parameter> で、入れ子構造のディレクトリの作成を許可します。
-       デフォルトは &false; です。
       </para>
      </listitem>
     </varlistentry>

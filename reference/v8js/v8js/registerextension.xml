@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324585 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="v8js.registerextension" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -62,7 +62,6 @@
     <listitem>
      <para>
       &true; にすると、この拡張がすべての <classname>V8Js</classname> コンテキストで自動的に有効となります。
-      デフォルトは &false; です。
      </para>
     </listitem>
    </varlistentry>

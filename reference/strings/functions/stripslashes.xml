@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324587 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stripslashes">
  <refnamediv>
@@ -27,7 +27,7 @@
   <para>
    <function>stripslashes</function> の使用例は、PHP ディレクティブ
    <link linkend="ini.magic-quotes-gpc">magic_quotes_gpc</link>
-   が <literal>on</literal> (デフォルトでオン) かつ、
+   が <literal>on</literal> (PHP 5.4 より前のバージョンでのデフォルト値) かつ、
    データをエスケープして (データベースのような)
    ある場所に挿入していない場合です。
    例えば、単純に HTML フォームからのデータを直接出力するような場合です。

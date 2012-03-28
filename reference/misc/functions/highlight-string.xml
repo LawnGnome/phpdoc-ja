@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324590 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.highlight-string" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -128,6 +128,7 @@ highlight_string('<?php phpinfo(); ?>');
   <para>
    <simplelist>
     <member><function>highlight_file</function></member>
+    <member><link linkend="ini.syntax-highlighting">ハイライトに関する INI 設定</link></member>
    </simplelist>
   </para>
  </refsect1>
