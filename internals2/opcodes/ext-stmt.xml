@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!-- EN-Revision: 324373 Maintainer: takagi Status: ready -->
+<section xml:id="internals2.opcodes.ext-stmt">
+ <title>EXT_STMT</title>
+ <section xml:id="internals2.opcodes.ext-stmt.code">
+  <title>PHP コード</title>
+  <programlisting role="php">
+   <![CDATA[
+<?php 
+/*
+ * 
+ * opcode number: 101
+ * No sample PHP yet */
+?>
+]]>
+  </programlisting>
+ </section>
+</section>
