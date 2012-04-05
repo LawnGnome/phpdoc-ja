@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324714 Maintainer: takagi Status: ready -->
 <appendix xml:id="bbcode.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -150,7 +150,7 @@
    <listitem>
     <simpara>
      これはパーサのオプションで、ダブルクォート
-     (") でクォートしたタグを受け付けます。
+     (<literal>"</literal>) でクォートしたタグを受け付けます。
     </simpara>
    </listitem>
   </varlistentry>
@@ -162,7 +162,7 @@
    <listitem>
     <simpara>
      これはパーサのオプションで、シングルクォート
-     (') でクォートしたタグを受け付けます。
+     (<literal>'</literal>) でクォートしたタグを受け付けます。
     </simpara>
    </listitem>
   </varlistentry>
@@ -174,7 +174,7 @@
    <listitem>
     <simpara>
      これはパーサのオプションで、HTML 版のダブルクォート
-     (&amp;quot;) でクォートしたタグを受け付けます。
+     (<literal>&amp;quot;</literal>) でクォートしたタグを受け付けます。
     </simpara>
    </listitem>
   </varlistentry>

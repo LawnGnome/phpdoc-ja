@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324714 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.array-walk-recursive" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_walk_recursive</refname>
@@ -101,7 +101,7 @@ sour holds lemon
 ]]>
     </screen>
     <para>
-     キー 'sweet' が表示されないことにお気づきでしょう。<type>array</type>
+     キー '<literal>sweet</literal>' が表示されないことにお気づきでしょう。<type>array</type>
      を要素として持つキーは関数に渡されません。
     </para>
    </example>

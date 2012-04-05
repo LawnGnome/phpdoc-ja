@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324714 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.bcompiler-write-footer" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>bcompiler_write_footer</refname>
@@ -14,7 +14,7 @@
    <methodparam><type>resource</type><parameter>filehandle</parameter></methodparam>
   </methodsynopsis>
   <para>
-   コンパイルされたデータの終了を示す文字 \x00 を書き込みます。
+   コンパイルされたデータの終了を示す文字 <literal>\x00</literal> を書き込みます。
   </para>
  </refsect1>
 

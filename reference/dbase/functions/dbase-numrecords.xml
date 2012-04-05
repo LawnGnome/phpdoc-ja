@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324735 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.dbase-numrecords" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -18,8 +18,8 @@
   </para>
   <note>
    <para>
-    レコード番号は 1 から dbase_numrecords($db) までで、
-    一方フィールド番号は 0 から dbase_numfields($db)-1 までです。
+    レコード番号は 1 から <literal>dbase_numrecords($db)</literal> までで、
+    一方フィールド番号は 0 から <literal>dbase_numfields($db)-1</literal> までです。
    </para>
   </note>
  </refsect1>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300152 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324735 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="dba.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
@@ -161,7 +161,7 @@
      <row>
       <entry><literal>inifile</literal></entry>
       <entry>
-       inifile のサポートを有効にするには、
+       <literal>inifile</literal> のサポートを有効にするには、
        <option role="configure">--with-inifile</option> を追加します。
        <note>
         <para>
