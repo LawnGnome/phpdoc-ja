@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323449 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324829 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -73,6 +73,16 @@ mysql_close($link);
 
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   &mysql.alternative.note;
+   <para>
+    &mysql.alternative.include;
+    <simplelist>
+     <member><function>mysqli_close</function></member>
+     <member>PDO: &null; を PDO オブジェクトに代入する</member>
+    </simplelist>
+   </para>
+  </note>
   <note>
    <para>
     <function>mysql_close</function> は、<function>mysql_pconnect</function>

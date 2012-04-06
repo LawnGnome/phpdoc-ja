@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 324829 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-data-seek" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -103,6 +103,16 @@ mysql_free_result($result);
 
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   &mysql.alternative.note;
+   <para>
+    &mysql.alternative.include;
+    <simplelist>
+     <member><function>mysqli_data_seek</function></member>
+     <member><constant>PDO::FETCH_ORI_ABS</constant></member>
+    </simplelist>
+   </para>
+  </note>
   <note>
    <para>
     <function>mysql_data_seek</function> は、
