@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322383 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 324930 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::$error</refname>
@@ -49,8 +49,8 @@
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
 /* 接続状況をチェックします */
-if (mysqli_connect_errno()) {
-    printf("Connect failed: %s\n", mysqli_connect_error());
+if ($mysqli->connect_errno) {
+    printf("Connect failed: %s\n", $mysqli->connect_error);
     exit();
 }
 
