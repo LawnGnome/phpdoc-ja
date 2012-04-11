@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325047 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.poll" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::poll</refname>
@@ -32,6 +32,8 @@
   <para>
    接続を問い合わせます。
    &mysqli.available.mysqlnd;
+   このメソッドは
+   <link linkend="language.oop5.static">static</link> メソッドとして使えます。
   </para>
  </refsect1>
 
