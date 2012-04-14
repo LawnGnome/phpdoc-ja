@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325150 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.multi-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::multi_query</refname>
@@ -161,6 +161,7 @@ Haarlemmermeer
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>mysqli_query</function></member>
     <member><function>mysqli_use_result</function></member>
     <member><function>mysqli_store_result</function></member>
     <member><function>mysqli_next_result</function></member>
