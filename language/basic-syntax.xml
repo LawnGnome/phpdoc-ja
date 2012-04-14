@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324522 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 325166 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi, shimooka -->
 
  <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
@@ -157,7 +157,7 @@ echo "最後のごあいさつ";
       PHP 5.2 以前では、開始タグ <literal>&lt;?php</literal>
       だけを書いてそれ以外に何も書いていないファイルは
       パーサが処理することができませんでした。PHP 5.3
-      以降では、そのようなファイルもパースできます。
+      以降では、開始タグの後に空白が一文字でもあればそのようなファイルもパースできます。
      </para>
     </note>
     <note>
