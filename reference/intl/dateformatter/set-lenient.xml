@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325509 Maintainer: takagi Status: ready -->
 <refentry xml:id="intldateformatter.setlenient" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::setLenient</refname>
@@ -50,7 +50,7 @@
      <term><parameter>lenient</parameter></term>
      <listitem>
       <para>
-       パーサを寛大なものにするかどうか。デフォルトは &false; (厳格) です。
+       パーサを寛大なものにするかどうか。デフォルトは &true; (寛大) です。
       </para>
      </listitem>
     </varlistentry>
