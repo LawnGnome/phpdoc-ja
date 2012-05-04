@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325524 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325534 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.uniqid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -129,7 +129,7 @@ printf("uniqid('', true): %s\r\n", uniqid('', true));
     この関数は、暗号学的にセキュアなトークンを返すわけではありません。
     実際、追加のパラメータを何も渡さなければその返り値は <function>microtime</function>
     とほとんど変わりません。暗号学的にセキュアなトークンを生成したければ
-    <function>openssl_random_psuedo_bytes</function> を使いましょう。
+    <function>openssl_random_pseudo_bytes</function> を使いましょう。
    </para>
   </caution>
   <note>
