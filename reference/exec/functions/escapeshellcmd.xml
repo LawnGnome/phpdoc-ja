@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319565 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325727 Maintainer: takagi Status: ready -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.2 -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.escapeshellcmd" xmlns="http://docbook.org/ns/docbook">
