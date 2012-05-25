@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323836 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325814 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="session.upload-progress" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>セッションのアップロード状況</title>
@@ -27,7 +27,7 @@
    <programlisting role="php">
 <![CDATA[
 <?php
-$key = ini_get("session.upload_progress.prefix") . ini_get("session.upload-progress.name");
+$key = ini_get("session.upload_progress.prefix") . $_POST[ini_get("session.upload_progress.name")];
 var_dump($_SESSION[$key]);
 ?>
 ]]>
