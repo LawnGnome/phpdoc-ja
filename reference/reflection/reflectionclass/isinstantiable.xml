@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324632 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325878 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionclass.isinstantiable" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ReflectionClass::isInstantiable</refname>
-  <refpurpose>インスタンス化が可能であるかどうかを調べる</refpurpose>
+  <refpurpose>クラスのインスタンス化が可能であるかどうかを調べる</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,10 +15,8 @@
    <void />
   </methodsynopsis>
   <para>
-   インスタンス化が可能であるかどうかを調べます。
+   クラスのインスタンス化が可能であるかどうかを調べます。
   </para>
-
-  &warn.undocumented.func;
 
  </refsect1>
 
