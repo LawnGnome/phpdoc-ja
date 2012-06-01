@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324829 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 325920 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mysql-affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -51,6 +51,11 @@
    新しいレコードを挿入します。この関数は、削除された行の数と
    挿入された行の数を足したものを返します。
   </para> 
+  <para>
+   "INSERT ... ON DUPLICATE KEY UPDATE" クエリの場合の返り値は、
+   新しい行を追加した場合が <literal>1</literal>
+   で既存の行を更新した場合が <literal>2</literal> となります。
+  </para>
  </refsect1>
 
  <refsect1 role="examples">
