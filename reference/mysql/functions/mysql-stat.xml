@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323449 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 325981 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysql-stat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_stat</refname>
   <refpurpose>現在のシステムの状態を取得する</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mysql.alternative.note;
+   <simplelist role="alternatives">
+    <member><function>mysqli_stat</function></member>
+    <member><methodname>PDO::getAttribute</methodname> (<constant>PDO::ATTR_SERVER_INFO</constant>)</member>
+   </simplelist>
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
