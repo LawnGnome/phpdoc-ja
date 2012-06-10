@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321133 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
 <!-- Membership: core -->
 
 <book xml:id="book.reflection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="core" ?>
  <title>リフレクション</title>
  <titleabbrev>リフレクション</titleabbrev>
 

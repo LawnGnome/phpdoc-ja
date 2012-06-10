@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315037 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
 <!-- Membership: pecl -->
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="pecl" ?>
  <title>MongoDB ネイティブドライバ</title>
  <titleabbrev>Mongo</titleabbrev>
 
@@ -14,6 +15,12 @@
  &reference.mongo.misc;
  &reference.mongo.functions;
  &reference.mongo.exceptions;
+
+<appendix xmlns="http://docbook.org/ns/docbook" xml:id="changelog.mongo">
+ <title>&ChangelogListingTitle;</title>
+ <para>&ChangelogListingDescription;</para>
+ <?phpdoc generate-changelog-for="ref.mongo class.mongo class.mongobindata class.mongocode class.mongocollection class.mongocursor class.mongodate class.mongodb class.mongodbref class.mongogridfs class.mongogridfscursor class.mongogridfsfile class.mongoid class.mongoint32 class.mongoint64 class.mongolog class.mongopool class.mongoregex class.mongotimestamp" ?>
+</appendix>
 
 </book>
 

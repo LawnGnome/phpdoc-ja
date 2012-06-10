@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
 <!-- Membership: bundled, external -->
 <!-- CREDITS: hirokawa -->
  
 <book xml:id="book.uodbc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>ODBC (Unified)</title>
  <titleabbrev>ODBC</titleabbrev>
  

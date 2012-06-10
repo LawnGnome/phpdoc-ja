@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Membership: core -->
 
 <book xml:id="book.outcontrol" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>出力バッファリング制御</title>
  <titleabbrev>出力制御</titleabbrev>
 

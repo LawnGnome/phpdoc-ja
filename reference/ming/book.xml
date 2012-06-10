@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- Membership: bundled, external -->
 <!-- State: experimental -->
  
 <book xml:id="book.ming" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Ming (flash)</title>
  <titleabbrev>Ming</titleabbrev>
  
