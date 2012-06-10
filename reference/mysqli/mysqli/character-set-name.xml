@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326022 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="mysqli.character-set-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -100,6 +100,7 @@ Current character set is latin1_swedish_ci
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>mysqli_set_charset</function></member>
     <member><function>mysqli_client_encoding</function></member>
     <member><function>mysqli_real_escape_string</function></member>
    </simplelist>
