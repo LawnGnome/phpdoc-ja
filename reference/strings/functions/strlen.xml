@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309499 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326075 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strlen">
  <refnamediv>
   <refname>strlen</refname>
@@ -88,6 +88,12 @@ echo strlen($str); // 7
 
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   <para>
+    <function>strlen</function> が返すのはバイト数であり、
+    文字数ではありません。
+   </para>
+  </note>
   <note>
    <para>
     配列に対して <function>strlen</function> を実行すると &null; を返し、
