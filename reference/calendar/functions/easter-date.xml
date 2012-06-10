@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298915 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.easter-date" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>easter_date</refname>
@@ -73,7 +73,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>4.3.0 以降</entry>
+       <entry>4.3.0</entry>
        <entry>
         <parameter>year</parameter>パラメータはオプションとなり
         省略された場合には、ローカル時間に基づく現在の年がデフォルトとなります。

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.log" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -66,7 +66,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>4.3.0 以降</entry>
+       <entry>4.3.0</entry>
        <entry>
         オプションのパラメータ <parameter>base</parameter> が使用可能となりました。
         これ以前のバージョンでも <literal>b</literal> を底とする <literal>n</literal>

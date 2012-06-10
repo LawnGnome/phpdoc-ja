@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mt-srand" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mt_srand</refname>
@@ -57,14 +57,14 @@
      </thead>
      <tbody>
       <row>
-       <entry>4.2.0 以降</entry>
+       <entry>4.2.0</entry>
        <entry>
         <parameter>seed</parameter> がオプションとなり、
         省略した場合はデフォルトでランダムな値が設定されるようになりました。
        </entry>
       </row>
       <row>
-       <entry>5.2.1 以降</entry>
+       <entry>5.2.1</entry>
        <entry>
         PHP の Mersenne Twister 実装は、Richard Wagner
         による新たなシード生成アルゴリズムを使用するようになりました。

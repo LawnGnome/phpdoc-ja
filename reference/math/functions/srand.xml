@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.srand" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -57,7 +57,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>4.2.0 以降</entry>
+       <entry>4.2.0</entry>
        <entry>
         <parameter>seed</parameter> はオプションになりました。
         省略した場合はランダムな値がデフォルトで設定されます。

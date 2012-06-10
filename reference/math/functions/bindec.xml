@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.bindec" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -68,7 +68,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>Since 4.1.0</entry>
+       <entry>4.1.0</entry>
        <entry>
         この関数は、<type>integer</type> 型の範囲をこえる大きな数値も変換できるようになりました。
         そのような値は、<type>float</type> で返します。

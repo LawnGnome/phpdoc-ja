@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323193 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.get-parent-class" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -68,14 +68,14 @@
        </entry>
       </row>
       <row>
-       <entry>5.0.0 以降</entry>
+       <entry>5.0.0</entry>
        <entry>
         オブジェクトのメソッドからコールされた場合、パラメータ
         <parameter>object</parameter> はオプションとなります。
        </entry>
       </row>
       <row>
-       <entry>4.0.5 以降</entry>
+       <entry>4.0.5</entry>
        <entry>
         <parameter>object</parameter> が文字列の場合、
         その名前のクラスの親クラスの名前を返します。
