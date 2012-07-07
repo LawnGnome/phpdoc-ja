@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 326480 Maintainer: mumumu Status: ready -->
 <!-- CREDITS: fujimoto, hirokawa, yuw, haruki, takagi, mumumu -->
    <sect1 xml:id="install.windows.extensions" xmlns="http://docbook.org/ns/docbook">
     <title>Windows 用 PHP 拡張モジュール</title>
