@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326521 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.ingres-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ingres_unbuffered_query</refname>
@@ -73,7 +73,7 @@
       </para>
       <para>
        クエリ内のデータは、<link
-       linkend="function.dbx-escape-string">適切にエスケープ</link>
+       linkend="function.ingres-escape-string">適切にエスケープ</link>
        しておかなければなりません。
       </para>
      </listitem>
