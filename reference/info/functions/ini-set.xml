@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326629 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ini-set" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -68,7 +68,7 @@
 echo ini_get('display_errors');
 
 if (!ini_get('display_errors')) {
-    ini_set('display_errors', 1);
+    ini_set('display_errors', '1');
 }
 
 echo ini_get('display_errors');
