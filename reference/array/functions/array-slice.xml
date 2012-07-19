@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323350 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326684 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.array-slice" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -21,7 +21,6 @@
    から引数 <parameter>offset</parameter> および
    <parameter>length</parameter> で指定された連続する要素を返します。
   </para>
-  &array.resetspointer;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
