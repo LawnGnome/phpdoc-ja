@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326716 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr-compare">
  <refnamediv>
   <refname>substr_compare</refname>
@@ -133,6 +133,15 @@ echo substr_compare("abcde", "abc", 5, 1); // 警告
 ]]>
     </programlisting>
    </example>
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><function>strncmp</function></member>
+   </simplelist>
   </para>
  </refsect1>
 

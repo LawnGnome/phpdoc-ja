@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326726 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.set-magic-quotes-runtime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>set_magic_quotes_runtime</refname>
@@ -17,7 +17,7 @@
    <link linkend="ini.magic-quotes-runtime">magic_quotes_runtime</link>
    の現在アクティブな設定をセットします。
   </para>
-  &warn.deprecated.function-5-3-0.removed-6-0-0;
+  &warn.deprecated.function-5-3-0.removed-5-4-0;
  </refsect1>
 
  <refsect1 role="parameters">
