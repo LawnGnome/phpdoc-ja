@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309257 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326728 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-search" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -91,6 +91,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.3.0</entry>
+       <entry>
+        他のすべての内部関数と同様、無効なパラメータが渡されたときに
+        <function>array_search</function> が &null; を返すようになりました。
+       </entry>
+      </row>
       <row>
        <entry>4.2.0</entry>
        <entry>
