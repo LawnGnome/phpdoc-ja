@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325026 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326867 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.taint" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>ReturnType</type><methodname>taint</methodname>
+   <type>bool</type><methodname>taint</methodname>
    <methodparam><type>string</type><parameter role="reference">string</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>...</parameter></methodparam>
   </methodsynopsis>
