@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326834 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326903 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki,shimooka,takagi -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>
@@ -610,6 +610,7 @@ object</parameter></term><listitem><para>手続き型のみ: <function>timezone_
 <!-- DomXml Notes -->
 <!ENTITY node.inserted 'このノードは、(たとえば) <function xmlns="http://docbook.org/ns/docbook">domnode_append_child</function>
 などで挿入されない限り、ドキュメント内に現われません。'>
+
 
 <!-- Dom Notes -->
 <!ENTITY dom.node.inserted 'このノードは、(

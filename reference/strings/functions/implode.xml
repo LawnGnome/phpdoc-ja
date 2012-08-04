@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301310 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 326946 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.implode">
  <refnamediv>
@@ -126,6 +126,7 @@ var_dump(implode('hello', array())); // string(0) ""
    <simplelist>
     <member><function>explode</function></member>
     <member><function>preg_split</function></member>
+    <member><function>http_build_query</function></member>
    </simplelist>
   </para>
  </refsect1>

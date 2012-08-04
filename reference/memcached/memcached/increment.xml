@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 326954 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="memcached.increment" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -73,7 +73,7 @@ $m->increment('counter');
 $m->increment('counter', 10);
 var_dump($m->get('counter'));
 
-$m->set('key', 'abc');
+$m->set('counter', 'abc');
 $m->increment('counter');
 ?>
 ]]>
