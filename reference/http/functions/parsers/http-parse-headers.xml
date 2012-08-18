@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327143 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.http-parse-headers" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>http_parse_headers</refname>
@@ -96,7 +96,7 @@ print_r(http_parse_headers($headers));
 <![CDATA[
 Array
 (
-  [Content-Type] => text/html; chatset=UTF-8
+  [Content-Type] => text/html; charset=UTF-8
   [Server] => Funky/1.0
   [Set-Cookie] => Array
   (

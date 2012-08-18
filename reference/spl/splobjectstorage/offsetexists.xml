@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308253 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327145 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="splobjectstorage.offsetexists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -17,6 +17,12 @@
   <para>
    オブジェクトがストレージ内に存在するかどうかを調べます。
   </para>
+  <note>
+   <para>
+    <methodname>SplObjectStorage::offsetExists</methodname> は、<methodname>SplObjectStorage::contains</methodname>
+    のエイリアスです。
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
