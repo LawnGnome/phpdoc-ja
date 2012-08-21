@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313913 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327201 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.snmp2-getnext" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -88,7 +88,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$nameOfSecondInterface = snmp2_get_netxt('localhost', 'public', 'IF-MIB::ifName.1';
+$nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1';
 ?>
 ]]>
     </programlisting>

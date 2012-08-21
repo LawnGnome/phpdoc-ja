@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322137 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 327202 Maintainer: hirokawa Status: ready -->
 
  <sect1 xml:id="language.oop5.autoload" xmlns="http://docbook.org/ns/docbook">
  <title>クラスのオートローディング</title>
