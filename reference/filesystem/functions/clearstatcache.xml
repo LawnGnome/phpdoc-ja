@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297556 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 327263 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.clearstatcache" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>clearstatcache</refname>
   <refpurpose>ファイルのステータスのキャッシュをクリアする</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -81,7 +81,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       realpath キャッシュを特定のファイル名にクリアする。
+       realpath キャッシュと stat キャッシュを特定のファイル名だけに対してクリアする。
        <parameter>clear_realpath_cache</parameter> が &true;
        の場合にのみ使用。
       </para>
