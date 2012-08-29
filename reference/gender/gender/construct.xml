@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327302 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327360 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="gender-gender.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,8 @@
    <methodparam choice="opt"><type>string</type><parameter>dsn</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+    Gender オブジェクトを作ります。オプションで、外部の名前ディレクトリに接続することもできます。
+    外部データベースを指定しなかったときは、コンパイル時に組み込まれたデータを使います。
   </para>
  </refsect1>
 
