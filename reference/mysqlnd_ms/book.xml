@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326346 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327381 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.mysqlnd-ms" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Mysqlnd レプリケーションおよびロードバランシング用プラグイン</title>
