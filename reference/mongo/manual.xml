@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 314067 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327468 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>マニュアル</title>
@@ -15,6 +15,7 @@
  &reference.mongo.tutorial;
  &reference.mongo.sqltomongo;
  &reference.mongo.connecting;
+ &reference.mongo.readpreferences;
  &reference.mongo.writes;
  &reference.mongo.queries;
  &reference.mongo.updates;
