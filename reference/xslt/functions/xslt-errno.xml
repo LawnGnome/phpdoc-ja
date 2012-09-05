@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 327484 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.xslt-errno" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -23,15 +23,7 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-    <varlistentry>
-     <term><parameter>xh</parameter></term>
-     <listitem>
-      <para>
-       <function>xslt_create</function> で作成した
-       <acronym>XSLT</acronym> プロセッサリンク ID。
-      </para>
-     </listitem>
-    </varlistentry>
+    &xslt.parameter.xh;
    </variablelist>
   </para>
  </refsect1>

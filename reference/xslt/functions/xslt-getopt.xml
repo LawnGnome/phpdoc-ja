@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 327484 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.xslt-getopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>xslt_getopt</refname>
@@ -23,15 +23,7 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-    <varlistentry>
-     <term><parameter>processor</parameter></term>
-     <listitem>
-      <para>
-       <function>xslt_create</function> で作成した
-       XSLT プロセッサリンク ID。
-      </para>
-     </listitem>
-    </varlistentry>
+    &xslt.parameter.processor;
    </variablelist>
   </para>
  </refsect1>
