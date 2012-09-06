@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326793 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327494 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.sort" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -159,7 +159,7 @@ fruits[3] = orange
 <?php
 
 $fruits = array(
-	"Orange1", "orange2", "Orange3", "orange20"
+    "Orange1", "orange2", "Orange3", "orange20"
 );
 sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
 foreach ($fruits as $key => $val) {
