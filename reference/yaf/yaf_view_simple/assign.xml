@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324803 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327534 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-view-simple.assign" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -16,11 +16,8 @@
    <methodparam choice="opt"><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+   変数をビューエンジンに代入します。
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327535 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-controller-abstract.display" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>protected</modifier> <type>void</type><methodname>Yaf_Controller_Abstract::display</methodname>
+   <modifier>final</modifier> <modifier>protected</modifier> <type>bool</type><methodname>Yaf_Controller_Abstract::display</methodname>
    <methodparam><type>string</type><parameter>tpl</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>parameters</parameter></methodparam>
   </methodsynopsis>
