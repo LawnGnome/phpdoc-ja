@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327525 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327530 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-dispatcher.disableview" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,15 +11,17 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>Yaf_Dispatcher</type><methodname>Yaf_Dispatcher::disableView</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Yaf_Dispatcher::disableView</methodname>
    <void />
   </methodsynopsis>
   <para>
-    
+    ビューエンジンを無効にします。ユーザーが自分自身で出力しているようなアプリケーションで利用します。
+    <note>
+     <para>
+     アクションで FALSE を返せば、そのアクションでの自動レンダリングを回避できます。
+    </para>
+    </note>
   </para>
-
-
-
  </refsect1>
 
  <refsect1 role="parameters">
