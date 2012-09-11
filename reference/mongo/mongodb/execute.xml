@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313177 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327604 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.execute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -33,7 +33,7 @@
 <?php
 
 public function execute($code, $args) {
-    return $this->command(array('$eval' => $code, args => $args));
+    return $this->command(array('$eval' => $code, 'args' => $args));
 }
 
 ?>
