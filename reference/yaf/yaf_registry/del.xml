@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327673 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-registry.del" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Registry::del</refname>
-  <refpurpose>The del purpose</refpurpose>
+  <refpurpose>アイテムをレジストリから削除する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,11 +15,8 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+   アイテムをレジストリから削除します。
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

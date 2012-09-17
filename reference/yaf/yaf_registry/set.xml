@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327529 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327673 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-registry.set" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Registry::set</refname>
-  <refpurpose>The set purpose</refpurpose>
+  <refpurpose>アイテムをレジストリに追加する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,11 +16,8 @@
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+   アイテムをレジストリに追加します。
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

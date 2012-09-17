@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320077 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327672 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-view-simple.getscriptpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_View_Simple::getScriptPath</refname>
-  <refpurpose>テンプレートのベースディレクトリを取得する</refpurpose>
+  <refpurpose>テンプレートのディレクトリを取得する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -17,9 +17,6 @@
   <para>
 
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

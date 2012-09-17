@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327529 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327673 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-registry.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Registry::get</refname>
-  <refpurpose>The get purpose</refpurpose>
+  <refpurpose>アイテムをレジストリから取得する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,11 +15,8 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+   アイテムをレジストリから取得します。
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
