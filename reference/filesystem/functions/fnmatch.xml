@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291640 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 327666 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fnmatch">
  <refnamediv>
   <refname>fnmatch</refname>
@@ -159,8 +159,8 @@ if (fnmatch("*gr[ae]y", $color)) {
   &reftitle.notes;
   <warning>
    <para>
-    今のところ、この機能は POSIX
-    に準拠していないシステムで利用できません。
+    今のところ、この機能は POSIX に準拠していないシステムで利用できません
+    (ただし、Windows では利用できます)。
    </para>
   </warning>
  </refsect1>

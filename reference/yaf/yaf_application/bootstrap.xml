@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327525 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 327652 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-application.bootstrap" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -98,7 +98,6 @@ $application->bootstrap();
    <member><classname>Yaf_Bootstrap_Abstract</classname></member>
   </simplelist>
  </refsect1>
-
 
 </refentry>
 
