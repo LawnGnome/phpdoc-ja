@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326263 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 327705 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -97,6 +97,11 @@
      <entry><constant>T_BREAK</constant></entry>
      <entry>break;</entry>
      <entry><link linkend="control-structures.break">break</link></entry>
+    </row>
+    <row>
+     <entry><constant>T_CALLABLE</constant></entry>
+     <entry>callable</entry>
+     <entry><link linkend="language.types.callable">callable</link></entry>
     </row>
     <row>
      <entry><constant>T_CASE</constant></entry>
