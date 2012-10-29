@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328184 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-diff-assoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -19,7 +19,7 @@
   <para>
    <parameter>array1</parameter> を <parameter>array2</parameter> と比較し、
    その差を返します。<function>array_diff</function> とは異なり、
-   配列のキーを用いて比較を行います。
+   配列のキーも用いて比較を行います。
   </para>
  </refsect1>
 

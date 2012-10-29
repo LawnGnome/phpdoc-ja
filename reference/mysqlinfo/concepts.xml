@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326024 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328175 Maintainer: takagi Status: ready -->
 <chapter xml:id="mysqlinfo.concepts" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>コンセプト</title>
  <para>
@@ -85,7 +85,7 @@ $uresult->close();
 <![CDATA[
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=world", 'my_user', 'my_pass');
-$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, TRUE);
+$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
 
 $uresult = $pdo->query("SELECT Name FROM City");
 if ($uresult) {
