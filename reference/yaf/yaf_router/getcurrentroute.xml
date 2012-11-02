@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327774 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328222 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-router.getcurrentroute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -19,7 +19,7 @@
    <note>
     <para>
      このメソッドはルーティングが終わってから呼ぶ必要があります。
-     終わる前に呼ぶと、常に NULL を返します。
+     終わる前に呼ぶと、常に &null; を返します。
     </para>
    </note>
   </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321987 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328221 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-route-rewrite.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -33,7 +33,7 @@
      <para>
        リクエストの URI とマッチさせるパターン。
        もしマッチしなければ <classname>Yaf_Route_Rewrite</classname> は
-       FALSE を返します。
+       &false; を返します。
      </para>
     </listitem>
    </varlistentry>

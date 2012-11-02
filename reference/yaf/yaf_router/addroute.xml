@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327774 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328221 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-router.addroute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -21,7 +21,7 @@
   </para>
   <para>
     ルートスタックに後から追加したルートのほうが先に呼ばれます。
-    どれかひとつのルーターが TRUE を返せば、そこでルーティングが終わります。それ以外の場合は
+    どれかひとつのルーターが &true; を返せば、そこでルーティングが終わります。それ以外の場合は
     次のルーターを呼びます。
   </para>
  </refsect1>

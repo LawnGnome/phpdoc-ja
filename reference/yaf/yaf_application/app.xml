@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327525 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328222 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-application.app" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -32,7 +32,7 @@
   &reftitle.returnvalues;
   <para>
    Yaf_Application のインスタンスを返します。まだ Yaf_Application
-   を初期化していない場合は NULL を返します。
+   を初期化していない場合は &null; を返します。
   </para>
  </refsect1>
 
