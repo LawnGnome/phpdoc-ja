@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327188 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328239 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -71,6 +71,9 @@
             が使用された場合に出力結果を何も加工せずに返します。
            </entry>
            <entry valign="top">
+            PHP 5.1.3 以降では、このオプションは何の効果もありません。
+            <constant>CURLOPT_RETURNTRANSFER</constant> を使ったときには
+            常に出力をそのまま返すようになりました。
            </entry>
           </row>
           <row>

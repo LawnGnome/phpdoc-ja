@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299512 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328236 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.getdbref" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -53,7 +53,7 @@
 
  $ref = array(
    '$ref' => 'profiles',
-   '$id' => '47cc67093475061e3d9536d2'
+   '$id' => new MongoId('47cc67093475061e3d9536d2')
  );
  
  $profile = $db->getDBRef($ref);
