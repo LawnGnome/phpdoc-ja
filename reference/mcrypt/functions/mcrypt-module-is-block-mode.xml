@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mcrypt-module-is-block-mode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_module_is_block_mode</refname>
@@ -28,9 +28,7 @@
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       調べたいモード。
-      </para>
+      &mcrypt.parameter.mode;
      </listitem>
     </varlistentry>
     <varlistentry>
