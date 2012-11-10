@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328297 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="iteratoriterator.key" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>IteratorIterator::key</methodname>
+   <modifier>public</modifier> <type>scalar</type><methodname>IteratorIterator::key</methodname>
    <void />
   </methodsynopsis>
   <para>

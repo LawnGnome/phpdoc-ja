@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322136 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328289 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="serializable.serialize" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -44,8 +44,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Throws <classname>Exception</classname> when returning other types then strings and
-   &null;
+   文字列や &null; 以外の型を返すときに <classname>Exception</classname> をスローします。
   </para>
  </refsect1>
  
