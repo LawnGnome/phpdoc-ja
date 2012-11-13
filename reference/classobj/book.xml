@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328328 Maintainer: takagi Status: ready -->
 <!-- Membership: core -->
 <!-- CREDITS: hirokawa -->
 
@@ -16,6 +16,11 @@
    オブジェクトが属するクラスの名前、そのメンバープロパティ、メソッドを取得可能です。
    この関数を使用することにより、オブジェクトのクラスメンバーだけでなく親クラス
    (すなわちそのオブジェクトクラスの派生元) の情報を得ることも可能です。
+  </para>
+  <para>
+   このマニュアルの <link linkend="language.types.object">オブジェクト</link>
+   のページに、クラスやオブジェクトがどのように実装されていて
+   PHP でどのように使うのかについての詳しい説明があります。
   </para>
  </preface>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326717 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328312 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
  <refnamediv>
@@ -242,6 +242,12 @@ The tree contains 0005 monkeys
         </screen>
        </example>
       </para>
+      <note>
+       <para>
+        <constant>PHP_INT_MAX</constant> より大きい位置指定子を指定すると、
+        <function>sprintf</function> は警告を発します。
+       </para>
+      </note>
      </listitem>
     </varlistentry>
     <varlistentry>

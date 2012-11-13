@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324994 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328341 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <appendix xml:id="session.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,7 +35,7 @@
     セッションを手動で開始するには <function>session_start</function> 関数を使います。
     <link linkend="ini.session.auto-start">session.auto_start</link> に
     <parameter>1</parameter> を設定している場合は、
-    PHP が出力バッファに何かを出力するときに自動的にセッションを開始します。
+    リクエストの開始時に自動的にセッションを開始します。
    </para>
    <para>
     通常は、PHP がスクリプトの処理を終了するときに、セッションは自動的に終了します。
