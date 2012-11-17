@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328274 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328370 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="cond.broadcast" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Cond::broadcast</refname>
-  <refpurpose>条件をすべてのスレッドにブロードキャストする</refpurpose>
+  <refpurpose>条件をブロードキャストする</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

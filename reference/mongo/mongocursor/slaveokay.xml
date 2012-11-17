@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328355 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongocursor.slaveokay" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoCursor::slaveOkay</refname>
@@ -25,7 +25,7 @@
     <listitem>
      <simpara>
       <classname>Mongo</classname> インスタンスを作るときに、オプション
-      <literal>"replicaSet" => true</literal> を指定している
+      <literal>"replicaSet" => "setName"</literal> を指定している
      </simpara>
     </listitem>
     <listitem>

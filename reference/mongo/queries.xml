@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328355 Maintainer: takagi Status: ready -->
 <section xml:id="mongo.queries" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>問い合わせ</title>
 
@@ -65,12 +65,12 @@ $cursor = $c->find();
 // P はプライマリです
 
 // オーストラリアのクライアント
-$m1 = new Mongo("mongodb://P", array("replicaSet" => true));
+$m1 = new Mongo("mongodb://P", array("replicaSet" => 'setName'));
 $m1->foo->bar->find()->slaveOkay()->getNext();
 echo "m1 のスレーブは ".$m1->getSlave()."\n";
 
 // ヨーロッパのクライアント
-$m2 = new Mongo("mongodb://P", array("replicaSet" => true));
+$m2 = new Mongo("mongodb://P", array("replicaSet" => 'setName'));
 $m2->foo->bar->find()->slaveOkay()->getNext();
 echo "m2 のスレーブは ".$m2->getSlave()."\n";
 

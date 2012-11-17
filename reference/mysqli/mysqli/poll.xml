@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325047 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328365 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.poll" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::poll</refname>
@@ -112,9 +112,10 @@ do {
     foreach ($links as $link) {
         if ($result = $link->reap_async_query()) {
             print_r($result->fetch_row());
-            mysqli_free_result($result);
-            $processed++;
-        }
+            if (is_object($result))
+                mysqli_free_result($result);   
+        } else die(sprintf("MySQLi Error: %s", mysqli_error($link)));
+        $processed++;
     }
 } while ($processed < count($all_links));
 ?>

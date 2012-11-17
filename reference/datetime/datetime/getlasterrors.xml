@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328383 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.getlasterrors" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -87,6 +87,9 @@ Array
 )
 ]]>
    </screen>
+   <para>
+    この出力のインデックス 6 と 0 は、エラーが発生した文字列内での文字の位置を表します。
+   </para>
   </example>
  </refsect1>
 

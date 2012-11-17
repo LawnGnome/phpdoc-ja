@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328274 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328370 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="cond.signal" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Cond::signal</refname>
-  <refpurpose>条件を単一のスレッドに通知する</refpurpose>
+  <refpurpose>条件を通知する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
