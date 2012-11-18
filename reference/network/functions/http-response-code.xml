@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$  -->
-<!-- EN-Revision: 314891 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 328399 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.http-response-code" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>http_response_code</refname>
@@ -58,7 +58,7 @@ http_response_code(404);
   &reftitle.examples;
   <para>
    <example>
-    <title><function>headers_list</function> の使用例</title>
+    <title><function>http_response_code</function> の使用例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
