@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324194 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328397 Maintainer: takagi Status: ready -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.socket-import-stream">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>socket_import_stream</methodname>
+   <type>resource</type><methodname>socket_import_stream</methodname>
    <methodparam><type>resource</type><parameter>stream</parameter></methodparam>
   </methodsynopsis>
   <para>
