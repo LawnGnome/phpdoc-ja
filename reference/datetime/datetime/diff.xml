@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328424 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.diff" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -44,7 +44,7 @@
     <term><parameter>absolute</parameter></term>
     <listitem>
      <para>
-      差の絶対値を返すか否か。
+      間隔が正の数になるようにするか否か。
      </para>
     </listitem>
    </varlistentry>

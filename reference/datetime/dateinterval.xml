@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326736 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328424 Maintainer: takagi Status: ready -->
 
 <phpdoc:classref xml:id="class.dateinterval" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -153,7 +153,7 @@
      <term><varname>invert</varname></term>
      <listitem>
       <para>
-       間隔が反転している場合は <literal>1</literal>、そうでない場合は
+       間隔が負の数になっている場合は <literal>1</literal>、そうでない場合は
        <literal>0</literal>。
        <methodname>DateInterval::format</methodname> を参照ください。
       </para>
