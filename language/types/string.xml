@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328351 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -864,6 +864,12 @@ bool(false)
     </para>
    </note>
 
+   <note>
+    <para>
+     PHP 5.5 以降では、文字列リテラル内の文字に対して
+     <literal>[]</literal> や <literal>{}</literal> でアクセスできるようになりました。
+    </para>
+   </note>
   </sect3>
  </sect2><!-- end syntax -->
 

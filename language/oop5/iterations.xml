@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324593 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
 <sect1 xml:id="language.oop5.iterations" xmlns="http://docbook.org/ns/docbook">
@@ -248,8 +248,17 @@ valid:
   </para>
  </note>
 
-</sect1>
+  <note>
+   <para>
+    PHP 5.5 以降を使っている場合は、
+    <link linkend="language.generators">ジェネレータ</link>
+    についても調べてみるといいでしょう。
+    これも、イテレータを定義する方法の一つとして使えます。
+   </para>
+  </note> 
 
+ </sect1>
+ 
 <!-- Keep this comment at the end of the file
 Local variables:
 mode: sgml
