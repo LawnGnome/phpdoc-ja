@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.php-logo-guid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,6 +20,7 @@
    ロゴが表示されるのは、<link linkend="ini.expose-php">expose_php</link>
    が On の場合のみです。
   </para>
+  &warn.deprecated.function.removed-5-5-0;
  </refsect1>
 
  <refsect1 role="returnvalues">
@@ -27,6 +28,30 @@
   <para>
    <literal>PHPE9568F34-D428-11d2-A769-00AA001ACF42</literal>
    を返します。
+  </para>
+ </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        <function>php_logo_guid</function> は PHP から削除されました。
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
 

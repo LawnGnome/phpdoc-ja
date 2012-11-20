@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: takagi Status: ready -->
 <refentry xml:id="intldateformatter.settimezoneid" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::setTimeZoneId</refname>
@@ -27,7 +27,8 @@
   <para>
    使用するタイムゾーンを設定します。
   </para> 
-  </refsect1>
+  &warn.deprecated.func-5-5-0;
+ </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
