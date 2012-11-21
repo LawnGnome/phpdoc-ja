@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328443 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="json.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -77,7 +77,7 @@
    <listitem>
     <simpara>
      正しくエンコードされていないなど、不正な形式の UTF-8 文字。
-     この定数は PHP 5.3.1 以降で使用可能です。
+     この定数は PHP 5.3.3 以降で使用可能です。
     </simpara>
    </listitem>
   </varlistentry>
