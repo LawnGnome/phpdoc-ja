@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 327889 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongopool.info" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoPool::info</refname>
@@ -59,8 +59,8 @@
       <para>
        このプールで作れる接続数。たとえば、このプールで作れる接続数が 5 つで
        現在プール内にある接続数が 3 であるとしましょう。この場合、プールを使い切るまでに
-       <classname>Mongo</classname> の新しいインスタンスを 8 つ作れることになります
-       (<classname>Mongo</classname> のインスタンスがスコープ外に出て、
+       <classname>MongoClient</classname> の新しいインスタンスを 8 つ作れることになります
+       (<classname>MongoClient</classname> のインスタンスがスコープ外に出て、
        接続をプールに返すことはないものとします)。
       </para>
       <para>

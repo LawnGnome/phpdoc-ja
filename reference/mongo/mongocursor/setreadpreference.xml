@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327731 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocursor.setreadpreference" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -36,12 +36,12 @@
 <![CDATA[
 <?php
 
-$m = new Mongo();
+$m = new MongoClient();
 $cursor = $m->test->users->find();
 
 // "east" データセンターの一番近いサーバーをレポート用に使うようにして、
 // 代替として "west" データセンターのサーバーを設定します
-$cursor->setReadPreference(Mongo::RP_NEAREST, array(
+$cursor->setReadPreference(MongoClient::RP_NEAREST, array(
     array('dc' => 'east', 'use' => 'reporting'),
     array('dc' => 'west'),
 ));

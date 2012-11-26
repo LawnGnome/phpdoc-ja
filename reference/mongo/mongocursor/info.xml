@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 327889 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongocursor.info" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoCursor::info</refname>
@@ -75,7 +75,7 @@
 <![CDATA[
 <?php
 
-$m = new Mongo();
+$m = new MongoClient();
 $cursor = $m->foo->bar->find(array("x" => 4), array("y" => false));
 var_dump($cursor->info());
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322202 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
 
 <section xml:id="mongo.writes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>書き込み</title>
@@ -71,7 +71,7 @@ $collection->insert($someDoc, array("safe" => 3));
    <literal>"safe" =&gt; N</literal> と設定すると、最低 <literal>N</literal>
    台のサーバーに書き込みが反映されるまで MongoDB サーバーは書き込みに成功したと判断しません。
    つまり、<literal>N</literal> を 3 にすると、
-   マスタと 2 台のスレーブには確実に書き込まれたことになります。
+   プライマリと 2 台のセカンダリには確実に書き込まれたことになります。
   </para>
  </section>
 

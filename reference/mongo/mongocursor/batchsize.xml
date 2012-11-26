@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 325451 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongocursor.batchsize" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoCursor::batchSize</refname>
@@ -100,7 +100,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title><function>Mongo::batchSize</function> を
+   <title><function>MongoCursor::batchSize</function> を
    <function>MongoCursor::limit</function> と組み合わせる例</title>
    <programlisting role="php">
 <![CDATA[
