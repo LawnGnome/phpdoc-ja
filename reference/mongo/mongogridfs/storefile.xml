@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296280 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328545 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongogridfs.storefile" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -50,14 +50,7 @@
      <para>
       格納時のオプション。
       <itemizedlist>
-       <listitem>
-        <para>
-         <literal>"safe"</literal>
-        </para>
-        <para>
-         格納に成功したかどうかを調べます。
-        </para>
-       </listitem>
+       &mongo.writes.parameters.writeconcern;
       </itemizedlist>
      </para>
     </listitem>
@@ -75,10 +68,7 @@
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   "safe" オプションが設定されていれば、追加に失敗した場合に
-   <classname>MongoCursorException</classname> をスローします。
-  </para>
+  &mongo.errors.exceptions.writeconcern;
  </refsect1>
 
 </refentry>
