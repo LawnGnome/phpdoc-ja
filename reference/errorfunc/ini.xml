@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326841 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328542 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="errorfunc.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
@@ -467,6 +467,7 @@
       このディレクティブが設定されていない場合、エラーは SAPI
       エラーロガーに送信されます。これは、例えば Apache のエラーログ、
       あるいは CLI なら <literal>stderr</literal> になります。
+      <function>error_log</function> も参照ください。
      </para>
     </listitem>
    </varlistentry>
