@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323642 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 328602 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="ingres.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -17,7 +17,7 @@
      <entry>&Changelog;</entry>
     </row>
    </thead>
-   <tbody>
+   <tbody xml:id="ingres.configuration.list">
     <row>
      <entry><link
      linkend="ini.ingres.allow-persistent">ingres.allow_persistent</link></entry>
