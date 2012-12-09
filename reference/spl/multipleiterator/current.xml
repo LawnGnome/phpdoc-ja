@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328297 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328714 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="multipleiterator.current" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -30,7 +30,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   登録されているイテレータインスタンスの配列を返します。
+   アタッチされている各イテレータの現在の値を含む配列を返します。
    イテレータがアタッチされていない場合は &false; を返します。
   </para>
  </refsect1>
