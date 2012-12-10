@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328703 Maintainer: hirokawa Status: ready -->
-<!-- CREDITS: takagi -->
+<!-- EN-Revision: 328734 Maintainer: takagi Status: ready -->
+<!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mysql-tablename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_tablename</refname>
   <refpurpose>フィールドのテーブル名を得る</refpurpose>
  </refnamediv>
 
- <refsynopsisdiv role="soft-deprecation-notice">
-  <sidebar>
+ <refsynopsisdiv>
+  <warning>
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member>SQL クエリー: <literal>SHOW TABLES</literal></member>
    </simplelist>
-  </sidebar>
+  </warning>
  </refsynopsisdiv>
 
  <refsect1 role="description">
