@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328838 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328859 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -673,6 +673,7 @@
             2 (デフォルト値) にしておかなければなりません。
            </entry>
            <entry valign="top">
+            値 1 は、cURL 7.28.1 以降では使えなくなりました。
            </entry>
           </row>
           <row>
