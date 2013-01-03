@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 328972 Maintainer: takagi Status: ready -->
 <refentry xml:id="xsltprocessor.getparameter" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XSLTProcessor::getParameter</refname>
@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   パラメータの値、あるいは設定されていない場合は &null; 。
+   パラメータの値 (文字列)、あるいは設定されていない場合は &false; を返します。
   </para>
  </refsect1>
  <refsect1 role="seealso">
