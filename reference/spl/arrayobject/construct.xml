@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326112 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329089 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="arrayobject.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -58,7 +58,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   成功した場合に ArrayObject オブジェクトを返します。
   </para>
  </refsect1>
 
