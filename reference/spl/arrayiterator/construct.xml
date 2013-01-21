@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326112 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329238 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="arrayiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -39,8 +39,8 @@
      <term><parameter>flags</parameter></term>
      <listitem>
       <para>
-       <classname>ArrayObject</classname> オブジェクトの振る舞いを制御するフラグ。
-       <methodname>ArrayObject::setFlags</methodname> を参照ください。
+       <classname>ArrayIterator</classname> オブジェクトの振る舞いを制御するフラグ。
+       <methodname>ArrayIterator::setFlags</methodname> を参照ください。
       </para>
      </listitem>
     </varlistentry>

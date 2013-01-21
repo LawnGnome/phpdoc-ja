@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323628 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 329172 Maintainer: shimooka Status: ready -->
 <appendix xml:id="oci8.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -48,11 +48,7 @@
        <row xml:id="constant.oci-default">
          <entry><constant>OCI_DEFAULT</constant></entry>
          <entry>
-           <function>oci_execute</function> のステートメント実行モード。
-           このモードでは、トランザクションの自動コミットは行われません。
-           5.3.2 (PECL OCI8 1.4) 以降では、
-           <constant>OCI_DEFAULT</constant> よりも
-           <constant>OCI_NO_AUTO_COMMIT</constant> を推奨します。
+           <constant>OCI_NO_AUTO_COMMIT</constant> を参照ください。
          </entry>
        </row>
        <row xml:id="constant.oci-describe-only">
