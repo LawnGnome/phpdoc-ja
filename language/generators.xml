@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328433 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329285 Maintainer: takagi Status: ready -->
 <chapter xml:id="language.generators" xmlns="http://docbook.org/ns/docbook">
  <title>ジェネレータ</title>
 
@@ -414,6 +414,7 @@ class Generator implements Iterator {
                                        // yield の結果としてジェネレータに送信し、
                                        // ジェネレータの実行を続けます。
 }
+?>
 ]]>
    </programlisting>
   </example>
