@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327173 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329306 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 
  <chapter xml:id="configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -87,6 +87,11 @@
      が存在する場合、PHP はそれを読もうとします。
     </para>
    </note>
+  <note>
+   <para>
+    &php.ini; の中で、環境変数を使えます。
+   </para>
+  </note>
    <para>
     拡張モジュールに対する &php.ini; ディレクティブは、
     各拡張モジュールのドキュメントで解説されています。

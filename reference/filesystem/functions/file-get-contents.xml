@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329280 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329305 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-get-contents">
  <refnamediv>
@@ -163,8 +163,8 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   <parameter>maxlength</parameter>
-   がゼロより小さい場合、あるいは、ストリーム内での指定した <parameter>offset</parameter> へのシークが失敗した場合に
+   <parameter>filename</parameter> が見つからない場合、<parameter>maxlength</parameter>
+   がゼロより小さい場合、あるいはストリーム内での指定した <parameter>offset</parameter> へのシークが失敗した場合に
    <constant>E_WARNING</constant> レベルのエラーが発生します。
   </para>
  </refsect1>
