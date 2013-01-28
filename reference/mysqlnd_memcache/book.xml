@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329060 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329312 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.mysqlnd-memcache" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Mysqlnd Memache プラグイン</title>
+ <title>Mysqlnd Memcache プラグイン</title>
  <titleabbrev>mysqlnd_memcache</titleabbrev>
 
  <preface xml:id="intro.mysqlnd-memcache">
