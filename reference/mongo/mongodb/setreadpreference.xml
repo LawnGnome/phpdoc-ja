@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329170 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329318 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.setreadpreference" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -24,7 +24,12 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  &mongo.setreadpreference.return;
+  &mongo.setreadpreference.returnvalues;
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &mongo.setreadpreference.errors;
  </refsect1>
 
  <refsect1 role="examples">
