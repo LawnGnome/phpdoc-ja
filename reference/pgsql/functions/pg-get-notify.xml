@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.pg-get-notify" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -75,7 +74,7 @@
 <?php 
 $conn = pg_pconnect("dbname=publisher");
 if (!$conn) {
-  echo "An error occured.\n";
+  echo "An error occurred.\n";
   exit;
 }
 

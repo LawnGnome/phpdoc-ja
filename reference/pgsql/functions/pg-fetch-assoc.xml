@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307084 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.pg-fetch-assoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -107,13 +107,13 @@
 <?php 
 $conn = pg_connect("dbname=publisher");
 if (!$conn) {
-  echo "An error occured.\n";
+  echo "An error occurred.\n";
   exit;
 }
 
 $result = pg_query($conn, "SELECT id, author, email FROM authors");
 if (!$result) {
-  echo "An error occured.\n";
+  echo "An error occurred.\n";
   exit;
 }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322131 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: takagi Status: ready -->
 
 <phpdoc:classref xml:id="class.snmp"
  xmlns:phpdoc="http://php.net/ns/phpdoc"

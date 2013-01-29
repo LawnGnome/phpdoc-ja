@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.umask">
  <refnamediv>
@@ -61,7 +61,7 @@ umask($old);
 
 // チェック
 if ($old != umask()) {
-    die('An error occured while changing back the umask');
+    die('An error occurred while changing back the umask');
 }
 ?>
 ]]>

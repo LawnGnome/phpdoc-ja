@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: takagi Status: ready -->
 <appendix xmlns="http://docbook.org/ns/docbook" xml:id="imagick.constants">
  &reftitle.constants;
  &extension.constants;
