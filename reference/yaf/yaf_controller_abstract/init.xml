@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329505 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329511 Maintainer: takagi Status: ready -->
 
-<refentry xml:id="yaf-controller-abstract.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="yaf-controller-abstract.init" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Yaf_Controller_Abstract::__construct</refname>
-  <refpurpose>Yaf_Controller_Abstract のコンストラクタ</refpurpose>
+  <refname>Yaf_Controller_Abstract::init</refname>
+  <refpurpose>コントローラを初期化する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>private</modifier> <methodname>Yaf_Controller_Abstract::__construct</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>Yaf_Controller_Abstract::init</methodname>
    <void />
   </methodsynopsis>
   <para>
-    <methodname>Yaf_Controller_Abstract::__construct</methodname> は final メソッドなので、
-    オーバーライドできません。
-    <methodname>Yaf_Controller_Abstract::init</methodname> を参照ください。
+   <methodname>Yaf_Controller_Abstract::__construct</methodname> は final メソッドなので、
+   オーバーライドできません。しかし、かわりに
+   <methodname>Yaf_Controller_Abstract::init</methodname> を定義できます。
+   これは、コントローラオブジェクトのインスタンスができた直後に呼ばれます。
   </para>
  </refsect1>
 
@@ -36,7 +37,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>Yaf_Controller_Abstract::init</methodname></member>
+   <member><methodname>Yaf_Controller_Abstract::__construct</methodname></member>
   </simplelist>
  </refsect1>
 
