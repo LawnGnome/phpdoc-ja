@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321296 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329545 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mb-internal-encoding" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
