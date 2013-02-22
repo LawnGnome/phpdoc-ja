@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327532 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329535 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="yaf.tutorials" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
@@ -111,7 +111,9 @@ foo=bar
 class IndexController extends Yaf_Controller_Abstract {
    /* デフォルトアクション */
    public function indexAction() {
-       $this->view->word = "hello world";
+       $this->_view->word = "hello world";
+       // あるいは
+       // $this->getView()->word = "hello world";
    }
 }
 ?>
