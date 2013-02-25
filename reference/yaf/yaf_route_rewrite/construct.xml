@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328221 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329575 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-route-rewrite.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Route_Rewrite::__construct</refname>
-  <refpurpose>The __construct purpose</refpurpose>
+  <refpurpose>Yaf_Route_Rewrite のコンストラクタ</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -19,9 +19,6 @@
   <para>
 
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
