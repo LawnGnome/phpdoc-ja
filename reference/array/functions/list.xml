@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320698 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329580 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.list" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>list</refname>
@@ -84,9 +84,8 @@ var_dump($bar); // NULL
  </tr>
 
 <?php
-
-$result = mysql_query("SELECT id, name, salary FROM employees", $conn);
-while (list($id, $name, $salary) = mysql_fetch_row($result)) {
+$result = $pdo->query("SELECT id, name, salary FROM employees");
+while (list($id, $name, $salary) = $result->fetch(PDO::FETCH_NUM)) {
     echo " <tr>\n" .
           "  <td><a href=\"info.php?id=$id\">$name</a></td>\n" .
           "  <td>$salary</td>\n" .

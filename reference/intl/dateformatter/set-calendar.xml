@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329582 Maintainer: takagi Status: ready -->
 <refentry xml:id="intldateformatter.setcalendar" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::setCalendar</refname>
   <refname>datefmt_set_calendar</refname>
-  <refpurpose>使用するカレンダーを設定する</refpurpose>
+  <refpurpose>Formatter が使うカレンダーを設定する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
