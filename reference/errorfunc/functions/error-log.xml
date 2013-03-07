@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307520 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329678 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.error-log" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>error_log</refname>
-  <refpurpose>エラーメッセージを送信する</refpurpose>
+  <refpurpose>定義されたエラー処理ルーチンにエラーメッセージを送信する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
