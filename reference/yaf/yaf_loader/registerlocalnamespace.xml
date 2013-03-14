@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329592 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329784 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-loader.registerlocalnamespace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -75,7 +75,7 @@
 <?php
 $loader = Yaf_Loader::getInstance('/local/library/', '/global/library');
 $loader->registerLocalNamespace("Baidu");
-$loader->registerLocalNamespace(array("Sina", "Weibo");
+$loader->registerLocalNamespace(array("Sina", "Weibo"));
 
 $loader->autoload("Baidu_Name"); // search in '/local/library/'
 $loader->autoload("Sina");       // search '/local/library/'

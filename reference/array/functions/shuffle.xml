@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329772 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.shuffle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -83,6 +83,7 @@ foreach ($numbers as $number) {
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>array_rand</function></member>
     <member>&seealso.array.sorting;</member>
    </simplelist>
   </para>
