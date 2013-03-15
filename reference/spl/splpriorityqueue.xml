@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 329790 Maintainer: takagi Status: ready -->
 <phpdoc:classref xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="class.splpriorityqueue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
  <title>SplPriorityQueue クラス</title>
  <titleabbrev>SplPriorityQueue</titleabbrev>
@@ -12,7 +12,7 @@
    &reftitle.intro;
    <para>
     SplPriorityQueue クラスは、優先順位つきキューの主要な機能を提供します。
-    ヒープを使用して実装しています。
+    最大ヒープを使用して実装しています。
    </para>
   </section>
 <!-- }}} -->
