@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309977 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 329872 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagerotate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -23,8 +23,6 @@
   <para>
    回転の中心は画像の中心です。
    回転後の画像の大きさは、もとの大きさと異なる可能性があります。
-  </para>
-  <para>
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -115,6 +113,10 @@ $rotate = imagerotate($source, $degrees, 0);
 
 // 出力
 imagejpeg($rotate);
+
+// メモリの解放
+imagedestroy($source);
+imagedestroy($rotate);
 ?>
 ]]>
     </programlisting>

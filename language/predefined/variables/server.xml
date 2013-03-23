@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322866 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 329894 Maintainer: satoruyoshida Status: ready -->
 
 <phpdoc:varentry xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="reserved.variables.server" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -388,6 +388,16 @@
        '<literal>80</literal>' ですが、例えば SSL を使用している場合は
        セキュア HTTP ポートとして設定されている値に変わります。
       </simpara>
+      <note>
+       <simpara>
+        Apache 2 では、<literal>UseCanonicalName = On</literal> だけでなく
+        <literal>UseCanonicalPhysicalPort = On</literal> も設定しないと物理ポート
+        (実際のポート) を取得できません。設定しなければ、
+        この値は詐称できる状態になり、
+        物理ポートを返さなくなるかもしれません。
+        セキュリティに依存するコンテキストで、この値に頼るのは安全ではありません。
+       </simpara>
+      </note>
      </listitem>
     </varlistentry>
 
