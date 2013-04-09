@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330030 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="streamwrapper.stream-lock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>streamWrapper::stream_lock</methodname>
-   <methodparam><type>mode</type><parameter>operation</parameter></methodparam>
+   <methodparam><type>int</type><parameter>operation</parameter></methodparam>
   </methodsynopsis>
   <para>
    このメソッドは、<function>flock</function> に対応してコールされます。また

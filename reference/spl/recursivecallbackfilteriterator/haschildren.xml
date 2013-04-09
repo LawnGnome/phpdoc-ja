@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330039 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="recursivecallbackfilteriterator.haschildren" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -40,7 +40,7 @@
 <![CDATA[
 <?php
 
-$dir = new FilesystemIterator(__DIR__);
+$dir = new RecursiveDirectoryIterator(__DIR__);
 
 // 再帰的に XML ファイルを処理します
 $files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
