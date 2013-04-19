@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330088 Maintainer: takagi Status: ready -->
  <chapter xml:id="internals2.resources" xmlns="http://docbook.org/ns/docbook">
   <title>リソースの作成</title>
   <para>
+   このセクションでは、ハッカー向けに PHP のリソースの概念や使い方を解説します。
   </para>
  </chapter>
 

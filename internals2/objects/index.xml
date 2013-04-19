@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
- <chapter xml:id="internals2.objects" xmlns="http://docbook.org/ns/docbook">
-  <title>クラスやオブジェクトの作成</title>
+<!-- EN-Revision: 330066 Maintainer: takagi Status: ready -->
+ <chapter xml:id="internals2.classes" xmlns="http://docbook.org/ns/docbook">
+  <title>クラスの作成</title>
   <para>
   </para>
  </chapter>
