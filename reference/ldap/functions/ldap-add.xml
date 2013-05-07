@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 330183 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ldap-add" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -91,7 +91,6 @@ if ($ds) {
     // データを準備する
     $info["cn"] = "John Jones";
     $info["sn"] = "Jones";
-    $info["mail"] = "jonj@example.com";
     $info["objectclass"] = "person";
 
     // データをディレクトリに追加
