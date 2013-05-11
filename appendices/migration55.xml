@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329930 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330198 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="migration55" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP 5.4.x から PHP 5.5.x への移行</title>
@@ -592,6 +592,11 @@ String dereferencing: P
    <title>PHP コア</title>
 
    <itemizedlist>
+    <listitem>
+     <simpara>
+      <function>array_column</function>
+     </simpara>
+    </listitem>
     <listitem>
      <simpara>
       <function>boolval</function>
