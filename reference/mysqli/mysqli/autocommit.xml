@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327381 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330225 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="mysqli.autocommit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -134,6 +134,7 @@ Autocommit is 1
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>mysqli_begin_transaction</function></member>
     <member><function>mysqli_commit</function></member>
     <member><function>mysqli_rollback</function></member>
    </simplelist>
