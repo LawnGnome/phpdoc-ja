@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330234 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 <!-- Membership: bundled, external -->
  
@@ -32,6 +32,7 @@
  &reference.curl.constants;
  &reference.curl.examples;
  &reference.curl.reference;
+ &reference.curl.curlfile;
 
 </book>
 

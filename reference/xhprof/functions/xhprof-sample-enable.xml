@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311175 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330232 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.xhprof-sample-enable" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>xhprof_sample_enable</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>サンプリングモードでの XHProf プロファイリングを開始する</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -20,8 +20,6 @@
    サンプリング間隔は 0.1 秒で、完全な関数のコールスタックを記録します。
    主な使い道は、パフォーマンス監視や調査などでオーバーヘッドを極力抑えたい場合です。
   </para>
-
-  &warn.undocumented.func;
 
  </refsect1>
 
