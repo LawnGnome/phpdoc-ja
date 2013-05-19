@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324537 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 330295 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-ereg-replace-callback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -27,9 +27,6 @@
     この関数の動作は<function>mb_ereg_replace</function>とほぼ同じですが、
     <parameter>replacement</parameter>パラメータの代わりに
     <parameter>callback</parameter>を指定するところが異なります。
-  </para>
-  <para>
-    この関数は、 PHP 5.4.1以降で使用可能です。
   </para>
  </refsect1>
 

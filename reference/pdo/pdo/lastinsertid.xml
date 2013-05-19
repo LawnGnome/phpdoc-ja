@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330293 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.lastinsertid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,7 +20,7 @@
    最後に挿入された行の ID、
    あるいはシーケンスオブジェクトから次の値をを返します。
    これは、構成しているドライバに依存します。例えば
-   <function>PDO_PGSQL</function> の場合、<parameter>name</parameter>
+   <link linkend="ref.pdo-pgsql">PDO_PGSQL</link> の場合、<parameter>name</parameter>
    パラメータにシーケンスオブジェクト名を指定する必要があります。
   </para>
   <note>
