@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330267 Maintainer: takagi Status: ready -->
 <!--
 Remove me once you perform substitutions
     domnodelist
@@ -31,16 +31,15 @@ Remove me once you perform substitutions
    <classsynopsis>
     <ooclass><classname>DOMNodeList</classname></ooclass>
 
-    <oointerface>
-      <interfacename>Traversable</interfacename>
-    </oointerface>
-
 <!-- {{{ Class synopsis -->
     <classsynopsisinfo>
      <ooclass>
       <classname>DOMNodeList</classname>
      </ooclass>
  
+     <oointerface>
+      <interfacename>Traversable</interfacename>
+     </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
  

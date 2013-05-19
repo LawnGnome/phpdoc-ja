@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330260 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="context.params" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -31,7 +31,8 @@
        イベントがストリーム上で発生したときにコールされる <type>callable</type>。
       </para>
       <para>
-       詳細は <function>stream_notification_callback</function> を参照ください。
+       詳細は <link linkend="function.stream-notification-callback">
+       stream_notification_callback</link> を参照ください。
       </para>
      </listitem>
     </varlistentry>

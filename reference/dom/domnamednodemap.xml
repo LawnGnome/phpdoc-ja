@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322062 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330267 Maintainer: takagi Status: ready -->
 <!--
 Remove me once you perform substitutions
     domnamednodemap
@@ -37,6 +37,9 @@ Remove me once you perform substitutions
       <classname>DOMNamedNodeMap</classname>
      </ooclass>
  
+     <oointerface>
+      <interfacename>Traversable</interfacename>
+     </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 330268 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.debug-zval-dump" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>debug_zval_dump</refname>
@@ -11,6 +11,7 @@
   <methodsynopsis>
    <type>void</type><methodname>debug_zval_dump</methodname>
    <methodparam><type>mixed</type><parameter>variable</parameter></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>...</parameter></methodparam>
   </methodsynopsis>
   <para>
    内部的な Zend の値を表す文字列をダンプします。

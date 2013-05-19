@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329325 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330280 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.insert" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -83,7 +83,7 @@
      </term>
      <listitem>
       <para>
-       これは常に 1 です (ただし last_error 自体が失敗した場合は除く)。
+       これはほぼ常に 1 です (ただし last_error 自体が失敗した場合は除く)。
       </para>
      </listitem>
     </varlistentry>
