@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330191 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330303 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoclient.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -47,6 +47,9 @@ mongodb://[username:password@]host1[:port1][,host2[:port2:],...]/db
    コンストラクタは正常な結果を返します。
    どのホストにも接続できなかった場合は
    <classname>MongoConnectionException</classname> をスローします。
+   レプリカセットへの接続に関する情報は、
+   <link linkend="mongo.connecting.rs">レプリカセット</link>
+   を参照ください。
   </para>
   <para>
    ユーザー名とパスワードを指定したときには、認証先のデータベースも指定することになるでしょう。
