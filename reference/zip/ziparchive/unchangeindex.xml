@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330315 Maintainer: takagi Status: ready -->
 <refentry xml:id="ziparchive.unchangeindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeIndex</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>ZipArchive::unchangeIndex</methodname>
+   <type>bool</type><methodname>ZipArchive::unchangeIndex</methodname>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
   <para>

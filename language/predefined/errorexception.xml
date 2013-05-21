@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326694 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 330314 Maintainer: satoruyoshida Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.errorexception"
  xmlns="http://docbook.org/ns/docbook"
@@ -48,6 +48,9 @@
      <varname linkend="errorexception.props.severity">severity</varname>
     </fieldsynopsis>
  
+    <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
+    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)" />
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.errorexception')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[1])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.errorexception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330315 Maintainer: takagi Status: ready -->
 <refentry xml:id="ziparchive.unchangeall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeAll</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>ZipArchive::unchangeAll</methodname>
+   <type>bool</type><methodname>ZipArchive::unchangeAll</methodname>
    <void/>
   </methodsynopsis>
   <para>
