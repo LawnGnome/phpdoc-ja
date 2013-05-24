@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323651 Maintainer: shimooka Status: ready -->
-<!-- Membership: bundled, external, pecl -->
+<!-- EN-Revision: 330340 Maintainer: shimooka Status: ready -->
 <!-- State: experimental -->
 
  <reference xml:id="ref.pdo-oci" xmlns="http://docbook.org/ns/docbook">
+  <?phpdoc extension-membership="bundledexternal" ?>
   <title>Oracle 関数 (PDO_OCI)</title>
   <titleabbrev>Oracle (PDO)</titleabbrev>
   <partintro>

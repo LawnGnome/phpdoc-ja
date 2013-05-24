@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
-<!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
  
 <book xml:id="book.ncurses" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

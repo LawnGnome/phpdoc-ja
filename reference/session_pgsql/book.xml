@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: takagi Status: ready -->
-<!-- Membership: pecl, external -->
+<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
 <!-- Author: Yasuo Ohgaki <yohgaki@php.net> -->
 
 <book xml:id="book.session-pgsql" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">

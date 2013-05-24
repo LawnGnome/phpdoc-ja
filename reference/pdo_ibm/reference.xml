@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323651 Maintainer: takagi Status: ready -->
-<!-- Membership: external, pecl -->
+<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
 
  <reference xml:id="ref.pdo-ibm" xmlns="http://docbook.org/ns/docbook">
   <title>IBM 関数 (PDO_IBM)</title>

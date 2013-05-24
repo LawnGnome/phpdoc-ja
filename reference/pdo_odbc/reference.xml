@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323651 Maintainer: takagi Status: ready -->
-<!-- Membership: bundled, external, pecl -->
+<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
 
  <reference xml:id="ref.pdo-odbc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <?phpdoc extension-membership="bundledexternal" ?>
   <title>ODBC および DB2 関数 (PDO_ODBC)</title>
   <titleabbrev>ODBC and DB2 (PDO)</titleabbrev>
   <partintro>
