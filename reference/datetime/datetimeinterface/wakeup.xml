@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330270 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330435 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetime.wakeup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::__wakeup</refname>
-  <refname>DateTimeImmutable::</refname>
-  <refname>DateTimeInterface::</refname>
+  <refname>DateTimeImmutable::__wakeup</refname>
+  <refname>DateTimeInterface::__wakeup</refname>
   <refpurpose>__wakeup ハンドラ</refpurpose>
  </refnamediv>
 
