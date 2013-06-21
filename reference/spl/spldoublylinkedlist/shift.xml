@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320965 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="spldoublylinkedlist.shift" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplDoublyLinkedList::shift</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>SplDoublyLinkedList::shift</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>SplDoublyLinkedList::shift</methodname>
    <void />
   </methodsynopsis>
  </refsect1>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330431 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.bindparam" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PDOStatement::bindParam</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PDOStatement::bindParam</methodname>
    <methodparam><type>mixed</type><parameter>parameter</parameter></methodparam>
    <methodparam><type>mixed</type><parameter role="reference">variable</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>data_type</parameter><initializer>PDO::PARAM_STR</initializer></methodparam>

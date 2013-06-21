@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocumentfragment.appendxml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocumentFragment::appendXML</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DOMDocumentFragment::appendXML</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>DOMDocumentFragment::appendXML</methodname>
    <methodparam><type>string</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
   <para>

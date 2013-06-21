@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.savexml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::saveXML</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>DOMDocument::saveXML</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>DOMDocument::saveXML</methodname>
    <methodparam choice="opt"><type>DOMNode</type><parameter>node</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>options</parameter></methodparam>
   </methodsynopsis>

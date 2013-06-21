@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.sqlite-single-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_single_query</refname>
@@ -21,7 +21,7 @@
   </methodsynopsis>
   <para>&style.oop; (メソッド):</para>
   <methodsynopsis>
-   <type>array</type><methodname>SQLiteDatabase::singleQuery</methodname>
+   <modifier>public</modifier> <type>array</type><methodname>SQLiteDatabase::singleQuery</methodname>
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>first_row_only</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>decode_binary</parameter></methodparam>

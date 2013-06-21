@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.addfromstring">
  <refnamediv>
   <refname>Phar::addFromString</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>Phar::addFromString</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>Phar::addFromString</methodname>
    <methodparam><type>string</type><parameter>localname</parameter></methodparam>
    <methodparam><type>string</type><parameter>contents</parameter></methodparam>
   </methodsynopsis>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330245 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.finfo-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>finfo_open</refname>
@@ -18,7 +18,7 @@
   </methodsynopsis>
   <para>&style.oop; (コンストラクタ)</para>
   <constructorsynopsis>
-   <methodname>finfo::__construct</methodname>
+   <modifier>public</modifier> <methodname>finfo::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>options</parameter><initializer>FILEINFO_NONE</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>magic_file</parameter><initializer>&null;</initializer></methodparam>
   </constructorsynopsis>

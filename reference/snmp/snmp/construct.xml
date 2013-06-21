@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="snmp.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
 
   <constructorsynopsis>
-   <methodname>SNMP::__construct</methodname>
+   <modifier>public</modifier> <methodname>SNMP::__construct</methodname>
    <methodparam><type>int</type><parameter>version</parameter></methodparam>
    <methodparam><type>string</type><parameter>hostname</parameter></methodparam>
    <methodparam><type>string</type><parameter>community</parameter></methodparam>

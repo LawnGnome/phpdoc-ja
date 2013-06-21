@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.sqlite-busy-timeout" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,7 +14,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>sqlite_busy_timeout</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>sqlite_busy_timeout</methodname>
    <methodparam><type>resource</type><parameter>dbhandle</parameter></methodparam>
    <methodparam><type>int</type><parameter>milliseconds</parameter></methodparam>
   </methodsynopsis>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="splpriorityqueue.valid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplPriorityQueue::valid</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>SplPriorityQueue::valid</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>SplPriorityQueue::valid</methodname>
    <void/>
   </methodsynopsis>
   <para>

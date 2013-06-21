@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.errorcode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>PDO::errorCode</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>PDO::errorCode</methodname>
    <void/>
   </methodsynopsis>
 

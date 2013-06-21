@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320973 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="splheap.top" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplHeap::top</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>SplHeap::top</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>SplHeap::top</methodname>
    <void />
   </methodsynopsis>
  </refsect1>

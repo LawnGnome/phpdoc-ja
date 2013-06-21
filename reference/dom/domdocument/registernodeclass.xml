@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326065 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.registernodeclass" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::registerNodeClass</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DOMDocument::registerNodeClass</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>DOMDocument::registerNodeClass</methodname>
    <methodparam><type>string</type><parameter>baseclass</parameter></methodparam>
    <methodparam><type>string</type><parameter>extendedclass</parameter></methodparam>
   </methodsynopsis>

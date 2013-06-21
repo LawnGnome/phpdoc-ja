@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.apiversion">
  <refnamediv>
   <refname>Phar::apiVersion</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>Phar::apiVersion</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Phar::apiVersion</methodname>
    <void/>
   </methodsynopsis>
 

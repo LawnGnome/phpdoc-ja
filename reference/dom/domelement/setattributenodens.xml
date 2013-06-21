@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id='domelement.setattributenodens' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMElement::setAttributeNodeNS</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMAttr</type><methodname>DOMElement::setAttributeNodeNS</methodname>
+   <modifier>public</modifier> <type>DOMAttr</type><methodname>DOMElement::setAttributeNodeNS</methodname>
    <methodparam><type>DOMAttr</type><parameter>attr</parameter></methodparam>
   </methodsynopsis>
   <para>

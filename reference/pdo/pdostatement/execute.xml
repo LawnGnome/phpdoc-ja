@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327812 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.execute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PDOStatement::execute</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PDOStatement::execute</methodname>
    <methodparam choice="opt"><type>array</type><parameter>input_parameters</parameter></methodparam>
   </methodsynopsis>
   <para>

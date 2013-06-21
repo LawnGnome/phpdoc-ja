@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.sqlite-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -29,7 +29,7 @@
   </methodsynopsis>
   <para>&style.oop; (メソッド):</para>
   <methodsynopsis>
-   <type>SQLiteUnbuffered</type><methodname>SQLiteDatabase::unbufferedQuery</methodname>
+   <modifier>public</modifier> <type>SQLiteUnbuffered</type><methodname>SQLiteDatabase::unbufferedQuery</methodname>
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>result_type</parameter><initializer>SQLITE_BOTH</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter role="reference">error_msg</parameter></methodparam>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320328 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.rollback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PDO::rollBack</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PDO::rollBack</methodname>
    <void/>
   </methodsynopsis>
 

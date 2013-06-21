@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329258 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="pdo.pgsqllobopen" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>PDO::pgsqlLOBOpen</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>resource</type><methodname>PDO::pgsqlLOBOpen</methodname>
+   <modifier>public</modifier> <type>resource</type><methodname>PDO::pgsqlLOBOpen</methodname>
    <methodparam><type>string</type><parameter>oid</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>mode</parameter><initializer>"rb"</initializer></methodparam>
   </methodsynopsis>

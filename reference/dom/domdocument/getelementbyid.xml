@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326834 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.getelementbyid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::getElementById</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMElement</type><methodname>DOMDocument::getElementById</methodname>
+   <modifier>public</modifier> <type>DOMElement</type><methodname>DOMDocument::getElementById</methodname>
    <methodparam><type>string</type><parameter>elementId</parameter></methodparam>
   </methodsynopsis>
   <para>

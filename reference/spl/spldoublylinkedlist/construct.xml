@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xml:id="spldoublylinkedlist.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplDoublyLinkedList::__construct</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-   <methodname>SplDoublyLinkedList::__construct</methodname>
+   <modifier>public</modifier> <methodname>SplDoublyLinkedList::__construct</methodname>
    <void />
   </constructorsynopsis>
   <para>

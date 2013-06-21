@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="pharfileinfo.setcompressedbzip2">
  <refnamediv>
   <refname>PharFileInfo::setCompressedBZIP2</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>PharFileInfo::setCompressedBZIP2</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>PharFileInfo::setCompressedBZIP2</methodname>
    <void/>
   </methodsynopsis>
  &phar.removed.pharfileinfocompress;

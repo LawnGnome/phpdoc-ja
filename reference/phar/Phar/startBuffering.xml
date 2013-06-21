@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322193 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.startbuffering">
  <refnamediv>
   <refname>Phar::startBuffering</refname>
@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>Phar::startBuffering</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>Phar::startBuffering</methodname>
    <void/>
   </methodsynopsis>
 
