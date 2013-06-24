@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330629 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.findandmodify" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>MongoCollection::findAndModify</methodname>
+   <modifier>public</modifier> <type>array</type><methodname>MongoCollection::findAndModify</methodname>
    <methodparam><type>array</type><parameter>query</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>update</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>fields</parameter></methodparam>
