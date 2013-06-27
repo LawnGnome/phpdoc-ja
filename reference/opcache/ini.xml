@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 330572 $ -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 330572 Maintainer: mumumu Status: ready -->
 <sect1 xml:id="opcache.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
