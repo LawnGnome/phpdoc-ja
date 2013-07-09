@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330788 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <book xml:id="book.spl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,7 +11,7 @@
  <preface xml:id="intro.spl">
   &reftitle.intro;
   <para>
-   SPLは、標準的な問題を解決するためのインターフェイスやクラスを集めたものです。
+   The Standard PHP Library (SPL) は、標準的な問題を解決するためのインターフェイスやクラスを集めたものです。
   </para>
   <note>
    <para>
