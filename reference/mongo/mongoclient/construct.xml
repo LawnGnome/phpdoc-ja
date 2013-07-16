@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330401 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 330935 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoclient.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -115,7 +115,7 @@ mongodb://[username:password@]host1[:port1][,host2[:port2:],...]/db
           <literal>"connectTimeoutMS"</literal>
          </para>
          <para>
-          接続を開こうとしてタイムアウトになるまでの時間の長さ。
+          接続を開こうとしてタイムアウトになるまでの時間の長さ（ミリ秒単位）。
          </para>
         </listitem>
         <listitem>
