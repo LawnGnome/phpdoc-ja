@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321919 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331031 Maintainer: takagi Status: ready -->
  <section xml:id="oci8.test">
   <title xmlns="http://docbook.org/ns/docbook">テスト</title>
    <section xml:id="oci8.testing" xmlns="http://docbook.org/ns/docbook">
@@ -17,7 +17,7 @@
      テストユーザーにそれと同等の権限がなければ、いくつかのテストが失敗します。
     </para>
     <para>
-     Oracle 11g Database Resident Connection Pooling をテストする場合は
+     Oracle Database Resident Connection Pooling をテストする場合は
      $test_drcp を &true; に設定し、
      適切な DRCP プールサーバーに接続するための接続文字列を指定します。
     </para>
