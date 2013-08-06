@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330970 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331062 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoclient.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -439,6 +439,7 @@ $uri  = 'mongodb://rs1.example.com,rs2.example.com/';
 $uri .= '?readPreference=nearest';
 $uri .= '&readPreferenceTags=dc:east';
 $m = new MongoClient($uri, array('replicaSet' => 'rs'));
+?>
 ]]>
    </programlisting>
    <para>
@@ -491,6 +492,7 @@ $uri  = 'mongodb://rs1.example.com,rs2.example.com/';
 $uri .= '?readPreference=nearest';
 $uri .= '&readPreferenceTags=dc:east';
 $m = new MongoClient($uri, array('replicaSet' => 'rs'));
+?>
 ]]>
    </programlisting>
    <para>
