@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330136 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331063 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.createcollection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -23,7 +23,13 @@
 <![CDATA[
 <?php
 
-$collection = $db->command(array("create" => $name, "size" => $size, "capped" => $capped, "max" => $max));
+$collection = $db->command(array(
+    "create" => $name,
+    "capped" => $options["capped"],
+    "size" => $options["size"],
+    "max" => $options["max"],
+    "autoIndexId" => $options["autoIndexId"],
+));
 
 ?>
 ]]>
