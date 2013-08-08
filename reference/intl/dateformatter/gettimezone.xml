@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330514 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331081 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="intldateformatter.gettimezone" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -55,7 +55,7 @@
   &reftitle.examples;
   <para>
    <example>
-   <title><function>IntlDateFormatter::getTimeZone</function> の例</title>
+    <title><function>IntlDateFormatter::getTimeZone</function> の例</title>
     <programlisting role="php">
 <![CDATA[
 <?php
