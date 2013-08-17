@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328222 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-application.app" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,10 +15,10 @@
    <void />
   </methodsynopsis>
   <para>
-    <classname>Yaf_Application</classname> のインスタンスを取得します。
-    別の方法として、
-    <methodname>Yaf_Dispatcher::getApplication</methodname>
-    も使えます。
+   <classname>Yaf_Application</classname> のインスタンスを取得します。
+   別の方法として、
+   <methodname>Yaf_Dispatcher::getApplication</methodname>
+   も使えます。
   </para>
 
  </refsect1>

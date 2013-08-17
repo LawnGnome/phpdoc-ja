@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323238 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="amqpqueue.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -72,7 +72,7 @@
    $queue->declare('myqueue');
 
    // メッセージを取得します
-   $messages = $queue->get(AMQP_AUTOACK);
+   $message = $queue->get(AMQP_AUTOACK);
 
    echo $message->getBody();
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322136 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: hirokawa Status: ready -->
 
 <sect1 xml:id="language.oop5.cloning" xmlns="http://docbook.org/ns/docbook">
  <title>オブジェクトのクローン作成</title>
@@ -22,7 +22,7 @@
  </para>
  
  <para>
-  オブジェクトのコピーは、clone キーワード (これは、そのオブジェクトの
+  オブジェクトのコピーは、<emphasis>clone</emphasis> キーワード (これは、そのオブジェクトの
   <link linkend="object.clone">__clone()</link> メソッドがある場合にこれをコールします)により作成されます。
   オブジェクトの <link linkend="object.clone">__clone()</link> メソッドを直接コールすることはできません。
  </para>
