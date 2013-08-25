@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328469 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331200 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.boolval" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -54,6 +54,8 @@ echo '0.0:      '.(boolval(0.0) ? 'true' : 'false')."\n";
 echo '4.2:      '.(boolval(4.2) ? 'true' : 'false')."\n";
 echo '"":       '.(boolval("") ? 'true' : 'false')."\n";
 echo '"string": '.(boolval("string") ? 'true' : 'false')."\n";
+echo '"0":      '.(boolval("0") ? 'true' : 'false')."\n";
+echo '"1":      '.(boolval("1") ? 'true' : 'false')."\n";
 echo '[1, 2]:   '.(boolval([1, 2]) ? 'true' : 'false')."\n";
 echo '[]:       '.(boolval([]) ? 'true' : 'false')."\n";
 echo 'stdClass: '.(boolval(new stdClass) ? 'true' : 'false')."\n";
@@ -69,6 +71,8 @@ echo 'stdClass: '.(boolval(new stdClass) ? 'true' : 'false')."\n";
 4.2:      true
 "":       false
 "string": true
+"0":      false
+"1":      true
 [1, 2]:   true
 []:       false
 stdClass: true
