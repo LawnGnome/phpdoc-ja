@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324171 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331202 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <sect1 xml:id="language.oop5.typehinting" xmlns="http://docbook.org/ns/docbook">
   <title>タイプヒンティング</title>
@@ -23,7 +23,7 @@
   <para>
    タイプヒントは <type>int</type> や
    <type>string</type> といったスカラー型には使えません。
-   また、<link linkend="language.oop5.traits">トレイト</link> も使えません。
+   また、<link linkend="language.types.resource">リソース</link> や <link linkend="language.oop5.traits">トレイト</link> も使えません。
   </para>
   
   <example>
