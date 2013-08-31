@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297890 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 331212 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.phpinfo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -153,6 +153,13 @@
      </thead>
      <tbody>
       <row>
+       <entry>5.5.0</entry>
+       <entry>
+        ロゴの GUID がデータ URI に置き換わりました。そのため、expose_php をオフにしても
+        phpinfo() の結果には何も影響が出なくなりました。クレジットも、リンクではなく出力に埋め込まれるようになりました。
+       </entry>
+      </row>
+      <row>
        <entry>5.2.2</entry>
        <entry>
         "Loaded Configuration File" 情報が追加されました。これまでは
@@ -192,6 +199,7 @@ phpinfo(INFO_MODULES);
   &reftitle.notes;
   <note>
    <para>
+    PHP 5.5 より前のバージョンでは、
     <link linkend="ini.expose-php">expose_php</link> が
     <literal>off</literal> の場合、一部の情報は表示されません。
     これにはPHPとZendのロゴ、そしてクレジットが含まれます。
