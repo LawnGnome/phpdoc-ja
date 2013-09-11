@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331258 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 
 <book xml:id="book.phar" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -126,8 +126,8 @@
    phar には、特定のファイルあるいはアーカイブ全体を
    <link linkend="book.zlib">gzip</link> あるいは
    <link linkend="book.bzip2">bzip2</link> で圧縮する機能があります。
-   また、アーカイブの整合性を <function>md5</function>、
-   <function>sha1</function>、<function>sha256</function> あるいは <function>sha512</function>
+   また、アーカイブの整合性を
+   MD5、SHA-1、SHA-256 あるいは SHA-512
    シグネチャで自動的に検証します。
   </para>
   <para>
