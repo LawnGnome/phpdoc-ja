@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331172 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331269 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
  <section xml:id="ini.list" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -1497,7 +1497,7 @@
        <entry>PHP 4.2.0 で削除。</entry>
       </row>
       <row>
-       <entry>ldap.max_links</entry>
+       <entry><link linkend="ini.ldap.max_links">ldap.max_links</link></entry>
        <entry>"-1"</entry>
        <entry>PHP_INI_SYSTEM</entry>
        <entry></entry>
