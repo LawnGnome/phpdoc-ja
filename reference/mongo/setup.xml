@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328517 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331270 Maintainer: takagi Status: ready -->
 
-<chapter xml:id="extname.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<chapter xml:id="mongo.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
 
  <!-- {{{ Requirements -->
- <section xml:id="extname.requirements">
+ <section xml:id="mongo.requirements">
   &reftitle.required;
   &no.requirement;
  </section>
