@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328517 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331337 Maintainer: takagi Status: ready -->
 <chapter xml:id="mongo.sqltomongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>SQL から Mongo への対応表</title>
  <para>
@@ -141,7 +141,7 @@
      </row>
      <row>
       <entry>
-       <literal>SELECT * FROM users LIMIT 10 SKIP 20</literal>
+       <literal>SELECT * FROM users LIMIT 20, 10</literal>
       </entry>
       <entry>
        <literal>$db->users->find()->limit(10)->skip(20);</literal>
