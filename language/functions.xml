@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327189 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331339 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
   <title>関数</title>
@@ -356,7 +356,7 @@ Making a bowl of acidophilus raspberry.
     </para>
     <note>
      <simpara>
-      PHP 5以降、デフォルト引数値をリファレンス渡しにすることもできます。
+      PHP 5以降では、リファレンス渡しの引数にもデフォルト値を指定できます。
      </simpara>
     </note>
    </sect2>
