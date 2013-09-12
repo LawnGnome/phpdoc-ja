@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323270 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331331 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.get-html-translation-table">
  <refnamediv>
@@ -174,8 +174,6 @@ var_dump(get_html_translation_table(HTML_ENTITIES, ENT_QUOTES | ENT_HTML5));
     <screen>
 <![CDATA[
 array(1510) {
-  ["	"]=>
-  string(5) "&Tab;"
   ["
 "]=>
   string(9) "&NewLine;"

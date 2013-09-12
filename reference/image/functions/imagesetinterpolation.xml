@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329952 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331331 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imagesetinterpolation" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagesetinterpolation</refname>
@@ -53,7 +53,7 @@
          <simpara>
           <constant>IMG_BILINEAR_FIXED</constant>: 双直線補間の固定小数点実装 (<literal>デフォルト (画像作成時も含む)</literal>)。
          </simpara>
-        </listitem>		
+        </listitem>
         <listitem>
          <simpara>
           <constant>IMG_BLACKMAN</constant>: Blackman ウィンドウ関数。
