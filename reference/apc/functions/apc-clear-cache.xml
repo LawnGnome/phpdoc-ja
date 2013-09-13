@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323616 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331388 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-clear-cache" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_clear_cache</refname>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>apc_clear_cache</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>cache_type</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>cache_type</parameter><initializer>&quot;&quot;</initializer></methodparam>
   </methodsynopsis>
   <para>
    ユーザー/システム キャッシュをクリアします。
