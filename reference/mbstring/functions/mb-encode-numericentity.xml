@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329377 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331340 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mb-encode-numericentity" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
    <methodparam><type>array</type><parameter>convmap</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>encoding</parameter><initializer>mb_internal_encoding()</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>is_hex</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>is_hex</parameter><initializer>FALSE</initializer></methodparam>
   </methodsynopsis>
   <para>
    <parameter>str</parameter>の中で指定した文字コードを
