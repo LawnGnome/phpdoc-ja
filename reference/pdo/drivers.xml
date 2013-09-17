@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 331422 Maintainer: shimooka Status: ready -->
 <!-- CREDITS: hirokawa,takagi -->
  
 <part xml:id="pdo.drivers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -28,7 +28,7 @@
       </row>
       <row>
        <entry><link linkend="ref.pdo-firebird">PDO_FIREBIRD</link></entry>
-       <entry>Firebird/Interbase 6</entry>
+       <entry>Firebird</entry>
       </row>
       <row>
        <entry><link linkend="ref.pdo-ibm">PDO_IBM</link></entry>
