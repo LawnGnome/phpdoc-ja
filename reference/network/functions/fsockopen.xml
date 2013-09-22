@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321326 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331467 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fsockopen">
  <refnamediv>
@@ -59,6 +59,8 @@
      <listitem>
       <para>
        ポート番号。
+       <literal>unix://</literal> のようにポートを使わないトランスポートの場合は、
+       <literal>-1</literal> で無視してスキップさせることができます。
       </para>
      </listitem>
     </varlistentry>
