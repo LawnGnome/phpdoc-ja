@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331556 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-list-handlers">
  <refnamediv>
   <refname>ob_list_handlers</refname>
@@ -46,7 +46,7 @@ print_r(ob_list_handlers());
 ob_end_flush();
 
 // 無名関数
-ob_start(create_function('$string', 'return $string;'));
+ob_start(function($string) { return $string; });
 print_r(ob_list_handlers());
 ob_end_flush();
 ?>
@@ -67,7 +67,7 @@ Array
 
 Array
 (
-    [0] => default output handler
+    [0] => Closure::__invoke
 )
 ]]>
     </screen>
