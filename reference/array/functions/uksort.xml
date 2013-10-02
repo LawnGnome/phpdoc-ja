@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.uksort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>uksort</methodname>
    <methodparam><type>array</type><parameter role="reference">array</parameter></methodparam>
-   <methodparam><type>callable</type><parameter>cmp_function</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>key_compare_func</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>uksort</function> は、
@@ -34,7 +34,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>cmp_function</parameter></term>
+     <term><parameter>key_compare_func</parameter></term>
      <listitem>
       <para>
        &return.callbacksort;
