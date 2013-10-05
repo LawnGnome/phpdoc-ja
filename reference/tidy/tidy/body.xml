@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331631 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="tidy.body" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,14 +45,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   見つかった HTML バージョンを返します。
+   tidy パースツリーの &lt;body&gt; タグから始まる <classname>tidyNode</classname> オブジェクトを返します。
   </para>
-  <warning>
-   <para>
-    この関数は Tidylib 自体でまだ実装されていません。そのため常に
-    <literal>0</literal> を返します。
-   </para>
-  </warning>
  </refsect1>
 
  <refsect1 role="examples">
