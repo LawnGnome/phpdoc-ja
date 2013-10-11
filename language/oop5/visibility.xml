@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311569 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 331736 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <sect1 xml:id="language.oop5.visibility" xmlns="http://docbook.org/ns/docbook">
@@ -72,8 +72,8 @@ class MyClass2 extends MyClass
 
 $obj2 = new MyClass2();
 echo $obj2->public; // 動作します
-echo $obj2->private; // 未定義です
 echo $obj2->protected; // Fatal エラー
+echo $obj2->private; // 未定義です
 $obj2->printHello(); // Public、Protected2、Undefined を表示します
 
 ?> 
