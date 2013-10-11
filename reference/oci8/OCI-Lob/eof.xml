@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331733 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 331735 Maintainer: shimooka Status: ready -->
 <refentry xml:id="oci-lob.eof" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob::eof</refname>
@@ -24,6 +24,15 @@
    もし、ラージオブジェクトの内部ポインタが LOB の最後にあるとき、
    &true; を返します。その他の場合は &false; を返します。
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    <xref linkend="oci-lob.setbuffering"/> が LOB で有効になっていない場合は、Oracle のエラーを返します。
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328558 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 331735 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.oci-set-edition" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_set_edition</refname>
@@ -52,7 +52,7 @@
   <note>
    <title>Oracle バージョン必要条件</title>
    <para>
-    この関数は Oracle 11gR2 以降で利用可能です
+    この関数は Oracle 11<emphasis>g</emphasis>R2 以降で利用可能です
    </para>
   </note>
   <caution>

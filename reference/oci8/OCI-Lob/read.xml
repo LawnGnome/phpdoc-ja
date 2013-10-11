@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331733 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 331735 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="oci-lob.read" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Lob::read</refname>
@@ -33,7 +33,7 @@
      <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       読み込むバイト数。
+       読み込むバイト数。大きな値を指定すると、1 MB に切り捨てられます。
       </para>
      </listitem>
     </varlistentry>
