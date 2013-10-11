@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331718 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.reap-async-query" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::reap_async_query</refname>
@@ -20,7 +20,6 @@
    <type>mysqli_result</type><methodname>mysqli_reap_async_query</methodname>
    <methodparam><type>mysql</type><parameter>link</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    非同期クエリから結果を取得します。
    &mysqli.available.mysqlnd;
