@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 331733 Maintainer: shimooka Status: ready -->
 <refentry xml:id="oci-collection.size" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OCI-Collection::size</refname>
@@ -9,7 +9,7 @@
  
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
+  <methodsynopsis role="oop">
    <type>int</type><methodname>OCI-Collection::size</methodname>
    <void />
   </methodsynopsis>
