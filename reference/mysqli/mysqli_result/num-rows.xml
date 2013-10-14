@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322008 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331790 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-result.num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_result::$num_rows</refname>
@@ -44,7 +44,7 @@
   </para>
   <note>
    <para>
-    行数が int の最大値をこえる場合、行数は文字列で返されます。
+    行数が <constant>PHP_INT_MAX</constant> をこえる場合、行数は文字列で返されます。
    </para>
   </note>
  </refsect1>
