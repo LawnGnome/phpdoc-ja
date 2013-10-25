@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304618 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 331967 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.pclose">
  <refnamediv>
   <refname>pclose</refname>
@@ -66,7 +66,7 @@ pclose($handle);
   <note>
    <title>Unix のみ</title>
    <para>
-    <function>proc_close</function> の内部的な実装は、
+    <function>pclose</function> の内部的な実装は、
     <literal>waitpid(3)</literal> システムコールを使っています。
     実際の終了ステータスを知るには、<function>pcntl_wexitstatus</function>
     関数を使わなければなりません。
