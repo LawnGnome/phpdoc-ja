@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331921 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.issimilar">
  <refnamediv>
   <refname>ImagickPixel::isSimilar</refname>
@@ -23,6 +23,7 @@
    これは、両者の RGB 値を色立方体上にプロットすることで行います。
    ふたつの色の差が fuzz で指定した値よりも小さければ、
    同じ色であるとみなされます。
+   非推奨です。かわりに <link linkend="imagickpixel.ispixelsimilar">ImagickPixel::isPixelSimilar()</link> を使いましょう。
   </para>
  </refsect1>
 

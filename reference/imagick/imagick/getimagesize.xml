@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331921 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagesize">
  <refnamediv>
   <refname>Imagick::getImageSize</refname>
@@ -15,6 +15,7 @@
   </methodsynopsis>
   <para>
    画像の長さをバイト数で返します。
+   非推奨です。かわりに <link linkend="imagick.getimagelength">Imagick::getImageLength()</link> を使いましょう。
   </para>
  </refsect1>
 
