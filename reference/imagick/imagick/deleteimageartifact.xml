@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 331919 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.deleteimageartifact">
  <refnamediv>
   <refname>Imagick::deleteImageArtifact</refname>
@@ -28,7 +28,7 @@
      <term><parameter>artifact</parameter></term>
      <listitem>
       <para>
-       アーチファクトの名前。
+       削除したいアーチファクトの名前。
       </para>
      </listitem>
     </varlistentry>
