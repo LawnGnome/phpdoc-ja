@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332039 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.tmpfile">
  <refnamediv>
   <refname>tmpfile</refname>
@@ -18,8 +18,8 @@
    ファイルハンドルを返します。
   </para>
   <para>
-   ファイルが (<function>fclose</function> を用いて) クローズされた時、
-   またはスクリプトが終了された際に自動的にファイルが削除されます。
+   (<function>fclose</function>を呼んだり、<function>tmpfile</function> が返すファイルハンドルへの参照がなくなったりして)
+   ファイルをクローズした場合や、スクリプトが終了したりしたときに、このファイルは自動的に削除されます。
   </para>
   <para>
    詳細については、関数 <literal>tmpfile(3)</literal>
