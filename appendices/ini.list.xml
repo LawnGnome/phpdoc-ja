@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331726 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332079 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
  <section xml:id="ini.list" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -1833,7 +1833,6 @@
       </row>
       <row>
        <entry><link linkend="ini.mysqlnd.debug">mysqlnd.debug</link></entry>
-       <entry>mysqlnd.debug</entry>
        <entry>""</entry>
        <entry>PHP_INI_SYSTEM</entry>
        <entry>PHP 5.3.0 以降で利用可能。</entry>
