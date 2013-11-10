@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331668 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332084 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -15,7 +15,7 @@
 
  <note>
   <simpara>
-   文字列の最大長は 2GB です。
+   文字列の最大長は 2GB (2147483647 バイト) です。
   </simpara>
  </note>
 
