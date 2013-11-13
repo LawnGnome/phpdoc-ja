@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332113 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="pdostatement.fetch" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -71,6 +71,12 @@
          <literal>PDO::FETCH_LAZY</literal>:
          <literal>PDO::FETCH_BOTH</literal> と<literal>PDO::FETCH_OBJ</literal>の
          組合せで、オブジェクト変数名を作成します。
+        </para></listitem>
+        <listitem><para>
+         <literal>PDO::FETCH_NAMED</literal>:
+         <literal>PDO::FETCH_ASSOC</literal> と同じ形式の配列を返します。
+         ただし、同じ名前のカラムが複数あった場合は、そのキーが指す値は、
+         同じ名前のカラムのすべての値を含む配列になります。
         </para></listitem>
         <listitem><para>
          <literal>PDO::FETCH_NUM</literal>:
