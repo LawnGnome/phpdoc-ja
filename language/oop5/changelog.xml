@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328079 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332133 Maintainer: takagi Status: ready -->
 <sect1 xml:id="language.oop5.changelog" xmlns="http://docbook.org/ns/docbook">
  <title>変更履歴</title>
  <para>
@@ -17,6 +17,12 @@
      </row>
     </thead>
     <tbody>
+     <row>
+      <entry>5.4.0</entry>
+      <entry>
+       追加: <link linkend="language.oop5.traits">トレイト</link> が追加されました。
+      </entry>
+     </row>
      <row>
       <entry>5.4.0</entry>
       <entry>
