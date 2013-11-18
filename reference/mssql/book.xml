@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332155 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  
 <book xml:id="book.mssql" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,7 +18,7 @@
    この拡張モジュールは、Windows 版では PHP 5.3 以降使うことができません。
   </para>
   <para>
-   SQLSRV という別の MS SQL ドライバが、Microsoft から <link
+   SQLSRV という別の MS SQL 接続用拡張モジュールが、Microsoft から <link
   xlink:href="&url.sqlsrv;">&url.sqlsrv;</link> で公開されています。
   </para>
  </preface>
