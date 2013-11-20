@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331733 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 332170 Maintainer: satoruyoshida Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.ocifetchinto" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,6 +12,9 @@
  
  <refsect1 role="description">
   &reftitle.description;
+  <para><function>oci_fetch_array</function> や <function>oci_fetch_object</function>、
+  <function>oci_fetch_assoc</function>、
+  <function>oci_fetch_row</function> の変種です。</para>
   &warn.deprecated.alias-5-4-0;
  </refsect1>
 
