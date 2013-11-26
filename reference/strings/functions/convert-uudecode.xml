@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332199 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-uudecode">
  <refnamediv>
   <refname>convert_uudecode</refname>
@@ -37,7 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   デコードしたデータを文字列で返します。
+   デコードしたデータを文字列で返します。&return.falseforfailure;。
   </para>
  </refsect1>
 
