@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332156 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332258 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.yaf" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Yaf</title>
+ <title>Yet Another Framework (Yaf)</title>
  <titleabbrev>Yaf</titleabbrev>
 
  <preface xml:id="intro.yaf">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331458 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332240 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="context.socket" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -71,15 +71,15 @@
      </thead>
      <tbody>
       <row>
-       <entry>5.1.0</entry>
-       <entry>
-        <literal>bindto</literal> が追加されました。
-       </entry>
-      </row>
-      <row>
        <entry>5.3.3</entry>
        <entry>
         <literal>backlog</literal> が追加されました。
+       </entry>
+      </row>
+      <row>
+       <entry>5.1.0</entry>
+       <entry>
+        <literal>bindto</literal> が追加されました。
        </entry>
       </row>
      </tbody>
