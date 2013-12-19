@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324585 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332344 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: elf, shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
  <refnamediv>
@@ -19,6 +19,8 @@
   </methodsynopsis>
   <para>
    指定したディレクトリを作成します。
+   既存のディレクトリと同じものを作成することはできません。また、ディレクトリを作成するための権限が必要です。
+   失敗した場合は E_WARNING レベルのエラーが発生します。
   </para>
  </refsect1>
 
