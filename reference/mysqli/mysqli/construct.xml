@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322013 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332359 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="mysqli.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
