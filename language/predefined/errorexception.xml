@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330314 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 332523 Maintainer: satoruyoshida Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.errorexception"
  xmlns="http://docbook.org/ns/docbook"
@@ -85,7 +85,7 @@
  <![CDATA[
 <?php
 function exception_error_handler($errno, $errstr, $errfile, $errline ) {
-    throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
+    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
 }
 set_error_handler("exception_error_handler");
 
