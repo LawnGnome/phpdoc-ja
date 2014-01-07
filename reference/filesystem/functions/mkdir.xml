@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332518 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332580 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: elf, shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
  <refnamediv>
@@ -145,7 +145,7 @@ $structure = './depth1/depth2/depth3/';
 // 入れ子構造を作るには、$recursive パラメータを
 // mkdir() に指定しなければなりません
 
-if (!mkdir($structure, 0, true)) {
+if (!mkdir($structure, 0777, true)) {
     die('Failed to create folders...');
 }
 
