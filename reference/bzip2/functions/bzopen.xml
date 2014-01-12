@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332600 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.bzopen" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       オープンするファイル名
+       オープンするファイル名、あるいは既存のストリームリソース
       </para>
      </listitem>
     </varlistentry>

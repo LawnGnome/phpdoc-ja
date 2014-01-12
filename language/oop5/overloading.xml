@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331299 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332595 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
  <sect1 xml:id="language.oop5.overloading" xmlns="http://docbook.org/ns/docbook">
@@ -75,6 +75,13 @@
         <entry>
          <link linkend="object.isset">__isset()</link> と <link linkend="object.unset">__unset()</link>
          が追加されました。
+         <link linkend="object.get">__get()</link> が private プロパティのオーバーロードに対応しました。
+        </entry>
+       </row>
+       <row>
+        <entry>5.0.0</entry>
+        <entry>
+         <link linkend="object.get">__get()</link> が追加されました。
         </entry>
        </row>
       </tbody>
