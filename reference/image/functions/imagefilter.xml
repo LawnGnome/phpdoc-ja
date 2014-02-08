@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325929 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332765 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imagefilter" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefilter</refname>
@@ -402,7 +402,6 @@ imagedestroy($output);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.bundled.gd;
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

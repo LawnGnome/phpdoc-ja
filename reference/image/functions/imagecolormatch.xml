@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332765 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecolormatch" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -79,7 +79,6 @@ imagedestroy($im2);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.bundled.gd;
   &note.gd.2;
  </refsect1>
  <refsect1 role="seealso">

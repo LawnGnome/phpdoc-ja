@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 332765 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecreatefromxpm" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -69,7 +69,6 @@ imagedestroy($xpm);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.returnvalues;
-  &note.bundled.gd;
   &note.no-windows;
  </refsect1>
 </refentry>
