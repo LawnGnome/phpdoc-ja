@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332745 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332850 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <section xml:id="mbstring.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
@@ -124,7 +124,7 @@
     </term>
     <listitem>
      <para>
-      内部文字エンコーディングのデフォルト値を定義します。
+      内部文字エンコーディングのデフォルト値を定義します。PHP 5.6.0 以降は、もしこの設定が空なら <link linkend="ini.default-charset">default_charset</link> を使います。
      </para>
     </listitem>
    </varlistentry>
