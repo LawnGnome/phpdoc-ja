@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331632 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332882 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-start">
  <refnamediv>
@@ -73,7 +73,7 @@
       </para>
       <para>
        <methodsynopsis>
-        <type>bool</type><methodname><replaceable>handler</replaceable></methodname>
+        <type>string</type><methodname><replaceable>handler</replaceable></methodname>
         <methodparam><type>string</type><parameter>buffer</parameter></methodparam>
         <methodparam choice="opt"><type>int</type><parameter>phase</parameter></methodparam>
        </methodsynopsis>
