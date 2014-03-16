@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332982 Maintainer: takagi Status: ready -->
 <refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addFile</refname>
@@ -72,7 +72,7 @@
      を <filename>newname.txt</filename> という名前で追加します。
     </para>
     <example>
-     <title>オープンおよび抽出</title>
+     <title>オープンおよび追加</title>
      <programlisting role="php">
 <![CDATA[
 <?php
