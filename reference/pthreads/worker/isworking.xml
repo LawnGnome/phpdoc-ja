@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328967 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 332961 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="worker.isworking" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Worker::isWorking</methodname>
+   <modifier>public</modifier> <type>boolean</type><methodname>Worker::isWorking</methodname>
    <void />
   </methodsynopsis>
   <para>
@@ -39,12 +39,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-class My extends Worker {
-    public function run() {
-        /* ... */
-    }
-}
-$my = new My();
+$my = new Worker();
 $my->start();
 /* ... */
 if ($my->isWorking()) {
