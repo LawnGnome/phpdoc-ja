@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333096 Maintainer: takagi Status: ready -->
 <refentry xml:id="memcache.setserverparams" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::setServerParams</refname>
