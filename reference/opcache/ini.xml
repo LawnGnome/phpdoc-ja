@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332775 Maintainer: mumumu Status: ready -->
+<!-- EN-Revision: 333101 Maintainer: mumumu Status: ready -->
 <sect1 xml:id="opcache.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -193,6 +193,9 @@
      <para>
       オペコード・キャッシュを有効にします。
       無効にした場合、コードは最適化もキャッシュもされません。
+      <literal>opcache.enable</literal> の設定を、実行時に
+      <function>ini_set</function> で有効化することはできません。
+      実行時にできるのは、無効化だけです。スクリプト内で有効化しようとすると、警告が発生します。
      </para>
     </listitem>
    </varlistentry>
