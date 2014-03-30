@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330180 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333172 Maintainer: takagi Status: ready -->
 
 <phpdoc:classref xml:id="class.seekableiterator" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -72,7 +72,7 @@ class MySeekableIterator implements SeekableIterator {
     /* SeekableIterator インターフェイスで必要なメソッド群 */
 
     public function seek($position) {
-      if (!isset($this->array[$position]) {
+      if (!isset($this->array[$position])) {
           throw new OutOfBoundsException("invalid seek position ($position)");
       }
 

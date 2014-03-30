@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312728 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333183 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="spoofchecker.setchecks" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>Spoofchecker::setChecks</methodname>
-   <methodparam><type>string</type><parameter>checks</parameter></methodparam>
+   <methodparam><type>long</type><parameter>checks</parameter></methodparam>
   </methodsynopsis>
   <para>
 

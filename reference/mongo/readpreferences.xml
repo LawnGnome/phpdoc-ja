@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332832 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333173 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.readpreferences" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>優先読み込み</title>

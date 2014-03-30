@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333171 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mysql-num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -12,6 +12,7 @@
   <warning>
    &mysql.alternative.note;
    <simplelist role="alternatives">
+    <member><function>mysqli_num_rows</function></member>
     <member><function>mysqli_stmt_num_rows</function></member>
     <member><methodname>PDOStatement::rowCount</methodname></member>
    </simplelist>

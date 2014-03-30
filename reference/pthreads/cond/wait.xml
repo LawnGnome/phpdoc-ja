@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328967 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333218 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="cond.wait" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -74,7 +74,7 @@ $mutex = Mutex::create(true);
 /** "new" は使えません。Cond は PHP のオブジェクトではありません **/
 $cond = Cond::create();
 /** 呼び出し側は、関連するミューテックスをロックしてからブロードキャストを呼ぶ必要があります **/
-var_dump(Cond::wait($mutex, $cond));
+var_dump(Cond::wait($cond, $mutex));
 /** 自分が作った Cond は常に破棄します **/
 Cond::destroy($cond);
 Mutex::unlock($mutex);
