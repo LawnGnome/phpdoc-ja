@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329620 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333265 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.group" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -87,6 +87,7 @@
          reduce 関数の最後の出力を受け取ります。
         </para>
        </listitem>
+       &mongo.command.parameters.maxtimems;
       </itemizedlist>
      </listitem>
     </varlistentry>   
@@ -113,6 +114,10 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>1.5.0</entry>
+       <entry><literal>"maxTimeMS"</literal> オプションが追加されました。</entry>
+      </row>
       <row>
        <entry>1.2.11</entry>
        <entry>
