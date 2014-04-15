@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330159 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333301 Maintainer: takagi Status: ready -->
 <!-- Membership: bundled, external -->
 <book xml:id="book.mysqlnd" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundledexternal" ?>
@@ -37,7 +37,7 @@
  </preface>
 
 <!-- }}} -->
- 
+
 &reference.mysqlnd.overview;
 &reference.mysqlnd.install;
 &reference.mysqlnd.config;
@@ -45,6 +45,7 @@
 &reference.mysqlnd.persist;
 &reference.mysqlnd.stats;
 &reference.mysqlnd.notes;
+&reference.mysqlnd.memory;
 &reference.mysqlnd.plugin;
 
 </book>
