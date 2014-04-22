@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307740 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333351 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="imagick.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -44,7 +44,8 @@
    <simpara>この拡張モジュールの正式な名前は <emphasis>imagick</emphasis> です。</simpara>
   </note>
   <para>
-   &pecl.windows.download;
+    Windows版のビルド済み DLL は、<link xlink:href="&url.pecl.windows.releases;imagick">PECL</link>
+    のサイトからダウンロードできます。
   </para>
  </section>
  <!-- }}} -->
