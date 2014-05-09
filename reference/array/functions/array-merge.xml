@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311162 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 333385 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -213,6 +213,7 @@ array(5) {
   <para>
    <simplelist>
     <member><function>array_merge_recursive</function></member>
+    <member><function>array_replace</function></member>
     <member><function>array_combine</function></member>
     <member><link linkend="language.operators.array">配列演算子</link></member>
    </simplelist>

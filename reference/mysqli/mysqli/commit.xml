@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332135 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333388 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="mysqli.commit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -113,8 +113,8 @@ $mysqli->query("INSERT INTO Language VALUES ('DEU', 'Swabian', 'F', 9.4)");
 
 /* トランザクションをコミットします */
 if (!$mysqli->commit()) {
-	print("Transaction commit failed\n");
-	exit();
+    print("Transaction commit failed\n");
+    exit();
 }
 
 /* テーブルを削除します */
@@ -148,8 +148,8 @@ mysqli_query($link, "INSERT INTO Language VALUES ('DEU', 'Swabian', 'F', 9.4)");
 
 /* トランザクションをコミットします */
 if (!mysqli_commit($link)) {
-	print("Transaction commit failed\n");
-	exit();
+    print("Transaction commit failed\n");
+    exit();
 }
 
 /* 接続を閉じます */

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332994 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333397 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>MongoDB</title>
  <titleabbrev>Mongo</titleabbrev>
 
  &reference.mongo.setup;
- <!-- &reference.mongo.constants; -->
+ &reference.mongo.constants;
 
  &reference.mongo.manual;
  &reference.mongo.core;
