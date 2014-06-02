@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333665 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="directoryiterator.current" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -43,7 +43,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
+$iterator = new DirectoryIterator(__DIR__);
 while($iterator->valid()) {
     $file = $iterator->current();
     echo $iterator->key() . " => " . $file->getFilename() . "\n";
