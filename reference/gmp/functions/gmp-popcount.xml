@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 333674 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-popcount">
  <refnamediv>
   <refname>gmp_popcount</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>gmp_popcount</methodname>
-   <methodparam><type>resource</type><parameter>a</parameter></methodparam>
+   <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
   </methodsynopsis>
   <para>
    セットされているビットの数を返します。

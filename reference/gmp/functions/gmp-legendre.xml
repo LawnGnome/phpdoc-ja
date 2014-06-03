@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 333674 Maintainer: hirokawa Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-legendre">
  <refnamediv>
   <refname>gmp_legendre</refname>
@@ -11,8 +11,8 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>gmp_legendre</methodname>
-   <methodparam><type>resource</type><parameter>a</parameter></methodparam>
-   <methodparam><type>resource</type><parameter>p</parameter></methodparam>
+   <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
+   <methodparam><type>GMP</type><parameter>p</parameter></methodparam>
   </methodsynopsis>
   <para>
    <parameter>a</parameter> と <parameter>p</parameter> の
