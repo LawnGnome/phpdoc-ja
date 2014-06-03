@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323895 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 333679 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.pow" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -17,6 +17,12 @@
   <para>
    <parameter>base</parameter> の <parameter>exp</parameter> 乗を返します。
   </para>
+  <note>
+   <para>
+    PHP 5.6 以降では、
+    <link linkend="language.operators.arithmetic">**</link> 演算子も使えます。
+   </para>
+  </note>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
