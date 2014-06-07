@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330056 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333719 Maintainer: takagi Status: ready -->
 <sect1 xml:id="internals2.memory.tsrm" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>スレッドセーフなリソースマネージャ</title>
  

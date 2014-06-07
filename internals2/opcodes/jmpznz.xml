@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324373 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333099 Maintainer: takagi Status: ready -->
 <section xml:id="internals2.opcodes.jmpznz">
  <title>JMPZNZ</title>
  <section xml:id="internals2.opcodes.jmpznz.code">
@@ -9,7 +9,8 @@
    <![CDATA[
 <?php
 /*
- * Jump to the address if the value is .. ???
+ * Jump to the address given in the operands if the value is zero;
+ * jump to the address given in extended data if nonzero.
  * opcode number: 45
  */
 for($i=0; $i<3; $i++){ 

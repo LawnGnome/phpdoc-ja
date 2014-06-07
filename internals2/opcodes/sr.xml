@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324373 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333667 Maintainer: takagi Status: ready -->
 <section xml:id="internals2.opcodes.sr">
  <title>SR</title>
  <section xml:id="internals2.opcodes.sr.code">
@@ -9,7 +9,7 @@
    <![CDATA[
 <?php
 /*
- * Shift bits to right
+ * Shift bits of value1 to the right value2 steps (each step means "divide by two")
  * opcode number: 7
  */
 echo 8 >> 2;
