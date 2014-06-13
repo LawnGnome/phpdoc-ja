@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333737 Maintainer: takagi Status: ready -->
 <refentry xml:id="xmlreader.isvalid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XMLReader::isValid</refname>
@@ -32,7 +32,8 @@
 <?php
 $xml = XMLReader::open('test.xml');
 
-// これを使用しなければなりません
+// validate オプションを有効にしておかないと、
+// このメソッドは正しく動作しません
 $xml->setParserProperty(XMLReader::VALIDATE, true);
 
 var_dump($xml->isValid());
@@ -41,6 +42,14 @@ var_dump($xml->isValid());
     </programlisting>
    </example>
   </para>
+ </refsect1>
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <simpara>
+    このメソッドは、現在のノードだけをチェックします。ドキュメント全体をチェックするわけではありません。
+   </simpara>
+  </note>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

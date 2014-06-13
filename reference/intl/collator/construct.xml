@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 333736 Maintainer: takagi Status: ready -->
 <refentry xml:id="collator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Collator::__construct</refname>
@@ -27,7 +27,7 @@
       <para>
        照合規則を使用するロケール。特殊な場合として、
        null を渡した場合はデフォルトのロケールの照合規則を使用します。
-       また、空文字列 ("") や "root" を渡した場合は UCA の規則を使用します。
+       "root" を渡した場合は、UCA の規則を使用します。
       </para>
       <para>
        Locale 属性は、各国・各地域のユーザーの期待通りに並べ替えやマッチングを行うために
