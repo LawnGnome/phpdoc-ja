@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334133 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mb-encode-numericentity" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -19,7 +19,7 @@
   </methodsynopsis>
   <para>
    <parameter>str</parameter>の中で指定した文字コードを
-   HTML 数値エンティティから文字コードに変換します。
+   文字コードから HTML 数値エンティティに変換します。
   </para>
  </refsect1>
 

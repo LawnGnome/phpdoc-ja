@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326071 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334107 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
  <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
    <title>コアの定義済みの定数</title>
@@ -552,7 +552,7 @@
     <varlistentry xml:id="constant.null">
      <term>
       &null;
-      (<type>boolean</type>)
+      (<type>null</type>)
      </term>
      <listitem>
       <simpara>
