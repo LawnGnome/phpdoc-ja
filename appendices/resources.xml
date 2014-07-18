@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330545 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334306 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
  <title>リソース型の一覧</title>
@@ -477,27 +477,6 @@
     </entry>
     <entry>dbx result</entry>
    </row>
-   <row>
-     <entry>domxml attribute</entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-    </row>
-   <row>
-     <entry>domxml document</entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-    </row>
-   <row>
-     <entry>domxml node</entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-     <entry> </entry>
-    </row>
    <row>
      <entry>xpath context</entry>
      <entry> </entry>

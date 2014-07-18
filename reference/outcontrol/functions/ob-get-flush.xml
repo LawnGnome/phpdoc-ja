@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334288 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-get-flush">
  <refnamediv>
   <refname>ob_get_flush</refname>
@@ -17,6 +17,12 @@
    <function>ob_get_flush</function> は、
    出力バッファをフラッシュしてその内容を文字列として返した後、
    出力バッファリングを終了します。
+  </para>
+  <para>
+   出力バッファを開始するときに、
+   <function>ob_start</function> で <link
+   linkend="constant.php-output-handler-flushable">PHP_OUTPUT_HANDLER_FLUSHABLE</link>
+   フラグを指定する必要があります。指定しなければ、<function>ob_get_flush</function> は動作しません。
   </para>
   <note>
    <simpara>
