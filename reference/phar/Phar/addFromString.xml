@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334404 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.addfromstring">
  <refnamediv>
   <refname>Phar::addFromString</refname>
-  <refpurpose>ファイルシステム上のファイルを phar アーカイブに追加する</refpurpose>
+  <refpurpose>文字列から、ファイルを phar アーカイブに追加する</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
