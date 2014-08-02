@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333265 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334360 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.aggregate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -58,6 +58,8 @@
        <para><literal>"cursor"</literal></para>
        <para>
         カーソルオブジェクトの作成を制御するオプション。
+        このオプションは、コマンドの実行結果として返されるドキュメントを、
+        <classname>MongoCommandCursor</classname> を作るのに適した形式にします。
         このオプションを使う必要がある場合は、
         <methodname>MongoCollection::aggregateCursor</methodname>
         を使うことを検討しましょう。
