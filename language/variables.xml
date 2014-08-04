@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333549 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334473 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>変数</title>
@@ -1071,7 +1071,7 @@ $varname.ext;  /* 無効な変数名 */
    </sect2>
 
    <sect2 xml:id="language.variables.external.changelog">
-    <title>変更履歴</title>
+    &reftitle.changelog;
 
     <para>
      <informaltable>
