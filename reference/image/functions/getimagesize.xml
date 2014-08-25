@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333205 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.getimagesize">
  <refnamediv>
@@ -206,12 +206,6 @@ if ($size && $fp) {
       <row>
        <entry>4.3.0</entry>
        <entry>
-        <literal>mime</literal> が追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
         <acronym>SWC</acronym> および <acronym>IFF</acronym> のサポートが追加されました。
        </entry>
       </row>
@@ -225,12 +219,6 @@ if ($size && $fp) {
        <entry>4.0.6</entry>
        <entry>
         <acronym>BMP</acronym> および <acronym>PSD</acronym> のサポートが追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.5</entry>
-       <entry>
-        URL のサポートが追加されました。
        </entry>
       </row>
      </tbody>
