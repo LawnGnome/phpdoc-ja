@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331135 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strip-tags">
  <refnamediv>
@@ -85,12 +85,6 @@
        <entry>5.0.0</entry>
        <entry>
         <function>strip_tags</function> がバイナリセーフとなりました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
-        HTML のコメントも除去するようになりました。
        </entry>
       </row>
      </tbody>

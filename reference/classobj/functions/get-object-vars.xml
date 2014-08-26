@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326989 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.get-object-vars" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -59,13 +59,6 @@
         <parameter>object</parameter> がオブジェクトではない場合に
         <type>NULL</type> を返すようになりました。
         これより前のバージョンでは、&false; を返していました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.2.0</entry>
-       <entry>
-        <parameter>object</parameter> のクラスで宣言されているプロパティのうち、
-        まだ値が代入されていないものも返すようになりました (値は &null; です)。
        </entry>
       </row>
      </tbody>

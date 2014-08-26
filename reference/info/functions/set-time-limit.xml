@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334526 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.set-time-limit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>set_time_limit</methodname>
+   <type>bool</type><methodname>set_time_limit</methodname>
    <methodparam><type>int</type><parameter>seconds</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -50,7 +50,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   成功した場合に &true;、失敗した場合に &false; を返します。
   </para>
  </refsect1>
 

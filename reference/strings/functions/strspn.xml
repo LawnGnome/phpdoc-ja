@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311396 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strspn">
  <refnamediv>
@@ -119,31 +119,6 @@ $var = strspn("42 is the answer to the 128th question.", "1234567890");
   <para>
    <parameter>subject</parameter> の中で、全て
    <parameter>mask</parameter> の中の文字からなる最初のセグメントの長さを返します。
-  </para>
- </refsect1>
-
- <refsect1 role="changelog">
-  &reftitle.changelog;
-  <para>
-   <informaltable>
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>&Version;</entry>
-       <entry>&Description;</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
-        <parameter>start</parameter> および <parameter>length</parameter>
-        が追加されました。
-       </entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </informaltable>
   </para>
  </refsect1>
 
