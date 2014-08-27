@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334511 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongolog.getmodule" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,9 +15,10 @@
    <void/>
   </methodsynopsis>
   <para>
-   この関数を使って、ドライバのどの機能をログに記録しているのかを調べます。
-   <classname>MongoLog</classname> のセクションで説明した定数をビット演算子でつないで、
-   特定のモジュールのログが記録されているかどうかを調べます。
+   この関数を使って、どのドライバモジュールをログに記録しているのかを調べます。
+   返される整数値をビット演算子で
+   <link linkend="mongolog.constants.module">MongoLog モジュール定数</link>
+   と比較すると、特定のモジュールのログが記録されているかどうかを判断できます。
   </para>
   <programlisting role="php">
 <![CDATA[
