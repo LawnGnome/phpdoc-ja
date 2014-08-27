@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334557 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.strtotime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -130,14 +130,6 @@
        <entry>5.0.0</entry>
        <entry>
         マイクロ秒も受け付けるようになりましたが、指定してもそれは無視されます。
-       </entry>
-      </row>
-      <row>
-       <entry>4.4.0</entry>
-       <entry>
-        バージョン 4.4.0 より前の PHP では、<literal>"next"</literal>
-        が誤って +2 として計算されます。これを解決するには、代わりに
-        <literal>"+1"</literal> を使用します。
        </entry>
       </row>
      </tbody>

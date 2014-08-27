@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333317 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.html-entity-decode">
  <refnamediv>
   <refname>html_entity_decode</refname>
@@ -145,12 +145,6 @@
        <entry>
         定数 <constant>ENT_HTML401</constant>、<constant>ENT_XML1</constant>、
         <constant>ENT_XHTML</constant> および <constant>ENT_HTML5</constant> が追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        マルチバイトエンコーディングをサポートするようになりました。
        </entry>
       </row>
      </tbody>

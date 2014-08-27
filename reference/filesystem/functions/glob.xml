@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334260 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.glob">
  <refnamediv>
@@ -119,13 +119,6 @@
        <entry>5.1.0</entry>
        <entry>
         <constant>GLOB_ERR</constant> が追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.3</entry>
-       <entry>
-        <constant>GLOB_ONLYDIR</constant> が、
-        Windows やその他の GNU C ライブラリを使用しないシステムでも利用できるようになりました。
        </entry>
       </row>
      </tbody>

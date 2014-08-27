@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327758 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fopen">
  <refnamediv>
@@ -306,13 +306,6 @@ $handle = fopen("c:\\folder\\resource.txt", "r");
         アップグレード後にスクリプトに問題が起きた場合は、
         以上に述べたスクリプトの互換性を確保するまでの次善策として、
         <literal>'t'</literal> フラグを試してみてください。
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.2</entry>
-       <entry>
-        <literal>'x'</literal> および <literal>'x+'</literal>
-        が追加されました。
        </entry>
       </row>
      </tbody>

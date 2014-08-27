@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.sha1-file" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -94,12 +94,6 @@ foreach(glob('/home/Kalle/myproject/*.php') as $ent)
         ストリーム API を使用するように変更しました。つまり、
         <literal>sha1_file('http://example.com/..')</literal> のように
         ラッパーとともに使用できるということです。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        <parameter>raw_output</parameter> パラメータが追加されました。
        </entry>
       </row>
      </tbody>

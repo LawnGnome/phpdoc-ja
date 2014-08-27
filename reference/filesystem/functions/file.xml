@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334374 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file">
  <refnamediv>
@@ -125,20 +125,6 @@
       </row>
      </thead>
      <tbody>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        <parameter>context</parameter> パラメータが追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        PHP 5.0.0 より前のバージョンでは、パラメータ <parameter>flags</parameter>
-        でカバーしているのは <link linkend="ini.include-path">include_path</link>
-        の設定だけでした。これを有効にするには 1 を指定します。
-       </entry>
-      </row>
       <row>
        <entry>4.3.0</entry>
        <entry>

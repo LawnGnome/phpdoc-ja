@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326063 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.get-class" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -69,19 +69,6 @@
         &null; が <parameter>object</parameter> のデフォルトとなりました。
         したがって、&null; を <parameter>object</parameter>
         に渡すのは何も指定しないのと同じ意味ということになります。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        クラス名はその本来の表記で返されます。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        <parameter>object</parameter> パラメータは、
-        オブジェクトのメソッドからコールされた場合はオプションとなります。
        </entry>
       </row>
      </tbody>
