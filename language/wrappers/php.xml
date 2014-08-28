@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332635 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334628 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <refentry xml:id="wrappers.php" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -57,7 +57,8 @@
    </simpara>
    <note>
     <simpara>
-     <filename>php://input</filename> でオープンしたストリームは、は一度しか読み込めません。
+     PHP 5.6 より前のバージョンでは、
+     <filename>php://input</filename> でオープンしたストリームは、一度しか読み込めません。
      また、このストリームは seek 操作をサポートしていません。
      しかし、SAPI の実装によっては、別の <filename>php://input</filename>
      ストリームをオープンして読み込みを再開できる可能性もあります。
@@ -294,6 +295,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.6.0</entry>
+       <entry>
+        <filename>php://input</filename> が再利用可能になりました。
+       </entry>
+      </row>
       <row>
        <entry>5.3.6</entry>
        <entry>
