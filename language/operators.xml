@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333679 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334668 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
   <title>演算子</title>
@@ -90,7 +90,7 @@
         <entry><function>array</function></entry>
        </row>
        <row>
-        <entry>left</entry>
+        <entry>right</entry>
         <entry><literal>**</literal></entry>
         <entry><link linkend="language.operators.arithmetic">代数演算子</link></entry>
        </row>
@@ -232,6 +232,7 @@
          <literal>+=</literal> 
          <literal>-=</literal> 
          <literal>*=</literal> 
+         <literal>**=</literal> 
          <literal>/=</literal> 
          <literal>.=</literal> 
          <literal>%=</literal> 
