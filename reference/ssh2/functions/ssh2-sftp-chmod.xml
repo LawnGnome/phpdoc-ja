@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328309 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-chmod">
  <refnamediv>
   <refname>ssh2_sftp_chmod</refname>

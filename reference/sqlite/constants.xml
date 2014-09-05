@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <appendix xml:id="sqlite.constants" xmlns="http://docbook.org/ns/docbook">
  <title>定義済の定数</title>

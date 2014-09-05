@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333362 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
 <refentry xml:id="splheap.next" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplHeap::next</refname>
