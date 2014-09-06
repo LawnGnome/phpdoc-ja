@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: hirokawa Status: ready -->
 <section xml:id="yaz.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
  <para>
@@ -21,7 +21,7 @@
    にある Windows 版の YAZ の中にも含まれています。
   </para>
   <para>
-   Windows では、PHP のディレクトリを PATH に追加することを忘れないようにしましょう。
+   Windows では、PHP のディレクトリを <envar>PATH</envar> に追加することを忘れないようにしましょう。
    そうすれば、<filename>yaz.dll</filename> がシステムから見つけられるようになります。
   </para>
  </note>

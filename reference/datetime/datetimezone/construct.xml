@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334770 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="datetimezone.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -34,7 +34,7 @@
      <term><parameter>timezone</parameter></term>
      <listitem>
       <para>
-       いずれかの <link linkend="timezones">タイムゾーン</link>。
+       サポートする<link linkend="timezones">タイムゾーン名</link>のいずれか。
       </para>
      </listitem>
     </varlistentry>
