@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330271 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334684 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionclass.getstaticpropertyvalue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -37,7 +37,9 @@
      <term><parameter>def_value</parameter></term>
      <listitem>
       <para>
-       
+       指定した名前の静的プロパティがそのクラスに存在しない場合に返す、デフォルト値。
+       プロパティが存在せず、かつこの引数も省略されていた場合は、
+       <classname>ReflectionException</classname> が発生します。
       </para>
      </listitem>
     </varlistentry>

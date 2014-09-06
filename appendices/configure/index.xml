@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304660 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334726 Maintainer: takagi Status: ready -->
 <appendix xml:id="configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Configure オプション</title>
 
@@ -48,14 +48,6 @@
 
   <sect2 xml:id="configure.options">
    <title>PHP の Configure オプション</title>
-   <note>
-    <para>
-     これらのオプションは PHP 4.1.0 の時点でのものです。
-     しかし、中にはもっと古い PHP 有効なものがあるかもしれません。
-     古いバージョンをコンパイルされる場合、
-     おそらくいくつかのオプションは使えないでしょう。
-    </para>
-   </note>
    &appendices.configure.misc;
    &appendices.configure.php;
    &appendices.configure.servers;
