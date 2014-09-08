@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334643 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334794 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="migration56.new-functions">
  <title>新しい関数</title>
@@ -151,18 +151,6 @@
    <listitem>
     <simpara>
      <methodname>PDO::pgsqlGetPid</methodname>
-    </simpara>
-   </listitem>
-  </itemizedlist>
- </sect2>
-
- <sect2 xml:id="migration56.new-functions.spl">
-  <title><link linkend="book.spl">SPL</link></title>
-
-  <itemizedlist>
-   <listitem>
-    <simpara>
-     <methodname>SPLFileObject::fread</methodname>
     </simpara>
    </listitem>
   </itemizedlist>
