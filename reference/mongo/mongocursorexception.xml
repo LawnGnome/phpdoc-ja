@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328555 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: takagi Status: ready -->
 
 <phpdoc:classref xml:id="class.mongocursorexception" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -47,7 +47,7 @@ catch (MongoCursorException $e) {
 ]]>
     </programlisting>
     結果はこのようになります。
-    <programlisting>
+    <programlisting role="txt">
 <![CDATA[
 error message: E11000 duplicate key error index: foo.bar.$_id_  dup key: { : 1 }
 error code: 11000

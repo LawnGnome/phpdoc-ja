@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332753 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: takagi Status: ready -->
 <section xml:id="mongo.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -156,7 +156,7 @@
       '$' のかわりに使うことができます。キーの名前に現れない文字、たとえば
       ":" などを選びましょう。
      </para>
-     <programlisting>
+     <programlisting role="ini">
 <![CDATA[
 mongo.cmd = ":"
 ]]>

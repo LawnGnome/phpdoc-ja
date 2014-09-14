@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333406 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.security" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>セキュリティ</title>
@@ -128,7 +128,7 @@ $db->execute(new MongoCode("print('Hello, '+user+'!');", $scope));
    たとえば、JavaScript <literal>eval</literal>
    関数をユーザーの入力に対して決して使ってはいけません。
   </para>
-  <programlisting>
+  <programlisting role="php">
 <![CDATA[
 <?php
 

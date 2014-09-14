@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328517 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.updates" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>更新</title>
@@ -81,7 +81,7 @@ $coll->update(array("username" => "joe"), array("userId" => 12345, "info" => arr
   <para>
    次のドキュメントで、コメントの作者名を変更したいとします。
 
-   <programlisting>
+   <programlisting role="javascript">
 <![CDATA[
 { 
     "_id" : ObjectId("4b06c282edb87a281e09dad9"), 
