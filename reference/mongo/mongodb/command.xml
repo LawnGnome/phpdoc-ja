@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333548 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334971 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongodb.command" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -55,8 +55,13 @@ public function command($data) {
      </term>
      <listitem>
       <para>
-       <literal>array("オプション名" => &lt;boolean&gt;, ...)</literal>
-       形式の連想配列です。現在サポートするオプションは次のとおりです。
+       インデックスを作るオプションの配列です。現在サポートするオプションは次のとおりです。
+       <itemizedlist>
+        &mongo.writes.parameters.sockettimeoutms;
+       </itemizedlist>
+      </para>
+      <para>
+       以下のオプションは非推奨で、使ってはいけません。
        <itemizedlist>
         &mongo.writes.parameters.timeout;
        </itemizedlist>
@@ -79,6 +84,16 @@ public function command($data) {
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>1.5.0</entry>
+       <entry>
+        <para>
+         オプション <literal>"timeout"</literal> の名前が
+         <literal>"socketTimeoutMS"</literal> に変わりました。
+         <literal>"wtimeout"</literal> を使うと、<constant>E_DEPRECATED</constant> が発生します。
+        </para>
+       </entry>
+      </row>
       <row>
        <entry>1.2.0</entry>
        <entry>
