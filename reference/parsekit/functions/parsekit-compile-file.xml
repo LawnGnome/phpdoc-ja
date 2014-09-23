@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334915 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.parsekit-compile-file" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>parsekit_compile_file</refname>
-  <refpurpose>PHP コードの文字列をコンパイルし、結果を op コードの配列で返す</refpurpose>
+  <refpurpose>PHP ファイルをコンパイルし、結果を op コードの配列で返す</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
