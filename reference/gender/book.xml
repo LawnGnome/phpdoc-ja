@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327360 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 334955 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.gender" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>名前の性別の判別</title>
