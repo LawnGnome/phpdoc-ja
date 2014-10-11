@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333100 Maintainer: haruki Status: ready -->
+<!-- EN-Revision: 335021 Maintainer: haruki Status: ready -->
 <!-- Credits: fujimoto, hirokawa, yuw, haruki, shimooka -->
   <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
    <title>Unix システムへのインストール</title>
@@ -97,7 +97,7 @@
     オプションの一覧と簡単な解説が表示されます。
     本マニュアルでは、オプションの種類ごとに別けて解説されています。
     PHP 本体のオプションの一覧は <link
-    linkend="configure">付録</link> にまとめられています。
+    linkend="configure.about">付録</link> にまとめられています。
     各拡張モジュール特有のオプションは、関数リファレンスのページに記述されています。
    </para>
 

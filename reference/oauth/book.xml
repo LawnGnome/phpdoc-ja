@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335032 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.oauth" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>OAuth</title>
@@ -8,7 +8,7 @@
  <preface xml:id="intro.oauth">
   &reftitle.intro;
   <para>
-   この拡張モジュールは、OAuth コンシューマおよびプロバイダの機能を提供します。
+   この拡張モジュールは、OAuth 1.0a コンシューマおよびプロバイダの機能を提供します。
    OAuth は HTTP 上に構築された認証プロトコルで、
    アプリケーションからデータへのアクセスが安全にできるようになります。
    アプリケーション側でユーザー名やパスワードを保存する必要はありません。
