@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331135 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 335075 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.pack" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -119,6 +119,22 @@
            <entry>unsigned long (常に 32 ビット、リトルエンディアンバイトオーダー)</entry>
           </row>
           <row>
+           <entry>q</entry>
+           <entry>signed long long (常に 64 ビット、マシンのバイトオーダー)</entry>
+          </row>
+          <row>
+           <entry>Q</entry>
+           <entry>unsigned long long (常に 64 ビット、マシンのバイトオーダー)</entry>
+          </row>
+          <row>
+           <entry>J</entry>
+           <entry>unsigned long long (常に 64 ビット、ビッグエンディアンバイトオーダー)</entry>
+          </row>
+          <row>
+           <entry>P</entry>
+           <entry>unsigned long long (常に 64 ビット、リトルエンディアンバイトオーダー)</entry>
+          </row>
+          <row>
            <entry>f</entry>
            <entry>float (サイズおよび表現はマシン依存)</entry>
           </row>
@@ -178,6 +194,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.6.3</entry>
+       <entry>
+        "q"、"Q"、"J"、"P" が追加され、64ビットの数値が使えるようになりました。
+       </entry>
+      </row>
       <row>
        <entry>5.5.0</entry>
        <entry>
