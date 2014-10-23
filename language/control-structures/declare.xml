@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334374 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335128 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="control-structures.declare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>declare</literal></title>
@@ -33,6 +33,25 @@ declare (命令)
    encoding ディレクティブは PHP 5.3.0 で追加されました。
   </simpara>
  </note>
+ <para>
+  ディレクティブの処理は、ファイルをコンパイルする際に行われるので、
+  ディテクティブの値として渡せるのは、リテラルだけとなります。
+  変数や定数は、使えません。以下に例を示します。
+  <informalexample>
+   <programlisting role="php">
+<![CDATA[
+<?php
+// これは有効です
+declare(ticks=1);
+
+// これは無効です
+const TICK_VALUE = 1;
+declare(ticks=TICK_VALUE);
+?>
+]]>
+   </programlisting>
+  </informalexample>
+ </para>
  <para>
   <literal>declare</literal>ブロックの<literal>文</literal>
   の実行のされ方や実行時にどのような作用が起こるかについては
