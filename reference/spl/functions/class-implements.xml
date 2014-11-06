@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: shimooka Status: ready -->
+<!-- EN-Revision: 335156 Maintainer: shimooka Status: ready -->
 <refentry xml:id="function.class-implements" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>class_implements</refname>
   <refpurpose>
-   与えられたクラスが実装しているインターフェイスを返す
+   与えられたクラスあるいはインターフェイスが実装しているインターフェイスを返す
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
@@ -29,8 +29,8 @@
      <term><parameter>class</parameter></term>
      <listitem>
       <para>
-       オブジェクト (クラスインターフェイス)
-       もしくは文字列 (クラス名) を指定します。
+       オブジェクト (クラスのインスタンス)
+       もしくは文字列 (クラス名あるいはインターフェイス名) を指定します。
       </para>
      </listitem>
     </varlistentry>
