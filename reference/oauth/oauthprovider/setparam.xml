@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299860 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335181 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="oauthprovider.setparam" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -39,6 +39,9 @@
     <listitem>
      <para>
       パラメータの値。
+     </para>
+     <para>
+      パラメータをシグネチャの検証から除外するには、この値を &null; にします。
      </para>
     </listitem>
    </varlistentry>
