@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330635 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 335316 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki -->
 <refentry xml:id="function.preg-quote" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -112,7 +112,7 @@ echo $keywords; // \$40 for a g3\/400 を返します
 
 $textbody = "This book is *very* difficult to find.";
 $word = "*very*";
-$textbody = preg_replace ("/" . preg_quote($word) . "/",
+$textbody = preg_replace ("/" . preg_quote($word, '/') . "/",
                           "<i>" . $word . "</i>",
                           $textbody);
 ?>
