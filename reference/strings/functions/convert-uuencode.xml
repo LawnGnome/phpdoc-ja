@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335376 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-uuencode">
  <refnamediv>
   <refname>convert_uuencode</refname>
@@ -31,7 +31,7 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-       エンコードしたいデータ。&return.falseforfailure;。
+       エンコードしたいデータ。
       </para>
      </listitem>
     </varlistentry>
@@ -42,7 +42,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   uuencode されたデータを返します。
+   uuencode されたデータを返します。&return.falseforfailure;。
   </para>
  </refsect1>
 

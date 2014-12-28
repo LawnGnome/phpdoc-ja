@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334592 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335374 Maintainer: takagi Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.header">
  <refnamediv>
   <refname>header</refname>
@@ -185,7 +185,7 @@ header('WWW-Authenticate: NTLM', false);
 <![CDATA[
 <?php
 // PDFを出力します
-header('Content-type: application/pdf');
+header('Content-Type: application/pdf');
 
 // downloaded.pdf という名前で保存させます
 header('Content-Disposition: attachment; filename="downloaded.pdf"');
