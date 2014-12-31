@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331202 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335484 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <sect1 xml:id="language.oop5.typehinting" xmlns="http://docbook.org/ns/docbook">
   <title>タイプヒンティング</title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 335484 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.imap-mailboxmsginfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imap_mailboxmsginfo</refname>
@@ -99,7 +99,7 @@ if ($check) {
     echo "Deleted: "  . $check->Deleted . "<br />\n" ;
     echo "Size: "     . $check->Size    . "<br />\n" ;
 } else {
-    echo "imap_check() に失敗: " . imap_last_error() . "<br />\n";
+    echo "imap_mailboxmsginfo() に失敗: " . imap_last_error() . "<br />\n";
 }
 
 imap_close($mbox);

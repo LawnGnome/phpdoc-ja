@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335452 Maintainer: takagi Status: ready -->
 <refentry xml:id="xsltprocessor.transformtoxml" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XSLTProcessor::transformToXML</refname>
@@ -11,7 +11,7 @@
   <methodsynopsis>
    <type>string</type>
    <methodname>XSLTProcessor::transformToXML</methodname>
-   <methodparam><type>DOMDocument</type><parameter>doc</parameter></methodparam>
+   <methodparam><type>object</type><parameter>doc</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>xsltprocessor::importStylesheet</function>
@@ -27,7 +27,8 @@
      <term><parameter>doc</parameter></term>
      <listitem>
       <para>
-       変換されるノードを指定します。
+       変換対象となる、<type>DOMDocument</type> オブジェクトあるいは
+       <type>SimpleXMLElement</type> オブジェクトを指定します。
       </para>
      </listitem>
     </varlistentry>
