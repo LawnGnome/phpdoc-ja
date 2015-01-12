@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333018 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 335629 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="solrquery.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SolrQuery::__construct</refname>

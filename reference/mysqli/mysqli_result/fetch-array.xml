@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333187 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335586 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="mysqli-result.fetch-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -88,7 +88,8 @@ $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
 /* 接続状況をチェックします */
 if ($mysqli->connect_errno) {
-    die("Connect failed: %s\n", $mysqli->connect_error);
+    printf("Connect failed: %s\n", $mysqli->connect_error);
+    exit();
 }
 
 $query = "SELECT Name, CountryCode FROM City ORDER by ID LIMIT 3";
