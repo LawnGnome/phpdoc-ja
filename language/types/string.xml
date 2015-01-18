@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334374 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335758 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -146,7 +146,7 @@ echo 'Variables do not $expand $either';
       </row>
       <row>
        <entry><literal>\e</literal></entry>
-       <entry>エスケープ (ESC あるいはアスキーの 0x1B (27)) (PHP 5.4.0 以降)</entry>
+       <entry>エスケープ (ESC あるいはアスキーの 0x1B (27)) (PHP 5.4.4 以降)</entry>
       </row>
       <row>
        <entry><literal>\f</literal></entry>

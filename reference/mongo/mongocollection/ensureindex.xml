@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335079 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335764 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocollection.ensureindex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -68,6 +68,7 @@
         &mongo.index.parameters.sparse;
         &mongo.index.parameters.expireafterseconds;
         &mongo.index.parameters.name;
+        &mongo.index.parameters.background;
         &mongo.writes.parameters.sockettimeoutms;
        </itemizedlist>
       </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332955 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 335760 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongocursor.setreadpreference" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -63,6 +63,7 @@ $cursor->setReadPreference(MongoClient::RP_NEAREST, array(
   <simplelist>
    <member><link linkend="mongo.readpreferences">優先読み込み</link>のドキュメント</member>
    <member><function>MongoCursor::getReadPreference</function></member>
+   <member><function>MongoCursorInterface::setReadPreference</function></member>
   </simplelist>
  </refsect1>
 
