@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335125 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 335897 Maintainer: satoruyoshida Status: ready -->
  <chapter xml:id="features.gc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>ガベージコレクション</title>
 
@@ -542,7 +542,7 @@ for ( $i = 0; $i <= 100000; $i++ )
 <?php
 class Foo
 {
-    public $var = '3.1415962654';
+    public $var = '3.14159265359';
 }
 
 for ( $i = 0; $i <= 1000000; $i++ )
