@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336002 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xml:id="function.mysql-field-seek" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,8 +13,11 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_field_seek</function></member>
-    <!-- @TODO Expand on the following -->
-    <member><methodname>PDOStatement::fetch</methodname> でオプションのパラメータを使う</member>
+    <member>
+     <methodname>PDOStatement::fetch</methodname> で
+     <parameter>cursor_orientation</parameter> パラメータおよび
+     <parameter>offset</parameter> パラメータを使う
+    </member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
