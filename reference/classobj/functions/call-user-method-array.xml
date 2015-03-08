@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298514 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336049 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.call-user-method-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>call_user_method_array</refname>
-  <refpurpose>パラメータの配列を指定してユーザーメソッドをコールする [古い関数]</refpurpose>
+  <refpurpose>パラメータの配列を指定してユーザーメソッドをコールする</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -68,7 +68,6 @@
 <![CDATA[
 <?php
 call_user_func_array(array($obj, $method_name), $params);
-call_user_func_array(array(&$obj, $method_name), $params); // PHP 4
 ?>
 ]]>
     </programlisting>

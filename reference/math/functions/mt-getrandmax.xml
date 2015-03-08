@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335710 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336046 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mt-getrandmax" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -21,7 +21,7 @@
   &reftitle.returnvalues;
   <para>
    <function>mt_rand</function> を引数なしでコールしたときに取得できる乱数の最大値を返します。
-   <function>mt_rand</function> の <function>max</function>
+   <function>mt_rand</function> の <parameter>max</parameter>
    に指定する値をこの値以下にしておけば、結果がスケールアップされて無作為性が低下することを避けられます。
   </para>
  </refsect1>
