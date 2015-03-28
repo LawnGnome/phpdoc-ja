@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327505 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336176 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-encode">
  <refnamediv>
   <refname>session_encode</refname>
@@ -36,7 +36,7 @@
   &reftitle.notes;
   <warning>
    <para>
-    <function>session_decode</function> を使う前には <function>session_start</function> を呼ぶ必要があります。
+    <function>session_encode</function> を使う前には <function>session_start</function> を呼ぶ必要があります。
    </para>
   </warning>
  </refsect1> 
