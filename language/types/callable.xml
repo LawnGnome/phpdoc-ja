@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335289 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336245 Maintainer: takagi Status: ready -->
 <sect1 xml:id="language.types.callable">
  <title>コールバック / Callable</title>
  
@@ -97,6 +97,16 @@ class B extends A {
 }
 
 call_user_func(array('B', 'parent::who')); // A
+
+// タイプ 6: __invoke を実装したオブジェクトを callable として用いる (PHP 5.3 以降)
+class C {
+    public function __invoke($name) {
+        echo 'Hello ', $name, "\n";
+    }
+}
+
+$c = new C();
+call_user_func($c, 'PHP!');
 ?>
 ]]>
     </programlisting>

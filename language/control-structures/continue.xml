@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335197 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336196 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="control-structures.continue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>continue</literal></title>
@@ -14,7 +14,11 @@
   <simpara>
    PHP では、<literal>continue</literal> の動作に関しては
    <link linkend="control-structures.switch">switch</link>
-   文がループ構造とみなされるということに注意しましょう。
+   文がループ構造とみなされます。
+   <literal>continue</literal> に引数を渡さなかった場合の動きは
+   <literal>break</literal> と同じです。
+   <literal>switch</literal> がループ内にある場合、
+   <literal>continue 2</literal> とすると、外側のループの次回の処理から続行します。
   </simpara>
  </note>
  <simpara>

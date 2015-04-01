@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307035 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336240 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.http-build-url" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>http_build_url</refname>

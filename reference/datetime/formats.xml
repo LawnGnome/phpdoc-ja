@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334439 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336240 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hnw -->
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>サポートする日付と時刻の書式</title>
@@ -680,7 +680,7 @@
       <entry><literal>dayname</literal></entry>
       <entry>'sunday' | 'monday' | 'tuesday' | 'wednesday' | 'thursday' |
       'friday' | 'saturday' | 'sun' | 'mon' | 'tue' | 'wed' | 'thu' | 'fri' |
-      'sat' | 'sun'</entry>
+      'sat'</entry>
      </row>
      <row>
       <entry><literal>daytext</literal></entry>
