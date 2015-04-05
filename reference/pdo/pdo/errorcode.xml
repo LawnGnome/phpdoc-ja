@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336244 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdo.errorcode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -57,8 +57,7 @@
 /* エラーを発生させる -- BONES テーブルは存在しない */
 $dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");
 
-echo "\nPDO::errorCode(): ";
-print $dbh->errorCode();
+echo "\nPDO::errorCode(): ", $dbh->errorCode();
 ?>
 ]]>
     </programlisting>
