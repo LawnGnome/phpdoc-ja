@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336315 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.transverseimage">
  <refnamediv>
   <refname>Imagick::transverseImage</refname>
@@ -34,6 +34,30 @@
    <simplelist>
     <member><function>Imagick::transposeImage</function></member>
    </simplelist>
+  </para>
+ </refsect1>
+
+
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+    <example>
+      <title> <function>Imagick::transverseImage</function></title>
+      <programlisting role="php">
+      <![CDATA[
+<?php
+function transverseImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->transverseImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+]]>
+      </programlisting>
+    </example>
   </para>
  </refsect1>
 

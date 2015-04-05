@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336315 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.oilpaintimage">
  <refnamediv>
   <refname>Imagick::oilPaintImage</refname>
@@ -39,6 +39,30 @@
   &reftitle.returnvalues;
   <para>
    &imagick.return.success;
+  </para>
+ </refsect1>
+
+
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+    <example>
+      <title> <function>Imagick::oilPaintImage</function></title>
+      <programlisting role="php">
+      <![CDATA[
+<?php
+function oilPaintImage($imagePath, $radius) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->oilPaintImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+]]>
+      </programlisting>
+    </example>
   </para>
  </refsect1>
 

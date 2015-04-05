@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336315 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.resampleimage">
  <refnamediv>
   <refname>Imagick::resampleImage</refname>
@@ -61,6 +61,31 @@
   &reftitle.returnvalues;
   <para>
    &imagick.return.success;
+  </para>
+ </refsect1>
+
+
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+    <example>
+      <title> <function>Imagick::resampleImage</function></title>
+      <programlisting role="php">
+      <![CDATA[
+<?php
+function resampleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+
+    $imagick->resampleImage(200, 200, \Imagick::FILTER_LANCZOS, 1);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+]]>
+      </programlisting>
+    </example>
   </para>
  </refsect1>
 

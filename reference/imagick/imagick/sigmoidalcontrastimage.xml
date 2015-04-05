@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333103 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336315 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.sigmoidalcontrastimage" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Imagick::sigmoidalContrastImage</refname>

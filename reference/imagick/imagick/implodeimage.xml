@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336315 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.implodeimage">
  <refnamediv>
   <refname>Imagick::implodeImage</refname>
@@ -46,6 +46,31 @@
   &reftitle.errors;
   <para>
    &imagick.imagick.throws;
+  </para>
+ </refsect1>
+
+
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+    <example>
+      <title> <function>Imagick::implodeImage</function></title>
+      <programlisting role="php">
+      <![CDATA[
+<?php
+function implodeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->implodeImage(0.0001);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+
+}
+
+?>
+]]>
+      </programlisting>
+    </example>
   </para>
  </refsect1>
 
