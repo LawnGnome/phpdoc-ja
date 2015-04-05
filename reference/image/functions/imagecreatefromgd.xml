@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336340 Maintainer: hirokawa Status: ready -->
 <refentry xml:id='function.imagecreatefromgd' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecreatefromgd</refname>
@@ -62,10 +62,6 @@ imagedestroy($im);
     </programlisting>
    </example>
   </para>
- </refsect1>
- <refsect1 role="notes">
-  &reftitle.notes;
-  &warn.no-win32-fopen-wrapper;
  </refsect1>
 </refentry>
 
