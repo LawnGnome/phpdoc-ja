@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331700 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336513 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="json.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -257,6 +257,18 @@
     <simpara>
      マルチバイト Unicode 文字をそのままの形式で扱います (デフォルトでは \uXXXX にエスケープします)。
      PHP 5.4.0 以降で使用可能です。
+    </simpara>
+   </listitem>
+  </varlistentry>
+ <varlistentry xml:id="constant.json-preserve-zero-fraction">
+   <term>
+    <constant>JSON_PRESERVE_ZERO_FRACTION</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     <type>float</type> 型の値を常に float 値としてエンコードするようにします。
+     PHP 5.6.6 以降で使用可能です。
     </simpara>
    </listitem>
   </varlistentry>
