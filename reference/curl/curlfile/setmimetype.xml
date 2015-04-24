@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330234 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336593 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="curlfile.setmimetype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -23,7 +23,7 @@
     <term><parameter>mime</parameter></term>
     <listitem>
      <para>
-      
+      POST データで用いる MIME タイプ。
      </para>
     </listitem>
    </varlistentry>

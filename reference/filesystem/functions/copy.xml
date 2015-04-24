@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336565 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336603 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.copy">
  <refnamediv>
@@ -86,7 +86,8 @@
       <row>
        <entry>5.3.4</entry>
        <entry>
-        context パラメータが実際に効力を持つようになりました。
+        <parameter>context</parameter> パラメータが実際に効力を持つようになりました。
+        以前のバージョンでは、<parameter>context</parameter> に何を指定しても無視されていました。
        </entry>
       </row>
       <row>

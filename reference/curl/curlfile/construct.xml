@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331408 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336593 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="curlfile.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -54,7 +54,7 @@
     <term><parameter>postname</parameter></term>
     <listitem>
      <para>
-      ファイル名。
+      アップロードデータの中で使うファイルの名前。
      </para>
     </listitem>
    </varlistentry>
