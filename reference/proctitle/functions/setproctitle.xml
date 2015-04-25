@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310684 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 336574 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.setproctitle" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>setproctitle</refname>
@@ -70,6 +70,7 @@ $ ps a
  <refsect1 role="seealso"><!-- {{{ -->
   &reftitle.seealso;
   <simplelist>
+   <member><function>cli_set_process_title</function></member>
    <member><function>pcntl_fork</function></member>
    <member><function>setthreadtitle</function></member>
   </simplelist>
