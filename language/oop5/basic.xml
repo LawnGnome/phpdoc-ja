@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333213 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336715 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -137,8 +137,8 @@ $this is not defined.
 $instance = new SimpleClass();
 
 // 変数を使うこともできます
-$className = 'Foo';
-$instance = new $className(); // Foo()
+$className = 'SimpleClass';
+$instance = new $className(); // new SimpleClass()
 ?>
 ]]>
    </programlisting>

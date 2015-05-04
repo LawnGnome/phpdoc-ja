@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336715 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
 <refentry xml:id="soapclient.getlastrequest" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,7 +46,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$client = SoapClient("some.wsdl", array('trace' => 1));
+$client = new SoapClient("some.wsdl", array('trace' => 1));
 $result = $client->SomeFunction();
 echo "REQUEST:\n" . $client->__getLastRequest() . "\n";
 ?>
