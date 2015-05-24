@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328430 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336802 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mcrypt-cfb" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_cfb</refname>
@@ -37,7 +37,7 @@
    <function>mcrypt_generic</function> および
    <function>mdecrypt_generic</function> を参照ください。
   </para>
-  &warn.deprecated.func-5-5-0;
+  &warn.deprecated.function-5-5-0.removed-7-0-0;
  </refsect1>
 </refentry>
 
