@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336889 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.jdtojulian" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>JDToJulian</refname> 
+  <refname>jdtojulian</refname> 
   <refpurpose>ユリウス積算日をユリウス暦に変換する</refpurpose>
  </refnamediv>
 
