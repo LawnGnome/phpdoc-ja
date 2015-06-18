@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320551 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336942 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id='function.simplexml-load-string' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -87,6 +87,7 @@
    XML ドキュメント内のデータをプロパティに含みます。
    &return.falseforfailure;。
   </para>
+  &return.falseproblem;
  </refsect1>
 
  <refsect1 role="errors"><!-- {{{ -->

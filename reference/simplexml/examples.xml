@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336937 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <chapter xml:id="simplexml.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -258,7 +258,7 @@ include 'example.php';
 $movies = new SimpleXMLElement($xmlstr);
 
 foreach ($movies->xpath('//character') as $character) {
-    echo $character->name, 'played by ', $character->actor, PHP_EOL;
+    echo $character->name, ' played by ', $character->actor, PHP_EOL;
 }
 ?>
 ]]>
