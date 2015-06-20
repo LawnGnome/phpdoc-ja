@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334592 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 336950 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.tempnam">
  <refnamediv>
@@ -18,7 +18,7 @@
   <para>
    一意なテンポラリファイル名を、パーミッションを 0600 に設定し、
    指定したディレクトリに作成します。
-   指定したディレクトリが存在しない場合、<function>tempnam</function>
+   指定したディレクトリが存在しない場合やディレクトリに書き込めない場合は、<function>tempnam</function>
    はシステムのテンポラリディレクトリにあるファイル名を生成し、
    そのファイルへのフルパスを (名前を含めて) 返します。
   </para>

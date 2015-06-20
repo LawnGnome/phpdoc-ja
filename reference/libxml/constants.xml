@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335780 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 336953 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
+  <varlistentry xml:id="constant.libxml-biglines">
+   <term>
+    <constant>LIBXML_BIGLINES</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     行数が 65535 を超えても正しく報告する
+    </simpara>
+    <note>
+     <para>
+      PHP 7.0.0 以降で Libxml &gt;= 2.9.0 の場合のみ有効
+     </para>
+    </note>
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.libxml-compact">
    <term>
     <constant>LIBXML_COMPACT</constant>
