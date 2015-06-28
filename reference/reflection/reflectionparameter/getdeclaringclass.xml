@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337035 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="reflectionparameter.getdeclaringclass" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -34,6 +34,43 @@
   </para>
  </refsect1>
 
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+   <example>
+    <title>メソッドを宣言しているクラスの取得</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+class Foo
+{
+    public function bar(\DateTime $datetime)
+    {
+    }
+}
+
+class Baz extends Foo
+{
+}
+
+$param = new \ReflectionParameter(['Baz', 'bar'], 0); 
+
+var_dump($param->getDeclaringClass());
+]]>
+    </programlisting>
+    &example.outputs;
+   <screen>
+<![CDATA[
+object(ReflectionClass)#2 (1) {
+  ["name"]=>
+  string(3) "Foo"
+}
+]]>
+   </screen>
+   </example>
+  </para>
+ </refsect1>
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
