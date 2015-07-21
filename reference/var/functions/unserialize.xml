@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334639 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 337184 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>unserialize</refname>
@@ -182,7 +182,7 @@ function mycallback($classname)
   <para>
    <simplelist>
     <member><function>serialize</function></member>
-    <member><link linkend="language.oop5.autoload">オブジェクトのオートローディング</link></member>
+    <member><link linkend="language.oop5.autoload">クラスのオートローディング</link></member>
     <member><link linkend="unserialize-callback-func">unserialize_callback_func</link></member>
     <member><link linkend="object.wakeup">__wakeup()</link></member>
    </simplelist>
