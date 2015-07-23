@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333545 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 337221 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki -->
 <section xml:id="pcre.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
@@ -41,6 +41,11 @@
      </row>
     </thead>
     <tbody>
+    <row>
+     <entry>5.5.26 / 5.6.9</entry>
+     <entry>8.37</entry>
+     <entry></entry>
+    </row>
     <row>
      <entry>5.5.10</entry>
      <entry>8.34</entry>
