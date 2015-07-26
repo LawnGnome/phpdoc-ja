@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 337237 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ip2long" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -62,6 +62,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        このバージョンより前は、Windows において、IPv4 のドット形式のアドレスでなくても
+        <function>ip2long</function> が有効な数値を返すことがありました。
+       </entry>
+      </row>
       <row>
        <entry>5.2.10</entry>
        <entry>
