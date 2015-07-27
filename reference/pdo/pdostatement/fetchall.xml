@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336911 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337242 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.fetchall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -36,7 +36,7 @@
       <para>
        結果セットから単一カラムの全ての値を含む配列を返す場合、
        <constant>PDO::FETCH_COLUMN</constant> を指定します。
-       <parameter>column-index</parameter> パラメータにどのカラムを返すかを
+       <parameter>fetch_argument</parameter> パラメータにどのカラムを返すかを
        指定することができます。
       </para>
       <para>
