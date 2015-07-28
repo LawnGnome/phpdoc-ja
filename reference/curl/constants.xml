@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337060 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337258 Maintainer: takagi Status: ready -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -2497,6 +2497,17 @@
    <listitem>
     <simpara>
      
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curle-ssh">
+   <term>
+    <constant>CURLE_SSH</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     PHP 5.3.0 および cURL 7.16.1 以降で使用可能です。
     </simpara>
    </listitem>
   </varlistentry>
