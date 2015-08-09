@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336856 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 337348 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagepsextendfont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -19,6 +19,7 @@
    パラメータ<parameter>extend</parameter>の値が1より小さい場合、
    フォントの圧縮が行われます。
   </para>
+  &warn.removed.function-7-0-0;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

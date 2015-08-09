@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325666 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 337370 Maintainer: hirokawa Status: ready -->
 
  <chapter xml:id="language.oop5" xmlns="http://docbook.org/ns/docbook">
   <title>クラスとオブジェクト</title>
@@ -45,6 +45,7 @@
   &language.oop5.abstract;
   &language.oop5.interfaces;
   &language.oop5.traits;
+  &language.oop5.anonymous;
   &language.oop5.overloading;
   &language.oop5.iterations;
   &language.oop5.magic;

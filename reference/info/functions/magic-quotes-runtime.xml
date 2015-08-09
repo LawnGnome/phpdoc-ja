@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337345 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.magic-quotes-runtime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>magic_quotes_runtime</refname>
@@ -13,6 +13,7 @@
    &info.function.alias;
    <function>set_magic_quotes_runtime</function>
   </simpara>
+  &warn.deprecated.alias-5-3-0.removed-7-0-0;
  </refsect1>
 </refentry>
 
