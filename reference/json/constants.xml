@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336513 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337480 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="json.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -257,6 +257,18 @@
     <simpara>
      マルチバイト Unicode 文字をそのままの形式で扱います (デフォルトでは \uXXXX にエスケープします)。
      PHP 5.4.0 以降で使用可能です。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.json-partial-output-on-error">
+   <term>
+    <constant>JSON_PARTIAL_OUTPUT_ON_ERROR</constant>
+     (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     エンコード不可能な値は代替値に置き換え、処理を続行します。
+     PHP 5.5.0 以降で使用可能です。
     </simpara>
    </listitem>
   </varlistentry>
