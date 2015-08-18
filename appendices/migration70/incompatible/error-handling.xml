@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337429 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337527 Maintainer: takagi Status: ready -->
 
 <sect2 xml:id="migration70.incompatible.error-handling">
  <title>エラーや例外の取り扱いの変更</title>
