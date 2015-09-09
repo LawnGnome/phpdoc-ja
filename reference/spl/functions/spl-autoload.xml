@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337786 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.spl-autoload" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>spl_autoload</refname>
@@ -54,6 +54,14 @@
   </para>
  </refsect1>
 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+    クラスが見つからず、かつそれ以外にオートローダーが登録されていない場合に
+    <classname>LogicException</classname> をスローします。
+   </para>
+ </refsect1>
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
