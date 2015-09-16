@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337449 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337841 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="migration70.new-functions">
  <title>新しい関数</title>
@@ -46,6 +46,18 @@
   </itemizedlist>
  </sect2>
 
+ <sect2 xml:id="migration70.new-functions.generator">
+  <title><link linkend="class.generator">Generator</link></title>
+
+  <itemizedlist>
+   <listitem>
+    <simpara>
+     <methodname>Generator::getReturn</methodname>
+    </simpara>
+   </listitem>
+  </itemizedlist>
+ </sect2>
+ 
  <sect2 xml:id="migration70.new-functions.gmp">
   <title><link linkend="book.gmp">GNU Multiple Precision</link></title>
 
