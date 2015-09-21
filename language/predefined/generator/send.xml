@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332229 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 337857 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="generator.send" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -40,6 +40,13 @@
   </variablelist>
  </refsect1>
 
+ <refsect1 role="returnvalues">
+  &reftitle.returnvalues;
+  <para>
+   yield した値を返します。
+  </para>
+ </refsect1>
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
@@ -69,13 +76,6 @@ Bye world!
 ]]>
     </screen>
    </example>
-  </para>
- </refsect1>
-
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   yield した値を返します。
   </para>
  </refsect1>
 
