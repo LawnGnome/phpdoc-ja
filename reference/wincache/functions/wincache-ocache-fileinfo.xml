@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338054 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.wincache-ocache-fileinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>wincache_ocache_fileinfo</refname>
@@ -17,6 +17,7 @@
   <para>
    opcode キャッシュの中身とその利用状況についての情報を取得します。
   </para>
+  &warn.removed.function-7-0-0;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
