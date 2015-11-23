@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329315 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338152 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongo.selectdb" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Mongo::selectDB</refname>
   <refpurpose>データベースを取得する</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  &mongo.alternative.phplib.note;
+  <simplelist>
+   <member><link xlink:href="&url.mongodb.library.apidocs;/class-MongoDB.Client.html#_selectDatabase">MongoDB\Client\selectDatabase</link></member>
+  </simplelist>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334177 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338152 Maintainer: takagi Status: ready -->
 
 <chapter xml:id="mongo.tutorial" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>チュートリアル</title>
+ <warning>
+  &mongo.deprecated.note;
+ </warning>
  <para>
   これは、公式の MongoDB 用 PHP ドライバです。
  </para>

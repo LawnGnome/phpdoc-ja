@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333393 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338152 Maintainer: takagi Status: ready -->
 
 <part xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>マニュアル</title>
  <partintro xml:id="mongo.manual.intro">
+  <warning>
+   &mongo.deprecated.note;
+  </warning>
   <para>
    このマニュアルでは MongoDB の使い方の詳細を説明します。
    しかし、その大半は PHP ドライバの使い方の説明です。
