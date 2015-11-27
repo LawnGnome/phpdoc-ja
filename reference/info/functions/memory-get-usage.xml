@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338184 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.memory-get-usage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>memory_get_usage</refname>
@@ -26,14 +26,16 @@
      <term><parameter>real_usage</parameter></term>
      <listitem>
       <para>
-       これを &true; に設定すると、システムが割り当てた実際のメモリの大きさを取得します。
-       省略したり &false; を設定したりすると、
-       <literal>emalloc()</literal> が使用するメモリのみを報告します。
+       これを &true; に設定すると、システムが割り当てた実際のメモリの大きさ (未使用のページも含むもの) を取得します。
+       省略したり &false; を設定したりすると、使用したモリのみを報告します。
       </para>
      </listitem>
     </varlistentry>
    </variablelist>
   </para>
+  <note>
+   <para>PHP は、<literal>emalloc()</literal> が割り当てたメモリ以外のメモリは追跡しません。</para>
+  </note>
  </refsect1>
 
  <refsect1 role="returnvalues">
