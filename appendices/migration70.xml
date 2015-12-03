@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337874 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338207 Maintainer: takagi Status: ready -->
 <!--
  Work in progress!
 -->
@@ -20,15 +20,6 @@
  &appendices.migration70.other-changes;
 
  <sect1 phd:chunk="false" xml:id="migration70.intro">
-  <title>PHP 7 はまだまだ開発中</title>
-  <warning>
-   <para>
-    PHP 7.0 は現在も開発中です。まずないでしょうが、
-    ここで挙げた機能や変更点が、最終版の 7.0.0 がリリースされるまでに変わっているかもしれません。
-    7.0 の安定版がリリースされたら、本番環境に投入する前にこのガイドを改めて見直しましょう。
-   </para>
-  </warning>
-
   <para>
    PHP 7.0 は新しいメジャーバージョンではありますが、
    過去のバージョンからの移行をできるだけスムーズに行えるよう心がけています。
