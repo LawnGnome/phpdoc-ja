@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335489 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338211 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.getopt">
  <refnamediv>
@@ -88,7 +88,7 @@
   &reftitle.returnvalues;
   <para>
    この関数はオプション/引数のペアを連想配列で返します。
-   失敗した場合は &false; を返します。
+   &return.falseforfailure;。
   </para>
   <note>
    <para>
