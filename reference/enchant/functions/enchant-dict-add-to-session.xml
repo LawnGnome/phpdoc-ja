@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338284 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.enchant-dict-add-to-session" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>enchant_dict_add_to_session</refname>
@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   &return.void;
   </para>
  </refsect1>
  <refsect1 role="seealso">

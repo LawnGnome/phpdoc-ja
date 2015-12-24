@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333301 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338306 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.store-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::store_result</refname>
@@ -18,6 +18,7 @@
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>mysqli_result</type><methodname>mysqli_store_result</methodname>
+   <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>option</parameter></methodparam>
   </methodsynopsis>
   <para>

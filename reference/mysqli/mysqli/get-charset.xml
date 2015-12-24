@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338264 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.get-charset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli::get_charset</refname>
@@ -94,7 +94,7 @@
 <?php
   $db = mysqli_init();
   mysqli_real_connect($db, "localhost","root","","test");
-  var_dump($db->get_charset());
+  var_dump(mysqli_get_charset($db));
 ?>
 ]]>
    </programlisting>

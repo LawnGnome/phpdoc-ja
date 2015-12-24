@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303202 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338333 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.bcpow" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,7 +14,7 @@
    <type>string</type><methodname>bcpow</methodname>
    <methodparam><type>string</type><parameter>left_operand</parameter></methodparam>
    <methodparam><type>string</type><parameter>right_operand</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>scale</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>scale</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    <parameter>left_operand</parameter> の

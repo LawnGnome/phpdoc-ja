@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338334 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-key-exists" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -95,12 +95,6 @@ array_key_exists('first', $search_array);
 
  <refsect1 role="notes">
   &reftitle.notes;
-  <note>
-   <para>
-    &info.deprecated.alias;
-    <function>key_exists</function>
-   </para>
-  </note>
   <note>
     <para>
      過去との互換性を保つため、<parameter>key</parameter>

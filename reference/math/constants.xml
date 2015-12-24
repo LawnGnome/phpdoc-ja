@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323628 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338283 Maintainer: takagi Status: ready -->
 <appendix xml:id="math.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants.core;
@@ -160,7 +160,7 @@
   </table>
  </para>
  <para>
-  PHP のバージョンが明記されていない定数は、すべて PHP 4.0.0 以降で使用可能です。
+  PHP のバージョンが明記されていない定数は、すべて PHP 5.0.0 以降で使用可能です。
  </para>
 </appendix>
 

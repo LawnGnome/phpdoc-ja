@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337654 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338338 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
  <section xml:id="ini.core" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1160,9 +1160,12 @@
        </term>
        <listitem>
         <para>
-        デフォルトでは、PHP は文字エンコーディングを Content-Type ヘッダで出力します。
-        文字セットの送信を無効にするには、ここに空文字列を設定しましょう。
+        デフォルトでは、PHP はメディアタイプを Content-Type ヘッダで出力します。
+        これを無効にするには、ここに空文字列を設定しましょう。
         </para>
+       <para>
+        PHP のデフォルトのメディアタイプは text/html です。
+       </para>
        </listitem>
       </varlistentry>
 
