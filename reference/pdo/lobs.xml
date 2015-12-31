@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337552 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338389 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 
 <chapter xml:id="pdo.lobs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -106,7 +106,7 @@ $stmt->bindParam(1, $id);
 $stmt->bindParam(2, $_FILES['file']['type']);
 $stmt->bindParam(3, $fp, PDO::PARAM_LOB);
 
-$stmt->beginTransaction();
+$db->beginTransaction();
 $stmt->execute();
 $db->commit();
 ?>
