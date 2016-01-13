@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338455 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-session.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Session::__construct</refname>
-  <refpurpose>The __construct purpose</refpurpose>
+  <refpurpose>Yaf_Session のコンストラクタ</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>Yaf_Session::__construct</methodname>
+   <modifier>private</modifier> <methodname>Yaf_Session::__construct</methodname>
    <void />
   </methodsynopsis>
   <para>

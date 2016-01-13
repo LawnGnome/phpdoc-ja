@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337348 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338428 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagepsencodefont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagepsencodefont</refname>
   <refpurpose>フォントの文字エンコードベクトルを変更する</refpurpose>
  </refnamediv>
+ <refsynopsisdiv>
+  &warn.removed.function-7-0-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -27,7 +30,6 @@
    エンコード法を定義する方法があります。この場合、
    自動的にロードされる全てのフォントは、正しいエンコードとなります。
   </para>
-  &warn.removed.function-7-0-0;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333964 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338455 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="yaf-route-rewrite.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier><methodname>Yaf_Route_Rewrite::__construct</methodname>
+   <modifier>public</modifier> <methodname>Yaf_Route_Rewrite::__construct</methodname>
    <methodparam><type>string</type><parameter>match</parameter></methodparam>
    <methodparam><type>array</type><parameter>route</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>verify</parameter></methodparam>

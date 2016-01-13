@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337879 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338439 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="migration70.new-functions">
  <title>新しい関数</title>
@@ -134,7 +134,17 @@
    </listitem>
    <listitem>
     <simpara>
+     <function>ReflectionParameter::hasType</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
      <function>ReflectionFunctionAbstract::getReturnType</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>ReflectionFunctionAbstract::hasReturnType</function>
     </simpara>
    </listitem>
   </itemizedlist>
