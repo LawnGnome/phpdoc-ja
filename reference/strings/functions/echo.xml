@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338312 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338476 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,mumumu -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.echo">
  <refnamediv>
@@ -16,7 +16,7 @@
    <methodparam choice="opt"><type>string</type><parameter>...</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   すべてのパラメータを出力します。
+   すべてのパラメータを出力します。末尾に改行を付加することはありません。
   </simpara>
   <para>
    <literal>echo</literal> は実際には関数ではありません

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338500 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="rararchive.getentry" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -80,7 +80,7 @@ if ($rar_arch === FALSE)
     die("Could not open RAR archive.");
 $rar_entry = $rar_arch->getEntry('tese.txt');
 if ($rar_entry === FALSE)
-    die("Could get such entry");
+    die("Could not get such entry");
 echo get_class($rar_entry)."\n";
 echo $rar_entry;
 $rar_arch->close();
@@ -107,7 +107,7 @@ if ($rar_arch === FALSE)
     die("Could not open RAR archive.");
 $rar_entry = rar_entry_get($rar_arch, 'tese.txt');
 if ($rar_entry === FALSE)
-    die("Could get such entry");
+    die("Could not get such entry");
 echo get_class($rar_entry)."\n";
 echo $rar_entry;
 rar_close($rar_arch);

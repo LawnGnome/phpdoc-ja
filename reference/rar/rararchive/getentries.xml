@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338500 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="rararchive.getentries" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -97,7 +97,7 @@ if ($rar_arch === FALSE)
 
 $rar_entries = $rar_arch->getEntries();
 if ($rar_entries === FALSE)
-    die("Could retrieve entries.");
+    die("Could not retrieve entries.");
 
 echo "Found " . count($rar_entries) . " entries.\n";
 

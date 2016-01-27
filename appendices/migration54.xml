@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332745 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338477 Maintainer: takagi Status: ready -->
 <appendix xml:id="migration54" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP 5.3.x から PHP 5.4.x への移行</title>
  <simpara>
@@ -336,11 +336,6 @@
    推奨されない関数
   </simpara>
   <itemizedlist>
-   <listitem>
-    <simpara>
-     <function>mcrypt_generic_end</function>
-    </simpara>
-   </listitem>
    <listitem>
     <simpara>
      <function>mysql_list_dbs</function>

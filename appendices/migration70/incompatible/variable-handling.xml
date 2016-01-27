@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337376 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338511 Maintainer: takagi Status: ready -->
 
 <sect2 xml:id="migration70.incompatible.variable-handling">
  <title>変数の取り扱いの変更</title>

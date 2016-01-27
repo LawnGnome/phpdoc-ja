@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338512 Maintainer: takagi Status: ready -->
 <refentry xml:id="filteriterator.accept" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>FilterIterator::accept</refname>
@@ -40,12 +40,12 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// このイテレータは、10 文字以下の値をすべてフィルタリングします
+// このイテレータは、10 文字未満の値をすべてフィルタリングします
 class LengthFilterIterator extends FilterIterator {
 
     public function accept() {
-        // 長さが 10 文字を超える文字列のみを許可します
-        return strlen(parent::current()) > 10;
+        // 長さが 10 文字以上の文字列のみを許可します
+        return strlen(parent::current()) >= 10;
     }
 
 }
