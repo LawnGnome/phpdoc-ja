@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338281 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338546 Maintainer: takagi Status: ready -->
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
  version="1.1">
  <title>名前空間</title>
@@ -489,14 +489,6 @@ function funcname()
     echo __FUNCTION__,"\n";
 }
 const constname = "namespaced";
-
-include 'example1.php';
-
-$a = 'classname';
-$obj = new $a; // classname::__construct と表示します
-$b = 'funcname';
-$b(); // funcname と表示します
-echo constant('constname'), "\n"; // global と表示します
 
 /* ダブルクォートを使う場合は "\\namespacename\\classname" としなければなりません */
 $a = '\namespacename\classname';

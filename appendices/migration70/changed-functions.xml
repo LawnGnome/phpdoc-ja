@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338478 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338550 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="migration70.changed-functions">
  <title>変更された関数</title>
