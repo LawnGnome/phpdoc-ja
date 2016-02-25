@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoint64.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoInt64::__construct</refname>
   <refpurpose>新しい 64 ビット整数値を作成する</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.class.note;
+   <para>
+    新しい拡張モジュールでは、整数の値に応じてデータベースの型を適切に選びます。
+   </para>
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

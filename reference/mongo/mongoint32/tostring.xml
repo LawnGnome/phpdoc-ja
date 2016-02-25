@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoint32.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoInt32::__toString</refname>
   <refpurpose>この 32 ビット整数値の文字列表現を返す</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.class.note;
+   <para>
+    新しい拡張モジュールでは、整数の値に応じてデータベースの型を適切に選びます。
+   </para>
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

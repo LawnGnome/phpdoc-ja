@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326284 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="mongoid.getpid" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoId::getPID</refname>
   <refpurpose>プロセス ID を取得する</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.method.note;
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

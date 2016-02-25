@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 328496 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338649 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongodb.authenticate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB::authenticate</refname>
   <refpurpose>このデータベースにログインする</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.method.note;
+   <para>認証用の情報は、接続文字列を使って渡す必要があります。</para>
+  </sidebar>
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
