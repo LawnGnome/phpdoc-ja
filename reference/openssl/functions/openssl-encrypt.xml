@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329818 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 338702 Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.openssl-encrypt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>openssl_encrypt</refname>
@@ -42,7 +42,8 @@
      <term><parameter>method</parameter></term>
      <listitem>
       <para>
-       暗号メソッド
+       暗号メソッド。
+       使用可能なメソッドの一覧を取得ｓルウには、<function>openssl_get_cipher_methods</function> を用います。
       </para>
      </listitem>
     </varlistentry>
