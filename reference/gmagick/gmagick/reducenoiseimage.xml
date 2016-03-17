@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338727 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="gmagick.reducenoiseimage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>Gmagick::reducenoiseimage</methodname>
+   <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::reducenoiseimage</methodname>
    <methodparam><type>float</type><parameter>radius</parameter></methodparam>
   </methodsynopsis>
   <para>
