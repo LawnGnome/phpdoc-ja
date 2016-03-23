@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337388 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 338787 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -673,7 +673,7 @@ $foo = new foo();
 $bar = 'bar';
 $baz = array('foo', 'bar', 'baz', 'quux');
 echo "{$foo->$bar}\n";
-echo "{$foo->$baz[1]}\n";
+echo "{$foo->{$baz[1]}}\n";
 ?>
 ]]>
     </programlisting>
