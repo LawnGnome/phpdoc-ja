@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335962 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 338941 Maintainer: satoruyoshida Status: ready -->
 <!-- CREDITS: takagi,haruki -->
    <sect1 xml:id="install.windows.apache2" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Apache 2.x （Microsoft Windows 用）</title>

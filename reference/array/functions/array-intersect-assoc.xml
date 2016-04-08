@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338914 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.array-intersect-assoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,7 +20,7 @@
    <function>array_intersect_assoc</function> は、全ての引数に現れる
    <parameter>array1</parameter> の全ての値を含む配列を返します。
    <function>array_intersect</function> と異なり、
-   キーが比較に使用されることに注意してください。
+   キーも比較に使用されることに注意してください。
   </simpara>
  </refsect1>
 

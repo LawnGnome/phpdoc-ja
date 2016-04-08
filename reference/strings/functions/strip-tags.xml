@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337709 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 338915 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strip-tags">
  <refnamediv>
@@ -48,7 +48,7 @@
       </note>
       <note>
        <para>
-        PHP 5.3.4 以降では、<parameter>str</parameter> で使えるのは自己終了型でない XHTML タグだけになりました。
+        PHP 5.3.4 以降では、<parameter>allowable_tags</parameter> で使えるのは自己終了型でない XHTML タグだけになりました。
         自己終了型の XHTML タグは無視されます。たとえば、
         <literal>&lt;br&gt;</literal> と
         <literal>&lt;br/&gt;</literal> の両方を許可したい場合は、以下のようにしなければいけません。
