@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331332 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339251 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <chapter xml:id="faq.obtaining" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP を手に入れるには</title>
@@ -195,9 +195,8 @@
     </question>
     <answer>
      <para>
-      マニュアルの
-      <link linkend="install.windows.building">ソースからの構築</link>を参照してください。
-    </para>
+      最新情報は、PHP Wiki の <link xlink:href="https://wiki.php.net/internals/windows/stepbystepbuild">Step by Step Build Instructions</link> を参照してください。
+     </para>
     </answer>
    </qandaentry>
    <qandaentry xml:id="faq.obtaining.browscap">
