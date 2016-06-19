@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337751 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339371 Maintainer: takagi Status: ready -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -1342,6 +1342,28 @@
    <listitem>
     <simpara>
      PHP 5.4.0 および cURL 7.15.5 以降で使用可能です。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curlopt-headeropt">
+   <term>
+    <constant>CURLOPT_HEADEROPT</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     PHP 7.0.7 および cURL 7.37.0 以降で使用可能です。
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curlopt-proxyheader">
+   <term>
+    <constant>CURLOPT_PROXYHEADER</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     PHP 7.0.7 および cURL 7.37.0 以降で使用可能です。
     </simpara>
    </listitem>
   </varlistentry>
