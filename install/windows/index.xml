@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339391 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339402 Maintainer: takagi Status: ready -->
 <!-- CREDITS: fujimoto, hirokawa, yuw, haruki -->
 <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Windows システムへのインストール</title>
@@ -81,7 +81,7 @@
 
     <para>Unix システム固有の機能を使っている拡張モジュールは Windows 版が存在しませんが、それ以外についてはすべて Windows 版が用意されています。
     </para>
-</sect1>
+  </sect1>
 
   <!-- Critical: ensure all pages in install/windows and that install/windows/legacy/index are referenced here!
   otherwise you will get IDREF attribute errors for all links -->
