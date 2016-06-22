@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338548 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339179 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.intl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundled" ?>
@@ -73,7 +73,7 @@
    </listitem>
    <listitem>
     <simpara>
-     Timezone: Olson database のラッパーを提供します。
+     Timezone: <link xlink:href="&url.icu.tzdatabase;">"Olson" database</link> のラッパーを提供します。
      世界中のタイムゾーンに関する情報が含まれています。
     </simpara>
    </listitem>

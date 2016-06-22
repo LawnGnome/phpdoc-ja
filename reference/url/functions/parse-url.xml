@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336512 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339174 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.parse-url" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>parse_url</refname>
@@ -269,7 +269,6 @@ array(3) {
     <member><function>pathinfo</function></member>
     <member><function>parse_str</function></member>
     <member><function>http_build_query</function></member>
-    <member><function>http_build_url</function></member>
     <member><function>dirname</function></member>
     <member><function>basename</function></member>
     <member><link xlink:href="&url.rfc;3986">RFC 3986</link></member>
