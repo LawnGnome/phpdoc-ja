@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339509 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="sqlite3stmt.bindvalue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>SQLite3Stmt::bindValue</methodname>
-   <methodparam><type>string</type><parameter>sql_param</parameter></methodparam>
+   <methodparam><type>mixed</type><parameter>sql_param</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
@@ -29,7 +29,7 @@
      <term><parameter>sql_param</parameter></term>
      <listitem>
       <para>
-       値をどの変数にバインドするかを表す文字列。
+       値をどの変数にバインドするかを表す文字列あるいは整数値。
       </para>
      </listitem>
     </varlistentry>
