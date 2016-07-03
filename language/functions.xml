@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339307 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339458 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
   <title>関数</title>
@@ -1202,6 +1202,7 @@ Foo::$variable();  // これは $foo->Variable() をコールします。この�
      <title>複雑な callable</title>
      <programlisting role="php">
 <![CDATA[
+<?php
 class Foo
 {
     static function bar()
@@ -1216,10 +1217,11 @@ class Foo
 
 $func = array("Foo", "bar");
 $func(); // "bar" を表示します
-$f = array(new Foo, "baz");
+$func = array(new Foo, "baz");
 $func(); // "baz" を表示します
-$f = "Foo::bar";
+$func = "Foo::bar";
 $func(); // PHP 7.0.0 以降では "bar" を表示します。それより前のバージョンでは fatal error となっていました
+?>
 ]]>
      </programlisting>
     </example>

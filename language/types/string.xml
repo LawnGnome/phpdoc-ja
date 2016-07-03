@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339345 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339475 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -113,7 +113,7 @@ echo 'Variables do not $expand $either';
 
    <para>
     文字列が二重引用符 (") で括られた場合、
-    PHP は、より多くの特殊文字のエスケープシーケンスを理解します。
+    PHP は、以下のエスケープシーケンスを特殊な文字として解釈します。
    </para>
 
    <table>
