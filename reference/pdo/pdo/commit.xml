@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339183 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="pdo.commit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -29,6 +29,14 @@
   <para>
    &return.success;
   </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   有効なトランザクションがない場合に <classname>PDOException</classname> をスローします。
+  </para>
+  &pdo.errors.exception-not-errmode;
  </refsect1>
 
  <refsect1 role="examples">
