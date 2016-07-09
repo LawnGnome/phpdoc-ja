@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339522 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.columncount" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -36,6 +36,7 @@
   &reftitle.returnvalues;
   <para>
    PDOStatement オブジェクトに相当する結果セットにあるカラム数を返します。
+   結果セットが空である場合でも同様です。
    もし結果セットがなければ、<function>PDOStatement::columnCount</function>
    は <literal>0</literal> を返します。
   </para>
