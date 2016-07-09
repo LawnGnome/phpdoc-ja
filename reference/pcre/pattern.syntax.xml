@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- splitted from ./ja/functions/pcre.xml, last change in rev 1.1 -->
-<!-- EN-Revision: 339300 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339309 Maintainer: takagi Status: ready -->
 <!-- Credits: haruki,hirokawa -->
 <chapter xml:id="reference.pcre.pattern.syntax" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>パターン構文</title>
