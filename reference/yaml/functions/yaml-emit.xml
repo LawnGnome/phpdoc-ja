@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324585 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339639 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.yaml-emit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam><type>mixed</type><parameter>data</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>encoding</parameter><initializer>YAML_ANY_ENCODING</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>linebreak</parameter><initializer>YAML_ANY_BREAK</initializer></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter><initializer>null</initializer></methodparam>
   </methodsynopsis>
   <para>
    <parameter>data</parameter> で渡したデータを YAML 形式にして返します。

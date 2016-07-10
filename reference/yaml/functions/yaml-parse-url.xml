@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336795 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339639 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.yaml-parse-url" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>url</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>pos</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter role="reference">ndocs</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter><initializer>null</initializer></methodparam>
   </methodsynopsis>
   <para>
    指定した URL から読み込んだ YAML ドキュメントストリーム全体あるいはその一部を、PHP の変数に変換します。
