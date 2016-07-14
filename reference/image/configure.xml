@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337140 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339664 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <section xml:id="image.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
@@ -64,6 +64,9 @@
        webp をサポートするには
        <option role="configure">--with-vpx-dir=DIR</option> を指定します。
        PHP 5.5 以降で利用可能です。
+       PHP 7.0.0 以降は <option role="configure">--with-webp-dir=DIR</option>
+       を追加する必要があります。つまり、libvpx がサポートされなくなり、かわりに
+       libwebp を用いるようになりました。
       </entry>
      </row>
     </tbody>
