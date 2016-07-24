@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337816 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339704 Maintainer: takagi Status: ready -->
 
 <sect2 xml:id="migration70.incompatible.integers">
  <title><type>integer</type> の取り扱いの変更</title>
@@ -68,6 +68,7 @@ Stack trace:
    <constant>false</constant> となっていました。
    PHP 7 では、除算演算子の返す結果は float で、
    +INF、-INF あるいは NAN のいずれかとなります。
+   これは、IEEE 754 で指定された挙動です。
    剰余演算子については E_WARNING が発生しなくなり、
    <classname>DivisionByZeroError</classname>
    例外をスローするようになりました。
