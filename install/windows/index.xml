@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339402 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339750 Maintainer: takagi Status: ready -->
 <!-- CREDITS: fujimoto, hirokawa, yuw, haruki -->
 <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Windows システムへのインストール</title>
@@ -32,7 +32,7 @@
     </itemizedlist>
   </para>
 
-  <sect1>
+  <sect1 xml:id="install.windows.requirements">
     <title>インストール要件</title>
 
     <para>
@@ -73,7 +73,7 @@
 
   </sect1>
 
-  <sect1>
+  <sect1 xml:id="install.windows.pecl">
     <title>PECL</title>
 
     <para>PECL 拡張モジュールは、Windows 用にビルド済みのものがこちらからダウンロードできます。<link xlink:href="http://windows.php.net/downloads/pecl/releases/">http://windows.php.net/downloads/pecl/releases/</link>

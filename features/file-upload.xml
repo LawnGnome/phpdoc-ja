@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339679 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339750 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
  <chapter xml:id="features.file-upload" xmlns="http://docbook.org/ns/docbook">
   <title>ファイルアップロードの処理</title>
@@ -564,7 +564,7 @@ fclose($putdata);
    </para>
   </sect1>
 
- <sect1 role="seealso">
+  <sect1 xml:id="features.file-upload.errors.seealso">
   &reftitle.seealso;
   <para>
    <simplelist>

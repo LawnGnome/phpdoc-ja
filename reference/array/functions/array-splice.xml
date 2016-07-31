@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338309 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339732 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
 <refentry xml:id="function.array-splice" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -29,7 +29,7 @@
    <simpara>
     <parameter>replacement</parameter> が配列でない場合は、
     <link linkend="language.types.array.casting">型変換</link>
-    を行います (つまり <code>(array) $parameter</code> とします)。
+    を行います (つまり <code>(array) $replacement</code> とします)。
     たとえば <parameter>replacement</parameter> にオブジェクトや &null; などを指定した場合に、
     予期せぬ動きをする可能性があります。
    </simpara>
