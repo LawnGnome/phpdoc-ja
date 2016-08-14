@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337316 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339838 Maintainer: takagi Status: ready -->
  <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
   <title>トレイト</title>
   <para>
@@ -182,7 +182,9 @@ Hello World!
    <para>
     この方法はひとつのメソッドだけしか使えませんが、
     <literal>as</literal> 演算子を使うと、
-    衝突するメソッドのいずれかを別の名前で含めることができます。
+    メソッドのいずれかにエイリアスを追加できます。
+    <literal>as</literal> 演算子はメソッドをリネームするわけではないので、
+    その他のメソッドにも何も影響を及ぼさないことに注意しましょう。
    </para>
    <example xml:id="language.oop5.traits.conflict.ex1">
     <title>衝突の解決</title>
