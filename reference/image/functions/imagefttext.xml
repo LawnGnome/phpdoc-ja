@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339875 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.imagefttext' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -234,7 +234,6 @@ imagedestroy($im);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.gd.2;
   &note.freetype;
  </refsect1>
 </refentry>

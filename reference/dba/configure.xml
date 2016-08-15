@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324735 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339870 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="dba.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
@@ -190,6 +190,23 @@
          にあります。
         </para>
        </note>
+      </entry>
+     </row>
+
+     <row>
+      <entry><literal>tcadb</literal></entry>
+      <entry>
+       <para>
+       Tokyo Cabinet のサポートを有効にするには、
+       <option role="configure">--with-tcadb[=DIR]</option> を追加します。
+       <note>
+        <para>
+         これは PHP 5.4.0 で追加されました。Tokyo Cabinet ライブラリは
+         <link xlink:href="&url.tcadb;"/>
+         にあります。
+        </para>
+       </note>
+       </para>
       </entry>
      </row>
 

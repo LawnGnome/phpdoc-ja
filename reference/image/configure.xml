@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339664 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339875 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <section xml:id="image.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
@@ -16,9 +16,6 @@
  <para>
   Windowsの場合、GD2 DLL <filename>php_gd2.dll</filename>を&php.ini;に
   エクステンションとして指定してください。
-  GD1 DLL <filename>php_gd.dll</filename>はPHP4.3.2で削除されました。
-  <function>imagecreatetruecolor</function>のようにTrueカラーが優先される関数
-  についてはGD2が必須です。
  </para>
  <para>
   より多くの画像フォーマットを扱えるようにGDの能力を高めるには、

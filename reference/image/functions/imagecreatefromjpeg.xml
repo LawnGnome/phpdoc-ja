@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336340 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339875 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecreatefromjpeg" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -84,10 +84,6 @@ imagedestroy($img);
     </imageobject>
    </mediaobject>
   </example>
- </refsect1>
- <refsect1 role="notes">
-  &reftitle.notes;
-  &note.config.jpeg;
  </refsect1>
 </refentry>
 
