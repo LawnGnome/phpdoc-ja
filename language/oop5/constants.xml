@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339824 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339962 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <sect1 xml:id="language.oop5.constants" xmlns="http://docbook.org/ns/docbook">
  <title>オブジェクト定数</title>
@@ -117,7 +117,7 @@ class Foo {
     private const BAZ = 'baz';
 }
 echo Foo::BAR, PHP_EOL;
-echo Foo::BAR, PHP_EOL;
+echo Foo::BAZ, PHP_EOL;
 ?>
 ]]>
   </programlisting>

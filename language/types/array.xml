@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332515 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339937 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.array">
  <title>配列</title>
@@ -357,6 +357,13 @@ list(, $secondElement) = getArray();
       未定義の変数にアクセスしたときと同じです。
       <constant>E_NOTICE</constant> メッセージが発行され、
       返される結果は &null; となります。
+    </para>
+   </note>
+   <note>
+    <para>
+     配列で文字列以外のスカラー値をデリファレンスした場合は、
+     返される結果は &null; となります。
+     何もエラーは発生しません。
     </para>
    </note>
   </sect3>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331176 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340010 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="ziparchive.addglob" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -19,6 +19,7 @@
   <para>
    ディレクトリから、glob <parameter>pattern</parameter> にマッチするファイルを追加します。
   </para>
+  &zip.filename.separator;
  </refsect1>
 
  <refsect1 role="parameters">

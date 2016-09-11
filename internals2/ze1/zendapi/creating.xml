@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339985 Maintainer: takagi Status: ready -->
  <sect2 xml:id="internals2.ze1.zendapi.creating" xmlns="http://docbook.org/ns/docbook"> 
   <title>拡張モジュールの作成</title> 
   <para>
@@ -22,7 +22,7 @@ ZEND_FUNCTION(first_module);
 zend_function_entry firstmod_functions[] =
 {
     ZEND_FE(first_module, NULL)
-    {NULL, NULL, NULL}
+    ZEND_FE_END
 };
 
 /* モジュールについての情報 */

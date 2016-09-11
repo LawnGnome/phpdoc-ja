@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339439 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339925 Maintainer: takagi Status: ready -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.2 -->
 <!-- CREDITS: hirokawa,shimooka -->
 <refentry xml:id="function.escapeshellcmd" xmlns="http://docbook.org/ns/docbook">
@@ -24,7 +24,7 @@
    に渡す前に全てエスケープを行う場合に使用するべきです。
   </para>
   <para>
-   <literal>#&amp;;`|*?~&lt;&gt;^()[]{}$\</literal>、<literal>\x0A</literal>
+   <literal>&amp;#;`|*?~&lt;&gt;^()[]{}$\</literal>、<literal>\x0A</literal>
    および <literal>\xFF</literal> については、その文字の前にバックスラッシュが
    追加されます。<literal>'</literal> および <literal>"</literal>
    は、対になっていない場合にのみエスケープされます。Windows では、
