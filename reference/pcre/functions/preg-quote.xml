@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335316 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 339916 Maintainer: hirokawa Status: ready -->
 <!-- Credits: haruki -->
 <refentry xml:id="function.preg-quote" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -25,6 +25,16 @@
    正規表現の特殊文字は、次のものです。
    <literal>. \ + * ? [ ^ ] $ ( ) { } = ! &lt; &gt; | : -</literal>
   </para>
+  <para>
+   <literal>/</literal> は正規表現の特殊文字ではないことに注意しましょう。
+  </para>
+  <note>
+   <para>
+    <function>preg_quote</function> は、
+    <function>preg_replace</function> などにおける $replacement
+    文字列に使うことを想定したものではありません。
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -45,7 +55,7 @@
       <para>
        オプションの <parameter>delimiter</parameter> を指定すると、
        ここで指定した文字もエスケープされます。これは、PCRE 関数が使用する
-       デリミタをエスケープする場合に便利です。'/' がデリミタとしては
+       デリミタをエスケープする場合に便利です。<literal>/</literal> がデリミタとしては
        最も一般的に使用されています。
       </para>
      </listitem>

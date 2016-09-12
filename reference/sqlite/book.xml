@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339974 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
  
 <book xml:id="book.sqlite" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -28,6 +28,14 @@
     (<link xlink:href="&url.sqlite;">&url.sqlite;</link>)
     を参照してください。
    </para>
+  </note>
+  <note>
+   <simpara>
+    この拡張モジュールは SQLite 2.x に対応するものです。
+    SQLite 3.x をサポートする拡張モジュールは
+    <link linkend="book.sqlite3">SQLite3</link>
+    です。
+   </simpara>
   </note>
  </preface>
  <!-- }}} -->

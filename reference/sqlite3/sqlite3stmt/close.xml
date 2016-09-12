@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 339976 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="sqlite3stmt.close" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -17,6 +17,12 @@
   <para>
    プリペアドステートメントを閉じます。
   </para>
+  <note>
+   <simpara>
+    このプリペアドステートメントから取得したすべての <classname>SQLite3Result</classname>
+    は、プリペアドステートメントを閉じた時点で無効になることに注意しましょう。
+   </simpara>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
