@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340045 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sybase-min-message-severity">
  <refnamediv>
   <refname>sybase_min_message_severity</refname>
   <refpurpose>メッセージの severity の最小値を設定する</refpurpose>
  </refnamediv>
  
+ <refsynopsisdiv>
+   &warn.removed.function-7-0-0;
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

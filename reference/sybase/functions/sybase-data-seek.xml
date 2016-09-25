@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340045 Maintainer: hirokawa Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sybase-data-seek">
  <refnamediv>
   <refname>sybase_data_seek</refname>
   <refpurpose>内部行ポインタを移動する</refpurpose>
  </refnamediv>
  
+ <refsynopsisdiv>
+   &warn.removed.function-7-0-0;
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
