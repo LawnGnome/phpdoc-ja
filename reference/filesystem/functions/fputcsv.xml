@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335815 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340222 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fputcsv">
  <refnamediv>
   <refname>fputcsv</refname>

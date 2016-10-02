@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337727 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340248 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="mysqli.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -231,6 +231,9 @@
     <para>
      接続が失われたときに自動的に再接続するかどうか。
     </para>
+    <note>
+     <simpara>mysqlnd ドライバは、この &php.ini; 設定項目を無視します。</simpara>
+    </note>
    </listitem>
   </varlistentry>
 

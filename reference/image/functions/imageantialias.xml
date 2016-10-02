@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332765 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340264 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka,takagi -->
 <refentry xml:id="function.imageantialias" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -98,6 +98,11 @@ imagedestroy($normal);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   <simpara>
+    この関数は、PHP にバンドルされている GD ライブラリを使ってコンパイルした場合にだけ使えます。
+   </simpara>
+  </note>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

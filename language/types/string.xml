@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340032 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340223 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.string">
  <title>文字列</title>
@@ -252,7 +252,7 @@ echo 'Variables do not $expand $either';
 class foo {
     public $bar = <<<EOT
 bar
-    EOT;
+EOT;
 }
 ?>
 ]]>
