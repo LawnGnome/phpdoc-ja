@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339875 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340022 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.imageftbbox' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -181,6 +181,16 @@ imagedestroy($im);
  <refsect1 role="notes">
   &reftitle.notes;
   &note.freetype;
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><function>imagefttext</function></member>
+    <member><function>imagettfbbox</function></member>
+   </simplelist>
+  </para>
  </refsect1>
 </refentry>
 
