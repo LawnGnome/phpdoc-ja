@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332765 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340286 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagerotate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -76,6 +76,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        <parameter>ignore_transparent</parameter> が無視されるようになりました。
+       </entry>
+      </row>
       <row>
        <entry>5.5.0</entry>
        <entry>
