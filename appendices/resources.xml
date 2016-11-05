@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339759 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340367 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
  <title>リソース型の一覧</title>
@@ -2272,7 +2272,7 @@
     <entry>
      <function>shmop_close</function>
     </entry>
-    <entry></entry>
+    <entry>共有メモリブロックハンドル (PHP 7.0.0 以降)</entry>
    </row>
    <row>
     <entry>sockets file descriptor set</entry>
