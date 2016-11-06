@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321985 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340545 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="regexiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -118,6 +118,13 @@
      </listitem>
     </varlistentry>
    </variablelist>
+  </para>
+ </refsect1>
+
+<refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   引数 <parameter>regex</parameter> が無効な場合に <classname>InvalidArgumentException</classname> をスローします。
   </para>
  </refsect1>
 

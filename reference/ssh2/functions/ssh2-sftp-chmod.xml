@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340550 Maintainer: takagi Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-chmod">
  <refnamediv>
   <refname>ssh2_sftp_chmod</refname>
@@ -64,7 +64,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>リモートサーバー上でのディレクトリの作成</title>
+    <title>リモートサーバー上でのファイルのモード変更</title>
     <programlisting role="php">
 <![CDATA[
 <?php
