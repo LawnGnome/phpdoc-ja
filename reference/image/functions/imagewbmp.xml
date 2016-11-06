@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339706 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340502 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagewbmp" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -153,15 +153,7 @@ imagedestroy($im);
    </example>
   </para>
  </refsect1>
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    WBMP サポートは、PHP を GD-1.8 以降と組み合わせてコンパイルした
-    場合にのみ利用可能です。
-   </para>
-  </note>
- </refsect1>
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
