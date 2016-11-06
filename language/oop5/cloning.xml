@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337312 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 340428 Maintainer: hirokawa Status: ready -->
 
 <sect1 xml:id="language.oop5.cloning" xmlns="http://docbook.org/ns/docbook">
  <title>オブジェクトのクローン作成</title>
@@ -135,11 +135,32 @@ MyCloneable Object
 )
 ]]>
 
-  </screen>
+   </screen>
 
- </example>
- 
-</sect1>
+  </example>
+
+  <para>
+   PHP 7.0.0 以降では、新しくクローンしたオブジェクトのメンバーに、作成したその式の中でもアクセスできるようになりました。
+  </para>
+  <example>
+   <title>クローンしたオブジェクトのメンバーへのアクセス</title>
+   <programlisting role="php">
+<![CDATA[
+<?php
+$dateTime = new DateTime();
+echo (clone $dateTime)->format('Y');
+?>
+]]>
+   </programlisting>
+   &example.outputs.similar;
+   <screen>
+<![CDATA[
+2016
+]]>
+   </screen>
+  </example>
+
+ </sect1>
  
 <!-- Keep this comment at the end of the file
 Local variables:
