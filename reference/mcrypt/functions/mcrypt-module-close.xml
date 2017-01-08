@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: hirokawa Status: ready -->
 <refentry xml:id='function.mcrypt-module-close' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_module_close</refname>
   <refpurpose>mcrypt モジュールを閉じる</refpurpose>
  </refnamediv>
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

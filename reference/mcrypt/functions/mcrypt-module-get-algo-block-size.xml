@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mcrypt-module-get-algo-block-size" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_module_get_algo_block_size</refname>
   <refpurpose>指定したアルゴリズムのブロック長を返す</refpurpose>
  </refnamediv>
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

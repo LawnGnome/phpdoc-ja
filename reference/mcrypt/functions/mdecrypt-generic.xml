@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mdecrypt-generic" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mdecrypt_generic</refname>
   <refpurpose>データを復号する</refpurpose>
  </refnamediv>
-
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

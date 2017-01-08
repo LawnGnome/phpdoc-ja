@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.mcrypt-enc-get-modes-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_enc_get_modes_name</refname>
   <refpurpose>オープンされたモードの名前を返す</refpurpose>
  </refnamediv>
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
