@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329174 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 341282  Maintainer: satoruyoshida Status: ready -->
 <refentry xml:id="function.oci-new-descriptor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>oci_new_descriptor</refname>
@@ -140,7 +140,7 @@ Upload file: <input type="file" name="lob_upload" /><br />
 <![CDATA[
 <?php
 /* 入力パラメータとして clob を含む PL/SQLストアドプロシージャを
- * コールする (PHP 4 >= 4.0.6) 。
+ * コールする。
  * PL/SQL ストアドプロシージャのシグネチャは次の通り。
  *
  * PROCEDURE save_data
