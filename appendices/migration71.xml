@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340176 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340973 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="migration71" xmlns="http://docbook.org/ns/docbook" xmlns:phd="http://www.php.net/ns/phd">
  <title>PHP 7.0.x から PHP 7.1.x への移行</title>
@@ -12,6 +12,7 @@
  &appendices.migration71.deprecated;
  &appendices.migration71.changed-functions;
  &appendices.migration71.other-changes;
+ &appendices.migration71.windows-support;
 
  <sect1 phd:chunk="false" xml:id="migration71.intro">
   <para>
