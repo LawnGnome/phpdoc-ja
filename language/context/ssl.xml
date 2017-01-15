@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338065 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341125 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="context.ssl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -308,15 +308,6 @@
        <entry>
         <parameter>SNI_enabled</parameter> および
         <parameter>SNI_server_name</parameter> が追加されました。
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        <parameter>capture_peer_cert</parameter>、
-        <parameter>capture_peer_chain</parameter>、
-        <parameter>ciphers</parameter> および
-        <parameter>local_pk</parameter> が追加されました。
        </entry>
       </row>
      </tbody>

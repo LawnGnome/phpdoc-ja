@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338094 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <sect1 xml:id="language.types.callable">
  <title>コールバック / Callable</title>
  
@@ -145,15 +145,6 @@ print implode(' ', $new_numbers);
     </screen>
    </example>
   </para>
-
-  <note>
-   <simpara>
-    PHP 4 では、実際のオブジェクトを指すコールバックを作成するには、
-    コピーではなく参照を使わなければなりませんでした。
-    詳細は <link linkend="language.references">参照についての説明</link>
-    を参照ください。
-   </simpara>
-  </note>
 
   &note.func-callback-exceptions;
  </sect2>
