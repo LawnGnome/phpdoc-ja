@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329359 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 341760 Maintainer: satoruyoshida Status: ready -->
 <!-- CREDITS: takagi -->
 <chapter xml:id="solr.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -30,7 +30,7 @@
    をごらんください。
   </para>
   <para>
-   &pecl.windows.download;
+   &pecl.windows.download.avail;
   </para>
   <note>
    <para>
