@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335457 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <book xml:id="book.outcontrol" xmlns="http://docbook.org/ns/docbook">
@@ -19,15 +19,6 @@
    ず、<function>echo</function> のような関数とPHPコードのブロック間
    のデータにのみ作用します。
   </para>
-  <note>
-   <para>
-    PHP 4.1.x (および 4.2.x) から 4.3.x に更新する際、前のバージョンのバグのせいで、
-    &php.ini; の <literal>implicit_flush</literal> を
-    <literal>OFF</literal> にする必要があります。さもないと、
-    <function>ob_start</function> を使用する全ての出力は、
-    出力を抑制することができなくなります。
-   </para>
-  </note>
  </preface>
 
  &reference.outcontrol.setup;

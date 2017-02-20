@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337554 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="info.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -76,7 +76,7 @@
      <entry><link linkend="ini.max-input-nesting-level">max_input_nesting_level</link></entry>
      <entry>"64"</entry>
      <entry>PHP_INI_PERDIR</entry>
-     <entry>4.4.8 以降および PHP 5.2.3 以降で有効。</entry>
+     <entry>PHP 5.2.3 以降で有効。</entry>
     </row>
     <row>
      <entry><link linkend="ini.max-input-vars">max_input_vars</link></entry>
@@ -309,12 +309,6 @@
       も on の場合、シングルクオートは、バックスラッシュではなく
       シングルクオートでエスケープされます。
      </para>
-     <note>
-      <para>
-       PHP 4 では、<varname>$_ENV</varname>
-       変数もエスケープの対象となります。
-      </para>
-     </note>
      <note>
       <para>
        <link

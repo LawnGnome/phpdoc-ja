@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339963 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <section xml:id="outcontrol.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -71,7 +71,7 @@
       特定の大きさにバッファの大きさを制限したい場合、このディレクティブの
       値として 'On' の代わりに最大バイト数(例:output_buffering=4096)
       を使用することができます。
-      PHP 4.3.5 以降、PHP-CLI ではこのディレクティブが常に Off となります。
+      PHP-CLI ではこのディレクティブが常に Off となります。
     </para>
     </listitem>
    </varlistentry>

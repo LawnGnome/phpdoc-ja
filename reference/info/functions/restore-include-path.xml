@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.restore-include-path" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>restore_include_path</refname>
@@ -41,10 +41,9 @@ set_include_path('/inc');
 
 echo get_include_path();  // /inc
 
-// PHP 4.3.0 以降で動作します
 restore_include_path();
 
-// すべてのバージョンの PHP で動作します
+// または ini_restore を使用します
 ini_restore('include_path');
 
 echo get_include_path();  // .:/usr/local/lib/php
