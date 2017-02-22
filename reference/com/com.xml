@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337059 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <phpdoc:classref xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="class.com" xmlns="http://docbook.org/ns/docbook">
  <titleabbrev>COM</titleabbrev>
@@ -170,11 +170,6 @@
    自動検出するようになりました。それらのメソッドについては、PHP が自動的に
    変数を参照渡し形式に変換します。つまり、メソッドのコールをより自然に
    行えるということです。コードの中で特別な処理をする必要はありません。
-  </para>
-  <para>
-   PHP 4 では、パラメータを参照渡しする場合には、そのパラメータをラップする
-   ために <xref linkend="class.variant"/> クラスのインスタンスを生成する
-   必要があります。
   </para>
  </section>
 

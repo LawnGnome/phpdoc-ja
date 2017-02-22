@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <section xml:id="mime-magic.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
@@ -17,13 +17,6 @@
   Apache httpd と共に配布されているシンプル版の
   <filename>magic</filename> ファイルのコピーを必要とします。
  </para>
- <note>
-  <para>
-   configure オプションは、PHP 4.3.2 以降
-   <option role="configure">--enable-mime-magic</option> から
-   <option role="configure">--with-mime-magic</option> に変更されています。
-  </para>
- </note>
  <note>
   <para>
    この拡張モジュールには、付加機能が多くついた <filename>magic</filename>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334662 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <!-- State: experimental -->
  
@@ -40,9 +40,6 @@
    また、Ming はメンテナンスが継続されています。
    使用したい機能がある場合には、我々、
    <link xlink:href="&url.ming;">&url.ming;</link> まで知らせてください。
-  </para>
-  <para>
-   Ming は、PHP 4.0.5 で追加されました。
   </para>
   &warn.experimental;
 

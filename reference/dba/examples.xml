@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341092 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <chapter xml:id="dba.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -62,7 +62,7 @@ dba_close($id);
 
 $key = dba_firstkey($id);
 
-while ($key != false) {
+while ($key !== false) {
     if (true) {          // 他の操作を後で行うためにキーを記憶する
         $handle_later[] = $key;
     }

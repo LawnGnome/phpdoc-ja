@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310880 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340347 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="pdo-4d.examples" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -95,8 +95,8 @@ unset($db);
     </para>
     <programlisting role="4d">
 <![CDATA[
-C_TEXTE($0)
-$0:=Version application(*);
+C_TEXT($0)
+$0:=Application Version(*)
 ]]>
     </programlisting>
     <para>

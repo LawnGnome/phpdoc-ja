@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323628 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <appendix xml:id="mysql.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <para>
-  PHP 4.3.0 以降では、<function>mysql_connect</function> や
+  <function>mysql_connect</function> や
   <function>mysql_pconnect</function> で追加のクライアントフラグを
-  指定できるようになりました。以下の定数が定義されています。
+  指定することができます。以下の定数が定義されています。
   <table xml:id="mysql.client-flags">
    <title>MySQL クライアント定数</title>
     <tgroup cols="2">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341877 Maintainer: takagi Status: ready -->
 <refentry xml:id="domdocument.validate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::validate</refname>
@@ -38,7 +38,7 @@
 <![CDATA[
 <?php
 $dom = new DOMDocument;
-$dom->Load('book.xml');
+$dom->load('book.xml');
 if ($dom->validate()) {
     echo "このドキュメントは正常です!\n";
 }
@@ -53,7 +53,7 @@ if ($dom->validate()) {
 <?php
 $dom = new DOMDocument;
 $dom->validateOnParse = true;
-$dom->Load('book.xml');
+$dom->load('book.xml');
 ?>
 ]]>
     </programlisting>
