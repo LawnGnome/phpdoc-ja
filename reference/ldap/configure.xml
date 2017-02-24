@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <section xml:id="ldap.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
@@ -21,10 +21,6 @@
    <filename>libeay32.dll</filename> および
    <filename>ssleay32.dll</filename>
   </para>
-  <simpara>
-   PHP 4.3.0 より前のバージョンでは、さらに <filename>libsasl.dll</filename>
-   も必要です。
-  </simpara>
  </note>
  <para>
   Oracle LDAP ライブラリを使用するには、<link
