@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336301 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340865 Maintainer: takagi Status: ready -->
 <section xml:id="imagick.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -72,7 +72,7 @@
 
    <varlistentry xml:id="ini.imagick.skip-version-check">
     <term>
-     <parameter>imagick.skip-version-check</parameter>
+     <parameter>imagick.skip_version_check</parameter>
      <type>boolean</type>
     </term>
     <listitem>

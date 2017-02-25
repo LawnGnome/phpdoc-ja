@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340383 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341594 Maintainer: takagi Status: ready -->
 <appendix xml:id="image.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -83,6 +83,15 @@
    </listitem>
   </varlistentry>
 
+  <varlistentry xml:id="constant.img-bmp">
+   <term>
+    <constant>IMG_BMP</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    &gd.constants.types;
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.img-gif">
    <term>
     <constant>IMG_GIF</constant> 
