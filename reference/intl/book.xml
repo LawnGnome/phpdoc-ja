@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339179 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 340864 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.intl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundled" ?>
@@ -81,11 +81,6 @@
     <simpara>
      Date formatter: ローカライズした書式や指定したパターン、ルールに基づいて日付と時刻を表示できるようにします。
      また、文字列を日付や時刻としてパースすることもできます。
-    </simpara>
-   </listitem>
-   <listitem>
-    <simpara>
-     Transliterator: 文字列のラテン表現を、さまざまな言語で取得できるようにします。
     </simpara>
    </listitem>
   </itemizedlist>

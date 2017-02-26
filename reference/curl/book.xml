@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
  
 <book xml:id="book.curl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,9 +20,6 @@
    アップロード(これはPHPのftp拡張機能でも実行可能です)、
    HTTPフォームによるアップロード、プロキシ、クッキー、
    ユーザー名+パスワードによる認証もサポートします。
-  </para>
-  <para>
-   These functions have been added in PHP 4.0.2.
   </para>
  </preface>
  <!-- }}} -->
