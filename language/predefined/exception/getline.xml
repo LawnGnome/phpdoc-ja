@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337353 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341756 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="exception.getline" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Exception::getLine</refname>
-  <refpurpose>例外が発生した行を取得する</refpurpose>
+  <refpurpose>例外が作られた行を取得する</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
