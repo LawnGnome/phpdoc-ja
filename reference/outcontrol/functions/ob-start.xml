@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335401 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ob-start">
  <refnamediv>
@@ -118,9 +118,9 @@
       </para>
       <note>
        <para>
-        PHP 4.0.4 において、Web ページの圧縮をサポートする圧縮 gz エンコード
+        Web ページの圧縮をサポートする圧縮 gz エンコード
         されたデータの Web ブラウザへの送信を容易にするために
-        <function>ob_gzhandler</function> がサポートされています。
+        <function>ob_gzhandler</function> が存在します。
         <function>ob_gzhandler</function> は、ブラウザが受け入れる content
         encoding の型を調べ、それに基づいて出力を返します。
        </para>

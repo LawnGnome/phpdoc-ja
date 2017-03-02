@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323674 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-is-registered">
  <refnamediv>
@@ -50,8 +50,7 @@
   &reftitle.notes;
   <note>
    <para>
-    <varname>$_SESSION</varname> (または PHP 4.0.6 以前の場合は
-    <varname>$HTTP_SESSION_VARS</varname>)
+    <varname>$_SESSION</varname>
     が使用されている場合、ある変数が <varname>$_SESSION</varname>
     に登録されているかを確認するために <function>isset</function>
     を使用してください。
