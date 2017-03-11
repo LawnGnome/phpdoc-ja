@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339952 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.resource">
  <title>リソース</title>
@@ -30,7 +30,7 @@
   <title>リソースの開放</title>
   
   <para>
-   PHP 4 の Zend エンジンに導入されたリファレンスカウンティングシステムのおかげで、
+   Zend エンジンの一部であるリファレンスカウンティングシステムのおかげで、
    あるリソースがもう参照されなくなった場合に (Java と全く同様に)、
    そのリソースは自動的に削除されます。この場合、このリソースが作成した
    全てのリソースは、ガベージコレクタにより開放されます。
