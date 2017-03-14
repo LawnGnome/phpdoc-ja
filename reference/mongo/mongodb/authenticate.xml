@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- $Revision$ -->
-<!-- EN-Revision: 338649 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341774 Maintainer: takagi Status: ready -->
 <refentry xml:id="mongodb.authenticate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB::authenticate</refname>
@@ -125,7 +125,7 @@ array("ok" => 0, "errmsg" => "auth fails");
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
-   MongoDB コアドキュメントの <link xlink:href="&url.mongodb.dochub.authenticate;">authenticate</link>
+   MongoDB コアドキュメントの <link xlink:href="&url.mongodb.docs.command;authenticate">authenticate</link>
    を参照ください。
   </para>
  </refsect1>
