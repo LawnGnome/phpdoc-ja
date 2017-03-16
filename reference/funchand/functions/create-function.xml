@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331556 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342126 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.create-function" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>create_function</refname>
   <refpurpose>匿名関数 (ラムダ形式) を作成する</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-2-0;
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339242 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341417 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.strftime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -189,7 +189,7 @@
           </row>
           <row>
            <entry><literal>%k</literal></entry>
-           <entry>2 桁であらわした 24 時間制の時間で、1 桁の場合は先頭にスペースをつけたもの</entry>
+           <entry>24 時間制の時間で、1 桁の場合は先頭にスペースをつけたもの</entry>
            <entry><literal> 0</literal> から <literal>23</literal></entry>
           </row>
           <row>

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336240 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342126 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.each" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>each</refname>
   <refpurpose>配列から現在のキーと値のペアを返して、カーソルを進める</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-2-0;
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
