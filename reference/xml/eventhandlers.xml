@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304501 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341634 Maintainer: takagi Status: ready -->
 <article xml:id="xml.eventhandlers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>イベントハンドラ</title>
  <para>
@@ -98,7 +98,7 @@
       </entry>
       <entry>
        このハンドラは、名前空間宣言の終了時にコールされます。このイベントは
-       LibXML では発生 <emphasis>しない</emphasis> ことに注意しましょう。
+       libXML によりトリガー<emphasis>されない</emphasis> ことに注意しましょう。
       </entry>
      </row>
     </tbody>

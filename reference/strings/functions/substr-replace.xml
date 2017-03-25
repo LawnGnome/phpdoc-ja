@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342063 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr-replace">
  <refnamediv>
@@ -55,7 +55,7 @@
      <term><parameter>start</parameter></term>
      <listitem>
       <para>
-       <parameter>start</parameter> が正の場合、置換は
+       <parameter>start</parameter> が負ではない場合、置換は
        <parameter>string</parameter> で <parameter>start</parameter>
        番目の文字から始まります。
       </para>
