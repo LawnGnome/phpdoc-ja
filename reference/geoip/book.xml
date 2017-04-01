@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341950 Maintainer: takagi Status: ready -->
 
 <book xml:id="book.geoip" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Geo IP ロケーション</title>
@@ -13,6 +13,12 @@
     市、州、国、経度、緯度そして ISP や接続方式などの情報が
     GeoIP を用いて取得できます。
   </para>
+  <warning>
+   <para>
+    この拡張モジュールは、MaxMind の現在の "GeoIP2" データベースをサポートしません。
+    "GeoIP legacy" データベース・ファイルのみサポートします。
+   </para>
+  </warning>
  </preface>
 
  &reference.geoip.setup;
