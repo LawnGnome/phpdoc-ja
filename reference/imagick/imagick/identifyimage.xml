@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331665 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342294 Maintainer: takagi Status: working -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.identifyimage">
  <refnamediv>
   <refname>Imagick::identifyImage</refname>
@@ -26,6 +26,7 @@
      <term><parameter>appendRawOutput</parameter></term>
      <listitem>
       <para>
+       If &true; then the raw output is appended to the array.<!-- to be translated -->
       </para>
      </listitem>
     </varlistentry>
