@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339706 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342247 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagepng" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -44,6 +44,9 @@
      <listitem>
       <para>
        圧縮レベル。0 (圧縮しない) から 9 までの値です。
+       現在のデフォルトは 6 です。
+       詳細は、<link xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="&url.zlib.manual;">zlib マニュアル</link> をご覧ください。
       </para>
      </listitem>
     </varlistentry>
