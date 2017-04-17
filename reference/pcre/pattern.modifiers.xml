@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342184 Maintainer: takagi Status: ready -->
 <!-- Credits: hirokawa,haruki -->
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
  <title>パターン修飾子</title>
