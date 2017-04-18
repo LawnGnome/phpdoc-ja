@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341824 Maintainer: takagi Status: working -->
 <refentry xml:id='domelement.getattributenodens' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMElement::getAttributeNodeNS</refname>
@@ -47,6 +47,10 @@
   &reftitle.returnvalues;
   <para>
    属性ノードを返します。
+   Note that for XML namespace declarations
+   (<literal>xmlns</literal> and <literal>xmlns:*</literal> attributes) an 
+   instance of <classname>DOMNameSpaceNode</classname> is returned instead of a
+   <classname>DOMAttr</classname>.<!-- to be translated -->
   </para>
  </refsect1>
  <refsect1 role="seealso">
