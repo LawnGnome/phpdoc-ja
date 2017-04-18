@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341874 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342252 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.rename">
  <refnamediv>
@@ -19,7 +19,9 @@
   <para>
    <parameter>oldname</parameter> を
    <parameter>newname</parameter> にリネームし、必要ならディレクトリを移動しようと試みます。
-   <parameter>newname</parameter> が存在する場合は、上書きします。
+   ファイル名の変更かつ <parameter>newname</parameter> が存在する場合、上書きされます。
+   ディレクトリ名の変更かつ <parameter>newname</parameter> が存在する場合、
+   この関数は警告を発します。
   </para>
  </refsect1>
 

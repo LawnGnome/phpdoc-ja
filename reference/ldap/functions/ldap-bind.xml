@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298918 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 341651 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.ldap-bind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -50,8 +50,9 @@
    </variablelist>
   </para>
   <para>
-   <parameter>bind_rdn</parameter> および <parameter>bind_password</parameter>
-   を省略した場合は匿名バインドを試みます。
+   <parameter>bind_password</parameter> を省略または空にした場合は匿名バインドを試みます。
+   匿名バインドのため、<parameter>bind_dn</parameter> も空のままにできます。
+   これは、https://tools.ietf.org/html/rfc2251#section-4.2.2 で定義されています。
   </para>
  </refsect1>
 
