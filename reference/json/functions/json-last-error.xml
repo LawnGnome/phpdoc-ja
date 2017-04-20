@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331633 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341024 Maintainer: takagi Status: working -->
 <refentry xml:id="function.json-last-error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_last_error</refname>
@@ -88,6 +88,17 @@
       <entry><constant>JSON_ERROR_UNSUPPORTED_TYPE</constant></entry>
       <entry>エンコード不可能な型の値が渡されました</entry>
       <entry>PHP 5.5.0</entry>
+     </row>
+     <!-- to be translated -->
+     <row>
+      <entry><constant>JSON_ERROR_INVALID_PROPERTY_NAME</constant></entry>
+      <entry>A property name that cannot be encoded was given</entry>
+      <entry>PHP 7.0.0</entry>
+     </row>
+     <row>
+      <entry><constant>JSON_ERROR_UTF16</constant></entry>
+      <entry>Malformed UTF-16 characters, possibly incorrectly encoded</entry>
+      <entry>PHP 7.0.0</entry>
      </row>
     </tbody>
    </tgroup>
