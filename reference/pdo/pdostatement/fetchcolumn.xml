@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336896 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341234 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="pdostatement.fetchcolumn" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -55,6 +55,7 @@
   <para>
    <function>PDOStatement::fetchColumn</function>
    は結果セットの次行から単一カラムを返します。
+   それ以上行がない場合、&false; を返します。
   </para>
   <warning>
    <para>
