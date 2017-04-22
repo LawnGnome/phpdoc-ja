@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 341634 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id='function.xml-set-end-namespace-decl-handler'>
  <refnamediv>
@@ -20,6 +20,12 @@
    これがコールされるのは、各名前空間宣言において、
    名前空間が宣言された要素の終了タグのハンドラがコールされた後のことです。
   </para>
+  <caution>
+   <para>
+    このイベントは libXML ではサポートされていません。
+    そのため、登録されたハンドラは呼ばれません。
+   </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -90,15 +96,6 @@
   <para>
    &return.success;
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    このイベントは LibXML ではサポートされていません。
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">

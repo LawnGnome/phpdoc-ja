@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308252 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342397 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="gmagick.addimage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::addimage</methodname>
-   <methodparam><type>Gmagick</type><parameter>Gmagick</parameter></methodparam>
+   <methodparam><type>Gmagick</type><parameter>source</parameter></methodparam>
   </methodsynopsis>
   <para>
     新しい画像を、ソースオブジェクトの現在位置から Gmagick オブジェクトに追加します。
