@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330612 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342418 Maintainer: takagi Status: ready -->
 
 <appendix xml:id="password.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -34,6 +34,7 @@
        <para>
         省略した場合は、パスワードをハッシュするたびに <function>password_hash</function>
         がランダムなソルトを自動生成します。これは意図したとおりの操作モードです。
+        および PHP 7.0.0 以降でソルト・オプションは非推奨になりました。
        </para>
       </listitem>
       <listitem>
