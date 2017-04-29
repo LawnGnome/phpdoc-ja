@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324696 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342425 Maintainer: hirokawa Status: working -->
 <!-- CREDITS: takagi -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sscanf" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -64,6 +64,9 @@
         </member>
         <member>
          <literal>n</literal> は処理する文字数を表します。
+        </member>
+        <member>
+         <literal>s</literal> stops reading at any whitespace character.<!-- to be translated -->
         </member>
        </simplelist>
       </para>
