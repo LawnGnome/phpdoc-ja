@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342265 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 342500 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi, shimooka -->
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
  <title>型</title>
@@ -9,7 +9,7 @@
   <title>導入</title>
   
   <simpara>
-   PHP は 9 種類の基本型をサポートします。
+   PHP は 10 種類の基本型をサポートします。
   </simpara>
   
   <para>
