@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341094 Maintainer: takagi Status: working -->
+<!-- EN-Revision: 342627 Maintainer: takagi Status: working -->
 <chapter xml:id="filter.filters" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>フィルタの型</title>
 
@@ -734,6 +734,12 @@ filter.default_flags = 0
        </row>
       </thead>
       <tbody>
+       <row>
+        <entry>7.1.0</entry>
+        <entry>
+         <constant>FILTER_FLAG_EMAIL_UNICODE</constant> が追加されました。
+        </entry>
+       </row>
        <row>
         <entry>5.3.2</entry>
         <entry>
