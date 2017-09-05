@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
+<!-- EN-Revision: 342737 Maintainer: uchiyama Status: ready -->
 <refentry xml:id="function.stats-cdf-beta" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stats_cdf_beta</refname>
