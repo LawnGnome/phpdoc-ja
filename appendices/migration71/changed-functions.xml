@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341002 Maintainer: takagi Status: working -->
+<!-- EN-Revision: 342916 Maintainer: takagi Status: working -->
 
 <sect1 xml:id="migration71.changed-functions">
  <title>変更された関数</title>
@@ -29,11 +29,6 @@
     <simpara>
      <function>get_headers</function> に新たなパラメータが追加されました。
      カスタムストリームコンテキストを渡すことができます。
-    </simpara>
-   </listitem>
-   <listitem>
-    <simpara>
-     <function>long2ip</function> が、整数値のパラメータも受け付けるようになりました。
     </simpara>
    </listitem>
    <listitem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342651 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imap-list" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imap_list</refname>
@@ -45,6 +45,7 @@
   &reftitle.returnvalues;
   <para>
    メールボックスの名前を含む配列を返します。
+   または失敗時に false を返します。
   </para>
  </refsect1>
  <refsect1 role="examples">
