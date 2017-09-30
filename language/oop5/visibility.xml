@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341919 Maintainer: hirokawa Status: working -->
+<!-- EN-Revision: 342692 Maintainer: hirokawa Status: working -->
 <!-- CREDITS: takagi -->
 
 <sect1 xml:id="language.oop5.visibility" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
   または <emphasis>private</emphasis> を指定することにより定義できます。
   public 宣言されたクラスのメンバーには、どこからでもアクセス可能です。
   protected 宣言されたメンバーには、
-  そのクラス自身とそのクラスを継承したクラスからのみアクセスできます。
+  そのクラス自身、そのクラスを継承したクラス、および親クラスからのみアクセスできます。
   private 宣言されたメンバーには、そのメンバーを定義したクラスからのみアクセスできます。
  </para>
 

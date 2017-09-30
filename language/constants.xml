@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341804 Maintainer: hirokawa Status: working -->
+<!-- EN-Revision: 343089 Maintainer: hirokawa Status: working -->
 <!-- CREDITS: takagi -->
 
  <chapter xml:id="language.constants" xmlns="http://docbook.org/ns/docbook">
@@ -204,6 +204,15 @@ echo ANIMALS[1]; // 出力は "cat"
      これはコンパイル時に定義されるからです。
      つまり、関数、ループ、<literal>if</literal> 文、または
      <literal>try</literal>/<literal>catch</literal> ブロックの内部では宣言できないということです。
+    </para>
+   </note>
+
+   <!-- to be translated -->
+   <note>
+    <para>
+     Constants defined using the <literal>const</literal> keyword are always
+     case-sensitive, while constants defined using <function>define</function>
+     may be case-insensitive.
     </para>
    </note>
 
