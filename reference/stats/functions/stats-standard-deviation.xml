@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333067 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 342782 Maintainer: uchiyama Status: ready -->
 <refentry xml:id="function.stats-standard-deviation" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stats_standard_deviation</refname>
@@ -13,7 +13,9 @@
    <methodparam><type>array</type><parameter>a</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>sample</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
-
+  <para>
+   <parameter>a</parameter> に含まれる値の標準偏差を返します。
+  </para>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
