@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340240 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343316 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <sect1 xml:id="language.oop5.object-comparison" xmlns="http://docbook.org/ns/docbook">
  <title>オブジェクトの比較</title>
@@ -44,7 +44,7 @@ class Flag
 {
     public $flag;
 
-    function Flag($flag = true) {
+    function __construct($flag = true) {
         $this->flag = $flag;
     }
 }
@@ -53,7 +53,7 @@ class OtherFlag
 {
     public $flag;
 
-    function OtherFlag($flag = true) {
+    function __construct($flag = true) {
         $this->flag = $flag;
     }
 }
