@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334047 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 343180 Maintainer: satoruyoshida Status: ready -->
 <chapter xml:id="uopz.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
 
@@ -28,7 +28,8 @@
  <section xml:id="uopz.configuration">
   &reftitle.runtime;
   <para>
- uopz は、zend_extension としてロードされる必要があります。
+   uopz 5.0.0 以降、この拡張は <link linkend="ini.extension">extension</link> としてロードされる必要があります。
+   このバージョンより前は、<link linkend="ini.zend-extension">zend_extension</link> としてロードされる必要があります。
   </para>
  </section>
 
