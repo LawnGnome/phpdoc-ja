@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336602 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343347 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -794,6 +794,11 @@
      <entry>yield</entry>
      <entry><link linkend="control-structures.yield">ジェネレータ</link> (PHP 5.5.0 以降で使用可能)</entry>
     </row>
+    <row>
+     <entry><constant>T_YIELD_FROM</constant></entry>
+     <entry>yield from</entry>
+     <entry><link linkend="control-structures.yield.from">ジェネレータ</link> (PHP 7.0.0 以降で使用可能)</entry>
+    </row> 
    </tbody> 
   </tgroup>
  </table>

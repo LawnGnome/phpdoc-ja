@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341921 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343458 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -566,6 +566,9 @@
         <entry>
          iterable (PHP 7.1 以降)
         </entry>
+        <entry>
+         object (PHP 7.2 以降)
+        </entry>
        </row>
       </tbody>
      </tgroup>
@@ -584,9 +587,6 @@
        <row>
         <entry>
          resource (PHP 7 以降)
-        </entry>
-        <entry>
-         object (PHP 7 以降)
         </entry>
         <entry>
          mixed (PHP 7 以降)
