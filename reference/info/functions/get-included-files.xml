@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338886 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343825 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi, shimooka -->
 <refentry xml:id="function.get-included-files" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -75,16 +75,6 @@ foreach ($included_files as $filename) {
     </screen>
    </example>
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    設定ディレクティブ <literal>auto_prepend_file</literal>
-    で読み込まれたファイルは、返される配列には含まれません。
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">
