@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343941 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli-result.free" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_result::free</refname>
+  <refname>mysqli_result::close</refname>
+  <refname>mysqli_result::free_result</refname>
   <refname>mysqli_free_result</refname>
   <refpurpose>結果に関連付けられたメモリを開放する</refpurpose>
  </refnamediv>

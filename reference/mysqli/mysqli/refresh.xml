@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: takagi Status: ready -->
 <refentry xml:id="mysqli.refresh" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli::refresh</refname>
@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
-   <type>int</type><methodname>mysqli_refresh</methodname>
+   <type>bool</type><methodname>mysqli_refresh</methodname>
    <methodparam><type>resource</type><parameter>link</parameter></methodparam>
    <methodparam><type>int</type><parameter>options</parameter></methodparam>
   </methodsynopsis>
