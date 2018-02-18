@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331491 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343889 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="function.opcache-compile-file" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>boolean</type><methodname>opcache_compile_file</methodname>
+   <type>bool</type><methodname>opcache_compile_file</methodname>
    <methodparam><type>string</type><parameter>file</parameter></methodparam>
   </methodsynopsis>
   <para>
