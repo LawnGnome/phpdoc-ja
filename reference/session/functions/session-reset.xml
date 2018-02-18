@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336604 Maintainer: satoruyoshida Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: satoruyoshida Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-reset">
  <refnamediv>
   <refname>session_reset</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>session_reset</methodname>
+   <type>bool</type><methodname>session_reset</methodname>
    <void/>
   </methodsynopsis>
   <para>

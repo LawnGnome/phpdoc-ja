@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333618 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344082 Maintainer: takagi Status: ready -->
 <!-- CREDITS: shimooka,hirokawa -->
 
 <book xml:id="book.session" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -99,6 +99,8 @@
  &reference.session.reference;
  &reference.session.sessionhandler;
  &reference.session.sessionhandlerinterface;
+ &reference.session.sessionidinterface;
+ &reference.session.sessionupdatetimestamphandlerinterface;
 
 </book>
 
