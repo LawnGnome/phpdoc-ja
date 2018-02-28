@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338426 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: hirokawa Status: ready -->
 <refentry xml:id='function.mssql-guid-string' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mssql_guid_string</refname>
@@ -16,7 +16,7 @@
   <methodsynopsis>
    <type>string</type><methodname>mssql_guid_string</methodname>
    <methodparam><type>string</type><parameter>binary</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>short_format</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>short_format</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    16 バイトのバイナリ GUID を文字列に変換します。
