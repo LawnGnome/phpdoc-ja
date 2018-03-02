@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.wincache-scache-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>wincache_scache_info</refname>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>wincache_scache_info</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    セッションキャッシュの中身とその利用状況についての情報を取得します。

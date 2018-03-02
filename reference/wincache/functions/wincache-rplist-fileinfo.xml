@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.wincache-rplist-fileinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>wincache_rplist_fileinfo</refname>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>wincache_rplist_fileinfo</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    相対ファイルパスとそれに対応する絶対ファイルパスとの対応を記録したキャッシュについての情報を取得します。
