@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339241 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.nl2br">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>string</type><methodname>nl2br</methodname>
    <methodparam><type>string</type><parameter>string</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>is_xhtml</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>is_xhtml</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <parameter>string</parameter> に含まれるすべての改行文字 (<literal>\r\n</literal>、
