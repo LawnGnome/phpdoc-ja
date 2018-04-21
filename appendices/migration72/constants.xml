@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343530 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344668 Maintainer: takagi Status: ready -->
 
 <sect1 xml:id="migration72.constants" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>新しいグローバル定数</title>
@@ -148,7 +148,7 @@
   <itemizedlist>
    <listitem>
     <simpara>
-     <constant>PREG_UNMATCHED_AS_NULL</constant>
+     <constant><link linkend="constant.preg-unmatched-as-null">PREG_UNMATCHED_AS_NULL</link></constant>
     </simpara>
    </listitem>
   </itemizedlist>
