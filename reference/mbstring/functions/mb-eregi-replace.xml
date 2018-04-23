@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339738 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344083 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-eregi-replace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -57,8 +57,7 @@
      <term><parameter>option</parameter></term>
      <listitem>
       <simpara>
-       <parameter>option</parameter> 
-       の意味は、<function>mb_ereg_replace</function> の場合と同じです。
+       検索オプション。説明は、<function>mb_regex_set_options</function> を参照してください。
       </simpara>
      </listitem>
     </varlistentry>

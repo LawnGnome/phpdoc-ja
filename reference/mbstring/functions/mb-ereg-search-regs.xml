@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344083 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: takagi -->
 <refentry xml:id="function.mb-ereg-search-regs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -36,7 +36,7 @@
      <term><parameter>option</parameter></term>
      <listitem>
       <para>
-       検索オプション。
+       検索オプション。説明は、<function>mb_regex_set_options</function> を参照してください。
       </para>
      </listitem>
     </varlistentry>

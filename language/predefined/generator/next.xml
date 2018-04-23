@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330333 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344528 Maintainer: takagi Status: ready -->
 
 <refentry xml:id="generator.next" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -14,6 +14,11 @@
    <modifier>public</modifier> <type>void</type><methodname>Generator::next</methodname>
    <void />
   </methodsynopsis>
+  <para>
+   <methodname>Generator::next</methodname> のコールは、
+   &null; を引数として
+   <methodname>Generator::send</methodname> をコールすることと等価です。
+  </para>
  </refsect1>
 
  <refsect1 role="parameters">

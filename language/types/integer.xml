@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341282 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344518 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa,shimooka -->
 <sect1 xml:id="language.types.integer">
  <title>整数</title>
@@ -80,7 +80,7 @@ hexadecimal : 0[xX][0-9a-fA-F]+
 
 octal       : 0[0-7]+
 
-binary      : 0b[01]+
+binary      : 0[bB][01]+
 
 integer     : [+-]?decimal
             | [+-]?hexadecimal

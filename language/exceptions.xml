@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342628 Maintainer: hirokawa Status: working -->
+<!-- EN-Revision: 344005 Maintainer: hirokawa Status: working -->
 <!-- CREDITS: takagi -->
 
 <chapter xml:id="language.exceptions" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
    <programlisting role="php">
 <![CDATA[
 <?php
-class Exception
+class Exception extends Throwable
 {
     protected $message = 'Unknown exception';   // exception message
     private   $string;                          // __toString cache

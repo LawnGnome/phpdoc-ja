@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343230 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344469 Maintainer: takagi Status: ready -->
 <!-- CREDITS: hirokawa -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -100,6 +100,7 @@ $a = new A();
 $a->foo();
 
 A::foo();
+
 $b = new B();
 $b->bar();
 
