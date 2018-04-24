@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342184 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343482 Maintainer: takagi Status: ready -->
 <!-- Credits: hirokawa,haruki -->
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
  <title>パターン修飾子</title>
@@ -238,6 +238,7 @@ $html = preg_replace_callback(
        <simpara>
         (?J) 内部オプションは、ローカルのオプション <literal>PCRE_DUPNAMES</literal> の設定を変更します。
         サブパターンで重複した名前を使用できるようになります。
+        7.2.0 以降、<literal>J</literal> も同様に修飾子としてサポートされます。
          </simpara>
         </listitem>
        </varlistentry>
