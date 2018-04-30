@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328423 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344857 Maintainer: takagi Status: ready -->
  <sect3 xml:id="configure.options.php" xmlns="http://docbook.org/ns/docbook">
   <title>PHP オプション</title>
   <variablelist>
