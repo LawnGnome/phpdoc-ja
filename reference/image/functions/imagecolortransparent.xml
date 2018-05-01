@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325917 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagecolortransparent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -28,7 +28,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       <function>imagecolorallocate</function> で指定した色 ID。
+       &gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>

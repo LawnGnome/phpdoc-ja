@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imagedashedline" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -64,8 +64,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       塗りつぶし色。
-       <function>imagecolorallocate</function> で作成した色 ID。
+       塗りつぶし色。&gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>
@@ -75,7 +74,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   常に true を返します。
+   &return.success;
   </para>
  </refsect1>
  <refsect1 role="examples">

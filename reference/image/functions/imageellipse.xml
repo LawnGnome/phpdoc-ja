@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340502 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imageellipse" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -63,9 +63,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       楕円の色を、
-       <function>imagecolorallocate</function>
-       で作成した画像 ID で指定します。
+       楕円の色。&gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328734 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343888 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysql-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_unbuffered_query</refname>

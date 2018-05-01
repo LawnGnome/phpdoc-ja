@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id="function.imageline" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -63,9 +63,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       直線の色。
-       <function>imagecolorallocate</function>
-       で作成した色 ID です。
+       直線の色。&gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>

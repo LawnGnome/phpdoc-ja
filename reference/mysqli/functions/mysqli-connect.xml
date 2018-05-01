@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337725 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344739 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.mysqli-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_connect</refname>
@@ -42,7 +42,7 @@ mysqli_close($link);
 ?>
 ]]>
    </programlisting>
-   &examples.outputs;
+   &examples.outputs.similar;
    <screen>
 <![CDATA[
 Success: A proper connection to MySQL was made! The my_db database is great.

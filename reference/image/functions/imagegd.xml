@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340157 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344720 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.imagegd' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -38,6 +38,7 @@
   <para>
    &return.success;
   </para>
+  &gd.return.trueonerror;
  </refsect1>
 
  <refsect1 role="changelog">

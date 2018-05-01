@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339706 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344720 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.imagexbm" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagexbm</refname>
@@ -64,6 +64,7 @@
   <para>
    &return.success;
   </para>
+  &gd.return.trueonerror;
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

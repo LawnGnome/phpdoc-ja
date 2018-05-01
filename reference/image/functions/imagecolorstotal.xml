@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297828 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344588 Maintainer: hirokawa Status: ready -->
 <refentry xml:id="function.imagecolorstotal" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecolorstotal</refname>
@@ -20,14 +20,7 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-    <varlistentry>
-     <term><parameter>image</parameter></term>
-     <listitem>
-      <para>
-       <function>imagecreatefromgif</function> のような画像作成関数のひとつが返す画像リソース。
-      </para>
-     </listitem>
-    </varlistentry>
+    &gd.image.description;
    </variablelist>
   </para>
  </refsect1>
