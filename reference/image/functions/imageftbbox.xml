@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340022 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344605 Maintainer: hirokawa Status: working -->
 <!-- CREDITS: shimooka -->
 <refentry xml:id='function.imageftbbox' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -21,6 +21,14 @@
    この関数は FreeType テキスト用のバウンディングボックスをピクセル単位で算出し、
    それを返します。
   </para>
+  <!-- to be translated -->
+  <note>
+   <para>
+    <function>imageftbbox</function> is an extended variant of
+    <function>imagettfbbox</function> which additionally supports the
+    <parameter>extrainfo</parameter>.
+   </para>
+  </note>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
