@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341547 Maintainer: hirokawa Status: working -->
+<!-- EN-Revision: 344075 Maintainer: hirokawa Status: working -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>unserialize</refname>
