@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341936 Maintainer: hirokawa Status: working -->
+<!-- EN-Revision: 344693 Maintainer: hirokawa Status: working -->
 <refentry xml:id="function.array-rand" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>array_rand</refname>
@@ -68,7 +68,8 @@
       <row>
        <entry>7.1.0</entry>
        <entry>
-        <link linkend="migration71.incompatible.rand-srand-aliases">The internal randomization algorithm has been changed to use the <link xlink:href="&url.mersenne;">Mersenne Twister</link> Random Number Generator instead of the libc rand function.</link>
+        <!-- to be translated -->
+        The internal randomization algorithm <link linkend="migration71.incompatible.rand-srand-aliases">has been changed</link> to use the <link xlink:href="&url.mersenne;">Mersenne Twister</link> Random Number Generator instead of the libc rand function.
        </entry>
       </row>
       <row>
