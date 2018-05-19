@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341344 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 344991 Maintainer: takagi Status: ready -->
 <sect1 xml:id="install.windows.recommended" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Windows でのおすすめの構成</title>
 
@@ -55,7 +55,7 @@ php.ini では、次のように設定します。
 
 extension=php_wincache.dll
 wincache.fcenabled=1
-wincache.ocenabled=1
+wincache.ocenabled=1 ; wincache 2.0.0.0 で削除されました
 
 ]]>
       </screen>
