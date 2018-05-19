@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339439 Maintainer: hirokawa Status: ready -->
+<!-- EN-Revision: 344401 Maintainer: hirokawa Status: ready -->
 <!-- CREDITS: shimooka -->
 <!-- splitted from ./en/functions/exec.xml, last change in rev 1.8 -->
 <refentry xml:id="function.escapeshellarg" xmlns="http://docbook.org/ns/docbook">
@@ -84,7 +84,6 @@ system('ls '.escapeshellarg($dir));
       </row>
      </thead>
      <tbody>
-      &strings.changelog.encoding;
       <row>
        <entry>5.4.43, 5.5.27, 5.6.11</entry>
        <entry>
