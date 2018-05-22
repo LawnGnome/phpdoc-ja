@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331388 Maintainer: takagi Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: takagi Status: ready -->
 <refentry xml:id="function.apc-cache-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apc_cache_info</refname>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>array</type><methodname>apc_cache_info</methodname>
    <methodparam choice="opt"><type>string</type><parameter>cache_type</parameter><initializer>&quot;&quot;</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>limited</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>limited</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    APC のデータから、キャッシュされた情報およびメタデータを取得します。
